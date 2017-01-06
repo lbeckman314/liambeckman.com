@@ -5,7 +5,7 @@ title: this is my *banging* code!
 
 This is my code. Neat-O!
 
-[C++ Build](/code/c++Test.sublime-build) ※ [PythonBuild](/code/yamPython.sublime-build) ※ [HTML-FirefoxBuild](/code/firefoxHTML.sublime-build) ※
+※ [C++ Build](/code/c++Test.sublime-build) ※ [PythonBuild](/code/yamPython.sublime-build) ※ [HTML-FirefoxBuild](/code/firefoxHTML.sublime-build) ※
 
 ---
 
