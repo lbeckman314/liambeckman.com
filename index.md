@@ -1,6 +1,16 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: my-default
+title: liam beckman / home
 ---
+
+# hello! i'm fitz william.
+
+i'm a *software dev* who loves making things! currently, i am working on [*Messages from the Heart*](/code), an automated messaging system.
+
+---
+
+other projects include:<br />
+	[*Jabber.Zen*](/code), a markov chain poetry generator<br />
+	[*Austruck*](/code), an image analyzer and graphics manipulator<br />
+	[*Maguli*](/code), a series of CS tutorials
+

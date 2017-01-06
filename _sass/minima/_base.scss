@@ -91,11 +91,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: #999;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken(#999, 0%);
   }
 
   &:hover {
@@ -248,3 +248,29 @@ header {
     list-style: none;
 }*/
 
+
+
+#comic-title {
+    background-color: #eef;
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 10px;
+    border: 0px solid red;
+    font-size: 21px;
+    font-weight: bold;
+    width: 100%;
+    color: black;  //#eb3a1d;
+    display: block;
+}
+
+#comic-date {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-top: 10px;
+    border: 0px solid red;
+    font-size: 17px;
+    width: 100%;
+    color: black;  //#eb3a1d;
+    display: block;
+}

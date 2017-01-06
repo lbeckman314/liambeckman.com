@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 30px auto;
     width: 90%;
 }
 nav ul, #footer ul, #header ul {
@@ -72,12 +72,12 @@ body {
   padding:10px;
 }
 #content {
-  padding-bottom:5%; /* Height of the footer element */
+  padding-bottom:0px; /* Height of the footer element */
 }
 #footer {
   /*background:#ffab62;*/
   width:100%;
-  height:5%;
+  height:0px;
   position:absolute;
   bottom:0;
   left:0;
@@ -114,6 +114,32 @@ pre {
   }
 }
 
+
+
+#comic-title {
+    background-color: #eef;
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 10px;
+    border: 0px solid red;
+    font-size: 21px;
+    font-weight: bold;
+    width: 100%;
+    color: black;  //#eb3a1d;
+    display: block;
+}
+
+#comic-date {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-top: 10px;
+    border: 0px solid red;
+    font-size: 17px;
+    width: 100%;
+    color: black;  //#eb3a1d;
+    display: block;
+}
 
 
 

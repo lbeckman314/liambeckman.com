@@ -1,8 +1,9 @@
 ---
-layout: posts
-title:  "AAAAAA!"
-date:   2012-09-12 18:09:39 -0800
-categories: jekyll update
+layout: post
+title:  "poems"
+date:   2017-01-03 18:19:00 -0800
+categories: writings
+description: winter~sounds & flower~crowns
 ---
 
 ```cpp
