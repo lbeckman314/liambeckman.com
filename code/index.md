@@ -1,7 +1,12 @@
 ---
-layout: my-post
+layout: my-default
 title: this is my *banging* code!
 --- 
+
+
+
+
+---
 
 This is my code. Neat-O!
 

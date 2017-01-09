@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: my-default
 title:  "test"
 date:   2017-01-03 18:19:00 -0800
 categories: writings

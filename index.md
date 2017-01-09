@@ -1,5 +1,5 @@
 ---
-layout: my-default
+layout: my-title-page
 title: liam beckman / home
 ---
 

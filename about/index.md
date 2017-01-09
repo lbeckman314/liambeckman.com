@@ -1,5 +1,5 @@
 ---
-layout: my-post
+layout: my-default
 title: about
 ---
 
