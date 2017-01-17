@@ -1,6 +1,15 @@
 body {
     margin: 30px auto;
+    margin-bottom: 30px;
     width: 90%;
+    font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-size-adjust: none;
+    font-stretch: normal;
 
 
 }
@@ -34,6 +43,7 @@ p {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     color: #7a7a7a;
+    padding-bottom: 30px;
 }
 
 #header {
@@ -76,7 +86,7 @@ body {
   padding:10px;
 }
 #content {
-  padding-bottom:0px; /* Height of the footer element */
+  padding-bottom:100px; /* Height of the footer element */
 }
 #footer {
   /*background:#ffab62;*/
@@ -85,7 +95,7 @@ body {
   position:absolute;
   bottom:0;
   left:0;
-
+  padding-bottom: 72px;
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
@@ -147,8 +157,35 @@ pre {
 }
 
 .heart {
-  color: #FF421F;
+  color: #FF357A;
 }
+
+table {
+  width: 70%;
+  /*display: block;*/
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
 
 
 /**
@@ -312,3 +349,24 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

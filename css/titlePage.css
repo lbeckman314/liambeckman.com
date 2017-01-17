@@ -68,6 +68,7 @@ body {
 #wrapper {
   min-height:100%;
   position:relative;
+  min-height: 105%;
 }
 #header {
   /*background:#ededed;*/
@@ -144,7 +145,7 @@ pre {
 }
 
 .heart {
-  color: #FF421F;
+  color: #FF357A;
 }
 
 /**

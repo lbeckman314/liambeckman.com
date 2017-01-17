@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>{{ title }}</title>
+    </head>
+    <style>
+        .front-page{border-radius: 50%; width: 200px}
+    </style>
+        <body>
+        <div id="wrapper">
+            <div id="header">
+            {% include header.html %}
+            </div>          <!--<img class="front-page" src="/images/cabin.jpg" alt="A nice country cabin.">-->
+            
+            
+            <div id="content">
+            {{ content }}
+            </div>
+
+            <div id="footer">
+            {% include footer.html %}
+            </div>
+        </div>
+        <div id="bottom"></div>
+        </body>
+</html>
