@@ -39,6 +39,14 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+.title {
+  font-size: 1.5em;
+    line-height: 1.4em;
+    font: none;
+    font-family: none;
+}
+
 #footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -83,7 +91,7 @@ body {
 }
 #header {
   /*background:#ededed;*/
-  padding:10px;
+  padding:0px;
 }
 #content {
   padding-bottom:100px; /* Height of the footer element */

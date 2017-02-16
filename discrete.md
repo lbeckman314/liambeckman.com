@@ -276,3 +276,20 @@ h. ∴ u ∧ w
 
 
 ```
+
+
+d)
+
+~((~p∧q) ∨ (~p∧~q)) ∨ (p∧q)     ≡ (~(~p∧q) ∨ ~(~p∧~q)) ∨ (p∧q)    by de morgan's laws
+                                ≡ (~~p∧~q) ∨ (~~p∧~~q) ∨ (p∧q)    by de morgan's laws
+                                ≡ (p∧~q) ∨ (p∧q) ∨ (p∧q)          by double negative laws
+                                ≡ (p∧~q) ∨ (p∧q)                    by idempotent laws
+                                ≡                                       by  laws
+                                ≡ p
+
+e)
+
+(p∧(~(~p ∨ q))) ∨ (p∧q)     ≡ (p∧(~~p ∨ ~q)) ∨ (p∧q)    by de morgan's laws
+                            ≡ (p∧(p ∨ q)) ∨ (p∧q)       by double negative laws
+                            ≡ p ∨ (p∧q)                     by absorption laws
+                            ≡ p                             by absorption laws
