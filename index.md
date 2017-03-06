@@ -5,12 +5,12 @@ title: liam beckman / home
 
 <style>
 
-    .round-image{
+    .title-image{
         /*border-radius: 50%;*/
-        width: 500px;
+        /*width: 500px;*/
         height: 500px;
     }
 
 </style>
 
-<img class="round-image" src="cabin.jpg">
+<img class="title-image" src="cabin.jpg" alt="Lake Erken Cabin" title="A cozy cabin by Lake Erken!">
