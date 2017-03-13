@@ -1,4 +1,5 @@
 <!doctype html>
+<script src="/assets/masonry.pkgd.js"></script>
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -17,6 +18,13 @@
             
             <div id="content">
             {{ content }}
+            </div>
+
+            <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
+            <div class="grid-item"><img style="height: 300px" src="/images/cabin.jpg"></div>
+            <div class="grid-item"><img style="height: 300px" src="/images/cabin.jpg"></div>
+            <div class="grid-item"><img style="height: 300px" src="/images/cabin.jpg"></div>
+            
             </div>
 
             <div id="footer">

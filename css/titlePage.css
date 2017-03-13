@@ -1,7 +1,15 @@
 body {
     margin: 30px auto;
-    width: 70%;
+    width: 90%;
+    background-color: black;
 }
+
+.grid-item { 
+  width: px;
+  padding-left: 1px;
+}
+
+
 nav ul, #footer ul, #header ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;

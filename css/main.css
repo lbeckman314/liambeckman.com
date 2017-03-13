@@ -168,8 +168,50 @@ pre {
   color: #FF357A;
 }
 
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/assets/octicons-5.0.1/lib/svg/octoface.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  /*width: 100%;*/
+  border: 1px solid #ddd;
+  font-size: 18px;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+
 table {
-  width: 70%;
+  /*width: 70%;*/
   /*display: block;*/
   border-collapse: collapse;
   border-spacing: 0;
@@ -192,6 +234,36 @@ table tr {
 
 table tr:nth-child(2n) {
   background-color: #f8f8f8;
+}
+
+
+
+
+
+element {
+}
+table a {
+    color: #4183c4;
+    text-decoration: none;
+}
+table a:hover {
+    text-decoration: underline;
+}
+element {
+    text-align: left;
+}
+table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    color: #333333;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
 }
 
 
