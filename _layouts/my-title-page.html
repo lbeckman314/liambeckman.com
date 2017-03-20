@@ -1,32 +1,19 @@
 <!doctype html>
-<script src="/assets/masonry.pkgd.js"></script>
-<link rel="icon" type="image/svg" href="/assets/octicons-5.0.1/lib/svg/heart.svg" />
-
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>{{ title }}</title>
         <link rel="stylesheet" href="/css/github.css">
-    </head>
-    <style>
-        .front-page{border-radius: 50%; width: 200px}
-    </style>
+        <link rel="icon" type="image/svg" href="/assets/octicons-5.0.1/lib/svg/paintcan.svg" />
         <body>
         <div id="wrapper">
             <div id="header">
-            {% include header.html %}
+            {% include headerGithub.html %}
             </div>          <!--<img class="front-page" src="/images/cabin.jpg" alt="A nice country cabin.">-->
             
             
             <div id="content">
             {{ content }}
-            </div>
-
-            <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
-            <div class="grid-item"><img style="height: 300px" src="/images/cabin.jpg"></div>
-            <div class="grid-item"><img style="height: 300px" src="/images/cabin.jpg"></div>
-            <div class="grid-item"><img style="height: 300px" src="/images/cabin.jpg"></div>
-            
             </div>
 
             <div id="footer">

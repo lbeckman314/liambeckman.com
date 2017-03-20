@@ -70,11 +70,59 @@ title: code
   background-color: #f1f1f1;
 }
 
+img.center {
+    display: block;
+    margin: 0 auto;
+}
 
+.container{
+    display: flex;
+}
+.fixed{
+    width: 30%;
+    margin-right: 1%;
+    padding-bottom: : 10%;  
+    word-wrap: break-word;
+}
+.flex-item{
+    flex-grow: 1;
+}
 
 </style>
 </head>
 <body>
+
+<h2>Featured!</h2>
+
+<div class="container">
+
+<div class="fixed" id="featured" style="border: solid 1px #d5d5d5;width: 30%;">
+    <p style="text-align: center;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 25%;">
+    <p style="text-align: center;">This program overthrows the world's governments and institutes a new world order!</p>
+    <p style="text-align: center;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+
+  </div>
+
+<div class="fixed" id="featured" style="border: solid 1px #d5d5d5;width: 30%;">
+    <p style="text-align: center;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 25%;">
+    <p style="text-align: center;">This program overthrows the world's governments and institutes a new world order!</p>
+    <p style="text-align: center;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+
+  </div>
+
+  <div class="fixed" id="featured" style="border: solid 1px #d5d5d5;width: 30%;">
+    <p style="text-align: center;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 25%;">
+    <p style="text-align: center;">This program overthrows the world's governments and institutes a new world order!</p>
+    <p style="text-align: center;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+
+  </div>
+
+</div>
+
+<br /><br /><br />
 
 <h2>My Code!</h2>
 

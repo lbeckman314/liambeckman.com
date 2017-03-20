@@ -1,9 +1,9 @@
 ---
-layout: my-title-page
+layout: my-default
 title: about
 ---
 
-# hello! i'm fitz william.
+# hello! i'm liam.
 i'm a *software dev* who loves making things! currently, i am working on [*Messages from the Heart*](/code), an automated messaging system.
 
 ---

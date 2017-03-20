@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: my-default
 title:  "woop woop! raw"
 date:   2013-10-10 18:09:39 -0800
 categories: cpp 

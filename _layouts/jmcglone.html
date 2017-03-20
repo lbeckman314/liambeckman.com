@@ -1,20 +1,22 @@
 <!doctype html>
+<script src="/assets/masonry.pkgd.js"></script>
+<link rel="icon" type="image/svg" href="/assets/octicons-5.0.1/lib/svg/heart.svg" />
+
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>{{ title }}</title>
-        <link rel="stylesheet" href="/css/github.css">
-        <link rel="icon" type="image/svg" href="/assets/octicons-5.0.1/lib/svg/paintcan.svg" />
+        <link rel="stylesheet" href="/css/jmcglone.css">
+    </head>
         <body>
         <div id="wrapper">
             <div id="header">
-            {% include headerGithub.html %}
+            {% include headerJmcglone.html %}
             </div>          <!--<img class="front-page" src="/images/cabin.jpg" alt="A nice country cabin.">-->
             
             
             <div id="content">
             {{ content }}
-            </div>
 
             <div id="footer">
             {% include footer.html %}
