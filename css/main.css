@@ -10,9 +10,14 @@ body {
     line-height: 1.5;
     font-size-adjust: none;
     font-stretch: normal;
-
-
 }
+
+.grid-item { 
+  width: px;
+  padding-left: 1px;
+}
+
+
 nav ul, #footer ul, #header ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;

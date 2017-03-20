@@ -1,6 +1,15 @@
 body {
     margin: 30px auto;
+    margin-bottom: 30px;
     width: 90%;
+    font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-size-adjust: none;
+    font-stretch: normal;
 }
 
 .grid-item { 
@@ -87,7 +96,7 @@ body {
   padding:0px;
 }
 #content {
-  padding-bottom:0px; /* Height of the footer element */
+  padding-bottom:39px; /* Height of the footer element */
 }
 #footer {
   /*background:#ffab62;*/
@@ -231,3 +240,23 @@ pre {
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

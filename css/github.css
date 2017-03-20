@@ -1,6 +1,16 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
 body {
-    margin: 30px auto;
-    width: 90%;
+    /*! width: 90%; */
+    /*! background-color: #2a2730; */
 }
 
 .grid-item { 
@@ -11,45 +21,53 @@ body {
 
 nav ul, #footer ul, #header ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 10px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, #footer ul li, #header ul li {
     display: inline;
     margin-right: 20px;
+    color: #99979c;
+}
+#header a, #footer a {
+    color: #FFFFFF;
 }
 a {
-    text-decoration: none;
-    color: #7a7a7a;
+  color:#FF357A;
+  text-decoration: none
 }
 a:hover {
     text-decoration: underline;
+    text-decoration-color: #FF375A;
+    
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-
-p.title {
-    font-size: 1.5em
-}
-
 p {
-    font-size: 1.0em;
+    font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 #footer {
-    border-top: 1px solid #d5d5d5;
+    /*! border-top: 1px solid #d5d5d5; */
     font-size: .8em;
     color: #7a7a7a;
+    /*! background-color: #2a2730; */
+    /*! width: 100%; */
+    /*! padding-top: 10px; */
 }
 
 #header {
-    border-bottom: 1px solid #d5d5d5;
+    /*! border-bottom: 1px solid #e90f0f; */
     font-size: .8em;
-    color: #7a7a7a;
+    /*! color: #ff0303; */
+    background-color: #2A2730;
+    /*! padding: 10px; */
+    /*! margin: 0px; */
+    color: ;
 }
 
 
@@ -62,7 +80,9 @@ ul.posts li {
     list-style: none;
 }
 
-
+.site-footer {
+  background-color: #2a2730;
+}
 
 /**
  * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
@@ -75,19 +95,19 @@ ul.posts li {
 html,
 body {
   padding:0;
-  height:90%;
+  height:96%;
 }
 #wrapper {
   min-height:100%;
   position:relative;
-  min-height: 107%;
+  min-height: 100%;
 }
 #header {
   /*background:#ededed;*/
   padding:0px;
 }
 #content {
-  padding-bottom:0px; /* Height of the footer element */
+  padding:39px; /* Height of the footer element */
 }
 #footer {
   /*background:#ffab62;*/
@@ -100,6 +120,9 @@ body {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
+
+
+
 
 
 /**
