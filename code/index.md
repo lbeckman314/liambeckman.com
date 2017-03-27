@@ -50,6 +50,8 @@ titile: code
 #myTable th, #myTable td {
   text-align: left;
   padding: 12px;
+  height: 50px;
+  vertical-align: middle;
 }
 
 #myTable tr {
@@ -105,29 +107,29 @@ object {
 <div class="container">
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%">
-    <p style="text-align: center;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
-    <img class="center" src="/images/circleCabin.png" style="width: 25%;">
+    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
     <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
     <div class="border"></div>
-    <p style="text-align: center;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
 
   </div>
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%; margin-left: 1%; margin-right: 1%">
-    <p style="text-align: center;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
-    <img class="center" src="/images/circleCabin.png" style="width: 25%;">
+    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
     <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
     <div class="border"></div>
-    <p style="text-align: center;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
 
   </div>
 
   <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%">
-    <p style="text-align: center;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
-    <img class="center" src="/images/circleCabin.png" style="width: 25%;">
+    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
     <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
     <div class="border"></div>
-    <p style="text-align: center;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
 
   </div>
 
@@ -147,202 +149,202 @@ object {
     <th style="width:20%;">Location </th>
   </tr> 
 <tr>
-  <td>adSurvey<br />├──adSurvey.txt<br />└──adSurvey.cpp</td>
-  <td> This program determines both the longest word and frequencies of different english words.</td>
-  <td>2016-10-25</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/adSurvey.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/adSurvey.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>adSurvey<br />├──adSurvey.txt<br />└──adSurvey.cpp</td>
+	<td> This program determines both the longest word and frequencies of different english words.</td>
+	<td>2016-10-25</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/adSurvey.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/adSurvey.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>arraySelectionSorter.cpp</td>
-  <td> This program times the sorting of a randomly populated set of arrays vis selection sorting.</td>
-  <td>2016-12-08</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/arraySelectionSorter.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/arraySelectionSorter.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>arraySelectionSorter.cpp</td>
+	<td> This program times the sorting of a randomly populated set of arrays vis selection sorting.</td>
+	<td>2016-12-08</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/arraySelectionSorter.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/arraySelectionSorter.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>bcFerryCostCalculator.cpp</td>
-  <td> This program calculates the cost of a BC ferry for anyone and everyone!</td>
-  <td>2016-10-21</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/bcFerryCostCalculator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/bcFerryCostCalculator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>bcFerryCostCalculator.cpp</td>
+	<td> This program calculates the cost of a BC ferry for anyone and everyone!</td>
+	<td>2016-10-21</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/bcFerryCostCalculator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/bcFerryCostCalculator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>BinomialToTrinomial.cpp</td>
-  <td> This program takes two user-inputed binomials and returns the product in the form of a trinomial.</td>
-  <td>2016-10-12</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/BinomialToTrinomial.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/BinomialToTrinomial.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>BinomialToTrinomial.cpp</td>
+	<td> This program takes two user-inputed binomials and returns the product in the form of a trinomial.</td>
+	<td>2016-10-12</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/BinomialToTrinomial.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/BinomialToTrinomial.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>caesarEncryption.cpp</td>
-  <td> This program decrypts a text filebased on the Caesar cipher.</td>
-  <td>2016-11-18</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/caesarEncryption.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/caesarEncryption.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>caesarEncryption.cpp</td>
+	<td> This program decrypts a text filebased on the Caesar cipher.</td>
+	<td>2016-11-18</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/caesarEncryption.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/caesarEncryption.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>caesarEncryptionCREATOR_TESTING.cpp</td>
-  <td> This program decrypts a text filebased on the Caesar cipher.</td>
-  <td>2016-11-18</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/caesarEncryptionCREATOR_TESTING.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/caesarEncryptionCREATOR_TESTING.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>caesarEncryptionCREATOR_TESTING.cpp</td>
+	<td> This program decrypts a text filebased on the Caesar cipher.</td>
+	<td>2016-11-18</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/caesarEncryptionCREATOR_TESTING.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/caesarEncryptionCREATOR_TESTING.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>classGradesCalculator.cpp</td>
-  <td> This program outputs average scores and final grades for a given class grade set</td>
-  <td>2016-12-01</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/classGradesCalculator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/classGradesCalculator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>classGradesCalculator.cpp</td>
+	<td> This program outputs average scores and final grades for a given class grade set</td>
+	<td>2016-12-01</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/classGradesCalculator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/classGradesCalculator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>decimalByteToBinaryByte.cpp</td>
-  <td>This programs converts decimal byte capacity to binary byte capacity.</td>
-  <td>2016-09-06</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryByte.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryByte.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>decimalByteToBinaryByte.cpp</td>
+	<td>This programs converts decimal byte capacity to binary byte capacity.</td>
+	<td>2016-09-06</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryByte.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryByte.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>decimalByteToBinaryBytePlus.cpp</td>
-  <td> This programs converts decimal byte capacity to binary byte capacity.</td>
-  <td>2016-10-01</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryBytePlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryBytePlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>decimalByteToBinaryBytePlus.cpp</td>
+	<td> This programs converts decimal byte capacity to binary byte capacity.</td>
+	<td>2016-10-01</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryBytePlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/decimalByteToBinaryBytePlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>englishLanguageAnalyzer.cpp</td>
-  <td> This program determines both the longest word and frequencies of different english words</td>
-  <td>2016-10-27</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/englishLanguageAnalyzer.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/englishLanguageAnalyzer.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>englishLanguageAnalyzer.cpp</td>
+	<td> This program determines both the longest word and frequencies of different english words</td>
+	<td>2016-10-27</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/englishLanguageAnalyzer.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/englishLanguageAnalyzer.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>fibonacciOutput.cpp</td>
-  <td> This program attempts to summon the spirit of fibonnaci.</td>
-  <td>2016-10-20</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/fibonacciOutput.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/fibonacciOutput.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>fibonacciOutput.cpp</td>
+	<td> This program attempts to summon the spirit of fibonnaci.</td>
+	<td>2016-10-20</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/fibonacciOutput.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/fibonacciOutput.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>firstMillionPrimes.cpp</td>
-  <td> This program outputs the first 100 primes...</td>
-  <td>2016-11-04</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/firstMillionPrimes.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/firstMillionPrimes.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>firstMillionPrimes.cpp</td>
+	<td> This program outputs the first 100 primes...</td>
+	<td>2016-11-04</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/firstMillionPrimes.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/firstMillionPrimes.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>libraryBookOutput.cpp</td>
-  <td> This program allows one to search their library for a given author or title string.</td>
-  <td>2016-12-01</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/libraryBookOutput.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/libraryBookOutput.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>libraryBookOutput.cpp</td>
+	<td> This program allows one to search their library for a given author or title string.</td>
+	<td>2016-12-01</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/libraryBookOutput.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/libraryBookOutput.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>libraryBookOutputPlus.cpp</td>
-  <td> This program outputs sorted book names of a library</td>
-  <td>2016-12-09</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/libraryBookOutputPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/libraryBookOutputPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>libraryBookOutputPlus.cpp</td>
+	<td> This program outputs sorted book names of a library</td>
+	<td>2016-12-09</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/libraryBookOutputPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/libraryBookOutputPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>linearEquationSolver.cpp</td>
-  <td> This program solves two linear equations of the form ax + by = c, returning values for x and y.</td>
-  <td>2016-10-12</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/linearEquationSolver.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/linearEquationSolver.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>linearEquationSolver.cpp</td>
+	<td> This program solves two linear equations of the form ax + by = c, returning values for x and y.</td>
+	<td>2016-10-12</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/linearEquationSolver.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/linearEquationSolver.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>magicSquareChecker.cpp</td>
-  <td>This programs determines whethere a user's 4x4 matrix is a magic square!</td>
-  <td>2016-09-06</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/magicSquareChecker.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/magicSquareChecker.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>magicSquareChecker.cpp</td>
+	<td>This programs determines whethere a user's 4x4 matrix is a magic square!</td>
+	<td>2016-09-06</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/magicSquareChecker.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/magicSquareChecker.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>magicSquareCheckerPlus.cpp</td>
-  <td>This programs determines whethere a user's 4x4 matrix is a magic square!</td>
-  <td>2016-09-27</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/magicSquareCheckerPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/magicSquareCheckerPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>magicSquareCheckerPlus.cpp</td>
+	<td>This programs determines whethere a user's 4x4 matrix is a magic square!</td>
+	<td>2016-09-27</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/magicSquareCheckerPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/magicSquareCheckerPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>magicSquaresCheckerWithArrays.cpp</td>
-  <td> This programs determines whether a user's 4x4 matrix is a magic square, arrays included!</td>
-  <td>2016-11-17</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/magicSquaresCheckerWithArrays.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/magicSquaresCheckerWithArrays.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>magicSquaresCheckerWithArrays.cpp</td>
+	<td> This programs determines whether a user's 4x4 matrix is a magic square, arrays included!</td>
+	<td>2016-11-17</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/magicSquaresCheckerWithArrays.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/magicSquaresCheckerWithArrays.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>palindromeChecker.cpp</td>
-  <td> This program determines whether a user-inputted string is a palindorme or not</td>
-  <td>2016-11-11</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/palindromeChecker.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/palindromeChecker.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>palindromeChecker.cpp</td>
+	<td> This program determines whether a user-inputted string is a palindorme or not</td>
+	<td>2016-11-11</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/palindromeChecker.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/palindromeChecker.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>parenthesesBalanceChecker.cpp</td>
-  <td> This program determines whther a string of parentheses is balanced i.e. </td>
-  <td>2016-11-10</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/parenthesesBalanceChecker.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/parenthesesBalanceChecker.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>parenthesesBalanceChecker.cpp</td>
+	<td> This program determines whther a string of parentheses is balanced i.e. </td>
+	<td>2016-11-10</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/parenthesesBalanceChecker.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/parenthesesBalanceChecker.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>piCalculator.cpp</td>
-  <td> This program approximates pi to 5 or more! decimal points.</td>
-  <td>2016-10-20</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/piCalculator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/piCalculator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>piCalculator.cpp</td>
+	<td> This program approximates pi to 5 or more! decimal points.</td>
+	<td>2016-10-20</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/piCalculator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/piCalculator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>secondsToHourMinSec.cpp</td>
-  <td>This program converts number of seconds to digital houtput hrminsec.</td>
-  <td>2016-09-06</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/secondsToHourMinSec.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/secondsToHourMinSec.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>secondsToHourMinSec.cpp</td>
+	<td>This program converts number of seconds to digital houtput hrminsec.</td>
+	<td>2016-09-06</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/secondsToHourMinSec.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/secondsToHourMinSec.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>secondsToHourMinSecPlus.cpp</td>
-  <td> This program converts number of seconds to digital output hrminsec.</td>
-  <td>2016-10-01</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/secondsToHourMinSecPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/secondsToHourMinSecPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>secondsToHourMinSecPlus.cpp</td>
+	<td> This program converts number of seconds to digital output hrminsec.</td>
+	<td>2016-10-01</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/secondsToHourMinSecPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/secondsToHourMinSecPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>simpleHoroscope.cpp</td>
-  <td>This programs takes user input and outputs a projected horoscope.</td>
-  <td>2016-09-06</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleHoroscope.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleHoroscope.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>simpleHoroscope.cpp</td>
+	<td>This programs takes user input and outputs a projected horoscope.</td>
+	<td>2016-09-06</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleHoroscope.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleHoroscope.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>simpleStockSimulator.cpp</td>
-  <td> This program simulates the buying and selling of stocks!</td>
-  <td>2016-10-12</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleStockSimulator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleStockSimulator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>simpleStockSimulator.cpp</td>
+	<td> This program simulates the buying and selling of stocks!</td>
+	<td>2016-10-12</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleStockSimulator.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleStockSimulator.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>stringPermutation.cpp</td>
-  <td>This programs outputs the permutations of three user-inputted strings.</td>
-  <td>2016-09-06</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/stringPermutation.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/stringPermutation.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>stringPermutation.cpp</td>
+	<td>This programs outputs the permutations of three user-inputted strings.</td>
+	<td>2016-09-06</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/stringPermutation.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/stringPermutation.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>stringPermutationPlus.cpp</td>
-  <td> This programs outputs the permutations of three user-inputted strings.</td>
-  <td>2016-10-01</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/stringPermutationPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/stringPermutationPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>stringPermutationPlus.cpp</td>
+	<td> This programs outputs the permutations of three user-inputted strings.</td>
+	<td>2016-10-01</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/stringPermutationPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/stringPermutationPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>tenMillonthPrime.cpp</td>
-  <td> This program outputs the first 10,000,000 primes...</td>
-  <td>2016-11-17</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/tenMillonthPrime.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/tenMillonthPrime.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>tenMillonthPrime.cpp</td>
+	<td> This program outputs the first 10,000,000 primes...</td>
+	<td>2016-11-17</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/tenMillonthPrime.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/tenMillonthPrime.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>testAverager.cpp</td>
-  <td>This programs determines the average of five user-inputed test scores.</td>
-  <td>2016-09-06</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/testAverager.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/testAverager.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>testAverager.cpp</td>
+	<td>This programs determines the average of five user-inputed test scores.</td>
+	<td>2016-09-06</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/testAverager.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/testAverager.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>testAveragerPlus.cpp</td>
-  <td> This program determines the average of five user-inputed test scores.</td>
-  <td>2016-10-01</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/testAveragerPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/testAveragerPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>testAveragerPlus.cpp</td>
+	<td> This program determines the average of five user-inputed test scores.</td>
+	<td>2016-10-01</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/testAveragerPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/testAveragerPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>trinomialRootFinder.cpp</td>
-  <td> This program returns the roots of a trinomial.</td>
-  <td>2016-10-12</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/trinomialRootFinder.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/trinomialRootFinder.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>trinomialRootFinder.cpp</td>
+	<td> This program returns the roots of a trinomial.</td>
+	<td>2016-10-12</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/trinomialRootFinder.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/trinomialRootFinder.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>vowelsAndConsonantCounter.cpp</td>
-  <td> This program determines both the longest word and frequencies of different english words.</td>
-  <td>2016-10-27</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/vowelsAndConsonantCounter.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/vowelsAndConsonantCounter.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>vowelsAndConsonantCounter.cpp</td>
+	<td> This program determines both the longest word and frequencies of different english words.</td>
+	<td>2016-10-27</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/vowelsAndConsonantCounter.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/vowelsAndConsonantCounter.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-  <td>weekdayOfFutureDate.cpp</td>
-  <td> This programs transports you into the future or the past! up to 5,883,516 years</td>
-  <td>2016-10-12</td>
-  <td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/weekdayOfFutureDate.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/weekdayOfFutureDate.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
+	<td>weekdayOfFutureDate.cpp</td>
+	<td> This programs transports you into the future or the past! up to 5,883,516 years</td>
+	<td>2016-10-12</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/weekdayOfFutureDate.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/weekdayOfFutureDate.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 </table>
 <script>
