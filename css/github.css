@@ -44,8 +44,8 @@ a:hover {
     
 }
 
-.content a {
-  font-size: 1.2em;
+#featured a {
+  font-size: 1.4em;
 }
 
 h1 {
@@ -187,6 +187,98 @@ pre {
 
 .heart {
   color: #FF357A;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myTable a {
+    color: #4183c4;
+    text-decoration: none;
+}
+#myTable a:hover {
+    text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/assets/octicons-5.0.1/lib/svg/octoface.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  table-layout: fixed;
+  word-wrap: break-word;
+  width: 100%
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+#myTable tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+}
+.fixed{
+    width: 33.333%;
+    /*margin-right: 1%;*/
+    padding-bottom: : 10%;  
+    word-wrap: break-word;
+}
+.flex-item {
+    flex-grow: 1;
+}
+
+#featured {
+  padding: 10px;
+}
+
+object {
+  vertical-align: middle;
+}
+
+.border {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 /**

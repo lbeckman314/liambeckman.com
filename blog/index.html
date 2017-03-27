@@ -4,8 +4,45 @@ layout: my-default
 	<!--<h1>{{ page.title }}</h1>-->
 	<ul class="content">
 
+    
+<h2>Featured!</h2>
+
+<div class="container">
+
+<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%">
+    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
+    <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
+    <div class="border"></div>
+    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+
+  </div>
+
+<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%; margin-left: 1%; margin-right: 1%">
+    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
+    <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
+    <div class="border"></div>
+    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+
+  </div>
+
+  <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%">
+    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
+    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
+    <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
+    <div class="border"></div>
+    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+
+  </div>
+
+</div>
+
+<br /><br /><br />
+
+
 	  {% for post in site.posts %}
-	    <h3><a href="{{ post.url }}" title="{{ post.title }}">※ {{ post.title }}</a></h3>
+	    <h3><a style="font-size:1.2em" href="{{ post.url }}" title="{{ post.title }}">※ {{ post.title }}</a></h3>
         <p>{{ post.date | date_to_string }} / {{ post.description }}</p>
         <br />
 	  {% endfor %}
