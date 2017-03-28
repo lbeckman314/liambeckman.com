@@ -20,34 +20,47 @@ a#title {
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
     <a href="https://github.com/lbeckman314/liber8/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/liber8/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/liber8/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/liber8/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/liber8/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/liber8/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/liber8/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
-    <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/liber8">liber8</a></p>
+    <p style="text-align: center; padding-bottom: 10px;">
+    <a id="title" href="https://lbeckman314.github.io/liber8">liber8</a></p>
     <p style="text-align: center; padding-bottom: 10px;">This program helps organize your code and prose!</p>
 
   </div>
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%;">
     <a href="https://github.com/lbeckman314/itsAlive/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/itsAlive/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/itsAlive/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/itsAlive/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/itsAlive/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/itsAlive/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/itsAlive/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
     <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/itsAlive">⚡ IT’S ALIVE!!! ⚡</a></p>
-    <p style="text-align: center; padding-bottom: 10px;">This program installs favorite programs on a fresh ubuntu or ubuntu-based install!</p>
+    <p style="text-align: center; padding-bottom: 10px;">This program installs my favorite applications and packages on a fresh ubuntu or ubuntu-based install!</p>
 
   </div>
 
   <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
    <a href="https://github.com/lbeckman314/redOctober/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/redOctober/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/redOctober/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/redOctober/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/redOctober/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/lbeckman314/redOctober/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/lbeckman314/redOctober/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
     <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/redOctober">redOctober</a></p>
-    <p style="text-align: center; padding-bottom: 10px;">This program parses a substitle file (.svg) and adjusts timestamps. <strike>so i can finally watch my torrent of <em>Smultronstället</em></strike></p>
+    <p style="text-align: center; padding-bottom: 10px;">This program parses a subtitle file (.svg) and adjusts timestamps. <strike>so i can finally watch my torrent of <em>Smultronstället</em></strike></p>
 
   </div>
 
    <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/iLoveHateHumanRobot/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/iLoveHateHumanRobot/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/iLoveHateHumanRobot/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
     <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/iLoveHateHumanRobot">I LOVE?HATE HUMAN?ROBOT</a></p>
     <p style="text-align: center; padding-bottom: 10px;">This program helps you be on the <strike>right</strike> winning side of the eventual robopocalypse!</p>
@@ -65,9 +78,9 @@ a#title {
 
 <table id="myTable">
   <tr class="header">
-    <th onclick="sortTable(0)" style="width:20%;">Name <object type="image/png" data="/assets/both.png"></object> </th>
+    <th onclick="sortTable(0)" style="width:30%;">Name <object type="image/png" data="/assets/both.png"></object> </th>
     <th onclick="sortTable(1)" style="width:40%;">Description <object type="image/png" data="/assets/both.png"></object> </th>
-    <th onclick="sortTable(2)" style="width:20%;">Last Updated <object type="image/png" data="/assets/both.png"></object> </th>
+    <th onclick="sortTable(2)" style="width:10%;">Last Updated (y-m-d) <object type="image/png" data="/assets/both.png"></object> </th>
     <th style="width:20%;">Location </th>
   </tr> 
 <tr>

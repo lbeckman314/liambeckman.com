@@ -233,7 +233,7 @@ pre {
 #myTable th, #myTable td {
   text-align: left;
   padding: 12px;
-  height: 50px;
+  height: 70px;
   vertical-align: middle;
 }
 
@@ -282,6 +282,11 @@ object {
   margin-left: 10%;
   margin-right: 10%;
   border-bottom: 1px solid #d5d5d5;
+}
+
+hr {
+  border-bottom: 1px solid #123456;
+  border-top: 0px;
 }
 
 /**
