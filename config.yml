@@ -4,7 +4,7 @@ email: lbeckman314@gmail.com
 description: > #ignore  newlines until "baseurl:"
   Home of liam beckman, a stuck up,
   half-witted, scruffy-looking nerf herder.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/home/liam/Documents/website" # the subpath of your site, e.g. /blog
 url: "http://liambeckman.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: lbeckman314

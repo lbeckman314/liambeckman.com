@@ -3,22 +3,24 @@ layout: my-default
 title: about
 ---
 
-# hello! i'm liam. <object type="image/svg+xml" data="../assets/iconSmile5Optimized.svg">Your browser does not support SVGs</object>
+# hello! i'm liam. <object type="image/svg+xml" data="../assets/iconSmile5Optimized.svg"></object>
 
 ---
 <hr />
 <br />
 
-i'm a *software dev* who loves making things! currently, i am working on [*Messages from the Heart*](/code), an automated messaging system.
+i'm a *cs student* who loves making things! currently, i am working on [*liber8*](/code), a code and prose organizer.
 
 ---
 <hr />
 <br />
 
 other projects include:<br />
-    [*Jabber.Zen*](/code), a markov chain poetry generator<br />
-    [*Austruck*](/code), an image analyzer and graphics manipulator<br />
-    [*Maguli*](/code), a series of CS tutorials
+    [*⚡ IT'S ALIVE!!! ⚡*](/code), a post-install script for ubuntu-based linux distros.<br />
+    [*redOctober*](/code), a text parser for changing subtitle files (.svr) to adjust timestamps.<br />
+    [*I LOVE?HATE HUMAN?ROBOT*](/code), for when you want to be on the ~~right~~ winning side of the eventual robopocalypse!<br />
+
+<br />
 
 ---
 <hr />

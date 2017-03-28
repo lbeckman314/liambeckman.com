@@ -45,7 +45,7 @@ a:hover {
 }
 
 #featured a {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 h1 {
@@ -53,8 +53,8 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.0em;
-    line-height: 1.2em;
+    font-size: 1.2em;
+    line-height: 1.6em;
     color: #333;
 }
 #footer {
@@ -256,12 +256,14 @@ img.center {
 
 .container{
     display: flex;
+    flex-wrap: wrap;
 }
 .fixed{
-    width: 33.333%;
-    /*margin-right: 1%;*/
+    width: 25%;
+    margin-right: 20px;
     padding-bottom: : 10%;  
     word-wrap: break-word;
+    margin-top: 20px;
 }
 .flex-item {
     flex-grow: 1;
@@ -276,6 +278,7 @@ object {
 }
 
 .border {
+  margin: 6%;
   margin-left: 10%;
   margin-right: 10%;
   border-bottom: 1px solid #d5d5d5;

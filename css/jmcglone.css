@@ -45,8 +45,8 @@ p.title {
 }
 
 p {
-    font-size: 1.0em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.6em;
     color: #333;
 }
 #footer {
@@ -237,6 +237,7 @@ img.center {
 
 .container{
     display: flex;
+    flex-wrap: wrap;
 }
 .fixed{
     width: 33.333%;
@@ -260,6 +261,7 @@ object {
   margin-left: 10%;
   margin-right: 10%;
   border-bottom: 1px solid #d5d5d5;
+  margin: 10%;
 }
 
 /**
