@@ -5,131 +5,68 @@ titile: code
 
 <!--<!DOCTYPE html>-->
 <html>
-<head>
+<body>
 <style>
-* {
-  box-sizing: border-box;
-}
 
-* {
-  box-sizing: border-box;
-}
-
-#myTable a {
-    color: #4183c4;
-    text-decoration: none;
-}
-#myTable a:hover {
-    text-decoration: underline;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-#myInput {
-  background-image: url('/assets/octicons-5.0.1/lib/svg/octoface.svg');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
-
-#myTable {
-  border-collapse: collapse;
-  border: 1px solid #ddd;
-  font-size: 0.9em;
-  table-layout: fixed;
-  word-wrap: break-word;
-  width: 100%
-}
-
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 12px;
-}
-
-#myTable tr {
-  border-bottom: 1px solid #ddd;
-}
-
-#myTable tr.header, #myTable tr:hover {
-  background-color: #f1f1f1;
-}
-
-#myTable tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-img.center {
-    display: block;
-    margin: 0 auto;
-}
-
-.container{
-    display: flex;
-}
-.fixed{
-    width: 33.333%;
-    /*margin-right: 1%;*/
-    padding-bottom: : 10%;  
-    word-wrap: break-word;
-}
-.flex-item {
-    flex-grow: 1;
-}
-
-#featured {
-  padding: 10px;
-}
-
-object {
-  vertical-align: middle;
-}
-
-.border {
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 1px solid #d5d5d5;
+a#title {
+	font-size: 1.6em;
 }
 
 </style>
-</head>
-<body>
 
 <h2>Featured!</h2>
 
 <div class="container">
 
-<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%">
-    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
-    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
-    <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
+<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
+    <a href="https://github.com/lbeckman314/liber8/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/liber8/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/liber8/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/liber8/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
-    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-bottom: 10px;">
+    <a id="title" href="https://lbeckman314.github.io/liber8">liber8</a></p>
+    <p style="text-align: center; padding-bottom: 10px;">This program helps organize your code and prose!</p>
 
   </div>
 
-<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%; margin-left: 1%; margin-right: 1%">
-    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
-    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
-    <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
+<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%;">
+    <a href="https://github.com/lbeckman314/itsAlive/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/itsAlive/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/itsAlive/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/itsAlive/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
-    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/itsAlive">⚡ IT’S ALIVE!!! ⚡</a></p>
+    <p style="text-align: center; padding-bottom: 10px;">This program installs my favorite applications and packages on a fresh ubuntu or ubuntu-based install!</p>
 
   </div>
 
-  <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 33.333%">
-    <p style="text-align: center; padding-bottom: 10px;"><a href="https://lbeckman314.github.io/WOAH">WOAH!</a></p>
-    <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;">
-    <p style="text-align: center; padding-bottom: 10px;">This program overthrows the world's governments and institutes a new world order!</p>
+  <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
+   <a href="https://github.com/lbeckman314/redOctober/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/redOctober/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/lbeckman314/redOctober/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/lbeckman314/redOctober/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
-    <p style="text-align: center; padding-top: 10px;"><a href="https://github.com/lbeckman314/WOAH/">github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/tarball/master">tar.gz</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/lbeckman314/WOAH/zipball/master">zip</a></p>
+    <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/redOctober">redOctober</a></p>
+    <p style="text-align: center; padding-bottom: 10px;">This program parses a subtitle file (.svg) and adjusts timestamps. <strike>so i can finally watch my torrent of <em>Smultronstället</em></strike></p>
 
   </div>
+
+   <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
+   <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <p style="text-align: center; padding-top: 10px;">
+    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
+    <div class="border"></div>
+    <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/iLoveHateHumanRobot">I LOVE?HATE HUMAN?ROBOT</a></p>
+    <p style="text-align: center; padding-bottom: 10px;">This program helps you be on the <strike>right</strike> winning side of the eventual robopocalypse!</p>
+
+  </div>
+
 
 </div>
 
@@ -141,15 +78,15 @@ object {
 
 <table id="myTable">
   <tr class="header">
-    <th onclick="sortTable(0)" style="width:20%;">Name <object type="image/png" data="/assets/both.png"></object> </th>
+    <th onclick="sortTable(0)" style="width:30%;">Name <object type="image/png" data="/assets/both.png"></object> </th>
     <th onclick="sortTable(1)" style="width:40%;">Description <object type="image/png" data="/assets/both.png"></object> </th>
-    <th onclick="sortTable(2)" style="width:20%;">Last Updated <object type="image/png" data="/assets/both.png"></object> </th>
+    <th onclick="sortTable(2)" style="width:10%;">Last Updated (y-m-d) <object type="image/png" data="/assets/both.png"></object> </th>
     <th style="width:20%;">Location </th>
   </tr> 
 <tr>
 	<td>adSurvey<br />├──adSurvey.txt<br />└──adSurvey.cpp</td>
 	<td> This program determines both the longest word and frequencies of different english words.</td>
-	<td>2016-10-25</td>
+	<td>2016-10-30</td>
 	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/adSurvey.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/adSurvey.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
@@ -219,8 +156,6 @@ object {
 	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/firstMillionPrimes.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/firstMillionPrimes.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-	<td>itsAlive.sh</td>
-	<td>  -- This program installs my favorite programs on a fresh install of ubuntu!</td>
 	<td>libraryBookOutput.cpp</td>
 	<td> This program allows one to search their library for a given author or title string.</td>
 	<td>2016-12-01</td>
@@ -290,24 +225,9 @@ object {
 	<td>simpleHoroscope.cpp</td>
 	<td>This programs takes user input and outputs a projected horoscope.</td>
 	<td>2016-09-06</td>
-	<td></td>
-	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleMenuPlusPlus.bash <a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleMenuPlusPlus.bash</td>
+	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleHoroscope.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleHoroscope.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-	<td>simpleMenuPlusPlus.bash</td>
-	<td> This program provides a new and sexier! menu interface for common NIX activities</td>
-	<td>2016-11-26</td>
-	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleMenuPlus.sh <a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleMenuPlus.sh</td>
-</tr>
-<tr>
-	<td>simpleMenuPlus.sh</td>
-	<td> This program provides a menu interface for common NIX activities</td>
-	<td>2016-11-30</td>
-	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/simpleMenu.sh <a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/simpleMenu.sh</td>
-</tr>
-<tr>
-	<td>simpleMenu.sh</td>
-	<td> This program provides a menu interface for common NIX activities</td>
 	<td>simpleStockSimulator.cpp</td>
 	<td> This program simulates the buying and selling of stocks!</td>
 	<td>2016-10-12</td>
@@ -326,7 +246,6 @@ object {
 	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/stringPermutationPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/stringPermutationPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
 </tr>
 <tr>
-	<td>sublimeText<br />├──</td>
 	<td>tenMillonthPrime.cpp</td>
 	<td> This program outputs the first 10,000,000 primes...</td>
 	<td>2016-11-17</td>
@@ -343,12 +262,6 @@ object {
 	<td> This program determines the average of five user-inputed test scores.</td>
 	<td>2016-10-01</td>
 	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/testAveragerPlus.cpp">github <img src="/assets/mark-github.png" alt="github logo"></a><a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/testAveragerPlus.cpp"> <br />raw code <img src="/assets/code.png" alt="code logo"></a></td>
-</tr>
-<tr>
-	<td>tipCalculatorPlus.py</td>
-	<td> This program calculates the tax, tip, and total cost of a meal!</td>
-	<td>2016-10-26</td>
-	<td><a href="https://www.github.com/lbeckman314/codeVault/blob/master/tipCalculatorPlus.py <a href="https://raw.githubusercontent.com/lbeckman314/codeVault/blob/master/tipCalculatorPlus.py</td>
 </tr>
 <tr>
 	<td>trinomialRootFinder.cpp</td>
