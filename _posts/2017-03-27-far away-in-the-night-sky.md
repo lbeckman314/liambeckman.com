@@ -10,7 +10,7 @@ description: Far away in the night sky // past the moon and past our stars...
 Far away in the night sky
 past the moon and past our stars
 out among the oldest & coldest corners of the Universe
-exits a lone, small star.
+exists a lone, small star.
 And around that star
 orbits a lone, small planet.
 On this planet lies a tiny creature,
@@ -33,7 +33,7 @@ one of the last things it does is ask the stars
 to send their warmest light to that strange, far-away planet
 and to the strange, beautiful beings that call that planet home.
 
-In one of the enchanting coincidences of the Universe,
+In one of the many enchanting coincidences of the Universe,
 the number of times this creature has asked the stars to send
 their warmest light is exactly the number of times
 the stars twinkle in the sky of that strange, far-away planet.
