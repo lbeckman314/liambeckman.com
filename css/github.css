@@ -88,6 +88,7 @@ ul.posts li {
 
 .site-footer {
   background-color: #2a2730;
+  height:60px;
 }
 
 /**
@@ -98,22 +99,23 @@ ul.posts li {
  *
  * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
  */
-html,
+html {
+  height: 100%;
+}
 body {
-  padding:0;
-  height:96%;
+  padding-bottom:60px;
+  height:100%;
 }
 #wrapper {
   min-height:100%;
   position:relative;
-  min-height: 100%;
 }
 #header {
   /*background:#ededed;*/
   padding:0px;
 }
 #content {
-  padding:39px; /* Height of the footer element */
+  padding:4%; /* Height of the footer element */
 }
 #footer {
   /*background:#ffab62;*/
