@@ -24,3 +24,5 @@ other projects include:<br />
 ## about the website:    
 I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful guide [jmcglone.com/guides/github-pages/](jmcglone.com/guides/github-pages/).
 
+This website is built wth Jekyll and hosted by Github Pages.
+<a>https://github.com/lbeckman314/lbeckman314.github.io</a>

@@ -88,7 +88,7 @@ ul.posts li {
 
 .site-footer {
   background-color: #2a2730;
-  height:60px;
+  height:58px;
 }
 
 /**
@@ -103,7 +103,7 @@ html {
   height: 100%;
 }
 body {
-  padding-bottom:60px;
+  padding-bottom:58px;
   height:100%;
 }
 #wrapper {
