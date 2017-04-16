@@ -298,6 +298,11 @@ hr {
   }
 }
 
+@font-face {
+    font-family:"BoswellRegular";
+    src: url("assets/Boswell Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
 /**
  * Syntax highlighting styles
  */
