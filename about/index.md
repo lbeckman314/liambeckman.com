@@ -28,4 +28,4 @@ I built this website as a way to store and present my various works and projects
 
 This website is built with [Jekyll](https://jekyllrb.com/) and hosted by [Github Pages](https://pages.github.com/).
 
-Source code can be found here: https://github.com/lbeckman314/lbeckman314.github.io. 
+Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io)! 
