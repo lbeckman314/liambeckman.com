@@ -5,7 +5,7 @@ title: about
 
 # hello! i'm liam. <object type="image/svg+xml" data="../assets/iconSmile5Optimized.svg"></object>
 <img style="width:65%; padding-left:10%; padding-top:1%;" src="/images/nerfHerder4.png">
-<p>A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
+<p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 2.3vw">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
 
 
 <br />
@@ -26,5 +26,5 @@ other projects include:<br />
 ## about the website:    
 I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful guide [jmcglone.com/guides/github-pages/](jmcglone.com/guides/github-pages/).
 
-This website is built wth Jekyll and hosted by Github Pages.
+This website is built with Jekyll and hosted by Github Pages.
 <a>https://github.com/lbeckman314/lbeckman314.github.io</a>
