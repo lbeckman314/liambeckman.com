@@ -5,7 +5,7 @@ title: about
 
 # hello! i'm liam. <object type="image/svg+xml" data="../assets/iconSmile5Optimized.svg"></object>
 <!-- <img style="width:65%; padding-left:10%; padding-top:1%;" src="/images/nerfHerder4.png"> -->
-<p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 2.3vw">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
+<p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 1.8vw">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
 
 
 <br />
