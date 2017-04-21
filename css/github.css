@@ -303,6 +303,25 @@ hr {
     src: url("assets/Boswell Regular.ttf") /* TTF file for CSS3 browsers */
 }
 
+
+p.headers {
+  background: lavender;
+}
+
+.highlight-pink {
+    font-size: 55px;
+    color: #757575;
+    text-align:center;
+    margin-bottom:1%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.highlight-pink:hover {
+    background-color: cyan;
+    color: #ff537a;
+    text-shadow: 1px 1px 1px #333;
+}
+
 /**
  * Syntax highlighting styles
  */
