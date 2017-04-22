@@ -305,9 +305,13 @@ hr {
 
 
 p.headers {
-  background: lavender;
+  /*background: lavender;
   background-color: lightcyan;
   background-color: #ffc2d7;
+  *//*background-color: transparent;*/
+  background-color: #D3D2E0;
+  border: 1px #d5d5d5 solid;
+
 }
 
 .highlight-pink {
