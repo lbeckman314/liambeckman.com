@@ -27,15 +27,12 @@ title: liam beckman / home
 <hr />
 <br />
 
-<p class="headers">Or are ya yearnin' for soggy wet roses and malcontented kittens? Then here are a few of my <a href="#">favorite things!</a></p>
+<p class="headers">Or are you yearnin' for soggy wet roses and malcontented kittens? Then here are a few of my <a href="#">favorite things!</a></p>
 
 <!-- </div>-->
 <br />
 
-※ [abc](def) :: xyz <br /> 
-※ [abc](def) :: xyz <br />
-※ [abc](def) :: xyz <br />
-※ [abc](def) :: xyz <br />
-※ [abc](def) :: xyz <br />
-※ [abc](def) :: xyz <br />
-※ [abc](def) :: xyz <br />
+※ [Stand Still Stay Silent](https://www.sssscomic.com) :: a beautifully illustrated webcomic by Minna Sundberg. <br /> 
+※ [Wikström Photos](https://www.instagram.com/wikstromnaturfoto/) :: simply amazing photos of nature and the world. <br />
+※ [Wikipedia News](https://en.wikipedia.org/wiki/Portal:Current_events) :: news and current events. <br />
+

@@ -58,7 +58,7 @@ p {
     color: #333;
 }
 #footer {
-    /*! border-top: 1px solid #d5d5d5; */
+    border-top: 1px solid #d5d5d5;
     font-size: .8em;
     color: #7a7a7a;
     /*! background-color: #2a2730; */
@@ -67,7 +67,7 @@ p {
 }
 
 #header {
-    /*! border-bottom: 1px solid #e90f0f; */
+    border-bottom: 1px solid #d5d5d5;
     font-size: .8em;
     /*! color: #ff0303; */
     background-color: #2A2730;
@@ -306,6 +306,7 @@ hr {
 
 p.headers {
   background: lavender;
+  background-color: #ffc2d7;
 }
 
 .highlight-pink {
@@ -313,8 +314,8 @@ p.headers {
     color: #757575;
     text-align:center;
     margin-bottom:1%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 .highlight-pink:hover {
     background-color: cyan;
