@@ -19,7 +19,7 @@ a#title {
 <div class="container">
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
-    <a href="https://github.com/lbeckman314/liber8/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <a href="http://liambeckman.com/codeliber8/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
     <p style="text-align: center; padding-top: 10px;">
     <a href="https://github.com/lbeckman314/liber8/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://github.com/lbeckman314/liber8/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -32,7 +32,7 @@ a#title {
   </div>
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%;">
-    <a href="https://github.com/lbeckman314/itsAlive/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <a href="http://liambeckman.com/codeitsAlive/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
     <p style="text-align: center; padding-top: 10px;">
     <a href="https://github.com/lbeckman314/itsAlive/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://github.com/lbeckman314/itsAlive/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,7 +44,7 @@ a#title {
   </div>
 
   <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
-   <a href="https://github.com/lbeckman314/redOctober/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+   <a href="http://liambeckman.com/coderedOctober/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
     <p style="text-align: center; padding-top: 10px;">
     <a href="https://github.com/lbeckman314/redOctober/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    <a href="https://github.com/lbeckman314/redOctober/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -56,7 +56,7 @@ a#title {
   </div>
 
    <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
-   <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+   <a href="http://liambeckman.com/codeiLoveHateHumanRobot/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
     <p style="text-align: center; padding-top: 10px;">
     <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
