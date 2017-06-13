@@ -6,7 +6,7 @@ title: contact
 <br />
 ## contact me:
 
-<p><object type="image/svg+xml" data="../assets/octicons-5.0.1/lib/svg/mail.svg"></object> lbeckman314@gmail.com</p>
+<p><object type="image/svg+xml" data="../assets/octicons-5.0.1/lib/svg/mail.svg"></object>lbeckman314@gmail.com</p>
 
 <br />
 
