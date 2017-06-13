@@ -30,7 +30,11 @@ This website is built with [Jekyll](https://jekyllrb.com/) and hosted by [Github
 
 Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io)! 
 
+<br />
+
 ---
+
+<br />
 
 ## to do:
 * transfer domain name from google to porkbun (just to add some support for a smaller, oregon-based buisness)
