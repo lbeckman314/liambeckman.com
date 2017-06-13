@@ -37,7 +37,10 @@ Source code can be found [here](https://github.com/lbeckman314/lbeckman314.githu
 <br />
 
 ## to do:
-* transfer domain name from google to porkbun (just to add some support for a smaller, oregon-based buisness)
-* transfer hosting from github's servers to my own (running apache (or nginx) and certbot for that sweet opensource HTTPS certs!)
-* implement sass to help make the css a bit more managable
-* clean up site of any weird artifacts
+transfer domain name from google to porkbun (just to add some support for a smaller, oregon-based buisness)
+
+transfer hosting from github's servers to my own (running apache (or nginx) and certbot for that sweet opensource HTTPS certs!)
+
+implement sass to help make the css a bit more managable
+
+clean up site of any weird artifacts
