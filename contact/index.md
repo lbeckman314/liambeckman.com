@@ -15,6 +15,4 @@ while true
 	do
 		cowsay liam is a cool guy
 	done
-
-
 ```
