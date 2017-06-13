@@ -323,9 +323,9 @@ p.headers {
     margin-right: 30%;
 }
 .highlight-pink:hover {
-    background-color: cyan;
-    color: #ff537a;
-    text-shadow: 1px 1px 1px #333;
+/*     background-color: cyan; */
+/*     color: #ff537a; */
+/*     text-shadow: 1px 1px 1px #333; */
 }
 
 /**
