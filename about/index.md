@@ -29,3 +29,11 @@ I built this website as a way to store and present my various works and projects
 This website is built with [Jekyll](https://jekyllrb.com/) and hosted by [Github Pages](https://pages.github.com/).
 
 Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io)! 
+
+---
+
+## to do:
+* transfer domain name from google to porkbun (just to add some support for a smaller, oregon-based buisness)
+* transfer hosting from github's servers to my own (running apache (or nginx) and certbot for that sweet opensource HTTPS certs!)
+* implement sass to help make the css a bit more managable
+* clean up site of any weird artifacts
