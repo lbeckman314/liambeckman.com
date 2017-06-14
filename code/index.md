@@ -14,6 +14,30 @@ a#title {
 
 </style>
 
+(adapted from the "Verifying file integrity and its digital signature" section of https://www.voidlinux.eu/download/)
+(Copyright 2008-2017 Juan RP and contributors)
+
+signer = liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>
+key id = AC1CC079 
+key fingerprint = 2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079
+
+```sh
+gpg --keyserver pgp.mit.edu --recv-keys AC1CC079  
+wget http://www.liambeckman.com/code/sha256sums.txt{,.asc}
+gpg --verify sha256sums.txt.asc
+```
+gpg: Signature made Sun Feb  8 12:33:05 2015 CET using RSA key ID 482F9368
+gpg: Good signature from "liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>" [unknown]
+
+
+```sh
+LANG=C sha256sum -c sha256sums.txt 2>/dev/null|grep void-beaglebone-latest.img.xz
+```
+example_file.tar.gz: OK
+
+
+<br />
+
 <h2>Featured!</h2>
 
 <div class="container">
