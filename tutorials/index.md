@@ -3,6 +3,7 @@ layout: my-default
 title: tutorials and guides
 ---
 
+
 ```R
 #------------------------------------------------------------------------------------------------
 # PURPOSE --------- This program outputs a bar graph for lab GE-14 uv radiation exposure
