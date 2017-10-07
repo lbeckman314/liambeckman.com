@@ -18,16 +18,14 @@ a#title {
 
 <br />
 
-<h2>Featured!</h2>
+
+<h1>Featured!</h1>
+
 
 <div class="container">
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
     <a href="http://liambeckman.com/codeliber8/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;">
-    <a href="https://github.com/lbeckman314/liber8/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> source</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/lbeckman314/liber8/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/lbeckman314/liber8/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
     <p style="text-align: center; padding-bottom: 10px;">
     <a id="title" href="https://lbeckman314.github.io/liber8">liber8</a></p>
@@ -37,22 +35,14 @@ a#title {
 
 <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%;">
     <a href="http://liambeckman.com/codeitsAlive/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;">
-    <a href="https://github.com/lbeckman314/itsAlive/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> source</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/lbeckman314/itsAlive/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/lbeckman314/itsAlive/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
     <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/itsAlive">⚡ IT’S ALIVE!!! ⚡</a></p>
-    <p style="text-align: center; padding-bottom: 10px;">This program installs my favorite applications and packages on a fresh ubuntu or ubuntu-based install!</p>
+    <p style="text-align: center; padding-bottom: 10px;">This program installs my favorite applications and packages on a fresh ubuntu or arch install!</p>
 
   </div>
 
   <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
    <a href="http://liambeckman.com/coderedOctober/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;">
-    <a href="https://github.com/lbeckman314/redOctober/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> source</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/lbeckman314/redOctober/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/lbeckman314/redOctober/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
     <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/redOctober">redOctober</a></p>
     <p style="text-align: center; padding-bottom: 10px;">This program parses a subtitle file (.svg) and adjusts timestamps. <strike>so i can finally watch my torrent of <em>Smultronstället</em></strike></p>
@@ -61,10 +51,6 @@ a#title {
 
    <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
    <a href="http://liambeckman.com/codeiLoveHateHumanRobot/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
-    <p style="text-align: center; padding-top: 10px;">
-    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/"><img src="/assets/octicons-5.0.1/lib/svg/mark-github.svg"> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/zipball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/lbeckman314/iLoveHateHumanRobot/tarball/master"><img src="/assets/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></p>
     <div class="border"></div>
     <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/iLoveHateHumanRobot">I LOVE?HATE HUMAN?ROBOT</a></p>
     <p style="text-align: center; padding-bottom: 10px;">This program helps you be on the <strike>right</strike> winning side of the eventual robopocalypse!</p>
