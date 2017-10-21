@@ -97,6 +97,7 @@ sha256sum -c sha256sums.txt 2>/dev/null | grep example_file.tar.gz
 # commands I don't want to forget
 
 <br />
+
 ## shell
 
 <br />
@@ -123,10 +124,20 @@ dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 " http://vim.wikia.com/wiki/Remove_unwanted_spaces
 %s/\s\+$//
 ```
+<br />
+
+```vim
+" silently remove trailing whitespace from all open buffers
+" http://vim.wikia.com/wiki/Run_a_command_in_multiple_buffers
+" https://stackoverflow.com/questions/8906905/how-to-yank-from-the-command-line
+bufdo %s/\s\+$//e | update
+```
 
 <br />
 
 ```vim
 " add !important to css color values
+" http://vimregex.com/#backreferences
 %s/#[0-9a-z]*/\0 !important/
 ```
+
