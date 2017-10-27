@@ -1,7 +1,7 @@
 ---
 layout: my-default
 title: code
---- 
+---
 
 
 <!--<!DOCTYPE html>-->
@@ -68,19 +68,19 @@ a#title {
 
 # practice safe file downloads
 
-adapted from the "Verifying file integrity and its digital signature" section of <a href="https://www.voidlinux.eu/download/#verifying-file-integrity-and-its-digital-signature">the Void Linux download page</a>  
+adapted from the "Verifying file integrity and its digital signature" section of <a href="https://www.voidlinux.eu/download/#verifying-file-integrity-and-its-digital-signature">the Void Linux download page</a>
 Copyright 2008-2017 Juan RP and contributors
 
 <br />
 
-signer = `liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>`  
-key id = `AC1CC079`  
-key fingerprint = `2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079`  
+signer = `liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>`
+key id = `AC1CC079`
+key fingerprint = `2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079`
 
 <br />
 
 ```shell
-gpg --keyserver pgp.mit.edu --recv-keys AC1CC079  
+gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 wget http://www.liambeckman.com/code/sha256sums.txt{,.asc}
 gpg --verify sha256sums.txt.asc
 
@@ -104,7 +104,7 @@ sha256sum -c sha256sums.txt 2>/dev/null | grep example_file.tar.gz
 ```sh
 # view packages by size
 # https://unix.stackexchange.com/questions/40442/which-installed-software-packages-use-the-most-disk-space-on-debian
-dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n 
+dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
 ```
 
 <br />
@@ -131,6 +131,12 @@ dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 " http://vim.wikia.com/wiki/Run_a_command_in_multiple_buffers
 " https://stackoverflow.com/questions/8906905/how-to-yank-from-the-command-line
 bufdo %s/\s\+$//e | update
+```
+
+```vim
+" does the same removal as above, but restores position in buffer
+" https://vi.stackexchange.com/questions/7761/how-to-restore-the-position-of-the-cursor-after-executing-a-normal-command
+let currBuff=bufnr("%") | let save_pos = getpos(".") | bufdo %s/\s\+$//e | update | execute 'buffer ' . currBuff | call setpos('.', save_pos)
 ```
 
 <br />
