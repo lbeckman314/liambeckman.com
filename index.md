@@ -5,7 +5,7 @@ title: liam beckman / home
 
 <!-- <img class="title-image" style="width:50%" src="images/cabin.jpg" alt="Lake Erken Cabin" title="A cozy cabin by Lake Erken!"> -->
 
-<h1 class="highlight-pink"> :: Hello :: </h1> 
+<h1 class="highlight-pink"> :: Hello :p :: </h1> 
 <br />
 
 <!-- <div class="headers"> -->
