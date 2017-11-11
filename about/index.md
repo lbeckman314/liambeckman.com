@@ -13,7 +13,7 @@ title: about
 I'm a *cs student* who loves making things! Currently, I am working on getting this site up and running with ssl certs, git frontends, and responsive design.
 <br />
 <br/>
-I hack away in vim for the writing, tmux for the multiplexing, and spacemacs for that magit goodness.
+I hack away in vim for the writing, tmux for the multiplexing, and emacs for that magit goodness.
 <br/>
 <br/>
 Right now I'm running Arch (Thinkpad x230), GalliumOS (Acer Chromebook cb3-111), and Raspbian (Raspberry Pi 3 B+).
