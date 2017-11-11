@@ -16,14 +16,14 @@ I'm a *cs student* who loves making things! Currently, I am working on getting t
 I hack away in vim for the writing, tmux for the multiplexing, and spacemacs for that magit goodness.
 <br/>
 <br/>
-Right now I'm running Arch (Thinkpad x230), GalliumOS (Acer Chromebook cb3-111), and Raspbian (Raspberry Pi 3 B+). I'm a recovering distrohopping maniac, so keep your beautiful operating systems to yourselves! (but Void and Gentoo are looking mighty enticing)...
+Right now I'm running Arch (Thinkpad x230), GalliumOS (Acer Chromebook cb3-111), and Raspbian (Raspberry Pi 3 B+).
 
 <br />
 
 ---
 
 <br />
-## about the website:    
+## about the website:
 I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](jmcglone.com/guides/github-pages/).
 <br/>
 <br/>
