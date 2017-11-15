@@ -5,7 +5,7 @@ title: liam beckman / home
 
 <!-- <img class="title-image" style="width:50%" src="images/cabin.jpg" alt="Lake Erken Cabin" title="A cozy cabin by Lake Erken!"> -->
 
-<h1 class="highlight-pink"> :: Hello :) :: </h1> 
+<h1 class="highlight-pink"> :: Hello :) :: </h1>
 <br />
 
 <!-- <div class="headers"> -->
@@ -13,15 +13,12 @@ title: liam beckman / home
 
 <br />
 
-<p class="headers">Are you a code-junky looking for a fix? Come on in here man, I've got <a href="/code">what ya need.</a></p>
+<p class="headers">Are you in search of code that sometimes compiles? Well then you're <a href="/code">in luck.</a></p>
 
 <br />
 
 <p class="headers">Are you a helpless romantic looking for helplessly romantic stories? Checkout <a href="/writings">writings.</a></p>
 
-<br />
-
-<p class="headers">Are you interested in programming and how <strike>the pros</strike> the 2nd-year CS students do it? Peruse the <a href="/tutorials">tutorials.</a></p>
 
 <br />
 <hr />
@@ -32,7 +29,7 @@ title: liam beckman / home
 <!-- </div>-->
 <br />
 
-※ [Stand Still Stay Silent](https://www.sssscomic.com) :: a beautifully illustrated webcomic by Minna Sundberg. <br /> 
+※ [Stand Still Stay Silent](https://www.sssscomic.com) :: a beautifully illustrated webcomic by Minna Sundberg. <br />
 ※ [Wikström Photos](https://www.instagram.com/wikstromnaturfoto/) :: simply amazing photos of nature and the world. <br />
 ※ [Wikipedia News](https://en.wikipedia.org/wiki/Portal:Current_events) :: news and current events. <br />
 

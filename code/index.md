@@ -134,9 +134,9 @@ bufdo %s/\s\+$//e | update
 ```
 
 ```vim
-" does the same removal as above, but restores position in buffer
+" does the same removal as above, but silently restores position in buffer
 " https://vi.stackexchange.com/questions/7761/how-to-restore-the-position-of-the-cursor-after-executing-a-normal-command
-let currBuff=bufnr("%") | let save_pos = getpos(".") | bufdo %s/\s\+$//e | update | execute 'buffer ' . currBuff | call setpos('.', save_pos)
+let currBuff=bufnr("%") | let save_pos = getpos(".") | silent bufdo %s/\s\+$//e | update | execute 'buffer ' . currBuff | call setpos('.', save_pos)
 ```
 
 <br />
