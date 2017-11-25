@@ -32,3 +32,16 @@ This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Rasp
 <br/>
 Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io).
 <br />
+
+---
+
+<br />
+TODO:
+:: make a tex version of resume
+:: try out gentoo and void on machines
+:: cpu heatsink on x230
+:: flash coreboot on x230 and x220
+:: backup script with borgBackup
+:: setup LVM on machines?
+:: try out bspwm (or i3)
+<br />
