@@ -16,7 +16,7 @@ I'm a *cs student* who loves making things! Currently, I am working on getting t
 I hack away in vim for the writing, tmux for the multiplexing, and emacs for that magit goodness.
 <br/>
 <br/>
-Right now I'm running Arch (Thinkpad x230), GalliumOS (Acer Chromebook cb3-111), and Raspbian (Raspberry Pi 3 B+).
+Right now I'm running GalliumOS (Chromebook CB3-111), Arch (Thinkpad x230), and Void (Thinkpad x220).
 
 <br />
 
@@ -27,7 +27,7 @@ Right now I'm running Arch (Thinkpad x230), GalliumOS (Acer Chromebook cb3-111),
 I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](jmcglone.com/guides/github-pages/).
 <br/>
 <br/>
-This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Raspberry Pi.
+This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Raspberry Pi (Raspbian on RPi3 Model B).
 <br/>
 <br/>
 Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io).
