@@ -37,12 +37,12 @@ Source code can be found [here](https://github.com/lbeckman314/lbeckman314.githu
 ---
 
 <br />
-TODO:  
-:: make a tex version of resume  
-:: try out gentoo and void on machines  
-:: cpu heatsink on x230  
-:: flash coreboot on x230 and x220  
-:: backup script with borgBackup  
-:: setup LVM on machines?  
-:: try out bspwm (or i3)  
+TODO:
+:: make a tex version of resume
+:: try out gentoo and void on machines
+:: cpu heatsink on x230
+:: flash coreboot on x230 and x220
+:: backup script with borgBackup
+:: setup LVM on machines?
+:: try out bspwm (or i3)
 <br />

@@ -14,7 +14,7 @@ body {
     word-wrap: break-word;
 }
 
-.grid-item { 
+.grid-item {
   width: px;
   padding-left: 1px;
 }
@@ -41,7 +41,7 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-color: #FF375A;
-    
+
 }
 
 #featured a {
@@ -58,7 +58,6 @@ p {
     color: #333;
 }
 #footer {
-    border-top: 1px solid #d5d5d5;
     font-size: .8em;
     color: #7a7a7a;
     /*! background-color: #2a2730; */
@@ -67,7 +66,6 @@ p {
 }
 
 #header {
-    border-bottom: 1px solid #d5d5d5;
     font-size: .8em;
     /*! color: #ff0303; */
     background-color: #2A2730;
@@ -77,8 +75,8 @@ p {
 }
 
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -93,7 +91,7 @@ ul.posts li {
 
 /**
  * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
- * 
+ *
  * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
  * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
  *
@@ -125,12 +123,17 @@ body {
   bottom:0;
   left:0;
 
-  border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
 
 
-
+/* http://sass-lang.com/ */
+.popstripe
+{
+  height: .25em;
+background-size: 100%;
+    background-image: linear-gradient(to right, #DB6ECF 0%, #DB6ECF 20%, #E6ABED 20%, #E6ABED 40%, #CDD1FA 40%, #CDD1FA 60%, #88CAD4 60%, #88CAD4 80%, #595EF7 80%, #595EF7 100%);
+}
 
 
 /**
@@ -263,7 +266,7 @@ img.center {
 .fixed{
     width: 25%;
     margin-right: 20px;
-    padding-bottom: : 10%;  
+    padding-bottom: : 10%;
     word-wrap: break-word;
     margin-top: 20px;
 }
