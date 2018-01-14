@@ -3,6 +3,23 @@ layout: my-default
 title: liam beckman / home
 ---
 
+
+<div class="container">
+
+<div class="fixed" id="featured" style="border: solid 1px #DB34ED; width: 90%; background-image: url('assets/code_example2_pink.png')">
+    <h1 style = "text-align:center; font-size: 55px; color: #E6ABED;">code</h1>
+    <div class="border-home"></div>
+    <p style="text-align: center; padding-bottom: 10px;">Are you in search of code that sometimes compiles? Well then you're in luck.</p>
+
+  </div>
+
+
+</div>
+
+
+<br />
+<br />
+<br />
 <!-- <img class="title-image" style="width:50%" src="images/cabin.jpg" alt="Lake Erken Cabin" title="A cozy cabin by Lake Erken!"> -->
 
 <h1 class="highlight-pink"> :: Hello :) :: </h1>

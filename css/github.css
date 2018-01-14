@@ -289,6 +289,13 @@ object {
   border-bottom: 1px solid #d5d5d5;
 }
 
+.border-home {
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 1px solid #db34ed;
+}
+
 hr {
   border-bottom: 1px solid #123456;
   border-top: 0px;
