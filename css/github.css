@@ -51,6 +51,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
 }
 p {
     font-size: 1.2em;
@@ -265,10 +266,9 @@ img.center {
 }
 .fixed{
     width: 25%;
-    margin-right: 20px;
     padding-bottom: : 10%;
     word-wrap: break-word;
-    margin-top: 20px;
+    margin: 20px;
 }
 .flex-item {
     flex-grow: 1;

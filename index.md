@@ -4,49 +4,52 @@ title: liam beckman / home
 ---
 
 
+<!-- https://stackoverflow.com/questions/1685078/how-do-you-make-a-div-tag-into-a-link -->
+
 <div class="container">
 
-<div class="fixed" id="featured" style="border: solid 1px #DB34ED; width: 90%; background-image: url('assets/code_example2_pink.png')">
-    <h1 style = "text-align:center; font-size: 55px; color: #E6ABED;">code</h1>
-    <div class="border-home"></div>
+<div class="fixed" id="featured" onclick="location.href='/about'" style="border: solid 1px #DB6ecf; width: 90%; background-image: url('assets/code_example2_pink.png')">
+    <h1 style = "color: #DB6ECF ;">about</h1>
+    <div class="border-home" style="border-bottom: 1px solid #db6ecf;"></div>
+    <p style="text-align: center; padding-bottom: 10px;">Are you new to this site? Let me introduce myself!</p>
+
+  </div>
+
+<br />
+<br />
+
+<div class="fixed" id="featured" onclick="location.href='/writings'" style="border: solid 1px #E6ABED; width: 90%; background-image: url('assets/code_example2_pink.png')">
+    <h1 style = "color: #E6ABED;">writings</h1>
+    <div class="border-home" style="border-bottom: 1px solid #e6abed;"></div>
+    <p style="text-align: center; padding-bottom: 10px;">Are you a helpless romantic looking for helplessly romantic stories? Checkout some writings.</p>
+
+  </div>
+
+
+<div class="fixed" id="featured" onclick="location.href='/code'" style="border: solid 1px #CDD1FA; width: 90%; background-image: url('assets/code_example2_pink.png')">
+    <h1 style = "color: #cdd1fa;">code</h1>
+    <div class="border-home" style="border-bottom: 1px solid #cdd1fa;"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you in search of code that sometimes compiles? Well then you're in luck.</p>
 
   </div>
 
 
+<div class="fixed" id="featured" onclick="location.href='https://www.github.com/lbeckman314'" style="border: solid 1px #88CAD4; width: 90%; background-image: url('assets/code_example2_pink.png')">
+    <h1 style = "color: #88CAD4;">github / cgit</h1>
+    <div class="border-home" style="border-bottom: 1px solid #88cad4;"></div>
+    <p style="text-align: center; padding-bottom: 10px;">Are you a silly git? Checkout some git repos!</p>
+
+  </div>
+
+
+<div class="fixed" id="featured" onclick="location.href='/favorites'" style="border: solid 1px #595EF7; width: 90%; background-image: url('assets/code_example2_pink.png')">
+    <h1 style = "color: #595EF7;">favorites</h1>
+    <div class="border-home" style="border-bottom: 1px solid #595ef7;"></div>
+    <p style="text-align: center; padding-bottom: 10px;">Or are you yearnin' for soggy wet roses and malcontented kittens? Then here are a few of my favorite things!</p>
+
+  </div>
+
+
+
 </div>
-
-
-<br />
-<br />
-<br />
-<!-- <img class="title-image" style="width:50%" src="images/cabin.jpg" alt="Lake Erken Cabin" title="A cozy cabin by Lake Erken!"> -->
-
-<h1 class="highlight-pink"> :: Hello :) :: </h1>
-<br />
-
-<!-- <div class="headers"> -->
-<p class="headers">Are you new to this site? Let me <a href="/about">introduce myself!</a></p>
-
-<br />
-
-<p class="headers">Are you in search of code that sometimes compiles? Well then you're <a href="/code">in luck.</a></p>
-
-<br />
-
-<p class="headers">Are you a helpless romantic looking for helplessly romantic stories? Checkout <a href="/writings">writings.</a></p>
-
-
-<br />
-<hr />
-<br />
-
-<p class="headers">Or are you yearnin' for soggy wet roses and malcontented kittens? Then here are a few of my <a href="#">favorite things!</a></p>
-
-<!-- </div>-->
-<br />
-
-※ [Stand Still Stay Silent](https://www.sssscomic.com) :: a beautifully illustrated webcomic by Minna Sundberg. <br />
-※ [Wikström Photos](https://www.instagram.com/wikstromnaturfoto/) :: simply amazing photos of nature and the world. <br />
-※ [Wikipedia News](https://en.wikipedia.org/wiki/Portal:Current_events) :: news and current events. <br />
 
