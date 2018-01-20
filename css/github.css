@@ -6,19 +6,12 @@
         font-size: 100%;
         vertical-align: baseline;
         background: transparent;
+        box-sizing: border-box;
     }
 
 body {
-    /*! width: 90%; */
-    /*! background-color: #2a2730; */
     word-wrap: break-word;
 }
-
-.grid-item {
-  width: px;
-  padding-left: 1px;
-}
-
 
 nav ul, #footer ul, #header ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -26,11 +19,13 @@ nav ul, #footer ul, #header ul {
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, #footer ul li, #header ul li {
     display: inline;
     margin-right: 20px;
     color: #99979c;
 }
+
 #header a, #footer a {
     color: #FFFFFF;
 }
@@ -52,29 +47,38 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
+    padding-top: 2%;
 }
+
 p {
     font-size: 1.2em;
     line-height: 1.6em;
     color: #333;
 }
+
+p.code {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+
+p.headers {
+  background-color: #D3D2E0;
+  border: 1px #d5d5d5 solid;
+
+}
+
+
 #footer {
     font-size: .8em;
     color: #7a7a7a;
-    /*! background-color: #2a2730; */
-    /*! width: 100%; */
-    /*! padding-top: 10px; */
 }
 
 #header {
     font-size: .8em;
-    /*! color: #ff0303; */
     background-color: #2A2730;
-    /*! padding: 10px; */
-    /*! margin: 0px; */
-    color: ;
 }
-
 
 ul.posts {
     margin: 20px auto 40px;
@@ -89,6 +93,11 @@ ul.posts li {
   background-color: #2a2730;
   height:58px;
 }
+
+
+
+/***************************************************/
+
 
 /**
  * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
@@ -128,6 +137,9 @@ body {
 }
 
 
+/***************************************************/
+
+
 /* http://sass-lang.com/ */
 .popstripe
 {
@@ -136,6 +148,85 @@ background-size: 100%;
     background-image: linear-gradient(to right, #DB6ECF 0%, #DB6ECF 20%, #E6ABED 20%, #E6ABED 40%, #CDD1FA 40%, #CDD1FA 60%, #88CAD4 60%, #88CAD4 80%, #595EF7 80%, #595EF7 100%);
 }
 
+
+
+.heart {
+  color: #FF357A;
+}
+
+
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    width: 60%; 
+    padding-top: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fixed{
+    width: 30%;
+    padding-bottom: : 10%;
+    word-wrap: break-word;
+    margin: 20px;
+    border: solid 1px #d5d5d5; 
+}
+.flex-item {
+    flex-grow: 1;
+}
+
+
+.grid-item {
+  width: px;
+  padding-left: 1px;
+}
+
+
+
+/***************************************************/
+
+
+.border {
+  margin: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.border-home {
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 1px solid #db34ed;
+}
+
+hr {
+  border-bottom: 1px solid #123456;
+  border-top: 0px;
+}
+
+
+
+/***************************************************/
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@font-face {
+    font-family:"BoswellRegular";
+    src: url("assets/Boswell Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+
+/***************************************************/
 
 /**
  * Code formatting
@@ -166,163 +257,7 @@ pre {
 
 
 
-#comic-title {
-    background-color: #eef;
-    margin-left: 0px;
-    text-align: left;
-    margin-top: 10px;
-    border: 0px solid red;
-    font-size: 21px;
-    font-weight: bold;
-    width: 100%;
-    color: black;  //#eb3a1d;
-    display: block;
-}
 
-#comic-date {
-    padding-left: 0px;
-    padding-bottom: 20px;
-    text-align: left;
-    margin-top: 10px;
-    border: 0px solid red;
-    font-size: 17px;
-    width: 100%;
-    color: black;  //#eb3a1d;
-    display: block;
-}
-
-.heart {
-  color: #FF357A;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-#myTable a {
-    color: #4183c4;
-    text-decoration: none;
-}
-#myTable a:hover {
-    text-decoration: underline;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-#myInput {
-  background-image: url('/assets/octicons-5.0.1/lib/svg/octoface.svg');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
-
-#myTable {
-  border-collapse: collapse;
-  border: 1px solid #ddd;
-  font-size: 0.9em;
-  table-layout: fixed;
-  word-wrap: break-word;
-  width: 100%
-}
-
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 12px;
-  height: 70px;
-  vertical-align: middle;
-}
-
-#myTable tr {
-  border-bottom: 1px solid #ddd;
-}
-
-#myTable tr.header, #myTable tr:hover {
-  background-color: #f1f1f1;
-}
-
-#myTable tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-img.center {
-    display: block;
-    margin: 0 auto;
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.fixed{
-    width: 25%;
-    padding-bottom: : 10%;
-    word-wrap: break-word;
-    margin: 20px;
-}
-.flex-item {
-    flex-grow: 1;
-}
-
-#featured {
-  padding: 10px;
-}
-
-object {
-  vertical-align: middle;
-}
-
-.border {
-  margin: 6%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 1px solid #d5d5d5;
-}
-
-.border-home {
-  margin: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 1px solid #db34ed;
-}
-
-hr {
-  border-bottom: 1px solid #123456;
-  border-top: 0px;
-}
-
-
-@media only screen and (max-width: 500px) {
-  body {
-    background-color: blue;
-  }
-}
-
-@font-face {
-    font-family:"BoswellRegular";
-    src: url("assets/Boswell Regular.ttf") /* TTF file for CSS3 browsers */
-}
-
-
-p.headers {
-  /*background: lavender;
-  background-color: lightcyan;
-  background-color: #ffc2d7;
-  *//*background-color: transparent;*/
-  background-color: #D3D2E0;
-  border: 1px #d5d5d5 solid;
-
-}
 
 .highlight-pink {
     font-size: 55px;

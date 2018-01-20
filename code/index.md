@@ -4,66 +4,44 @@ title: code
 ---
 
 
-<!--<!DOCTYPE html>-->
-<html>
-<body>
-<style>
-
-a#title {
-    font-size: 1.6em;
-}
-
-</style>
-
-
-<br />
-
-
-<h1>Featured!</h1>
-
 
 <div class="container">
 
-<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
-    <a href="http://liambeckman.com/codeliber8/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+<div class="fixed" id="featured">
+    <a href="http://liambeckman.com/codeliber8/"><img class="center" src="/assets/images/circleCabin.png"></a>
     <div class="border"></div>
-    <p style="text-align: center; padding-bottom: 10px;">
-    <a id="title" href="https://lbeckman314.github.io/liber8">liber8</a></p>
-    <p style="text-align: center; padding-bottom: 10px;">This program helps organize your code and prose!</p>
+    <p class="code"><a id="title" href="https://lbeckman314.github.io/liber8">liber8</a></p>
+    <p class="code">This program helps organize your code and prose!</p>
 
   </div>
 
-<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%;">
-    <a href="http://liambeckman.com/codeitsAlive/"><img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+<div class="fixed" id="featured">
+    <a href="http://liambeckman.com/codeitsAlive/"><img class="center" src="/assets/images/circleCabin.png" ></a>
     <div class="border"></div>
-    <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/itsAlive">⚡ IT’S ALIVE!!! ⚡</a></p>
-    <p style="text-align: center; padding-bottom: 10px;">This program installs my favorite applications and packages on a fresh ubuntu or arch install!</p>
+    <p class="code"><a id="title" href="https://lbeckman314.github.io/itsAlive">⚡ IT’S ALIVE!!! ⚡</a></p>
+    <p class="code">This program installs my favorite applications and packages on a fresh ubuntu or arch install!</p>
 
   </div>
 
-  <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
-   <a href="http://liambeckman.com/coderedOctober/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <div class="fixed" id="featured">
+   <a href="http://liambeckman.com/coderedOctober/"><img class="center" src="/assets/images/circleCabin.png"></a>
     <div class="border"></div>
-    <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/redOctober">redOctober</a></p>
-    <p style="text-align: center; padding-bottom: 10px;">This program parses a subtitle file (.svg) and adjusts timestamps. <strike>so i can finally watch my torrent of <em>Smultronstället</em></strike></p>
+    <p class="code"><a id="title" href="https://lbeckman314.github.io/redOctober">redOctober</a></p>
+    <p class="code">This program parses a subtitle file (.svg) and adjusts timestamps. <strike>so i can finally watch my torrent of <em>Smultronstället</em></strike></p>
 
   </div>
 
-   <div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 30%">
-   <a href="http://liambeckman.com/codeiLoveHateHumanRobot/"> <img class="center" src="/images/circleCabin.png" style="width: 60%; padding-bottom: 10px;"></a>
+    <div class="fixed" id="featured">
+   <a href="http://liambeckman.com/codeiLoveHateHumanRobot/"><img class="center" src="/assets/images/circleCabin.png" ></a>
     <div class="border"></div>
-    <p style="text-align: center; padding-bottom: 10px;"><a id="title" href="https://lbeckman314.github.io/iLoveHateHumanRobot">I LOVE?HATE HUMAN?ROBOT</a></p>
-    <p style="text-align: center; padding-bottom: 10px;">This program helps you be on the <strike>right</strike> winning side of the eventual robopocalypse!</p>
+    <p class = "code"><a id="title" href="https://lbeckman314.github.io/iLoveHateHumanRobot">I LOVE?HATE HUMAN?ROBOT</a></p>
+    <p class = "code">This program helps you be on the <strike>right</strike> winning side of the eventual robopocalypse!</p>
 
   </div>
 
 
 </div>
 
-<br /><br /><br />
-
-</body>
-</html>
 
 
 # practice safe file downloads
