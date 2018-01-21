@@ -76,7 +76,7 @@ sha256sum -c sha256sums.txt 2>/dev/null | grep example_file.tar.gz
 
 <br />
 
-## shell
+## $ shell
 
 <br />
 ```sh
@@ -94,7 +94,7 @@ dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 
 <br />
 
-## vim
+## : vim
 
 <br />
 ```vim

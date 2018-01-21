@@ -159,7 +159,7 @@ background-size: 100%;
 img.center {
     display: block;
     margin: 0 auto;
-    width: 60%; 
+    width: 60%;
     padding-top: 10px;
 }
 
@@ -172,7 +172,7 @@ img.center {
     padding-bottom: : 10%;
     word-wrap: break-word;
     margin: 20px;
-    border: solid 1px #d5d5d5; 
+    border: solid 1px #d5d5d5;
 }
 .flex-item {
     flex-grow: 1;
