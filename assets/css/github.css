@@ -20,10 +20,14 @@ nav ul, #footer ul, #header ul {
     font-weight: bold;
 }
 
-nav ul li, #footer ul li, #header ul li {
+nav ul li, #footer ul li, #header ul li, ul li {
     display: inline;
     margin-right: 20px;
     color: #99979c;
+}
+
+ul.code, li.code {
+    text-align: center;
 }
 
 #header a, #footer a {
@@ -39,6 +43,54 @@ a:hover {
 
 }
 
+
+a.about {
+  color:#DB6ECF;
+}
+
+a.writings {
+  color:#E6ABED;
+}
+
+a.code {
+  color:#CDD1FA;
+}
+
+a.git {
+  color:#88CAD4;
+}
+
+a.favorites {
+  color:#595EF7;
+}
+
+a.about:hover {
+    text-decoration: underline;
+    text-decoration-color: #DB6ECf;
+}
+
+
+a.writings:hover {
+    text-decoration: underline;
+    text-decoration-color: #E6ABED;
+}
+
+a.code:hover {
+    text-decoration: underline;
+    text-decoration-color: #CDD1FA;
+}
+
+a.git:hover {
+    text-decoration: underline;
+    text-decoration-color: #88CAD4;
+}
+
+a.favorites:hover {
+    text-decoration: underline;
+    text-decoration-color: #595EF7;
+}
+
+
 #featured a {
   font-size: 1.2em;
 }
@@ -48,6 +100,16 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
     padding-top: 2%;
+}
+
+
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h2.code {
+    color: #595EF7;
 }
 
 p {
@@ -203,12 +265,35 @@ img.center {
   border-bottom: 1px solid #db34ed;
 }
 
+.border-code {
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 1px solid #d5d5d5;
+}
+
 hr {
   border-bottom: 1px solid #123456;
   border-top: 0px;
 }
 
+/* http://jmcglone.com/guides/github-pages/ */
 
+.step {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #4679BD;
+    color: #FFF;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 5.5px;
+    margin: 5px 15px 0px 0px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
 
 /***************************************************/
 

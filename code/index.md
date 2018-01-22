@@ -59,8 +59,10 @@ key fingerprint = `2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079`
 
 ```shell
 gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
-wget http://www.liambeckman.com/code/sha256sums.txt{,.asc}
-gpg --verify sha256sums.txt.asc
+wget http://www.liambeckman.com/code/sha256sums.txt{,.sig}
+# or if you prefer curl:
+# curl http://www.liambeckman.com/code/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
+gpg --verify sha256sums.txt.sig
 
 # gpg: Signature made Tue Oct 31 11:11:11 2017 PDT using RSA key ID AC1CC079
 # gpg: Good signature from "liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>" [unknown]

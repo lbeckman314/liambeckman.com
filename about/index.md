@@ -36,7 +36,11 @@ Source code can be found [here](https://github.com/lbeckman314/lbeckman314.githu
 
 ---
 
-> [pdf verison](/about/resume.pdf) \| [tex version](/about/resume.tex)
+<br />
+
+<div style="text-align: center; font-size: 1.5em;">
+<a href="/about/resume.pdf">pdf version</a> | <a href="/about/resume.tex">tex version</a>
+</div>
 
 LIAM BECKMAN
 ===
