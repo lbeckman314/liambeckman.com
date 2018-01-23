@@ -99,9 +99,11 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
-    padding-top: 2%;
 }
 
+h1.home-page {
+    padding-top: 2%;
+}
 
 h2 {
     font-size: 2em;
@@ -235,6 +237,8 @@ img.center {
     word-wrap: break-word;
     margin: 20px;
     border: solid 1px #d5d5d5;
+    margin-left: auto;
+    margin-right: auto;
 }
 .flex-item {
     flex-grow: 1;
