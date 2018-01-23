@@ -16,7 +16,17 @@ I'm a *cs student* who loves making things! Currently, I am working on getting t
 I hack away in vim for the writing, tmux for the multiplexing, and emacs for that magit goodness.
 <br/>
 <br/>
-Right now I'm running GalliumOS (Chromebook CB3-111), Arch (Thinkpad x230), and Void (Thinkpad x220).
+Right now I'm running GalliumOS (Chromebook CB3-111), Arch (Thinkpad x220), and Void (Thinkpad x230). One day I'll be brave enough to install Gentoo, but today is not that day...
+
+<br />
+
+My GPG Keys:
+
+signer = `liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com> `
+
+key id = `AC1CC079`
+
+key fingerprint = `2C81 8D24 2991 72E8 57D1 B235 144F 39B7 AC1C C079`
 
 <br />
 
@@ -24,6 +34,7 @@ Right now I'm running GalliumOS (Chromebook CB3-111), Arch (Thinkpad x230), and 
 
 <br />
 ## about the website:
+
 I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](jmcglone.com/guides/github-pages/).
 <br/>
 <br/>
@@ -37,18 +48,23 @@ Source code can be found [here](https://github.com/lbeckman314/lbeckman314.githu
 ---
 
 <br />
+<br />
 
-<div style="text-align: center; font-size: 1.5em;">
+<div style="text-align: center; font-size: 1.5em; color: grey;">
 <a href="/about/resume.pdf">pdf version</a> | <a href="/about/resume.tex">tex version</a>
 </div>
 
 LIAM BECKMAN
 ===
 
+<div style="text-align: center;">
+<p>lbeckman314@gmail.com | 503.593.8493 | liambeckman.com</p>
 
-> lbeckman314@gmail.com \| 503.593.8493 \| liambeckman.com
+<p>CS Student with a history of secrets and intrigue.</p>
+</div>
 
-> CS Student with a history of secrets and intrigue.
+<br />
+<br />
 
 EDUCATION
 ---
@@ -66,9 +82,11 @@ Scholar**
 <div style="float: right; clear: right; margin: 0px; color: grey">Expected graduation September 2019</div>
 <p style="color: grey" style="color:grey">Corvallis, OR</p>
 
+<br />
+<br />
+
 EXPERIENCE
 ---
-
 
 
 **Ski Equipment Technician November**
@@ -136,6 +154,8 @@ Conducted research involving botanical DNA isolation purification, sequencing, a
 
 • The 2014 University of Minnesota Undergraduate Symposium
 
+<br />
+<br />
 
 VOLUNTEER WORK
 ---
