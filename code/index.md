@@ -10,7 +10,7 @@ title: code
 <div class="fixed" id="featured">
     <a href="http://liambeckman.com/code/prime"><img class="center" src="/assets/images/circleCabin.png"></a>
     <div class="border"></div>
-    <p class="code"><a id="title" href="https://lbeckman314.github.io/liber8">prime</a></p>
+    <p class="code"><a id="title" href="https://liambeckman.com/code/prime">prime</a></p>
     <p class="code">Output the first million primes!</p>
 
   </div>
@@ -18,7 +18,7 @@ title: code
 <div class="fixed" id="featured">
     <a href="http://liambeckman.com/pi"><img class="center" src="/assets/images/circleCabin.png" ></a>
     <div class="border"></div>
-    <p class="code"><a id="title" href="https://lbeckman314.github.io/pi">pi</a></p>
+    <p class="code"><a id="title" href="https://liambeckman.com/code/pi">pi</a></p>
     <p class="code">Serve up delicious homemade pi!</p>
 
   </div>
@@ -26,7 +26,7 @@ title: code
     <div class="fixed" id="featured">
    <a href="http://liambeckman.com/code/palindrome/"><img class="center" src="/assets/images/circleCabin.png"></a>
     <div class="border"></div>
-    <p class="code"><a id="title" href="https://lbeckman315.github.io/palindrom">palindrome</a></p>
+    <p class="code"><a id="title" href="https://lbeckman315.github.io/code/palindrome">palindrome</a></p>
     <p class="code">Determine whether your string is a palindrome!</p>
 
   </div>
@@ -34,7 +34,7 @@ title: code
     <div class="fixed" id="featured">
    <a href="http://liambeckman.com/code/paren"><img class="center" src="/assets/images/circleCabin.png" ></a>
     <div class="border"></div>
-    <p class = "code"><a id="title" href="https://lbeckman314.github.io/iLoveHateHumanRobot">paren</a></p>
+    <p class = "code"><a id="title" href="https://liambeckman.com/code/paren">paren</a></p>
     <p class = "code">Check whether your string of parens are balanced or not! LISP without fear!</p>
 
   </div>
@@ -43,7 +43,7 @@ title: code
     <div class="fixed" id="featured">
    <a href="http://liambeckman.com/code/debi"><img class="center" src="/assets/images/circleCabin.png" ></a>
     <div class="border"></div>
-    <p class = "code"><a id="title" href="https://lbeckman314.github.io/debi">debi</a></p>
+    <p class = "code"><a id="title" href="https://liambeckman.com/code/debi">debi</a></p>
     <p class = "code">Convert your <b>DE</b>cimal to <b>BI</b>nary and vice versa! Helpful for Assembly courses.</p>
 
   </div>
@@ -51,7 +51,7 @@ title: code
     <div class="fixed" id="featured">
    <a href="http://liambeckman.com/code/paren"><img class="center" src="/assets/images/circleCabin.png" ></a>
     <div class="border"></div>
-    <p class = "code"><a id="title" href="https://lbeckman314.github.io/iLoveHateHumanRobot">paren</a></p>
+    <p class = "code"><a id="title" href="https://liambeckman.com/code/paren">paren</a></p>
     <p class = "code">Check whether your string of parens are balanced or not! Write LISP without fear!</p>
 
   </div>
