@@ -16,7 +16,7 @@ title: code
   </div>
 
 <div class="fixed" id="featured">
-    <a href="http://liambeckman.com/pi"><img class="center" src="/assets/images/circleCabin.png" ></a>
+    <a href="http://liambeckman.com/code/pi"><img class="center" src="/assets/images/circleCabin.png" ></a>
     <div class="border"></div>
     <p class="code"><a id="title" href="https://liambeckman.com/code/pi">pi</a></p>
     <p class="code">Serve up delicious homemade pi!</p>
@@ -26,7 +26,7 @@ title: code
     <div class="fixed" id="featured">
    <a href="http://liambeckman.com/code/palindrome/"><img class="center" src="/assets/images/circleCabin.png"></a>
     <div class="border"></div>
-    <p class="code"><a id="title" href="https://lbeckman315.github.io/code/palindrome">palindrome</a></p>
+    <p class="code"><a id="title" href="https://liambeckman.com/code/palindrome">palindrome</a></p>
     <p class="code">Determine whether your string is a palindrome!</p>
 
   </div>
