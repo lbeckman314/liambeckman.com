@@ -56,29 +56,43 @@ found in 31.0171 seconds
 <h2 class="code">Optional: verify file integrity</h2>
 
 ```shell
-# recieve gpg keys
+#---------------------------------------------------#
+# RECIEVE GPG KEYS
+#---------------------------------------------------#
+
 gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 
 #---------------------------------------------------#
+# RECIEVE SHA256SUMS
+#---------------------------------------------------#
 
-# recieve sha256sums
 wget http://www.liambeckman.com/code/sha256sums.txt{,.sig}
 # or if you prefer curl:
 # curl http://www.liambeckman.com/code/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
 
 #---------------------------------------------------#
+# VERIFY SHA256SUMS
+#---------------------------------------------------#
 
-# verify sha256sums
 gpg --verify sha256sums.txt.sig
 
 # gpg: Signature made Tue Oct 31 11:11:11 2017 PDT using RSA key ID AC1CC079
 # gpg: Good signature from "liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>" [unknown]
 
 #---------------------------------------------------#
+# VERIFY FILE INTEGRITY
+#---------------------------------------------------#
 
 sha256sum -c sha256sums.txt 2>/dev/null | grep prime.tar.gz
 
 # prime.tar.gz: OK
+
+#---------------------------------------------------#
+# OPTIONALLY REMOVE PUBLIC KEY
+#---------------------------------------------------#
+
+# to remove my public key from your public key ring, simply
+gpg --delete-key AC1CC079
 ```
 
 
