@@ -35,7 +35,7 @@ key fingerprint = `2C81 8D24 2991 72E8 57D1 B235 144F 39B7 AC1C C079`
 <br />
 ## about the website:
 
-I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](jmcglone.com/guides/github-pages/).
+I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
 <br/>
 <br/>
 This website is compiled with [Jekyll](https://jekyllrb.com/) and hosted on my Raspberry Pi (Raspbian on RPi3 Model B).
