@@ -51,9 +51,24 @@ found in 31.0171 seconds
 
 # Installation
 
+
+
 <br />
 
-<h2 class="code">Optional: verify file integrity</h2>
+
+<h2 class="code">1. Download</h2>
+
+```shell
+wget http://www.liambeckman.com/code/prime/prime.tar.gz
+# or if you prefer curl:
+# curl http://www.liambeckman.com/code/prime/prime.tar.gz -o prime.tar.gz
+```
+
+<br />
+
+
+
+<h2 class="code">Optional (but recommended): verify file integrity</h2>
 
 ```shell
 #---------------------------------------------------#
@@ -92,19 +107,7 @@ sha256sum -c sha256sums.txt 2>/dev/null | grep prime.tar.gz
 #---------------------------------------------------#
 
 # to remove my public key from your public key ring, simply
-gpg --delete-key AC1CC079
-```
-
-
-<br />
-
-
-<h2 class="code">1. Download</h2>
-
-```shell
-wget http://www.liambeckman.com/code/prime/prime.tar.gz
-# or if you prefer curl:
-# curl http://www.liambeckman.com/code/prime/prime.tar.gz -o prime.tar.gz
+# gpg --delete-key AC1CC079
 ```
 
 <br />
