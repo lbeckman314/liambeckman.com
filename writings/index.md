@@ -2,102 +2,82 @@
 layout: my-default
 ---
 
+
 <div class="container">
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="far-away-in-the-night-sky"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="far-away-in-the-night-sky">far away in the night sky</a></p>
             <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
         </div>
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="deep-in-the-heart-of-la-valle-nueve"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="deep-in-the-heart-of-la-valle-nueve">deep in the heart of la valle nueve</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">Deep in the heart of La Valle Nueve, in the year 1640...</p>
         </div>
 
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="motherland"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="motherland">motherland</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">I've forgotton the words to your song // the one you would sing me to sleep with...</p>
         </div>
 
 
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="beyond-your-maw"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="beyond-your-maw">beyond your maw</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">My last love stepped off the bus and onto the walk // among so many I did not know...</p>
         </div>
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="dancing-all-around"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
-        </div>
-
-
-        <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
-            <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="dancing-all-around">dancing all around</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">We are clockwork you and I // clockwork until the day we die...</p>
         </div>
 
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="looking-down-from-a-slumber"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
-        </div>
-
-        <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
-            <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="looking-down-from-a-slumber">looking down from a slumber</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">The wolves run heavy over my broken body // their claws cut deep as they...</p>
         </div>
 
 
-        <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+       <div class="fixed" id="featured">
+            <a href="shy-behaviors"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
-        </div>
-
-
-        <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
-            <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="shy-behaviors">shy behaviors</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">What does it sound like to you // when you brush your hair // behind your ear?...</p>
         </div>
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="time-and-space"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="time-and-space">time and space</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">Tell me about the times // when we would stay up late to watch // the stars...</p>
         </div>
 
 
         <div class="fixed" id="featured">
-            <a href="{{post.url}}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
+            <a href="wow-the-golden-man"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
-            <p style="text-align: center; padding-bottom: 10px;"><a href="{{ post.url }}">far away in the night sky</a></p>
-            <p style="text-align: center; padding-bottom: 10px;">Far away in the night sky // past the moon and past our stars...</p>
+            <p style="text-align: center; padding-bottom: 10px;"><a href="wow-the-golden-man">wow! (the golden man)</a></p>
+            <p style="text-align: center; padding-bottom: 10px;">Look! Look! There goes the man, the golden man, // the man so good at everything...</p>
         </div>
 
 
-</div>
+
+
+<!--
 
 <br /><br /><br />
 
@@ -152,4 +132,4 @@ layout: my-default
 
 <br />
 
-
+-->
