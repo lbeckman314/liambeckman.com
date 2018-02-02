@@ -7,3 +7,6 @@
 "Join me or die. Can you ask anything less?" -Mr. Sparkle (The Simpsons, Season 8 Episode 22, In Marge We Trust)
 "Louis, I think this is the beginning of a beautiful friendship" -Rick (Casablanca)
 "Yes but now our consciences are clean, and the healing can begin." - Bullwinkle (The Adventures of Rocky and Bullwinkle, 2000)
+"I ain't no clown town snitch baby!" -BMO (Adventure, Time)
+"Right on." -Theme from Shaft (Isaac Hayes)
+
