@@ -107,7 +107,7 @@ sha256sum -c sha256sums.txt 2>/dev/null | grep prime.tar.gz
 #---------------------------------------------------#
 
 # to remove my public key from your public key ring, simply
-# gpg --delete-key AC1CC079
+gpg --delete-key AC1CC079
 ```
 
 <br />

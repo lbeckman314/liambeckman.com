@@ -1,0 +1,21 @@
+---
+layout: my-default
+title: pebbles & shells
+description: I remember you playing at the beach // when you were five years old...
+img:
+url:
+---
+
+```
+I remember you playing at the beach
+    when you were five years old
+lookig for pebbles & shells
+        left behind by the waves
+The wind made funny shapes with you rhair
+    and carried you along teh shore
+as the ocean glistened around you
+    excited at meeting you for the very first time.
+
+"pebbles & shells"
+```
+
