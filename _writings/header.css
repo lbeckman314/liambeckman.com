@@ -1,0 +1,26 @@
+nav ul, #footer ul, #header ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+nav ul li, #footer ul li, #header ul li, ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #99979c;
+}
+
+
+
+#header a, #footer a {
+    color: #FFFFFF;
+}
+
+#header {
+    font-size: .8em;
+    background-color: #2A2730;
+}
+
+

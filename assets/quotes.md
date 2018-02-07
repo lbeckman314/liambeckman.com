@@ -1,4 +1,4 @@
-"Everybody betrayed me! I fed up with this world." -Johnny (*The Room*, Tommy Wiseau) 
+"Everybody betrayed me! I fed up with this world." -Johnny (*The Room*, Tommy Wiseau)
 "Mary wished to say something very sensible, but knew not how." -the narrator (*Pride and Prejudice*, Jane Austen)
 "I am shocked—shocked—to find that gambling is going on in here!" -Captain Louis Renault (*Casablanca*)
 "I only want to live in peace, plant potatoes and dream!" -Tove Jansson (Moomin: The Complete Tove Jansson Comic Strip, Vol. 1)
@@ -9,4 +9,3 @@
 "Yes but now our consciences are clean, and the healing can begin." - Bullwinkle (The Adventures of Rocky and Bullwinkle, 2000)
 "I ain't no clown town snitch baby!" -BMO (Adventure, Time)
 "Right on." -Theme from Shaft (Isaac Hayes)
-

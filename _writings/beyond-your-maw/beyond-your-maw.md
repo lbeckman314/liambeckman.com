@@ -1,6 +1,15 @@
+---
+layout: my-default
+url: beyond-your-maw
+img: /assets/png/initial.png
+title: beyond your maw
+desc: My last love stepped off the bus and onto the walk // among so many I did not know...
+date: 2011-10-10
+---
+
 ```
 My last love stepped off the bus and onto the walk
-with/among so many (people) I did not know
+among so many I did not know
 whom I recognized not
 
 

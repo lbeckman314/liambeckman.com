@@ -1,3 +1,10 @@
+---
+title: dancing all around
+desc: We are clockwork you and I // clockwork until the day we die...
+img:
+datea: 2016-11-10
+---
+
 ```
 We are clockwork you and I
 clockwork until the day we die.

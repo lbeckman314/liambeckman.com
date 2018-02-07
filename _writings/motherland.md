@@ -1,3 +1,13 @@
+---
+layout: my-default
+title: Motherland
+desc: I've forgotton the words to your song, // the one you would sing me to sleep with...
+img:
+url:
+---
+
+# Motherland
+
 ```
 I've forgotton the words to your song,
   the one you would sing me to sleep with,

@@ -15,6 +15,15 @@
 
             <div class="popstripe"></div>
 
+            <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">◂ {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} ▸</a>
+  {% endif %}
+</div>
 
             <div id="content">
             {{ content }}
