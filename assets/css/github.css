@@ -118,6 +118,9 @@ p {
     font-size: 1.2em;
     line-height: 1.6em;
     color: #333;
+    /*padding-top: 2%;
+    padding-bottom: 2%;
+    text-indent: 5%*/
 }
 
 p.code {
@@ -297,6 +300,31 @@ hr {
     padding-top: 5.5px;
     margin: 5px 15px 0px 0px;
     font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+/* http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html */
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  color: grey;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+}
+
+.PageNavigation .next {
+  text-align: right;
+  float: right;
+  padding-left: 4%;
 }
 
 /***************************************************/

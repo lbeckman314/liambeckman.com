@@ -1,9 +1,10 @@
 ---
 layout: my-default
 title: Wow! (the golden man)
-description: Look! Look! There goes the man, the golden man, // the man so good at everything...
+desc: Look! Look! There goes the man, the golden man, // the man so good at everything...
 image:
 url:
+datea: 2010-10-11
 ---
 
 ```

@@ -2,6 +2,7 @@
 layout: my-default
 title: deep in the heart of la valle nueve
 description: Deep in the heart of La Valle Nueve, in the year 1640, on the eve of the winter solstice...
+date: 2017-05-19
 ---
 
 # deep in the heart of la valle nueve

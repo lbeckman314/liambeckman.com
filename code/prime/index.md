@@ -14,7 +14,7 @@ title: code
     <li class="code"><a href="https://github.com/lbeckman314/prime/"><img src="/assets/svg/octicons-5.0.1/lib/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/prime.git">cgit</a></li>
     <li class="code"><a href="prime.zip"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a></li>
     <li class="code"><a href="prime.tar.gz"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></li>
-    <li class="code"><a href="../sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> sha256sums</a></li>
+    <li class="code"><a href="sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> sha256sums</a></li>
     </ul>
     <div class="border-code"></div>
     <p style="text-align: center; padding-bottom: 10px;">
@@ -55,13 +55,22 @@ found in 31.0171 seconds
 
 <br />
 
+<h2 class="code">0. Set variables</h2>
+
+```shell
+export PKG=prime    # name of file/package
+export TYP=cpp      # file extension/type
+export COM=g++      # compile command
+```
+
+<br />
 
 <h2 class="code">1. Download</h2>
 
 ```shell
-wget http://www.liambeckman.com/code/prime/prime.tar.gz
+wget http://www.liambeckman.com/code/$PKG/$PKG.tar.gz
 # or if you prefer curl:
-# curl http://www.liambeckman.com/code/prime/prime.tar.gz -o prime.tar.gz
+# curl http://www.liambeckman.com/code/$PKG/$PKG.tar.gz -o $PKG.tar.gz
 ```
 
 <br />
@@ -81,9 +90,9 @@ gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 # RECIEVE SHA256SUMS
 #---------------------------------------------------#
 
-wget http://www.liambeckman.com/code/sha256sums.txt{,.sig}
+wget http://www.liambeckman.com/code/$PKG/sha256sums.txt{,.sig}
 # or if you prefer curl:
-# curl http://www.liambeckman.com/code/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
+# curl http://www.liambeckman.com/code/$PKG/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
 
 #---------------------------------------------------#
 # VERIFY SHA256SUMS
@@ -98,9 +107,9 @@ gpg --verify sha256sums.txt.sig
 # VERIFY FILE INTEGRITY
 #---------------------------------------------------#
 
-sha256sum -c sha256sums.txt 2>/dev/null | grep prime.tar.gz
+sha256sum -c sha256sums.txt 2>/dev/null | grep $PKG.tar.gz
 
-# prime.tar.gz: OK
+# $PKG.tar.gz: OK
 
 #---------------------------------------------------#
 # OPTIONALLY REMOVE PUBLIC KEY
@@ -116,9 +125,9 @@ gpg --delete-key AC1CC079
 
 
 ```shell
-tar -zxvf prime.tar.gz
+tar -zxvf $PKG.tar.gz
 # or if you downloaded the zip file
-# unzip prime.zip
+# unzip $PKG.zip
 ```
 
 <br />
@@ -127,8 +136,8 @@ tar -zxvf prime.tar.gz
 
 
 ```shell
-g++ prime/src/prime.cpp -o prime/src/prime
-./prime/src/prime
+$COM $PKG/src/$PKG.$TYP -o $PKG/src/$PKG
+./$PKG/src/$PKG
 ```
 
 <br />
@@ -141,6 +150,6 @@ g++ prime/src/prime.cpp -o prime/src/prime
 <h2 class="code">1. Delete the directory/folder.</h2>
 
 ```shell
-rm -rfI prime
+rm -rfI $PKG
 ```
 

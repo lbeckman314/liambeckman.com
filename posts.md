@@ -1,20 +1,25 @@
 ---
 layout: my-default
-permalink: /writings/
 ---
 
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <div class="container">
 
 
-
-{% assign writings-sorted = site.writings | sort: "date" | reverse %}
-{% for writing in writings-sorted %}
+{% for writing in site.writings %}
         <div class="fixed" id="featured">
             <a href="{{ writing.url }}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
             <div class="border"></div>
             <p class="code"><a href="{{ writing.url }}">{{ writing.title }}</a></p>
-            <p class="code">{{ writing.desc }}</p>
+            <p class="code">{{ writing.description }}</p>
         </div>
 
 {% endfor %}

@@ -36,6 +36,9 @@ exclude:
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+permalink: /:slug
+layout: my-default
+
 # https://jekyllrb.com/docs/collections/
 collections:
     writings:
@@ -43,4 +46,7 @@ collections:
         label: mywritings
         layout: my-default
         permalink: /:collection/:path
-
+    gallery:
+        output: true
+        layout: my-default
+        permalink: /:collection/:path

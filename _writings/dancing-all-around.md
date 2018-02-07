@@ -1,9 +1,8 @@
 ---
-layout: my-default
 title: dancing all around
-description: We are clockwork you and I // clockwork until the day we die...
+desc: We are clockwork you and I // clockwork until the day we die...
 img:
-url:
+datea: 2016-11-10
 ---
 
 ```

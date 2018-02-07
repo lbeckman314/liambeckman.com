@@ -109,9 +109,9 @@ gpg --verify sha256sums.txt.sig
 # VERIFY FILE INTEGRITY
 #---------------------------------------------------#
 
-sha256sum -c sha256sums.txt 2>/dev/null | grep prime.tar.gz
+sha256sum -c sha256sums.txt 2>/dev/null | grep EXAMPLE.tar.gz
 
-# prime.tar.gz: OK
+# EXAMPLE.tar.gz: OK
 
 #---------------------------------------------------#
 # OPTIONALLY REMOVE PUBLIC KEY

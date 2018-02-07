@@ -1,7 +1,7 @@
 ---
 layout: my-default
 title: pebbles & shells
-description: I remember you playing at the beach // when you were five years old...
+desc: I remember you playing at the beach // when you were five years old...
 img:
 url:
 ---

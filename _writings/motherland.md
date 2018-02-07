@@ -1,7 +1,7 @@
 ---
 layout: my-default
 title: Motherland
-description: I've forgotton the words to your song, // the one you would sing me to sleep with...
+desc: I've forgotton the words to your song, // the one you would sing me to sleep with...
 img:
 url:
 ---

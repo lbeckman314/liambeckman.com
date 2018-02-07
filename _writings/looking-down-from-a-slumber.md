@@ -1,9 +1,10 @@
 ---
 layout: my-default
 title: Looking down from a slumber
-description: The wolves run heavy over my broken body // their claws cut deep as they // run to their cubs, their caves to sleep...
+desc: The wolves run heavy over my broken body // their claws cut deep as they // run to their cubs, their caves to sleep...
 img:
 url:
+date: 2018-10-10
 ---
 
 ```
