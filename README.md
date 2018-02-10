@@ -35,6 +35,7 @@ bundle exec jekyll serve
 
 # then you can change the html/css files in the myblog directory to suit your tastes!
 
-# hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
+# hosting is a whole 'nother beast, but services like github pages
+# and gitlab pages make free hosting relatively easier.
 
 ```
