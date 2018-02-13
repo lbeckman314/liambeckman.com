@@ -28,7 +28,7 @@ Right now I'm running GalliumOS (Chromebook CB3-111), Arch (Thinkpad x230), and 
 I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](jmcglone.com/guides/github-pages/).
 <br/>
 <br/>
-This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Raspberry Pi (Raspbian on RPi3 Model B).
+This website is built with [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and SSL encrypted/certified with [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/).
 <br/>
 <br/>
 Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io). Be forwarn! This site is written in an ungodly mix of markdown and html. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
@@ -59,9 +59,11 @@ bundle exec jekyll serve
 
 # Now browse to http://localhost:4000
 
-# then you can change the html/css files in the myblog directory to suit your tastes!
+# then you can change the html/css files in your website directory (e.g. myblog/) to suit your tastes!
+# some cool templates → https://html5up.net/
 
 # hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
+# self-hosting with apache and/or nginx is another cool possibility!
 
 ```
 
