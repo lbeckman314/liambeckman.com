@@ -74,7 +74,7 @@ bundle exec jekyll serve
 ---
 
 <br />
-<br />
+<br id="resume"/>
 
 <div style="text-align: center; font-size: 1.5em; color: grey;">
 <a href="/about/resume.pdf">pdf version</a> | <a href="/about/resume.tex">tex version</a>
