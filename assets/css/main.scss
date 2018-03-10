@@ -166,6 +166,37 @@ a.secret {
     float: right;
 }
 
+
+/* div */
+
+
+div.about {
+    border: solid 1px #DB6ecf;
+    width: 90%;
+    background-image: url('/assets/png/code_example2_pink.png')
+}
+div.writings {
+    border: solid 1px #E6ABED;
+    width: 90%;
+    background-image: url('/assets/png/code_example2_pink.png')
+}
+div.code {
+    border: solid 1px #CDD1FA;
+    width: 90%;
+    background-image: url('/assets/png/code_example2_pink.png')
+}
+div.git {
+    border: solid 1px #88CAD4;
+    width: 90%;
+    background-image: url('/assets/png/code_example2_pink.png')
+}
+div.favorites {
+    border: solid 1px #595EF7;
+    width: 90%;
+    background-image: url('/assets/png/code_example2_pink.png')
+}
+
+
 /* headers */
 
 h1 {
@@ -277,7 +308,7 @@ img.center {
 .fixed{
     width: 30%;
     word-wrap: break-word;
-    margin: 20px;
+    margin: 3%;
     border: solid 1px $grey-light;
     margin-left: auto;
     margin-right: auto;
@@ -333,6 +364,49 @@ img.center {
   float: right;
   padding-left: 4%;
 }
+
+
+
+/***************************************************/
+/* HACK TO HAVE THE FOOTER STAY AT THE BOTTOM
+/***************************************************/
+
+
+/**
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ *
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ */
+html {
+  height: 100%;
+}
+
+body {
+  padding-bottom:58px;
+  height:100%;
+}
+
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+#content {
+  padding:4%; /* Height of the footer element */
+}
+
+#footer {
+  width:100%;
+  height:0px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  font-size: .8em;
+}
+
 
 /***************************************************/
 /* RESPONSIVE DESIGN
@@ -420,8 +494,42 @@ ul.sidenav li:hover {
     li.quote {
         white-space: pre-line;
     }
- #footer ul li {
 
+
+    .fixed {
+        width: 100%;
+        margin: 2%;
+    }
+
+    #content {
+        padding: 4%;
+    }
+
+
+    div.about {
+        border: solid 1px #DB6ecf;
+        width: 100%;
+        background-image: none;
+    }
+    div.writings {
+        border: solid 1px #E6ABED;
+        width: 100%;
+        background-image: none;
+    }
+    div.code {
+        border: solid 1px #CDD1FA;
+        width: 100%;
+        background-image: none;
+    }
+    div.git {
+        border: solid 1px #88CAD4;
+        width: 100%;
+        background-image: none;
+    }
+    div.favorites {
+        border: solid 1px #595EF7;
+        width: 100%;
+        background-image: none;
     }
 }
 
@@ -435,46 +543,6 @@ ul .icon-bar {
     width: 2em;
     height: 0.3em;
     background-color: white;
-}
-
-/***************************************************/
-/* HACK TO HAVE THE FOOTER STAY AT THE BOTTOM
-/***************************************************/
-
-
-/**
- * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
- *
- * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
- * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
- *
- * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
- */
-html {
-  height: 100%;
-}
-
-body {
-  padding-bottom:58px;
-  height:100%;
-}
-
-#wrapper {
-  min-height:100%;
-  position:relative;
-}
-
-#content {
-  padding:4%; /* Height of the footer element */
-}
-
-#footer {
-  width:100%;
-  height:0px;
-  position:absolute;
-  bottom:0;
-  left:0;
-  font-size: .8em;
 }
 
 

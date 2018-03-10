@@ -8,17 +8,14 @@ title: hello!
 
 <div class="container">
 
-<div class="fixed" id="featured" onclick="location.href='/about'" style="border: solid 1px #DB6ecf; width: 90%; background-image: url('assets/png/code_example2_pink.png')">
+<div class="fixed about"  id="featured" onclick="location.href='/about'"> 
     <h1 class="home-page"><a href ="/about" class="about">about</a></h1>
     <div class="border-home" style="border-bottom: 1px solid #db6ecf;"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you new to this site? Let me introduce myself!</p>
 
   </div>
 
-<br />
-<br />
-
-<div class="fixed" id="featured" onclick="location.href='/writings'" style="border: solid 1px #E6ABED; width: 90%; background-image: url('assets/png/code_example2_pink.png')">
+<div class="fixed writings" id="featured" onclick="location.href='/writings'"> 
     <h1 class="home-page"><a href = "/writings" class="writings">writings</a></h1>
     <div class="border-home" style="border-bottom: 1px solid #e6abed;"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you a helpless romantic looking for helplessly romantic stories? Checkout some writings.</p>
@@ -26,7 +23,7 @@ title: hello!
   </div>
 
 
-<div class="fixed" id="featured" onclick="location.href='/code'" style="border: solid 1px #CDD1FA; width: 90%; background-image: url('assets/png/code_example2_pink.png')">
+<div class="fixed code" id="featured" onclick="location.href='/code'"> 
     <h1 class="home-page"><a href = "/code" class="code">code</a></h1>
     <div class="border-home" style="border-bottom: 1px solid #cdd1fa;"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you in search of code that sometimes compiles? Well then you're in luck.</p>
@@ -34,7 +31,7 @@ title: hello!
   </div>
 
 
-<div class="fixed" id="featured" onclick="location.href='https://www.github.com/lbeckman314'" style="border: solid 1px #88CAD4; width: 90%; background-image: url('assets/png/code_example2_pink.png')">
+<div class="fixed git" id="featured" onclick="location.href='https://www.github.com/lbeckman314'">
     <h1 class="home-page" style="color:#678CFA;">
     <a href = "https://www.github.com/lbeckman314" class="git">github</a> / <a href="https://git.liambeckman.com" class="git">cgit</a>
     </h1>
@@ -44,7 +41,7 @@ title: hello!
   </div>
 
 
-<div class="fixed" id="featured" onclick="location.href='/favorites'" style="border: solid 1px #595EF7; width: 90%; background-image: url('assets/png/code_example2_pink.png')">
+<div class="fixed favorites" id="featured" onclick="location.href='/favorites'">
     <h1 class="home-page"><a href = "/favorites" class="favorites">favorites</a></h1>
     <div class="border-home" style="border-bottom: 1px solid #595ef7;"></div>
     <p style="text-align: center; padding-bottom: 10px;">Or are you yearnin' for soggy wet roses and malcontented kittens? Then here are a few of my favorite things!</p>
