@@ -1,6 +1,6 @@
 ---
 layout: my-default
-title: hello :)
+title: hello!
 ---
 
 
@@ -35,7 +35,7 @@ title: hello :)
 
 
 <div class="fixed" id="featured" onclick="location.href='https://www.github.com/lbeckman314'" style="border: solid 1px #88CAD4; width: 90%; background-image: url('assets/png/code_example2_pink.png')">
-    <h1 class="home-page" style="color:#88cad4;">
+    <h1 class="home-page" style="color:#678CFA;">
     <a href = "https://www.github.com/lbeckman314" class="git">github</a> / <a href="https://git.liambeckman.com" class="git">cgit</a>
     </h1>
     <div class="border-home" style="border-bottom: 1px solid #88cad4;"></div>

@@ -57,24 +57,24 @@ a:hover {
   text-decoration-color: #FF357A; }
 
 a.about {
-  color: #FF71E8;
-  text-decoration-color: #FF71E8; }
+  color: #DB37C4;
+  text-decoration-color: #DB37C4; }
 
 a.writings {
-  color: #BE6EFC;
-  text-decoration-color: #BE6EFC; }
+  color: #ED68D9;
+  text-decoration-color: #ED68D9; }
 
 a.code {
-  color: #00D4A6;
-  text-decoration-color: #00D4A6; }
+  color: #49CCD4;
+  text-decoration-color: #49CCD4; }
 
 a.git {
-  color: #67CDFF;
-  text-decoration-color: #67CDFF; }
+  color: #678CFA;
+  text-decoration-color: #678CFA; }
 
 a.favorites {
-  color: #636FF4;
-  text-decoration-color: #636FF4; }
+  color: #4635F7;
+  text-decoration-color: #4635F7; }
 
 #featured a {
   font-size: 1.2em; }
@@ -146,14 +146,14 @@ hr {
 
 .site-footer {
   background-color: #2a2730;
-  height: auto; }
+  height: 4.5em; }
 
 /* decorative splash of color at top of page */
 /* http://sass-lang.com/ */
 .popstripe {
   height: .25em;
   background-size: 100%;
-  background-image: linear-gradient(to right, #FF71E8 0%, #FF71E8 20%, #BE6EFC 20%, #BE6EFC 40%, #00D4A6 40%, #00D4A6 60%, #67CDFF 60%, #67CDFF 80%, #636FF4 80%, #636FF4 100%); }
+  background-image: linear-gradient(to right, #DB37C4 0%, #DB37C4 20%, #ED68D9 20%, #ED68D9 40%, #49CCD4 40%, #49CCD4 60%, #678CFA 60%, #678CFA 80%, #4635F7 80%, #4635F7 100%); }
 
 .heart {
   color: #FF357A; }
