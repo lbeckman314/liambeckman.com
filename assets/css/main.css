@@ -82,11 +82,11 @@ a.favorites {
 #header a, #footer a {
   color: #FFFFFF; }
 
-a.header::after {
+li.header::after {
   content: " )";
   color: grey; }
 
-a.header::before {
+li.header::before {
   content: "( ";
   color: grey; }
 
@@ -235,10 +235,10 @@ img.center {
   .site-footer {
     height: 9em; } }
 @media only screen and (max-width: 620px) {
-  #header a::after {
+  #header li::after {
     content: none; }
 
-  #header a::before {
+  #header li::before {
     content: none; } }
 @font-face {
   font-family: "BoswellRegular";
