@@ -95,27 +95,27 @@ a.secret {
 
 /* div */
 div.about {
-  border: solid 1px #DB6ecf;
+  border: solid 1px #DB37C4;
   width: 90%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.writings {
-  border: solid 1px #E6ABED;
+  border: solid 1px #ED68D9;
   width: 90%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.code {
-  border: solid 1px #CDD1FA;
+  border: solid 1px #49CCD4;
   width: 90%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.git {
-  border: solid 1px #88CAD4;
+  border: solid 1px #678CFA;
   width: 90%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.favorites {
-  border: solid 1px #595EF7;
+  border: solid 1px #4635F7;
   width: 90%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
@@ -123,17 +123,19 @@ div.favorites {
 h1 {
   font-size: 3em;
   font-family: Helvetica, Ariral, Sans-Serif;
-  text-align: center; }
+  text-align: center;
+  color: #2a2730; }
 
 h1.home-page {
   padding-top: 2%; }
 
 h2 {
   font-size: 2em;
-  font-family: Helvetica, Ariral, Sans-Serif; }
+  font-family: Helvetica, Ariral, Sans-Serif;
+  color: #2a2730; }
 
 h2.code {
-  color: #595EF7; }
+  /*color: #595EF7;*/ }
 
 /* lists */
 nav ul, #footer ul, #header ul {
@@ -147,7 +149,8 @@ nav ul li, #footer ul li, #header ul li, ul li {
   color: #99979c; }
 
 ul.code, li.code {
-  text-align: center; }
+  text-align: center;
+  padding: 2%; }
 
 ul.posts {
   margin: 20px auto 40px;
@@ -187,8 +190,8 @@ hr {
 img.center {
   display: block;
   margin: 0 auto;
-  width: 60%;
-  padding-top: 10px; }
+  /*width: 20%;*/
+  padding: 2%; }
 
 /* boxed items like in code and writings */
 .container {
@@ -340,35 +343,43 @@ body {
 
   .fixed {
     width: 100%;
-    margin: 2%; }
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%; }
 
   #content {
     padding: 4%; }
 
   div.about {
-    border: solid 1px #DB6ecf;
     width: 100%;
     background-image: none; }
 
   div.writings {
-    border: solid 1px #E6ABED;
     width: 100%;
     background-image: none; }
 
   div.code {
-    border: solid 1px #CDD1FA;
     width: 100%;
     background-image: none; }
 
   div.git {
-    border: solid 1px #88CAD4;
     width: 100%;
     background-image: none; }
 
   div.favorites {
-    border: solid 1px #595EF7;
     width: 100%;
-    background-image: none; } }
+    background-image: none; }
+
+  h1 {
+    font-size: 2.5em; }
+
+  img.center {
+    width: 70%;
+    padding: 5%; }
+
+  ul.code, li.code {
+    display: inherit; } }
 ul .icon-bar {
   margin-top: .375em;
   margin-bottom: .375em;

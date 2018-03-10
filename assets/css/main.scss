@@ -171,27 +171,27 @@ a.secret {
 
 
 div.about {
-    border: solid 1px #DB6ecf;
+    border: solid 1px $pop-1;
     width: 90%;
     background-image: url('/assets/png/code_example2_pink.png')
 }
 div.writings {
-    border: solid 1px #E6ABED;
+    border: solid 1px $pop-2;
     width: 90%;
     background-image: url('/assets/png/code_example2_pink.png')
 }
 div.code {
-    border: solid 1px #CDD1FA;
+    border: solid 1px $pop-3;
     width: 90%;
     background-image: url('/assets/png/code_example2_pink.png')
 }
 div.git {
-    border: solid 1px #88CAD4;
+    border: solid 1px $pop-4;
     width: 90%;
     background-image: url('/assets/png/code_example2_pink.png')
 }
 div.favorites {
-    border: solid 1px #595EF7;
+    border: solid 1px $pop-5;
     width: 90%;
     background-image: url('/assets/png/code_example2_pink.png')
 }
@@ -203,6 +203,7 @@ h1 {
     font-size: 3em;
     font-family: $font-stack;
     text-align: center;
+    color: #2a2730;
 }
 
 h1.home-page {
@@ -212,10 +213,11 @@ h1.home-page {
 h2 {
     font-size: 2em;
     font-family: $font-stack;
+    color: #2a2730;
 }
 
 h2.code {
-    color: #595EF7;
+    /*color: #595EF7;*/
 }
 
 
@@ -235,6 +237,7 @@ nav ul li, #footer ul li, #header ul li, ul li {
 
 ul.code, li.code {
     text-align: center;
+    padding: 2%;
 }
 
 ul.posts {
@@ -294,8 +297,8 @@ background-size: 100%;
 img.center {
     display: block;
     margin: 0 auto;
-    width: 60%;
-    padding-top: 10px;
+    /*width: 20%;*/
+    padding: 2%;
 }
 
 
@@ -498,7 +501,10 @@ ul.sidenav li:hover {
 
     .fixed {
         width: 100%;
-        margin: 2%;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
 
     #content {
@@ -507,29 +513,38 @@ ul.sidenav li:hover {
 
 
     div.about {
-        border: solid 1px #DB6ecf;
         width: 100%;
         background-image: none;
     }
     div.writings {
-        border: solid 1px #E6ABED;
         width: 100%;
         background-image: none;
     }
     div.code {
-        border: solid 1px #CDD1FA;
         width: 100%;
         background-image: none;
     }
     div.git {
-        border: solid 1px #88CAD4;
         width: 100%;
         background-image: none;
     }
     div.favorites {
-        border: solid 1px #595EF7;
         width: 100%;
         background-image: none;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    img.center {
+        width: 70%;
+        padding: 5%;
+    }
+
+
+    ul.code, li.code {
+        display: inherit;
     }
 }
 
