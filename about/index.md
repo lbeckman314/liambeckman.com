@@ -31,7 +31,7 @@ I built this website as a way to store and present my various works and projects
 This website is built with [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and SSL encrypted/certified with [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/).
 <br/>
 <br/>
-Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io). Be forwarn! This site is written in an ungodly mix of markdown and html. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
+The [source code](https://github.com/lbeckman314/lbeckman314.github.io) for the website is yours. Feel free to copy and paste, fork, clone, or anything you like. Be forwarn! This site is written in an ungodly mix of markdown and html. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
 
 <br/>
 
@@ -174,11 +174,11 @@ University of Minnesota; Minneapolis, MN May—August 2014; 40 hours per week
 
 Conducted research involving botanical DNA isolation purification, sequencing, and analysis; examined the effect of personally designed genetic markers had on a tropical tree's evolution/phylogeny; presented results and conclusions at the following scientific conferences:
 
-• The 2015 Emerging Researchers National Conference in STEM hosted in Washington D.C.
+※ The 2015 Emerging Researchers National Conference in STEM hosted in Washington D.C.
 
-• The 2015 University of Oregon Undergraduate Research Symposium
+※ The 2015 University of Oregon Undergraduate Research Symposium
 
-• The 2014 University of Minnesota Undergraduate Symposium
+※ The 2014 University of Minnesota Undergraduate Symposium
 
 <br />
 <br />
@@ -186,6 +186,6 @@ Conducted research involving botanical DNA isolation purification, sequencing, a
 VOLUNTEER WORK
 ---
 
-• Welches Elementary School: Developed reading and comprehension skills for elementary students as a STAR Reading voluteer. November 2016—March 2017
+※ Welches Elementary School: Developed reading and comprehension skills for elementary students as a STAR Reading voluteer. <div style="float: right; clear: right; margin: 0px; color: grey">November 2016—March 2017</div>
 
-• Multnomah Education Service District's Outdoor School Program: Served as a Student Leader in the Outdoor School Program by leading a cabin of twenty students per week and teaching the basics of ecology, zoology, and geology. April 2011—October 2012
+※ Multnomah Education Service District's Outdoor School Program: Served as a Student Leader in the Outdoor School Program by leading a cabin of twenty students per week and teaching the basics of ecology, zoology, and geology. <div style="float: right; clear: right; margin: 0px; color: grey">April 2011—October 2012</div>
