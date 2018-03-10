@@ -7,5 +7,9 @@
 "Join me or die. Can you ask anything less?" -Mr. Sparkle (The Simpsons, Season 8 Episode 22, In Marge We Trust)
 "Louis, I think this is the beginning of a beautiful friendship" -Rick (Casablanca)
 "Yes but now our consciences are clean, and the healing can begin." - Bullwinkle (The Adventures of Rocky and Bullwinkle, 2000)
-"I ain't no clown town snitch baby!" -BMO (Adventure, Time)
+"I ain't no clown town snitch baby!" -BMO (Adventure Time)
 "Right on." -Theme from Shaft (Isaac Hayes)
+"You're constant harrassment of the female gender makes me sick..." -Jake the Dog (Adventure Time)
+"...you must look within yourself to save yourself from your other self. Only then will your true self reveal itself." -Zuko (The Last Airbender)
+
+
