@@ -1,6 +1,6 @@
 ---
 layout: my-default
-title: hello
+title: hello :)
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: my-default
-title: liam beckman / home
+title: favorites
 ---
 
 ※ [Stand Still Stay Silent](https://www.sssscomic.com) :: a beautifully illustrated webcomic by Minna Sundberg. <br />

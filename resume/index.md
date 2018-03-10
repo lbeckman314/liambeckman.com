@@ -1,5 +1,6 @@
 ---
 layout: my-default
+title: resume
 ---
 
 <link rel="stylesheet" href="/resume/resume.css">
