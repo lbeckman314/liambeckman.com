@@ -153,12 +153,12 @@ a.favorites {
     color: $white;
 }
 
-a.header::after {
+li.header::after {
     content: " )";
     color: grey;
 }
 
-a.header::before {
+li.header::before {
     content: "( ";
     color: grey;
 }
@@ -290,7 +290,6 @@ img.center {
 
 
 
-
 /* borders */
 .border {
   margin: 6%;
@@ -370,11 +369,11 @@ img.center {
 
 @media only screen and (max-width: 620px) {
 
-    #header a::after {
+    #header li::after {
         content: none;
     }
 
-    #header a::before {
+    #header li::before {
         content: none;
     }
 
