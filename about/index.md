@@ -4,7 +4,7 @@ title: about
 ---
 
 # hello! i'm liam. <object type="image/svg+xml" data="../assets/svg/iconSmile5Optimized.svg"></object>
-<!-- <img style="width:65%; padding-left:10%; padding-top:1%;" src="/images/nerfHerder4.png"> -->
+<!-- <img> -->
 <p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 2em">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
 
 
@@ -98,15 +98,15 @@ EDUCATION
 **Bachelor of Science, Biology; University of Oregon Presidential
 Scholar**
 
-<div style="float: right; clear: right; margin: 0px; color: grey">Graduated June 2017</div>
-<p style="color: grey" style="color:grey">Eugene, OR</p>
+<div class="sub">Graduated June 2017</div>
+<p class="sub">Eugene, OR</p>
 
 <br />
 
 **Bachelor of Science, Computer Science; Oregon State University**
 
-<div style="float: right; clear: right; margin: 0px; color: grey">Expected graduation September 2019</div>
-<p style="color: grey" style="color:grey">Corvallis, OR</p>
+<div class="sub">Expected graduation September 2019</div>
+<p class="sub">Corvallis, OR</p>
 
 <br />
 <br />
@@ -117,8 +117,8 @@ EXPERIENCE
 
 **Ski Equipment Technician November**
 
-<div style="float: right; clear: right; margin: 0px; color: grey">Graduated June 2017</div>
-<p style="color: grey">Eugene, OR</p>
+<div class="sub">Graduated June 2017</div>
+<p class="sub">Eugene, OR</p>
 
 Assissted customers of all ages in finding and fitting outdoor gear.
 Restocked store equipment. Adjusted ski and snowboards for customers and
@@ -130,8 +130,8 @@ planning and rentals.
 
 **Lab Prep Assistant**
 
-<div style="float: right; clear: right; margin: 0px; color: grey">September—June. 2015; 5 hours per week</div>
-<p style="color: grey">University of Oregon Biology Lab; Eugene, OR</p>
+<div class="sub">September—June. 2015; 5 hours per week</div>
+<p class="sub">University of Oregon Biology Lab; Eugene, OR</p>
 
 Prepared materials and procedures for The Honors Biology Lab curriculum at the University of Oregon. Relevant responsibilities included making and curing petri plate solutions, evaluating states and types of bacterial growth, and studying the processes and mechanisms of cytological phenotypic expression and function.
 
@@ -139,18 +139,8 @@ Prepared materials and procedures for The Honors Biology Lab curriculum at the U
 
 **Student Researcher—Ecology and Restoration**
 
-<div style="float: right; clear: right; margin: 0px; color: grey">August 2013; 40 hours per week</div>
-<p style="color: grey">H.J. Andrews Experimental Forest; Blue River, OR</p>
-
-Analyzed forest networks and plant response to fire disturbances; surveyed plant communities in experimental sub-alpine meadows as part of ongoing research; published study in Restoration Ecology: The Journal of the Society for Ecological Restoration (*Vegetation Recovery in Slash-Pile Scars Following Conifer Removal in a Grassland-Restoration Experiment*, November 2014).
-
-
-<br />
-
-**Student Researcher—Ecology and Restoration**
-
-<div style="float: right; clear: right; margin: 0px; color: grey">August 2013; 40 hours per week</div>
-<p style="color: grey">H.J. Andrews Experimental Forest; Blue River, OR</p>
+<div class="sub">August 2013; 40 hours per week</div>
+<p class="sub">H.J. Andrews Experimental Forest; Blue River, OR</p>
 
 Analyzed forest networks and plant response to fire disturbances; surveyed plant communities in experimental sub-alpine meadows as part of ongoing research; published study in Restoration Ecology: The Journal of the Society for Ecological Restoration (*Vegetation Recovery in Slash-Pile Scars Following Conifer Removal in a Grassland-Restoration Experiment*, November 2014).
 
@@ -159,18 +149,17 @@ Analyzed forest networks and plant response to fire disturbances; surveyed plant
 
 **Student Researcher—Response to Climate Change**
 
-<div style="float: right; clear: right; margin: 0px; color: grey">June—August 2012; 40 hours per week</div>
-<p style="color: grey">Eugene, OR</p>
+<div class="sub">June—August 2012; 40 hours per week</div>
+<p class="sub">Eugene, OR</p>
 
 Researched the effects of climate change on northwest plant communities to determine how carbon may be allocated under future climate scenarios; measured and analyzed biomass samples collected in situ from experimental grasslands with experimentally manipulated temperature and precipitation levels; presented my findings at The 2012 Apprenticeships in Science and Engineering (ASE) Symposium hosted by the University of Portland.
 
 <br />
 
-**NSF Funded REU Researcher—Botanical Genetics**\
-University of Minnesota; Minneapolis, MN May—August 2014; 40 hours per week
+**NSF Funded REU Researcher—Botanical Genetics**
 
-<div style="float: right; clear: right; margin: 0px; color: grey">May—August 2014; 40 hours per week</div>
-<p style="color: grey">University of Minnesota; Minneapolis, MN</p>
+<div class="sub">May—August 2014; 40 hours per week</div>
+<p class="sub">University of Minnesota; Minneapolis, MN</p>
 
 Conducted research involving botanical DNA isolation purification, sequencing, and analysis; examined the effect of personally designed genetic markers had on a tropical tree's evolution/phylogeny; presented results and conclusions at the following scientific conferences:
 
@@ -186,6 +175,6 @@ Conducted research involving botanical DNA isolation purification, sequencing, a
 VOLUNTEER WORK
 ---
 
-※ Welches Elementary School: Developed reading and comprehension skills for elementary students as a STAR Reading voluteer. <div style="float: right; clear: right; margin: 0px; color: grey">November 2016—March 2017</div>
+※ Welches Elementary School: Developed reading and comprehension skills for elementary students as a STAR Reading voluteer. <span class="sub">November 2016—March 2017</span>
 
-※ Multnomah Education Service District's Outdoor School Program: Served as a Student Leader in the Outdoor School Program by leading a cabin of twenty students per week and teaching the basics of ecology, zoology, and geology. <div style="float: right; clear: right; margin: 0px; color: grey">April 2011—October 2012</div>
+※ Multnomah Education Service District's Outdoor School Program: Served as a Student Leader in the Outdoor School Program by leading a cabin of twenty students per week and teaching the basics of ecology, zoology, and geology. <span class="sub">April 2011—October 2012</span>

@@ -369,6 +369,20 @@ img.center {
 }
 
 
+.sub {
+        color: grey;
+        font-size: 1.0em;
+        line-height: 1.4em;
+}
+div.sub {
+    float: right;
+    clear: right;
+    margin: 0px;
+}
+span.sub {
+    font-size: 0.9em;
+}
+
 
 /***************************************************/
 /* HACK TO HAVE THE FOOTER STAY AT THE BOTTOM
