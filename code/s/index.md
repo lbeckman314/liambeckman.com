@@ -55,3 +55,11 @@ let currBuff=bufnr("%") | let save_pos = getpos(".") | silent bufdo %s/\s\+$//e 
 " http://vimregex.com/#backreferences
 %s/#[0-9a-z]*/\0 !important/
 ```
+
+<br />
+
+```shell
+# mount hardrive as rw
+# https://raspberrypi.stackexchange.com/questions/38723/ntfs-usb-hdd-read-only-how-to-enable-write-permissions
+sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/USBDRIVE/
+```

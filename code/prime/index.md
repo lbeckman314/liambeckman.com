@@ -55,22 +55,12 @@ found in 31.0171 seconds
 
 <br />
 
-<h2 class="code">0. Set variables</h2>
-
-```shell
-export PKG=prime    # name of file/package
-export TYP=cpp      # file extension/type
-export COM=g++      # compile command
-```
-
-<br />
-
 <h2 class="code">1. Download</h2>
 
 ```shell
-wget http://www.liambeckman.com/code/$PKG/$PKG.tar.gz
+wget http://www.liambeckman.com/code/prime/prime.tar.gz
 # or if you prefer curl:
-# curl http://www.liambeckman.com/code/$PKG/$PKG.tar.gz -o $PKG.tar.gz
+# curl http://www.liambeckman.com/code/prime/prime.tar.gz -o prime.tar.gz
 ```
 
 <br />
@@ -90,9 +80,9 @@ gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 # RECIEVE SHA256SUMS
 #---------------------------------------------------#
 
-wget http://www.liambeckman.com/code/$PKG/sha256sums.txt{,.sig}
+wget http://www.liambeckman.com/code/prime/sha256sums.txt{,.sig}
 # or if you prefer curl:
-# curl http://www.liambeckman.com/code/$PKG/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
+# curl http://www.liambeckman.com/code/prime/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
 
 #---------------------------------------------------#
 # VERIFY SHA256SUMS
@@ -107,9 +97,9 @@ gpg --verify sha256sums.txt.sig
 # VERIFY FILE INTEGRITY
 #---------------------------------------------------#
 
-sha256sum -c sha256sums.txt 2>/dev/null | grep $PKG.tar.gz
+sha256sum -c sha256sums.txt 2>/dev/null | grep prime.tar.gz
 
-# $PKG.tar.gz: OK
+# prime.tar.gz: OK
 
 #---------------------------------------------------#
 # OPTIONALLY REMOVE PUBLIC KEY
@@ -125,9 +115,9 @@ gpg --delete-key AC1CC079
 
 
 ```shell
-tar -zxvf $PKG.tar.gz
+tar -zxvf prime.tar.gz
 # or if you downloaded the zip file
-# unzip $PKG.zip
+# unzip prime.zip
 ```
 
 <br />
@@ -136,8 +126,8 @@ tar -zxvf $PKG.tar.gz
 
 
 ```shell
-$COM $PKG/src/$PKG.$TYP -o $PKG/src/$PKG
-./$PKG/src/$PKG
+g++ prime/src/prime.cpp -o prime/src/prime
+./prime/src/prime
 ```
 
 <br />
@@ -150,6 +140,6 @@ $COM $PKG/src/$PKG.$TYP -o $PKG/src/$PKG
 <h2 class="code">1. Delete the directory/folder.</h2>
 
 ```shell
-rm -rfI $PKG
+rm -rfI prime
 ```
 
