@@ -35,7 +35,7 @@ title: hello!
     <h1 class="home-page" style="color:#678CFA;">
     <a href = "https://www.github.com/lbeckman314" class="git">github</a> / <a href="https://git.liambeckman.com" class="git">cgit</a>
     </h1>
-    <div class="border-home" style="border-bottom: 1px solid #88cad4;"></div>
+    <div class="border-home" style="border-bottom: 1px solid #678cfa;"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you a silly git? Checkout some git repos!</p>
 
   </div>

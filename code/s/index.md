@@ -10,6 +10,14 @@ title: code
 ## $ shell
 
 <br />
+
+```shell
+# mount hardrive as rw
+# https://raspberrypi.stackexchange.com/questions/38723/ntfs-usb-hdd-read-only-how-to-enable-write-permissions
+sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/USBDRIVE/
+```
+
+<br />
 ```sh
 # view packages by size
 # https://unix.stackexchange.com/questions/40442/which-installed-software-packages-use-the-most-disk-space-on-debian
@@ -56,10 +64,3 @@ let currBuff=bufnr("%") | let save_pos = getpos(".") | silent bufdo %s/\s\+$//e 
 %s/#[0-9a-z]*/\0 !important/
 ```
 
-<br />
-
-```shell
-# mount hardrive as rw
-# https://raspberrypi.stackexchange.com/questions/38723/ntfs-usb-hdd-read-only-how-to-enable-write-permissions
-sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/USBDRIVE/
-```
