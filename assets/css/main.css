@@ -2,18 +2,9 @@
 /* CSS I've cobbled together from the far corners of the world.
 Feel free to copy and paste, fork, clone, or anything you like. */
 /***************************************************/
-/* pink */
-/* purple */
-/* teal */
-/* light blue */
-/* blue */
-/* #636FF38*/
-/* https://stackoverflow.com/questions/12144000/using-custom-fonts-using-css */
 @font-face {
   font-family: 'EB Garamond';
-  /*a name to be used later*/
-  src: url("/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf");
-  /*URL to font*/ }
+  src: url("/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf"); }
 /***************************************************/
 /* BASIC STUFF
 /***************************************************/
@@ -190,7 +181,7 @@ hr {
 img.center {
   display: block;
   margin: 0 auto;
-  /*width: 20%;*/
+  width: 60%;
   padding: 2%; }
 
 /* boxed items like in code and writings */
@@ -260,39 +251,21 @@ div.sub {
 span.sub {
   font-size: 0.86em; }
 
-/***************************************************/
-/* HACK TO HAVE THE FOOTER STAY AT THE BOTTOM
-/***************************************************/
 /**
- * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
- *
- * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
- * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
- *
- * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ * Code formatting
  */
-html {
-  height: 100%; }
+pre {
+  font-size: 0.9em;
+  background-color: #eef;
+  padding: 8px 12px;
+  overflow-x: auto;
+  white-space: pre-wrap; }
 
-body {
-  padding-bottom: 58px;
-  height: 100%; }
-
-#wrapper {
-  min-height: 100%;
-  position: relative; }
-
-#content {
-  padding: 4%;
-  /* Height of the footer element */ }
-
-#footer {
-  width: 100%;
-  height: 0px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: .8em; }
+code {
+  font-size: 0.9em;
+  background-color: #eef;
+  overflow-x: auto;
+  white-space: pre-wrap; }
 
 /***************************************************/
 /* RESPONSIVE DESIGN
@@ -404,24 +377,42 @@ ul .icon-bar {
   background-color: white; }
 
 /***************************************************/
-/* SYNTAX HIGHLIGHTING
+/* HACK TO HAVE THE FOOTER STAY AT THE BOTTOM
 /***************************************************/
 /**
- * Code formatting
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ *
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
  */
-pre {
-  font-size: 0.9em;
-  background-color: #eef;
-  padding: 8px 12px;
-  overflow-x: auto;
-  white-space: pre-wrap; }
+html {
+  height: 100%; }
 
-code {
-  font-size: 0.9em;
-  background-color: #eef;
-  overflow-x: auto;
-  white-space: pre-wrap; }
+body {
+  padding-bottom: 58px;
+  height: 100%; }
 
+#wrapper {
+  min-height: 100%;
+  position: relative; }
+
+#content {
+  padding: 4%;
+  /* Height of the footer element */ }
+
+#footer {
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: .8em; }
+
+/***************************************************/
+/* SYNTAX HIGHLIGHTING
+/***************************************************/
 /**
  * Syntax highlighting styles
  */
