@@ -15,7 +15,7 @@ I'm a sleepy human with a dark history of secrets and intrigue.
 
 
 <br />
-Have a good book or movie recommendation? Let me know at → <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
+Have a good book or movie recommendation? Let me know → <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
 
 <br />
 
@@ -23,13 +23,14 @@ Have a good book or movie recommendation? Let me know at → <a href="mailto:lbe
 
 <br />
 ## about the website:
-I built this website as a way to store and present my various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
+
+This website stores and presents some of my various works and projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
 <br/>
 <br/>
-This website is built with [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and SSL encrypted/certified with [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/).
+[Jekyll](https://jekyllrb.com/) builds the site, my Raspberry Pi (Raspbian on RPi3 Model B) hosts it, and [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/) SSL encrypts/certifies it.
 <br/>
 <br/>
-The [source code](https://github.com/lbeckman314/lbeckman314.github.io) for the website is yours. Feel free to copy and paste, fork, clone, or anything you like. Be forwarn! This site is written in an ungodly mix of markdown and html. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
+The [source code](https://github.com/lbeckman314/lbeckman314.github.io) is yours. Feel free to copy and paste, fork, clone, or anything you like. Be forwarn! This site is written in an ungodly mix of markdown, html, and inline css. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
 
 <br/>
 
