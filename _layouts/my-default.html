@@ -36,8 +36,14 @@
     <a class="next" href="{{page.next.url}}">{{page.next.title}} ▸</a>
   {% endif %}
 </div>
-
             <div id="content">
+
+                <!-- https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post -->
+            {% if page.is_writing %}
+                <h1>{{ page.title }}</h1>
+                <br />
+            {% endif %}
+
             {{ content }}
             </div>
 

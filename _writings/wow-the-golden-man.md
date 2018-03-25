@@ -4,7 +4,7 @@ title: Wow! (the golden man)
 desc: Look! Look! There goes the man, the golden man, // the man so good at everything...
 image:
 url:
-datea: 2010-10-11
+date: 2016-01-01
 ---
 
 ```

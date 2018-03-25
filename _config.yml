@@ -13,7 +13,7 @@ github_username: lbeckman314
 markdown: kramdown
 # theme: minima
 gems:
-    #  - jekyll-feed
+    - jekyll-feed
     #  - jekyll-sitemap
     #  - jekyll-seo-tag
 exclude:
@@ -50,3 +50,12 @@ collections:
         output: true
         layout: my-default
         permalink: /:collection/:path
+
+# https://stackoverflow.com/a/23555679/7656815
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: writings   # limit to posts
+    values:
+      is_writing: true # automatically set is_post=true for all posts

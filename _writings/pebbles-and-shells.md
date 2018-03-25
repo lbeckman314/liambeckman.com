@@ -2,14 +2,13 @@
 layout: my-default
 title: pebbles & shells
 desc: I remember you playing at the beach // when you were five years old...
-img:
-url:
+date: 2017-06-01
 ---
 
 ```
 I remember you playing at the beach
     when you were five years old
-lookig for pebbles & shells
+looking for pebbles & shells
         left behind by the waves
 The wind made funny shapes with you rhair
     and carried you along teh shore

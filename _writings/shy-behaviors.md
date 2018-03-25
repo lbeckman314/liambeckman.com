@@ -2,8 +2,7 @@
 layout: my-default
 title: Shy behaviors
 desc: What does it sound like to you // when you brush your hair // behind your ear?...
-img:
-url:
+date: 2014-04-01
 ---
 
 ```

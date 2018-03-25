@@ -3,41 +3,85 @@ layout: my-default
 ---
 
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% assign writings = site.writings | sort: 'date' | reverse %}
+{% for writing in writings %}
 
-<div class="container">
+<h2>
+    <a href="{{ writing.url }}" >
+        {{ writing.title }}
+    </a>
+    <br />
+</h2>
+<p style="font-size: 1em; color: #696969">
+{{ writing.date  | date: "%A, %B %d, %Y" }}
+:: 
+{% assign m = writing.date | date: "%Y" %}
+{% case m %}
+  {% when '2018' %}⋟∫≓⋌
+{% endcase %}
+※
+{% assign m = writing.date | date: "%m" %}
+{% case m %}
+  {% when '01' %}∫≓
+  {% when '02' %}∫⋟
+  {% when '03' %}∫∻
+  {% when '04' %}∫≈
+  {% when '05' %}∫⋗
+  {% when '06' %}∫∴
+  {% when '07' %}∫⋈
+  {% when '08' %}∫⋌
+  {% when '09' %}∫≗
+  {% when '10' %}≓∫
+  {% when '11' %}≓≓
+  {% when '12' %}≓⋟
+{% endcase %}
+※
+{% assign m = writing.date | date: "%d" %}
+{% case m %}
+  {% when '01' %}∫≓
+  {% when '02' %}∫⋟
+  {% when '03' %}∫∻
+  {% when '04' %}∫≈
+  {% when '05' %}∫⋗
+  {% when '06' %}∫∴
+  {% when '07' %}∫⋈
+  {% when '08' %}∫⋌
+  {% when '09' %}∫≗
+  {% when '10' %}≓∫
+  {% when '11' %}≓≓
+  {% when '12' %}≓⋟
+  {% when '13' %}≓∻
+  {% when '14' %}≓≈
+  {% when '15' %}≓⋗
+  {% when '16' %}≓∴
+  {% when '17' %}≓⋈
+  {% when '18' %}≓⋌
+  {% when '19' %}≓≗
+  {% when '20' %}⋟∫
+  {% when '21' %}⋟≓
+  {% when '22' %}⋟⋟
+  {% when '23' %}⋟∻
+  {% when '24' %}⋟≈
+  {% when '25' %}⋟⋗
+  {% when '26' %}⋟∴
+  {% when '27' %}⋟⋈
+  {% when '28' %}⋟⋌
+  {% when '29' %}⋟≗
+  {% when '30' %}∴∫
+  {% when '31' %}∻≓
+{% endcase %}
 
-
-{% for writing in site.writings %}
-        <div class="fixed" id="featured">
-            <a href="{{ writing.url }}"><img class="center" src="/assets/png/initial.png" style="width: 60%; padding-bottom: 10px;"></a>
-            <div class="border"></div>
-            <p class="code"><a href="{{ writing.url }}">{{ writing.title }}</a></p>
-            <p class="code">{{ writing.description }}</p>
-        </div>
-
-{% endfor %}
-
-</div>
-<!--
-
-<br /><br /><br />
-
-
-
-{% for writing in site.writings %}
-
-
-<h3><a style="font-size:1.2em" href={{ writing.url }} title={{ writing.tile }}>※ {{ writing.title }}</a></h3>
+</p>
+<br />
 <p>{{ writing.description }}</p>
+<p>{{ writing.content }}</p>
+<br />
+<br />
+<hr />
+<br />
 <br />
 
 {% endfor %}
+[//]: # "%A, %B %d, %Y"
+[//]: # "%A"
 
--->

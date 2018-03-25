@@ -1,10 +1,8 @@
 ---
 layout: my-default
-url: beyond-your-maw
-img: /assets/png/initial.png
 title: beyond your maw
-desc: My last love stepped off the bus and onto the walk // among so many I did not know...
-date: 2011-10-10
+desc: my last love stepped off the bus and onto the walk // among so many i did not know...
+date: 2016-02-01
 ---
 
 ```

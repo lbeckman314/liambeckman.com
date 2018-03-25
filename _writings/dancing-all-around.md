@@ -2,8 +2,7 @@
 layout: my-default
 title: dancing all around
 desc: We are clockwork you and I // clockwork until the day we die...
-img:
-datea: 2016-11-10
+date: 2015-11-10
 ---
 
 ```

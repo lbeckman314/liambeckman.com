@@ -2,8 +2,7 @@
 layout: my-default
 title: Time and Space
 desc: Tell me about the times // when we would stay up late to watch // the stars...
-img:
-url:
+date: 2015-05-31
 ---
 
 ```
@@ -33,9 +32,5 @@ You were my lasting.
 
 
 “Time and Space”
-
-
-
--Fitzwilliam P. Shufflebottom, Esq.
 ```
 

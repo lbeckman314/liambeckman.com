@@ -1,15 +1,12 @@
 ---
 layout: my-default
 title: Motherland
-desc: I've forgotton the words to your song, // the one you would sing me to sleep with...
-img:
-url:
+desc: I've forgotten the words to your song, // the one you would sing me to sleep with...
+date: 2016-01-01
 ---
 
-# Motherland
-
 ```
-I've forgotton the words to your song,
+I've forgotten the words to your song,
   the one you would sing me to sleep with,
     like lullabies of a yesteryear
       plucked from vinyeards from across the shore
@@ -27,11 +24,13 @@ They tell me I do not belong there,
 And so your melodies are of a different key,
   your paintings of other hues,
     And yet still I want to listen and to see all there is
-      bevause they belong to you.
+      because they belong to you.
 
 Share with me your letters, your dances too,
   teach them I am not so different
-    so I may be like (with)...you.
+    so I may be like 
+        so I may be with
+            you.
 
 "Motherland"
 ```
