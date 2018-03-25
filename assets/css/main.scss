@@ -21,7 +21,8 @@ $header-footer: #2A2730;
 
 $heart: #FF357A;
 
-$grey-light: #d5d5d5;
+$grey-light: #aaa;
+$grey: #99979c;
 $grey-dark: #2a2730;
 
 $white: #FFFFFF;
@@ -79,6 +80,11 @@ body {
     word-wrap: break-word;
 }
 
+#content {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 4%;
+}
 
 /* paragraphs*/
 p {
@@ -171,27 +177,27 @@ a.secret {
 
 div.about {
     border: solid 1px $pop-1;
-    width: 90%;
+    width: 100%;
     background-image: url('/assets/png/code_example2_pink.png');
 }
 div.writings {
     border: solid 1px $pop-2;
-    width: 90%;
+    width: 100%;
     background-image: url('/assets/png/code_example2_pink.png');
 }
 div.code {
     border: solid 1px $pop-3;
-    width: 90%;
+    width: 100%;
     background-image: url('/assets/png/code_example2_pink.png');
 }
 div.git {
     border: solid 1px $pop-4;
-    width: 90%;
+    width: 100%;
     background-image: url('/assets/png/code_example2_pink.png');
 }
 div.favorites {
     border: solid 1px $pop-5;
-    width: 90%;
+    width: 100%;
     background-image: url('/assets/png/code_example2_pink.png');
 }
 
@@ -210,10 +216,11 @@ h1.home-page {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: $font-stack;
     color: #2a2730;
 }
+
 
 h2.code {
     /*color: #595EF7;*/
@@ -261,7 +268,7 @@ li.quote
 
 
 hr {
-    border-bottom: 1px solid #123456;
+    border-bottom: 1px solid $grey-light;
     border-top: 0px;
 }
 
@@ -298,9 +305,12 @@ img.center {
     margin: 0 auto;
     width: 60%;
     padding: 2%;
+    max-width: 400px;
 }
 
-
+span.date:before {
+    content: "|";
+}
 
 /* boxed items like in code and writings */
 .container{

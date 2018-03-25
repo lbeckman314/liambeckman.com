@@ -21,6 +21,11 @@ Feel free to copy and paste, fork, clone, or anything you like. */
 body {
   word-wrap: break-word; }
 
+#content {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 4%; }
+
 /* paragraphs*/
 p {
   font-size: 1.2em;
@@ -36,7 +41,7 @@ p.code {
 
 p.headers {
   background-color: #D3D2E0;
-  border: 1px #d5d5d5 solid; }
+  border: 1px #aaa solid; }
 
 /* anchors */
 a {
@@ -87,27 +92,27 @@ a.secret {
 /* div */
 div.about {
   border: solid 1px #DB37C4;
-  width: 90%;
+  width: 100%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.writings {
   border: solid 1px #ED68D9;
-  width: 90%;
+  width: 100%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.code {
   border: solid 1px #49CCD4;
-  width: 90%;
+  width: 100%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.git {
   border: solid 1px #678CFA;
-  width: 90%;
+  width: 100%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 div.favorites {
   border: solid 1px #4635F7;
-  width: 90%;
+  width: 100%;
   background-image: url("/assets/png/code_example2_pink.png"); }
 
 /* headers */
@@ -121,7 +126,7 @@ h1.home-page {
   padding-top: 2%; }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: Helvetica, Ariral, Sans-Serif;
   color: #2a2730; }
 
@@ -157,7 +162,7 @@ li.quote {
   margin-right: 20px; }
 
 hr {
-  border-bottom: 1px solid #123456;
+  border-bottom: 1px solid #aaa;
   border-top: 0px; }
 
 #header {
@@ -182,7 +187,11 @@ img.center {
   display: block;
   margin: 0 auto;
   width: 60%;
-  padding: 2%; }
+  padding: 2%;
+  max-width: 400px; }
+
+span.date:before {
+  content: "|"; }
 
 /* boxed items like in code and writings */
 .container {
@@ -193,7 +202,7 @@ img.center {
   width: 30%;
   word-wrap: break-word;
   margin: 1.5em;
-  border: solid 1px #d5d5d5;
+  border: solid 1px #aaa;
   margin-left: auto;
   margin-right: auto; }
 
@@ -205,7 +214,7 @@ img.center {
   margin: 6%;
   margin-left: 10%;
   margin-right: 10%;
-  border-bottom: 1px solid #d5d5d5; }
+  border-bottom: 1px solid #aaa; }
 
 .border-home {
   margin: 2%;
@@ -213,7 +222,7 @@ img.center {
   margin-right: 10%;
   border-bottom: 1px solid #db34ed; }
   .border-home .border-code {
-    border-bottom: 1px solid #d5d5d5; }
+    border-bottom: 1px solid #aaa; }
 
 /* arrow links for next and previous */
 /* http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html */
@@ -276,6 +285,10 @@ code {
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 7em; } }
+@media only screen and (max-width: 400px) {
+  span.date:before {
+    content: ' ';
+    display: block; } }
 @media only screen and (max-width: 350px) {
   .site-footer {
     height: 8em; } }
@@ -399,7 +412,7 @@ body {
   position: relative; }
 
 #content {
-  padding: 4%;
+  padding-bottom: 4%;
   /* Height of the footer element */ }
 
 #footer {
