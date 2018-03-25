@@ -12,6 +12,16 @@ title: code
 <br />
 
 ```shell
+# recursively search for "date" in files, and output date combined with filename
+grep -r -T date * | awk -e '/date/{ print $3 "-" $1 }' | sort -r | sed 's/://'
+
+# does the same as above, then prints out files that do not contain "date"
+grep -r -T date * | awk -e '/date/{ print $3 "-" $1 }' | sort -r | sed 's/://'; echo;  grep -L -r -T date *
+```
+
+<br />
+
+```shell
 # mount hardrive as rw
 # https://raspberrypi.stackexchange.com/questions/38723/ntfs-usb-hdd-read-only-how-to-enable-write-permissions
 sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/USBDRIVE/
