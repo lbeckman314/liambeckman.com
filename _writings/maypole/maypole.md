@@ -30,12 +30,12 @@ While you, young foolish doe,
 
 So sleep now, sleep now young dow,
     if you do not wish to dance around
-        the maypole, then sleep. & so (be)
-            ready (yourself) for the snowfalls 
+        the maypole, then sleep. & so
+            ready yourself for the snowfalls 
                 of winter to bury you
-                    while those above (you)
-    sleep (in warm homes)
-      (in eachothers arms)
+                    while those above
+    sleep in warm homes
+      in eachother's arms
         after the dance
         in the summer air.
 ```
