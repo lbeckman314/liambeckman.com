@@ -16,4 +16,3 @@ That bless'd, starry bed,
 
 "Looking down from a slumber"
 ```
-

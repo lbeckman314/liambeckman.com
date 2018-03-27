@@ -10,8 +10,8 @@ I remember you playing at the beach
     when you were five years old
 looking for pebbles & shells
         left behind by the waves
-The wind made funny shapes with you rhair
-    and carried you along teh shore
+The wind made funny shapes with your hair
+    and carried you along the shore
 as the ocean glistened around you
     excited at meeting you for the very first time.
 
