@@ -7,51 +7,52 @@ title: code
 
 <div class="container">
 
-<div class="fixed" id="featured">
-    <a href="http://liambeckman.com/code/prime"><img class="center" src="/assets/images/circleCabinSmall.png"></a>
+
+    <div class="fixed" id="featured">
+   <a href="/code/matrix"><img class="center" src="/assets/png/matrix.png" ></a>
     <div class="border"></div>
-    <p class="code"><a id="title" href="https://liambeckman.com/code/prime">prime</a></p>
+    <p class = "code"><a id="title" href="/code/paren">matrix</a></p>
+    <p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
+
+  </div>
+
+<div class="fixed" id="featured">
+    <a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
+    <div class="border"></div>
+    <p class="code"><a id="title" href="/code/prime">prime</a></p>
     <p class="code">Output the first million primes!</p>
 
   </div>
 
 <div class="fixed" id="featured">
-    <a href="http://liambeckman.com/code/pi"><img class="center" src="/assets/images/circleCabinSmall.png" ></a>
+    <a href="/code/pi"><img class="center" src="/assets/png/pi.png" ></a>
     <div class="border"></div>
-    <p class="code"><a id="title" href="https://liambeckman.com/code/pi">pi</a></p>
+    <p class="code"><a id="title" href="/code/pi">pi</a></p>
     <p class="code">Serve up delicious homemade pi!</p>
 
   </div>
 
     <div class="fixed" id="featured">
-   <a href="http://liambeckman.com/code/palindrome/"><img class="center" src="/assets/images/circleCabinSmall.png"></a>
+   <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
     <div class="border"></div>
-    <p class="code"><a id="title" href="https://liambeckman.com/code/palindrome">palindrome</a></p>
+    <p class="code"><a id="title" href="/code/palindrome">palindrome</a></p>
     <p class="code">Determine whether your string is a palindrome!</p>
 
   </div>
 
-    <div class="fixed" id="featured">
-   <a href="http://liambeckman.com/code/paren"><img class="center" src="/assets/images/circleCabinSmall.png" ></a>
-    <div class="border"></div>
-    <p class = "code"><a id="title" href="https://liambeckman.com/code/paren">paren</a></p>
-    <p class = "code">Check whether your string of parens are balanced or not! LISP without fear!</p>
-
-  </div>
-
 
     <div class="fixed" id="featured">
-   <a href="http://liambeckman.com/code/debi"><img class="center" src="/assets/images/circleCabinSmall.png" ></a>
+   <a href="/code/debi"><img class="center" src="/assets/png/debi.png" ></a>
     <div class="border"></div>
-    <p class = "code"><a id="title" href="https://liambeckman.com/code/debi">debi</a></p>
+    <p class = "code"><a id="title" href="/code/debi">debi</a></p>
     <p class = "code">Convert your <b>DE</b>cimal to <b>BI</b>nary and vice versa! Helpful for Assembly courses.</p>
 
   </div>
 
     <div class="fixed" id="featured">
-   <a href="http://liambeckman.com/code/paren"><img class="center" src="/assets/images/circleCabinSmall.png" ></a>
+   <a href="/code/paren"><img class="center" src="/assets/png/paren.png"></a>
     <div class="border"></div>
-    <p class = "code"><a id="title" href="https://liambeckman.com/code/paren">paren</a></p>
+    <p class = "code"><a id="title" href="/code/paren">paren</a></p>
     <p class = "code">Check whether your string of parens are balanced or not! Write LISP without fear!</p>
 
   </div>
