@@ -42,7 +42,7 @@ For an example of installation, see [here](https://asciinema.org/a/4R4KJhtmdGImK
 
 If you have a propensity against git, check out [the alternative installation](./#alternative-installation). In which case [`wget`](https://www.gnu.org/software/wget/) or [`curl`](https://curl.haxx.se/) can be helpful for downloading the necessary files. [`gpg`](https://gnupg.org/) and [`sha256sum`](https://linux.die.net/man/1/sha256sum) can be used to verify the integrity of the files.
 
-If you are running Windows, the above utilities will be packaged in any of the following: [babun](https://babun.github.io/), [cmder](http://cmder.net/), or [Linux Subsytem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Take your pick! : )
+If you are running Windows, the above utilities will be packaged in any of the following: [babun](https://babun.github.io/), [cmder](http://cmder.net/), or [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Take your pick! : )
 
 The above utilities should be installed (or readily available) if you are running a Unix derivative (such as Linux, macOS, or any of the BSD's).
 
@@ -81,7 +81,7 @@ rm -rfI matrix
 
 (Run `man -l matrix.man` while in the directory for a basic man page for `matrix`.)
 
-`matrix` takes four arguments: **add**, **average**, **multiply**, and **transpose**. Matrix input (either with files or standard input) must be integers, either positive or negative, seperated by white space. Non-numeric characters (including blank elements) will throw an error.
+`matrix` takes four arguments: **add**, **average**, **multiply**, and **transpose**. Matrix input (either with files or standard input) must be integers, either positive or negative, separated by white space. Non-numeric characters (including blank elements) will throw an error.
 
 
 **add**
@@ -122,7 +122,7 @@ Examples of **valid** matrix input include:
 
 Examples of **invalid** matrix input include:
 
-Non-numeric charcter at position (1, 3).
+Non-numeric character at position (1, 3).
 ```
 1   2   a
 4   5   6
@@ -153,7 +153,7 @@ Trailing tab in first row
 
 Click the tar.gz or zip buttons at the top of the page to download a tar.gz or .zip compressed directory.
 
-Or copy and paste the following command into the temrinal to have it download it for you!
+Or copy and paste the following command into the terminal to have it download it for you!
 
 ```shell
 wget http://www.liambeckman.com/pkgs/matrix/matrix.tar.gz
