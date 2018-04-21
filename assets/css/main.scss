@@ -41,7 +41,8 @@ $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.7;
+$small-line-height: $base-line-height - 0.2;
 
 $spacing-unit:     30px;
 
@@ -89,8 +90,9 @@ body {
 /* paragraphs*/
 p {
     font-size: 1.2em;
-    line-height: 1.6em;
+    line-height: $base-line-height;
     color: #333;
+    padding-bottom: 1.5%;
     /*padding-bottom: 2%;*/
     /*text-indent: 5%;*/
 }
@@ -214,6 +216,7 @@ h1 {
     font-family: $font-stack;
     text-align: center;
     color: #2a2730;
+    padding-top: 3%;
 }
 
 h1.home-page {
@@ -224,6 +227,7 @@ h2 {
     font-size: 2.5em;
     font-family: $font-stack;
     color: #2a2730;
+    padding-top: 3%;
 }
 
 
@@ -324,6 +328,7 @@ span.date:before {
 .container{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 3%;
 }
 .fixed{
     width: 30%;
@@ -389,7 +394,7 @@ span.date:before {
 .sub {
         color: grey;
         font-size: 1.0em;
-        line-height: 1.4em;
+        line-height: $small-line-height;
 }
 div.sub {
     float: right;
@@ -406,7 +411,7 @@ span.sub {
  */
 pre {
   font-size: 0.9em;
-  background-color: $blue-light;
+  //background-color: $blue-light;
 
   padding: 8px 12px;
   overflow-x: auto;
@@ -414,10 +419,24 @@ pre {
 }
 
 code {
-  font-size: 0.9em;
+  font-size: 1.0em;
   background-color: $blue-light;
   overflow-x: auto;
   white-space: pre-wrap;
+
+  //margin-left: -6px;
+  border-radius: 15%;
+
+  /* top right bottom left */
+  padding: 0.1em 0.4em 0.1em 0.4em;
+  line-height: 1.5em;
+
+  /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
+  box-decoration-break: clone;
+
+  //color: #c80032;
+  background-color: #f9f2f4;
+
 }
 
 .accordion {
@@ -434,7 +453,7 @@ code {
 }
 
 .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: #ccc;
 }
 
 .panel {

@@ -7,7 +7,7 @@ date: 2016-04-10
 ```
 Dance around the maypole young doe
     join the flowers & lights & singing
-        watch the dresses flutter in blooom
+        watch the dresses flutter in bloom
             and the hair swim in the warm summer air.
 
 It is nighttime, young doe
@@ -31,7 +31,7 @@ While you, young foolish doe,
 So sleep now, sleep now young dow,
     if you do not wish to dance around
         the maypole, then sleep. & so
-            ready yourself for the snowfalls 
+            ready yourself for the snowfalls
                 of winter to bury you
                     while those above
     sleep in warm homes

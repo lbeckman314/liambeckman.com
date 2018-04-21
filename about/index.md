@@ -8,20 +8,16 @@ title: about
 <p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 2em">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
 
 
-<br />
 
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue. 
 
 
-<br />
 Have a good book or movie recommendation? Let me know → <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
 
-<br />
 
 ---
 
-<br />
 ## about the website:
 
 This website stores and presents some of my various works and projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).

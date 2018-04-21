@@ -29,8 +29,9 @@ body {
 /* paragraphs*/
 p {
   font-size: 1.2em;
-  line-height: 1.6em;
+  line-height: 1.7;
   color: #333;
+  padding-bottom: 1.5%;
   /*padding-bottom: 2%;*/
   /*text-indent: 5%;*/ }
 
@@ -124,7 +125,8 @@ h1 {
   font-size: 3em;
   font-family: Helvetica, Ariral, Sans-Serif;
   text-align: center;
-  color: #2a2730; }
+  color: #2a2730;
+  padding-top: 3%; }
 
 h1.home-page {
   padding-top: 2%; }
@@ -132,7 +134,8 @@ h1.home-page {
 h2 {
   font-size: 2.5em;
   font-family: Helvetica, Ariral, Sans-Serif;
-  color: #2a2730; }
+  color: #2a2730;
+  padding-top: 3%; }
 
 h2.code {
   /*color: #595EF7;*/ }
@@ -203,7 +206,8 @@ span.date:before {
 /* boxed items like in code and writings */
 .container {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-bottom: 3%; }
 
 .fixed {
   width: 30%;
@@ -257,7 +261,7 @@ span.date:before {
 .sub {
   color: grey;
   font-size: 1.0em;
-  line-height: 1.4em; }
+  line-height: 1.5; }
 
 div.sub {
   float: right;
@@ -272,16 +276,22 @@ span.sub {
  */
 pre {
   font-size: 0.9em;
-  background-color: #eef;
   padding: 8px 12px;
   overflow-x: auto;
   white-space: pre-wrap; }
 
 code {
-  font-size: 0.9em;
+  font-size: 1.0em;
   background-color: #eef;
   overflow-x: auto;
-  white-space: pre-wrap; }
+  white-space: pre-wrap;
+  border-radius: 15%;
+  /* top right bottom left */
+  padding: 0.1em 0.4em 0.1em 0.4em;
+  line-height: 1.5em;
+  /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
+  box-decoration-break: clone;
+  background-color: #f9f2f4; }
 
 .accordion {
   background-color: #eee;
@@ -480,7 +490,8 @@ body {
   background: #fff; }
 
 .highlighter-rouge .highlight {
-  background: #eef; }
+  background-color: #f9f2f4;
+  border: 1px dashed pink; }
 
 .highlight .c {
   color: #998;

@@ -61,11 +61,7 @@ title: code
 </div>
 
 
-<br />
-<br />
 <hr />
-<br />
-<br />
 
 # make checksums, not war
 
@@ -83,7 +79,6 @@ key id = `AC1CC079`
 
 key fingerprint = `2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079`
 
-<br />
 
 ```shell
 #-------------------------------#
