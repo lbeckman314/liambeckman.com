@@ -282,7 +282,6 @@ pre {
 
 code {
   font-size: 1.0em;
-  background-color: #eef;
   overflow-x: auto;
   white-space: pre-wrap;
   border-radius: 15%;
@@ -291,7 +290,7 @@ code {
   line-height: 1.5em;
   /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
   box-decoration-break: clone;
-  background-color: #f9f2f4; }
+  background-color: #fdeeff; }
 
 .accordion {
   background-color: #eee;
@@ -490,7 +489,7 @@ body {
   background: #fff; }
 
 .highlighter-rouge .highlight {
-  background-color: #f9f2f4;
+  background-color: #fdeeff;
   border: 1px dashed pink; }
 
 .highlight .c {
