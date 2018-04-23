@@ -17,6 +17,12 @@ grep -r -T date * | awk -e '/date/{ print $3 "-" $1 }' | sort -r | sed 's/://'
 
 # does the same as above, then prints out files that do not contain "date"
 grep -r -T date * | awk -e '/date/{ print $3 "-" $1 }' | sort -r | sed 's/://'; echo;  grep -L -r -T date *
+
+# for all files in current directory, change spaces to dashes
+for file in ./*; do; mv "$file" "${file// /-}"; done
+
+# for all files in current directory, change uppercase to lowercase
+for f in `./*`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
 ```
 
 <br />

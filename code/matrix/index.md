@@ -63,7 +63,6 @@ chmod u+x matrix
 ```
 
 <br />
-<hr />
 
 # Uninstallation
 
@@ -81,75 +80,160 @@ rm -rfI matrix
 
 (Run `man -l matrix.man` while in the directory for a basic man page for `matrix`.)
 
-`matrix` takes four arguments: **add**, **average**, **multiply**, and **transpose**. Matrix input (either with files or standard input) must be integers, either positive or negative, separated by white space. Non-numeric characters (including blank elements) will throw an error.
+`matrix` takes four arguments: **add**, **average**, **multiply**, and **transpose**. Matrix input (either with files or standard input) must be integers, either positive or negative, separated by white space. Non-numeric characters (including blank elements) will throw an error. Output will be tab-delimited elements.
 
+<br />
+<br />
 
 **add**
-    takes two matrices of dimensions (Y by Z) and (Y by Z) and produces a sum matrix of dimesions (Y by Z). To add two matrices, run `./matrix add m1 m2` where `m1` and `m2` are matrix files.
+    takes two matrices of dimensions `row × col` and `row × col` and produces a sum matrix of dimesions `row × col`. To add two matrices, run `./matrix add m1 m2` where `m1` and `m2` are matrix files.
 
-**average**
-    takes one matrix of dimension (Y by X) and averages each of it's columns. Produces an average matrix of dimensions (1 by X). To add two matrices, run `./matrix transpose m1 ` where `m1` is a matrix file.
 
-**multiply**
-    takes two matrices of dimensions (Y1 by X1) and (Y2 by X2) and produces a sum matrix of dimesions (X1 by Y2). X1 must be eqaul to Y2. To add two matrices, run `./matrix multiply m1 m2` where `m1` and `m2` are matrix files.
-
-**transpose**
-    takes one matrix and moves element at position (Y by X) to position (X by Y). To add two matrices, run `./matrix transpose m1` where `m1` is a matrix file.
-
-<hr />
-<br />
-
-Examples of **valid** matrix input include:
-
-```
-1   2   3
-4   5   6
-7   8   9
-10  11  12
-```
-<br />
-
-```
+```sh
+$ cat mI1
 1   2   3   4
 5   6   7   8
+
+$ ./matrix add m1 m1
+2	4	6	8
+10	12	14	16
 ```
+
+<br />
 <br />
 
+**mean**
+    takes one matrix of dimension `row × col` and averages each of it's columns. Produces an average matrix of dimensions `1 × col`. To add two matrices, run `./matrix transpose m1 ` where `m1` is a matrix file.
+
+```sh
+$ cat m1
+1   2   3   4
+5   6   7   8
+
+$ ./matrix mean m1
+3	4	5	6
 ```
+
+<br />
+<br />
+
+**multiply**
+    takes two matrices of dimensions `row₁ × col₁` and `row₂ × col₂` and produces a sum matrix of dimesions `row₁ × col₂`. col₁ must be eqaul to row₂. To add two matrices, run `./matrix multiply m1 m2` where `m1` and `m2` are matrix files.
+
+```sh
+$ cat m1
+1   2   3   4
+5   6   7   8
+
+$ cat m2
+1	5
+2	6
+3	7
+4	8
+
+$ ./matrix multiply m1 m2
+30	70
+70	174
+```
+
+<br />
+<br />
+
+**transpose**
+    takes one matrix and moves element at position `row × col` to position `col × row`. To add two matrices, run `./matrix transpose m1` where `m1` is a matrix file.
+
+```sh
+$ cat m1
+1   2   3   4
+5   6   7   8
+
+$ ./matrix transpose m1
+1	5
+2	6
+3	7
+4	8
+```
+
+<br />
+<hr />
+<br />
+
+# Examples of valid and invalid matrices:
+
+m4 is a **valid** matrix
+```
+$ cat m4
+
 1   2   3
-```
-<br />
-
-Examples of **invalid** matrix input include:
-
-Non-numeric character at position (1, 3).
-```
-1   2   a
 4   5   6
 7   8   9
 10  11  12
 ```
 <br />
 
-Blank character at position (1, 2)
+m5 is an **invalid** matrix: non-numeric character at position (1, 3).
 ```
-1       3   4
-5   6   7   8
-```
-<br />
+$ cat m5
 
-Trailing tab in first row
+1   2   A
+4   5   6
+7   8   9
+10  11  12
 ```
-1t2\t3\t
-```
-
 
 <br />
 <hr />
+<br />
+
+m6 is a **valid** matrix
+```
+$ cat m6
+
+1   2
+2   3
+3   4
+4   5
+```
+
+<br />
+
+m7 is an **invalid** matrix: blank character at position (2, 1)
+```
+$ cat m7
+
+1   2
+    3
+3   4
+4   5
+```
+
+<br />
+<hr />
+<br />
+
+m8 is a **valid** matrix
+```
+$ cat -A m8
+
+1   2   3$
+```
+
+<br />
+
+m9 is an **invalid** matrix: trailing tab in first row
+```
+$ cat m9
+
+1   2   3    $
+```
+
+<br />
+<hr />
+<br />
 
 # Alternative Installation
 
-<h2 class="code">1. Download</h2>
+<h2 class="code">0. Download</h2>
 
 Click the tar.gz or zip buttons at the top of the page to download a tar.gz or .zip compressed directory.
 
@@ -207,7 +291,7 @@ gpg --delete-key AC1CC079
 ```
 
 
-<h2 class="code">2. Extract</h2>
+<h2 class="code">1. Extract</h2>
 
 
 ```shell
@@ -217,7 +301,7 @@ tar -zxvf matrix.tar.gz
 ```
 
 
-<h2 class="code">3. Compile and run</h2>
+<h2 class="code">2. Compile and run</h2>
 
 
 ```shell
@@ -225,9 +309,6 @@ cd matrix
 
 chmod u+x matrix
 ./matrix add m1 m1
-
-chmod u+x p1gradingscript
-./p1gradingscript
 ```
 
 <br />
@@ -235,7 +316,7 @@ chmod u+x p1gradingscript
 # Uninstallation
 
 
-<h2 class="code">1. Delete the directory/folder.</h2>
+<h2 class="code">0. Delete the directory/folder.</h2>
 
 ```shell
 rm -rfI matrix
