@@ -59,3 +59,7 @@ defaults:
       type: writings   # limit to posts
     values:
       is_writing: true # automatically set is_post=true for all posts
+
+      # https://jekyllrb.com/docs/collections/
+      layout: my-default
+

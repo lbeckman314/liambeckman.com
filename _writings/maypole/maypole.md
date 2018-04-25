@@ -1,5 +1,4 @@
 ---
-layout: my-default
 title: dance around the maypole
 date: 2016-04-10
 ---

@@ -1,11 +1,11 @@
 ---
-layout: my-default
 title: blood-red
 date: 2018-04-22
+update: 2018-04-23
 ---
 
 ```
-Ravenous blood-red worms convulse in the murky field,
+Ravenous blood-red worms convulse on end in the murky field,
     as if boiled on a hotplate. 
     Seizing the rolling fog that looks like steam.
     Making fleshy wet slapping noises as stomachs turn.

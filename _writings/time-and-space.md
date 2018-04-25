@@ -1,7 +1,5 @@
 ---
-layout: my-default
 title: Time and Space
-desc: Tell me about the times // when we would stay up late to watch // the stars...
 date: 2015-05-31
 ---
 

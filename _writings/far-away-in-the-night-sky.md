@@ -1,7 +1,5 @@
 ---
-layout: my-default
 title: far away in the night sky
-desc: Far away in the night sky // past the moon and past our stars...
 date: 2017-08-30
 ---
 

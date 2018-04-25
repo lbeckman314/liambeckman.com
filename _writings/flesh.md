@@ -1,5 +1,4 @@
 ---
-layout: my-default
 title: flesh
 date: 2014-04-01
 ---

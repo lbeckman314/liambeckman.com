@@ -1,7 +1,5 @@
 ---
-layout: my-default
 title: Motherland
-desc: I've forgotten the words to your song, // the one you would sing me to sleep with...
 date: 2016-01-01
 ---
 

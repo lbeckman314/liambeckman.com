@@ -1,5 +1,4 @@
 ---
-layout: my-default
 title: alabaster white
 date: 2016-11-01
 ---

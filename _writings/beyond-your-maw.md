@@ -1,7 +1,5 @@
 ---
-layout: my-default
 title: beyond your maw
-desc: my last love stepped off the bus and onto the walk // among so many i did not know...
 date: 2016-02-01
 ---
 

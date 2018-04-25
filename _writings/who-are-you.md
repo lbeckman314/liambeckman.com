@@ -1,5 +1,4 @@
 ---
-layout: my-default
 title: who are you?
 date: 2015-12-01
 ---

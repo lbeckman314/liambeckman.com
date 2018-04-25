@@ -1,9 +1,5 @@
 ---
-layout: my-default
 title: Wow! (the golden man)
-desc: Look! Look! There goes the man, the golden man, // the man so good at everything...
-image:
-url:
 date: 2016-01-01
 ---
 

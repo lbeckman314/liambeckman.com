@@ -1,7 +1,5 @@
 ---
-layout: my-default
 title: black water
-desc: You're black water // spilled in everyone's drinks...
 date: 2018-02-01
 ---
 
