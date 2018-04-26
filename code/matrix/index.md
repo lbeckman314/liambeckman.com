@@ -50,7 +50,7 @@ The above utilities should be installed (or readily available) if you are runnin
 
 ```shell
 # clone the git repo
-git clone https://git.liambeckman.com/cgit/matrix
+git clone https://github.com/lbeckman314/matrix
 
 # enter directory
 cd matrix
@@ -82,76 +82,68 @@ rm -rfI matrix
 
 `matrix` takes four arguments: **add**, **average**, **multiply**, and **transpose**. Matrix input (either with files or standard input) must be integers, either positive or negative, separated by white space. Non-numeric characters (including blank elements) will throw an error. Output will be tab-delimited elements.
 
-<br />
-<br />
-
-**add**
-    takes two matrices of dimensions `row × col` and `row × col` and produces a sum matrix of dimesions `row × col`. To add two matrices, run `./matrix add m1 m2` where `m1` and `m2` are matrix files.
-
-
-```sh
-$ cat mI1
-1   2   3   4
-5   6   7   8
-
-$ ./matrix add m1 m1
-2	4	6	8
-10	12	14	16
-```
 
 <br />
-<br />
-
-**mean**
-    takes one matrix of dimension `row × col` and averages each of it's columns. Produces an average matrix of dimensions `1 × col`. To add two matrices, run `./matrix transpose m1 ` where `m1` is a matrix file.
-
-```sh
-$ cat m1
-1   2   3   4
-5   6   7   8
-
-$ ./matrix mean m1
-3	4	5	6
-```
-
-<br />
-<br />
-
-**multiply**
-    takes two matrices of dimensions `row₁ × col₁` and `row₂ × col₂` and produces a sum matrix of dimesions `row₁ × col₂`. col₁ must be eqaul to row₂. To add two matrices, run `./matrix multiply m1 m2` where `m1` and `m2` are matrix files.
-
+The two matrices used in the examples below can be found in the files `m1` and `m2`:
 ```sh
 $ cat m1
 1   2   3   4
 5   6   7   8
 
 $ cat m2
-1	5
-2	6
-3	7
-4	8
+1   5
+2   6
+3   7
+4   8
+```
+<br />
+<br />
 
+**add**
+    takes two matrices of dimensions `row × col` and `row × col` and produces a sum matrix of dimesions `row × col`.
+
+
+```sh
+$ ./matrix add m1 m1
+2   4   6   8
+10  12  14  16
+```
+
+<br />
+<br />
+
+**mean**
+    takes one matrix of dimension `row × col` and averages each of it's columns. Produces an average matrix of dimensions `1 × col`.
+
+```sh
+$ ./matrix mean m1
+3   4   5   6
+```
+
+<br />
+<br />
+
+**multiply**
+    takes two matrices of dimensions `row₁ × col₁` and `row₂ × col₂` and produces a sum matrix of dimesions `row₁ × col₂`. col₁ must be eqaul to row₂.
+
+```sh
 $ ./matrix multiply m1 m2
-30	70
-70	174
+30  70
+70  174
 ```
 
 <br />
 <br />
 
 **transpose**
-    takes one matrix and moves element at position `row × col` to position `col × row`. To add two matrices, run `./matrix transpose m1` where `m1` is a matrix file.
+    takes one matrix and moves element at position `row × col` to position `col × row`.
 
 ```sh
-$ cat m1
-1   2   3   4
-5   6   7   8
-
 $ ./matrix transpose m1
-1	5
-2	6
-3	7
-4	8
+1   5
+2   6
+3   7
+4   8
 ```
 
 <br />
@@ -161,7 +153,7 @@ $ ./matrix transpose m1
 # Examples of valid and invalid matrices:
 
 m4 is a **valid** matrix
-```
+```sh
 $ cat m4
 
 1   2   3
@@ -172,7 +164,7 @@ $ cat m4
 <br />
 
 m5 is an **invalid** matrix: non-numeric character at position (1, 3).
-```
+```sh
 $ cat m5
 
 1   2   A
@@ -186,7 +178,7 @@ $ cat m5
 <br />
 
 m6 is a **valid** matrix
-```
+```sh
 $ cat m6
 
 1   2
@@ -198,7 +190,7 @@ $ cat m6
 <br />
 
 m7 is an **invalid** matrix: blank character at position (2, 1)
-```
+```sh
 $ cat m7
 
 1   2
@@ -212,7 +204,7 @@ $ cat m7
 <br />
 
 m8 is a **valid** matrix
-```
+```sh
 $ cat -A m8
 
 1   2   3$
@@ -221,8 +213,8 @@ $ cat -A m8
 <br />
 
 m9 is an **invalid** matrix: trailing tab in first row
-```
-$ cat m9
+```sh
+$ cat -A m9
 
 1   2   3    $
 ```
@@ -277,10 +269,9 @@ gpg --verify sha256sums.txt.asc
 # VERIFY FILE INTEGRITY
 #-------------------------------#
 
-sha256sum -c sha256sums.txt
+sha256sum -c sha256sums.txt 2>/dev/null | grep matrix.tar.gz
 
 # matrix.tar.gz: OK
-# matrix.zip: OK
 
 #-------------------------------#
 # OPTIONALLY REMOVE PUBLIC KEY
