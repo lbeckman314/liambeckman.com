@@ -48,17 +48,17 @@ function updatePlace(lat, lon) {
     var payload = {place:null};
 
     if (lat && lon) {
-        req.open("GET", 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + "&lon=" + lon + '&appid=' + apiKey, false);
+        req.open("GET", 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + "&lon=" + lon + '&appid=' + apiKey, false);
     }
 
     else if (lat && !lon) {
         payload.place = lat;
-        req.open("GET", 'http://api.openweathermap.org/data/2.5/weather?q=' + payload.place + '&appid=' + apiKey, false);
+        req.open("GET", 'https://api.openweathermap.org/data/2.5/weather?q=' + payload.place + '&appid=' + apiKey, false);
     }
 
     else {
         payload.place = document.getElementById('place').value;
-        req.open("GET", 'http://api.openweathermap.org/data/2.5/weather?q=' + payload.place + '&appid=' + apiKey, false);
+        req.open("GET", 'https://api.openweathermap.org/data/2.5/weather?q=' + payload.place + '&appid=' + apiKey, false);
     }
 
     // wait for request before displaying data
@@ -121,9 +121,9 @@ function buildMap(lat,lon)  {
                 accessToken: 'pk.eyJ1IjoibGJlY2ttYW4zMTQiLCJhIjoiY2poNDlhZ3hwMHh5cDJ3bnhjcXQ5Nzh2cCJ9.eI1TFtPk7kG7k1YHbf4y0A'
             });
 
-    var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                    osmAttribution = 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,' +
-                        ' <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+    var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                    osmAttribution = 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors,' +
+                        ' <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
     osmLayer = new L.TileLayer(osmUrl, {maxZoom: 12, attribution: osmAttribution});
 
     // change to osmLayer to use open street maps layer
@@ -157,7 +157,7 @@ document.getElementById('file').addEventListener('click', function(event){
 // updates JSON data at bottom of page
 function postJson() {
     var req = new XMLHttpRequest();
-    req.open("POST", "http://httpbin.org/post", false);
+    req.open("POST", "https://httpbin.org/post", false);
     req.setRequestHeader('Content-Type', 'application/json');
     req.send(JSON.stringify(responseGlobal));
     let res = req.responseText;
