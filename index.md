@@ -36,7 +36,7 @@ title: hello!
     <a href = "https://www.github.com/lbeckman314" class="git">github</a> / <a href="https://git.liambeckman.com" class="git">cgit</a>
     </h1>
     <div class="border-home" style="border-bottom: 1px solid #678cfa;"></div>
-    <p style="text-align: center; padding-bottom: 10px;">Are you a silly git? Checkout some git repos!</p>
+    <p style="text-align: center; padding-bottom: 10px;">GO straight to the source! Checkout some git repos!</p>
 
   </div>
 

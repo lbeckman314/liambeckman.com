@@ -127,6 +127,7 @@ title: favorites
     <span class="dot" onclick="currentSlide(16)"></span>
     <span class="dot" onclick="currentSlide(17)"></span>
     <span class="dot" onclick="currentSlide(18)"></span>
+    <span class="dot" onclick="currentSlide(19)"></span>
 </div>
 
 
