@@ -249,16 +249,19 @@ span.date:before {
 .PageNavigation a {
   display: block;
   width: 50%;
-  float: left;
   margin: 1em 0;
   color: grey;
   padding-left: 4%;
   padding-right: 4%;
   padding-top: 1%; }
 
-.PageNavigation .next {
-  text-align: right;
+.PageNavigation .prev {
   float: right;
+  text-align: right; }
+
+.PageNavigation .next {
+  float: left;
+  text-align: left;
   padding-left: 4%; }
 
 .sub {

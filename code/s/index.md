@@ -53,6 +53,14 @@ dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 
 <br />
 ```vim
+" don't add comments on new lines
+set formatoptions-=ro
+
+" don't hide markup characters
+set conceallevel=0
+```
+<br />
+```vim
 " remove trailing whitespace
 " http://vim.wikia.com/wiki/Remove_unwanted_spaces
 %s/\s\+$//
@@ -65,6 +73,7 @@ dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 " https://stackoverflow.com/questions/8906905/how-to-yank-from-the-command-line
 bufdo %s/\s\+$//e | update
 ```
+<br />
 
 ```vim
 " does the same removal as above, but silently restores position in buffer (and retabs)

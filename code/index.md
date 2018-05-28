@@ -7,6 +7,29 @@ title: code
 
 <div class="container">
 
+    <div class="fixed" id="featured">
+   <a href="/code/withfeathers"><img class="center" src="/assets/png/withfeathers.png" ></a>
+    <div class="border"></div>
+    <p class = "code"><a id="title" href="/code/withfeathers">withFeathers</a></p>
+    <p class = "code">Add a little Emily Dickinson to your day.</p>
+
+  </div>
+
+    <div class="fixed" id="featured">
+   <a href="/code/webdev"><img class="center" src="/assets/png/nest.png" ></a>
+    <div class="border"></div>
+    <p class = "code"><a id="title" href="/code/webdev">webdev projects</a></p>
+    <p class = "code">A nest of web development projects that are just gaining their wings.</p>
+
+  </div>
+
+    <div class="fixed" id="featured">
+   <a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
+    <div class="border"></div>
+    <p class = "code"><a id="title" href="/code/devilish">devilish</a></p>
+    <p class = "code">The shell from hell!</p>
+
+  </div>
 
     <div class="fixed" id="featured">
    <a href="/code/matrix"><img class="center" src="/assets/png/matrix.png" ></a>
@@ -24,13 +47,6 @@ title: code
 
   </div>
 
-<div class="fixed" id="featured">
-    <a href="/code/pi"><img class="center" src="/assets/png/pi.png" ></a>
-    <div class="border"></div>
-    <p class="code"><a id="title" href="/code/pi">pi</a></p>
-    <p class="code">Serve up delicious homemade pi!</p>
-
-  </div>
 
     <div class="fixed" id="featured">
    <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
@@ -40,22 +56,6 @@ title: code
 
   </div>
 
-
-    <div class="fixed" id="featured">
-   <a href="/code/debi"><img class="center" src="/assets/png/debi.png" ></a>
-    <div class="border"></div>
-    <p class = "code"><a id="title" href="/code/debi">debi</a></p>
-    <p class = "code">Convert your <b>DE</b>cimal to <b>BI</b>nary and vice versa! Helpful for Assembly courses.</p>
-
-  </div>
-
-    <div class="fixed" id="featured">
-   <a href="/code/paren"><img class="center" src="/assets/png/paren.png"></a>
-    <div class="border"></div>
-    <p class = "code"><a id="title" href="/code/paren">paren</a></p>
-    <p class = "code">Check whether your string of parens are balanced or not! Write LISP without fear!</p>
-
-  </div>
 
 
 </div>

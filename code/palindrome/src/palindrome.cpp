@@ -8,16 +8,16 @@
 //-----------------------------------------------------------------------------------------------------------
 
 
-#include <iostream>						//cout, cin, getline()
-#include <string>						//at(), length(), erase()
+#include <iostream>                     //cout, cin, getline()
+#include <string>                       //at(), length(), erase()
 
-using namespace std;					//liam is a cool guy! yug looc a si mail?
+using namespace std;                    //liam is a cool guy! yug looc a si mail?
 
-string sentenceBuilder(string input);	//function removes puntuation and spaces from input string
-bool isPalindrome(string sentence);		//function chcks whether string is a palindrome
+string sentenceBuilder(string input);   //function removes puntuation and spaces from input string
+bool isPalindrome(string sentence);     //function chcks whether string is a palindrome
 
-char input[100000];						//user input with letters, punctuation, and spaces included 
-string sentence;						//sentence after all punctuation and spaces are removed
+char input[100000];                     //user input with letters, punctuation, and spaces included
+string sentence;                        //sentence after all punctuation and spaces are removed
 
 
 //--------------------------------------------------------------------------------//
@@ -25,58 +25,58 @@ string sentence;						//sentence after all punctuation and spaces are removed
 
 int main()
 {
-	cout << "please enter your sentence" << endl;			//prompt user to enter their input
-	cout << "user input: ";									//
-	cin.getline(input,100000);								//cin the line (as long as it is under 100,000 characters)
-	sentenceBuilder(input);									//call our sentenceBuilder function
-	cout << boolalpha << isPalindrome(sentence) << endl;	//call and output our isPalindorme function
+    cout << "please enter your sentence" << endl;           //prompt user to enter their input
+    cout << "user input: ";                                 //
+    cin.getline(input,100000);                              //cin the line (as long as it is under 100,000 characters)
+    sentenceBuilder(input);                                 //call our sentenceBuilder function
+    cout << boolalpha << isPalindrome(sentence) << endl;    //call and output our isPalindorme function
 
-	return 0;												//return sucessful exit status
+    return 0;                                               //return sucessful exit status
 }
 
 
 //--------------------------------------------------------------------------------//
 
 
-string sentenceBuilder(string input)				//function removes puntuation and spaces from input string
+string sentenceBuilder(string input)                //function removes puntuation and spaces from input string
 {
-	for (int i = 0; i < input.length(); i++)
-	{
-		if (input.at(i)>='a' && input.at(i)<='z'||input.at(i)>='A' && input.at(i)<='Z')	//if the inputted character is a letter...
-			sentence += tolower(input.at(i));		//...append a lowercase version of the letter to the sentence string
-	}
+    for (int i = 0; i < input.length(); i++)
+    {
+        if (input.at(i)>='a' && input.at(i)<='z'||input.at(i)>='A' && input.at(i)<='Z') //if the inputted character is a letter...
+            sentence += tolower(input.at(i));       //...append a lowercase version of the letter to the sentence string
+    }
 
-	return sentence;								//return the sentence to main()
+    return sentence;                                //return the sentence to main()
 }
 
 
 //--------------------------------------------------------------------------------//
 
 
-bool isPalindrome(string sentence)							//function chcks whether string is a palindrome
+bool isPalindrome(string sentence)                          //function chcks whether string is a palindrome
 {
-	for (int i = 0; i < sentence.length(); i++)
-	{
-		while(sentence.length() > 1)						//while there is at least 2 letters left in the string...
-		{
-			if (sentence.at(0) == sentence.at(sentence.length()-1))		//...and if the first letter equals the last letter
-			{
-				cout << sentence << endl;					//output the sentence
-				sentence.erase(0,1);						//erase the first letter
-				sentence.erase(sentence.length()-1,1);		//erase the last letter
+    for (int i = 0; i < sentence.length(); i++)
+    {
+        while(sentence.length() > 1)                        //while there is at least 2 letters left in the string...
+        {
+            if (sentence.at(0) == sentence.at(sentence.length()-1))     //...and if the first letter equals the last letter
+            {
+                cout << sentence << endl;                   //output the sentence
+                sentence.erase(0,1);                        //erase the first letter
+                sentence.erase(sentence.length()-1,1);      //erase the last letter
 
-			}
-			else 	//otherwise...
-			{
-				cout << sentence << endl;					//output the sentence
-				cout << "Your string is not a palindrome. Palindrome = ";
-				return false;								//and return false
-			}
+            }
+            else    //otherwise...
+            {
+                cout << sentence << endl;                   //output the sentence
+                cout << "Your string is not a palindrome. Palindrome = ";
+                return false;                               //and return false
+            }
 
-		}
-		cout << "Your string is a palindrome! Palindrome = ";
-		return true;		//if there are no letters left, return true
-	}
+        }
+        cout << "Your string is a palindrome! Palindrome = ";
+        return true;        //if there are no letters left, return true
+    }
 
 }
 

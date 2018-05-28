@@ -8,22 +8,20 @@ title: about
 <p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 2em">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
 
 
-
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue.
 
 
 Have a good book or movie recommendation? Let me know → <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
 
-
 ---
 
 ## about the website:
 
-This website stores and presents some of my various works and projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
+This website stores and presents some various works and projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
 <br/>
 <br/>
-[Jekyll](https://jekyllrb.com/) builds the site, my Raspberry Pi (Raspbian on RPi3 Model B) hosts it, and [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/) SSL encrypts/certifies it.
+The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/).
 <br/>
 <br/>
 The [source code](https://github.com/lbeckman314/lbeckman314.github.io) is yours. Feel free to copy and paste, fork, clone, or anything you like. Be forwarn! This site is written in an ungodly mix of markdown, html, and inline css. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
