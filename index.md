@@ -59,7 +59,7 @@ title: hello!
     <div class = "mySlides fade">
         <div class="numbertext">1 / 3</div>
         <img class="slide" src="/assets/favorites/gustav.jpg">
-        <div class="text"><a href="https://www.instagram.com/wikstromnaturfoto/">Wikstrom Natur Foto</a></div>
+        <div class="text"><a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Naturfoto</a></div>
     </div>
 
     <div class = "mySlides fade">
@@ -183,7 +183,7 @@ title: hello!
 
 <h2>artwork</h2>
 <p>※ <a href="https://www.sssscomic.com">Stand Still Stay Slient</a> ⇢ a beautifully illustrated webcomic by Minna Sundberg.</p>
-<p>※ <a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Photos</a> ⇢ simply amazing photos of nature and the world.</p>
+<p>※ <a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Naturfoto</a> ⇢ simply amazing photos of nature and the world.</p>
 
 
 <h2>books</h2>
@@ -226,7 +226,6 @@ for (let i = 0; i < names.length; i++) {
     names[i].style.width = maxWidth + "px";
 }
 */
-
 
 
 var slideIndex = 1;
