@@ -46,7 +46,7 @@ title: hello!
 <hr />
 <br />
 
-<h1>Some cool things made by cool people:</h1>
+<h1>Favorites</h1>
 <br />
 
 <div class = "slideshow-container">
@@ -206,7 +206,7 @@ title: hello!
 <p>※ <a href="https://en.wikipedia.org/wiki/Arrival_(film)">Arrival</a> ⇢ More aliens, more time travel, and more philosophy. Awesome.</p>
 
 <p>※ <a href="https://en.wikipedia.org/wiki/The_Durrells">The Durrells in Corfu</a> ⇢ A family living on the greek island Corfu. Perfect summer viewing.</p>
-<p>※ <a href="https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000<Paste>">Mystery Science Theater 3000</a> ⇢ Oh, you're goin' to the moon, all right!</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000">Mystery Science Theater 3000</a> ⇢ Oh, you're goin' to the moon, all right!</p>
 
 
 <script>
