@@ -223,6 +223,11 @@ h1.home-page {
     padding-top: 2%;
 }
 
+h1.favorites {
+    color: #678cfa;
+    text-decoration: underline dotted #2a2730;
+}
+
 h2 {
     font-size: 2.5em;
     font-family: $font-stack;
@@ -277,7 +282,7 @@ li.quote
 
 
 hr {
-    border-bottom: 1px solid $grey-light;
+    border-bottom: 1px dashed $grey;
     border-top: 0px;
 }
 

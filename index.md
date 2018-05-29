@@ -38,7 +38,7 @@ title: hello!
 <hr />
 <br />
 
-<h1>Favorites</h1>
+<h1 class="favorites">Favorites</h1>
 <br />
 
 <div class = "slideshow-container">
