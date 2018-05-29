@@ -131,6 +131,10 @@ h1 {
 h1.home-page {
   padding-top: 2%; }
 
+h1.favorites {
+  color: #4635f7;
+  text-decoration: underline dotted #4635f7; }
+
 h2 {
   font-size: 2.5em;
   font-family: Helvetica, Ariral, Sans-Serif;
@@ -169,7 +173,7 @@ li.quote {
   margin-right: 20px; }
 
 hr {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px dashed #99979c;
   border-top: 0px; }
 
 #header {
