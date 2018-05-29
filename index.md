@@ -15,14 +15,6 @@ title: hello!
 
   </div>
 
-<div class="fixed writings" id="featured" onclick="location.href='/writings'">
-    <h1 class="home-page"><a href = "/writings" class="writings">writings</a></h1>
-    <div class="border-home" style="border-bottom: 1px solid #e6abed;"></div>
-    <p style="text-align: center; padding-bottom: 10px;">Are you a helpless romantic looking for helplessly romantic stories? Here are some of those!</p>
-
-  </div>
-
-
 <div class="fixed code" id="featured" onclick="location.href='/code'">
     <h1 class="home-page"><a href = "/code" class="code">code</a></h1>
     <div class="border-home" style="border-bottom: 1px solid #cdd1fa;"></div>
