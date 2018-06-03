@@ -44,100 +44,100 @@ title: hello!
 <div class = "slideshow-container">
     <div class = "mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img class="slide" src="/assets/favorites/ssss.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/ssss.jpg"></div>
         <div class="text"><a href="https://www.sssscomic.com">Stand Still Stay Slient</a></div>
     </div>
 
     <div class = "mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img class="slide" src="/assets/favorites/gustav.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/gustav.jpg"></div>
         <div class="text"><a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Naturfoto</a></div>
     </div>
 
     <div class = "mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img class="slide" src="/assets/favorites/anne-frank-the-diary.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/anne-frank-the-diary.jpg"></div>
         <div class="text">The Diary of Anne Frank</div>
     </div>
 
     <div class = "mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img class="slide" src="/assets/favorites/never-let-me-go.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/never-let-me-go.jpg"></div>
         <div class="text">Never Let Me Go</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/jonathan-strange-mr-norrell.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/jonathan-strange-mr-norrell.jpg"></div>
         <div class="text">Jonathan Strange & Mr. Norrell</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/moominland.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/moominland.jpg"></div>
         <div class="text">Comet in Moominland</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/stories-of-your-life.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/stories-of-your-life.jpg"></div>
         <div class="text">Stories of Your Life and Others</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/the-book-thief.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/the-book-thief.jpg"></div>
         <div class="text">The Book Thief</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/contact.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/contact.jpg"></div>
         <div class="text">Contact</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/downward-bound.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/downward-bound.jpg"></div>
         <div class="text">Downward Bound: A Mad! Guide to Rock Climbing</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/his-dark-materials.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/his-dark-materials.jpg"></div>
         <div class="text">His Dark Materials</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/the-cartoon-history-of-time.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/the-cartoon-history-of-time.jpg"></div>
         <div class="text">The Cartoon History of Time</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/mockingbird.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/mockingbird.jpg"></div>
         <div class="text">To Kill a Mockingbird</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/before-sunrise.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/before-sunrise.jpg"></div>
         <div class="text">Before Sunrise</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/olli-maki.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/olli-maki.jpg"></div>
         <div class="text">The Happiest Day in the Life of Olli Mäki</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/kedi.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/kedi.jpg"></div>
         <div class="text">Kedi</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/arrival.png">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/arrival.png"></div>
         <div class="text">Arrival</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/durrells.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/durrells.jpg"></div>
         <div class="text">The Durrells in Corfu</div>
     </div>
 
     <div class="mySlides fade">
-        <img class="slide" src="/assets/favorites/mst3k.jpg">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/mst3k.jpg"></div>
         <div class="text">Mystery Science Theater 3000</div>
     </div>
 
@@ -255,11 +255,12 @@ function showSlides(n) {
         slideIndex = 1;
     }
 
-    //slideIndex += 1;
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 
-    //setTimeout(showSlides, 10000);
+    //setTimeout(showSlides, 9000);
+    //slideIndex += 1;
+
 }
 
 </script>
@@ -365,20 +366,34 @@ span.grey {
     background-color: #717171;
 }
 
-.fade {
-    animation-name: fade;
+.black-fade {
+    position: relative;
+}
+
+/* https://stackoverflow.com/questions/18322548/black-transparent-overlay-on-image-hover-with-only-css/18322705 */
+
+.black-fade:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background: black;
+    opacity: 0;
+    animation-name: fade-black;
     animation-duration: 1.5s;
 }
 
-@keyframes fade {
+@keyframes fade-black {
     from {
-        opacity: .4;
+        opacity: 1.0;
     }
-
     to {
-        opacity: 1;
+        opacity: 0.0;
     }
 }
+
+
+
 </style>
 
 
