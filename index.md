@@ -309,6 +309,7 @@ span.grey {
 
 .mySlides {
     display: none;
+    background: black;
 }
 
 .prev, .next {
@@ -339,6 +340,7 @@ span.grey {
     padding: 8px 12px;
     width: 100%;
     text-align: center;
+    background: snow;
 }
 
 
