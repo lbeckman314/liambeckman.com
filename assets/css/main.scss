@@ -477,6 +477,137 @@ code {
     overflow: hidden;
 }
 
+
+/* slideshow */
+#align a {
+  display: inline-block;
+}
+
+
+#align p {
+  padding-left: 1.5em;
+  color: #5e5e5e;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+img.slide {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 36em;
+    object-fit: cover;
+}
+
+div.buttons {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5em;
+}
+
+span.grey {
+    color: #5e5e5e;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    background: black;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    /*transition: 0.6s ease;*/
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    font-size: 15px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    background: snow;
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    /*transition: background-color 0.6s ease;*/
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.black-fade {
+    position: relative;
+}
+
+/* https://stackoverflow.com/questions/18322548/black-transparent-overlay-on-image-hover-with-only-css/18322705 */
+
+.black-fade:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background: black;
+    opacity: 0;
+    animation-name: fade-black;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade-black {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+
+
 // import partials
 @import 'responsive';
 @import 'footerBottom';
