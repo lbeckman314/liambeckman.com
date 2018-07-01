@@ -525,7 +525,7 @@ span.grey {
     background: black;
 }
 
-.prev, .next {
+.prev-slideshow, .next-slideshow {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -539,12 +539,12 @@ span.grey {
     border-radius: 0 3px 3px 0;
 }
 
-.next {
+.next-slideshow {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev-slideshow:hover, .next-slideshow:hover {
     background-color: rgba(0,0,0,0.8);
 }
 

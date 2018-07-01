@@ -106,8 +106,23 @@ title: favorites
         <div class="text">Mystery Science Theater 3000</div>
     </div>
 
-    <a class = "prev" onclick="plusSlides(-1)">❮</a>
-    <a class = "next" onclick="plusSlides(+1)">❯</a>
+    <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/memories-of-murder.jpg"></div>
+        <div class="text">Memories of Murder</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/moonlight.jpg"></div>
+        <div class="text">Moonlight</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/raw.jpg"></div>
+        <div class="text">Raw</div>
+    </div>
+
+    <a class = "prev-slideshow" onclick="plusSlides(-1)">❮</a>
+    <a class = "next-slideshow" onclick="plusSlides(+1)">❯</a>
 
 </div>
 
@@ -131,6 +146,9 @@ title: favorites
     <span class="dot" onclick="currentSlide(17)"></span>
     <span class="dot" onclick="currentSlide(18)"></span>
     <span class="dot" onclick="currentSlide(19)"></span>
+    <span class="dot" onclick="currentSlide(20)"></span>
+    <span class="dot" onclick="currentSlide(21)"></span>
+    <span class="dot" onclick="currentSlide(22)"></span>
 </div>
 
 
@@ -164,6 +182,10 @@ title: favorites
 
 <p>※ <a href="https://en.wikipedia.org/wiki/The_Durrells">The Durrells in Corfu</a> ⇢ A family living on the greek island Corfu. Perfect summer viewing.</p>
 <p>※ <a href="https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000">Mystery Science Theater 3000</a> ⇢ Oh, you're goin' to the moon, all right!</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/Memories_of_Murder">Memories of Murder</a> ⇢ A fraught, and at times futile, search for a criminal.</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/Moonlight_(2016_film)">Moonlight</a> ⇢ A tender look into one man's life.</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/Raw_(film)">Raw</a> ⇢ When cannibalistic tendencies go wrong.</p>
+
 
 
 <script src="/assets/js/slideshow.js"></script>
