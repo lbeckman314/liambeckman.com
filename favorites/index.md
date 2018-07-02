@@ -187,5 +187,8 @@ title: favorites
 <p>※ <a href="https://en.wikipedia.org/wiki/Raw_(film)">Raw</a> ⇢ When cannibalistic tendencies go wrong.</p>
 
 
+<h2>podcasts</h2>
+<p>※ <a href="http://complexly.com/shows/sexplanations">Sexplanations</a> ⇢ A great education channel (Also <a href="https://www.youtube.com/user/sexplanations">here</a>)</p>
+<p>※ <a href="https://knifepointhorror.libsyn.com/"> Knifepoint Horror</a> ⇢ The best horror stories around.</p>
 
 <script src="/assets/js/slideshow.js"></script>
