@@ -228,6 +228,11 @@ h1.favorites {
     text-decoration: underline dotted #4635f7;
 }
 
+.special {
+    color: grey;
+    text-decoration: underline dotted grey;
+}
+
 h2 {
     font-size: 2.5em;
     font-family: $font-stack;

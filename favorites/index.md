@@ -20,6 +20,12 @@ title: favorites
     </div>
 
     <div class = "mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/the-bald-future.jpg"></div>
+        <div class="text"><a href="https://www.instagram.com/wikstromnaturfoto/">Le Futur Sera Chauve / The Bald Future</a></div>
+    </div>
+
+
+    <div class = "mySlides fade">
         <div class="numbertext">2 / 3</div>
         <div class="black-fade"><img class="slide" src="/assets/favorites/anne-frank-the-diary.jpg"></div>
         <div class="text">The Diary of Anne Frank</div>
@@ -72,7 +78,7 @@ title: favorites
     </div>
 
     <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/mockingbird.jpg"></div>
+        <div class="black-fade"><img class="slide" src="/assets/favorites/to-kill-a-mockingbird.jpg"></div>
         <div class="text">To Kill a Mockingbird</div>
     </div>
 
@@ -121,6 +127,17 @@ title: favorites
         <div class="text">Raw</div>
     </div>
 
+    <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/sexplanations.png"></div>
+        <div class="text">sexplanations</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/KHdesign.jpg"></div>
+        <div class="text">Knifepoint Horror</div>
+    </div>
+
+
     <a class = "prev-slideshow" onclick="plusSlides(-1)">❮</a>
     <a class = "next-slideshow" onclick="plusSlides(+1)">❯</a>
 
@@ -128,8 +145,9 @@ title: favorites
 
 <div class="buttons">
     <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span><span class="grey"> | </span>
+    <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="grey"> | </span>
     <span class="dot" onclick="currentSlide(4)"></span>
     <span class="dot" onclick="currentSlide(5)"></span>
     <span class="dot" onclick="currentSlide(6)"></span>
@@ -139,8 +157,9 @@ title: favorites
     <span class="dot" onclick="currentSlide(10)"></span>
     <span class="dot" onclick="currentSlide(11)"></span>
     <span class="dot" onclick="currentSlide(12)"></span>
-    <span class="dot" onclick="currentSlide(13)"></span><span class="grey"> | </span>
+    <span class="dot" onclick="currentSlide(13)"></span>
     <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="grey"> | </span>
     <span class="dot" onclick="currentSlide(15)"></span>
     <span class="dot" onclick="currentSlide(16)"></span>
     <span class="dot" onclick="currentSlide(17)"></span>
@@ -149,6 +168,10 @@ title: favorites
     <span class="dot" onclick="currentSlide(20)"></span>
     <span class="dot" onclick="currentSlide(21)"></span>
     <span class="dot" onclick="currentSlide(22)"></span>
+    <span class="dot" onclick="currentSlide(23)"></span>
+    <span class="grey"> | </span>
+    <span class="dot" onclick="currentSlide(24)"></span>
+    <span class="dot" onclick="currentSlide(25)"></span>
 </div>
 
 
@@ -159,6 +182,9 @@ title: favorites
 <h2>artwork</h2>
 <p>※ <a href="https://www.sssscomic.com">Stand Still Stay Slient</a> ⇢ a beautifully illustrated webcomic by Minna Sundberg.</p>
 <p>※ <a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Naturfoto</a> ⇢ simply amazing photos of nature and the world.</p>
+<p>※ <a href="https://vimeo.com/257716930">Le Futur Sera Chauve / The Bald Future</a> ⇢ lovely animated short by Paul Cabon.</p>
+
+
 
 
 <h2>books</h2>
@@ -188,7 +214,7 @@ title: favorites
 
 
 <h2>podcasts</h2>
-<p>※ <a href="http://complexly.com/shows/sexplanations">Sexplanations</a> ⇢ A great education channel (Also <a href="https://www.youtube.com/user/sexplanations">here</a>)</p>
+<p>※ <a href="http://complexly.com/shows/sexplanations">Sexplanations</a> ⇢ A great education channel about sexual health (Also a <a href="https://www.youtube.com/user/sexplanations">video channel</a>)</p>
 <p>※ <a href="https://knifepointhorror.libsyn.com/"> Knifepoint Horror</a> ⇢ The best horror stories around.</p>
 
 <script src="/assets/js/slideshow.js"></script>

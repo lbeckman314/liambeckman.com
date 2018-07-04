@@ -1,6 +1,6 @@
 "Everybody betrayed me! I fed up with this world." -Johnny (*The Room*, Tommy Wiseau)
 "Mary wished to say something very sensible, but knew not how." -the narrator (*Pride and Prejudice*, Jane Austen)
-"I am shocked—shocked—to find that gambling is going on in here!" -Captain Louis Renault (*Casablanca*)
+"I am shocked — shocked — to find that gambling is going on in here!" -Captain Louis Renault (*Casablanca*)
 "I only want to live in peace, plant potatoes and dream!" -Tove Jansson (Moomin: The Complete Tove Jansson Comic Strip, Vol. 1)
 "When are you going to stop being John Boy, and start being John Man" -Sarah (*The Waltons* Season 1 Episode 23 The Townies)
 "Computers make excellent and efficient servants, but I have no wish to serve under them. Captain, a starship also runs on loyalty to one man, and nothing can replace it or him." -Spock (Star Trek Season 2 Episode 24 The Ultimate Computer)
@@ -11,5 +11,7 @@
 "Right on." -Theme from Shaft (Isaac Hayes)
 "You're constant harrassment of the female gender makes me sick..." -Jake the Dog (Adventure Time)
 "...you must look within yourself to save yourself from your other self. Only then will your true self reveal itself." -Zuko (The Last Airbender)
+"Gort! Klaatu barada nikto!" - Helen Benson (The Day The Earth Stood Still)
+"Hachi machi!" -Jay Sherman (The Critic)
 
 

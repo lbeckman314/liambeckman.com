@@ -49,6 +49,10 @@ title: hello!
   </div>
 
 
-
 </div>
+
+<!--<h1 class="special">Special Message:</h1>-->
+<br />
+
+<img style="width: 65%; margin: auto; display: block; padding: 2%; border: 1px dashed #aaa;" src="/assets/images/WelcomeYourNeighbors.jpg" onclick="location.href='https://www.welcomeyourneighbors.org'">
 
