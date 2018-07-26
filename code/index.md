@@ -3,8 +3,6 @@ layout: my-default
 title: code
 ---
 
-
-
 <div class="container">
 
     <div class="fixed" id="featured">

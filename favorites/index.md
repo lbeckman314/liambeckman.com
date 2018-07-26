@@ -128,6 +128,11 @@ title: favorites
     </div>
 
     <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/american-graffiti.jpg"></div>
+        <div class="text">American Graffiti</div>
+    </div>
+
+    <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/sexplanations.png"></div>
         <div class="text">sexplanations</div>
     </div>
@@ -169,9 +174,10 @@ title: favorites
     <span class="dot" onclick="currentSlide(21)"></span>
     <span class="dot" onclick="currentSlide(22)"></span>
     <span class="dot" onclick="currentSlide(23)"></span>
-    <span class="grey"> | </span>
     <span class="dot" onclick="currentSlide(24)"></span>
+    <span class="grey"> | </span>
     <span class="dot" onclick="currentSlide(25)"></span>
+    <span class="dot" onclick="currentSlide(26)"></span>
 </div>
 
 
@@ -211,6 +217,7 @@ title: favorites
 <p>※ <a href="https://en.wikipedia.org/wiki/Memories_of_Murder">Memories of Murder</a> ⇢ A fraught, and at times futile, search for a criminal.</p>
 <p>※ <a href="https://en.wikipedia.org/wiki/Moonlight_(2016_film)">Moonlight</a> ⇢ A tender look into one man's life.</p>
 <p>※ <a href="https://en.wikipedia.org/wiki/Raw_(film)">Raw</a> ⇢ When cannibalistic tendencies go wrong.</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/American_Graffiti">American Graffiti</a> ⇢ A single night in the 1960's.</p>
 
 
 <h2>podcasts</h2>

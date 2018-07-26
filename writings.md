@@ -87,7 +87,7 @@ permalink: /writings/
 {% endif %}
 </p>
 <br />
-<p>{{ writing.content }}</p>
+{{ writing.content }}
 <br />
 <br />
 <hr />

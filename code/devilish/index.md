@@ -2,6 +2,12 @@
 layout: my-default
 title: code
 ---
+<div style="background-color: lavender;padding: 2em; border: 1px dashed grey; margin: 5%; ">
+<h2>Safety First!</h2>
+<p>
+This code might be very evil! Before executing any code, feel free to open it up in your favorite text editor to make sure there's no funny business. Signed checksums are included in every package for security. <a href="/code/security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+</p>
+</div>
 
 <div class="container">
 
@@ -25,7 +31,7 @@ title: code
 
 </div>
 
-This is a minimalistic shell along the lines of bash or zsh. It's very evil, and can do lots of cool things!
+This is a minimalistic shell. It comes from the depths of hell, and can do lots of cool things!
 
 <br />
 <hr />
@@ -51,8 +57,11 @@ git clone https://github.com/lbeckman314/devilish
 # enter directory
 cd devilish
 
+# inspect the makefile and main script
+cat makefile
+cat devilish.sh | less
+
 # compile
-make clean
 make
 
 # run the script
