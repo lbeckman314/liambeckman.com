@@ -5,7 +5,7 @@ title: code
 <div style="background-color: lavender;padding: 2em; border: 1px dashed grey; margin: 5%; ">
 <h2>Safety First!</h2>
 <p>
-This code might be very evil! Before executing any code, feel free to open it up in your favorite text editor to make sure there's no funny business. Signed checksums are included in every package for security. <a href="/code/security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+This code might be very evil! Before compiling or executing any code, feel free to open it up in your favorite text editor to make sure there's no funny business. Signed checksums are included in every package for security. <a href="/code/security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
 </p>
 </div>
 

@@ -37,6 +37,8 @@ $blue-light: #eef;
 
 
 
+
+
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
@@ -263,7 +265,7 @@ div.favorites:hover {
 }
 
 #home:hover div {
-    border-bottom: 1px solid snow; 
+    border-bottom: 1px solid snow;
     transition: $tran;
 }
 
@@ -285,31 +287,31 @@ div.favorites:hover {
 
 
 div.about-border {
-    border-bottom: 1px solid $pop-1; 
+    border-bottom: 1px solid $pop-1;
 
     transition: $tran;
 }
 
 div.writings-border {
-    border-bottom: 1px solid $pop-2; 
+    border-bottom: 1px solid $pop-2;
     transition: $tran;
 }
 
 
 div.code-border {
-    border-bottom: 1px solid $pop-3; 
+    border-bottom: 1px solid $pop-3;
     transition: $tran;
 }
 
 
 div.git-border {
-    border-bottom: 1px solid $pop-4; 
+    border-bottom: 1px solid $pop-4;
     transition: $tran;
 }
 
 
 div.favorites-border {
-    border-bottom: 1px solid $pop-5; 
+    border-bottom: 1px solid $pop-5;
     transition: $tran;
 }
 
@@ -477,13 +479,13 @@ button:hover {
 
 .light {
     background-color: whitesmoke;
-    border: 1px solid #ff357a;
+    border: 1px solid snow;
     color: whitesmoke;
 }
 
 .dark {
     background-color: #2a2730;
-    border: 1px solid snow;
+    border: 1px solid #ff357a;
     color: #2a2730;
 }
 
@@ -498,15 +500,21 @@ button:hover {
     float: right;
 }
 
-/*
 #content {
     background-color: #2a2730;
 }
 
-p {
+p, h1, h2, h3 {
     color: snow;
 }
-*/
+
+div.text {
+    background: #2a2730;
+}
+
+#align p {
+    color: snow;
+}
 
 .popstripe-bw {
     height: 0.25em;
@@ -649,7 +657,6 @@ code {
 
 #align p {
   padding-left: 1.5em;
-  color: #5e5e5e;
 }
 
 
@@ -770,8 +777,24 @@ span.grey {
     }
 }
 
+body {
+    background-color: #2a2730;
+}
+
+#header {
+    background-color: #151515;
+}
+
+#footer {
+    background-color: #151515;
+}
+
+.site-footer {
+    background-color: #151515;
+}
+
 
 // import partials
 @import 'responsive';
 @import 'footer';
-@import 'codelight';
+@import 'codedark';

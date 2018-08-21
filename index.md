@@ -8,42 +8,42 @@ title: hello!
 
 <div class="container">
 
-<div class="fixed about"  id="featured" onclick="location.href='/about'">
+<div class="fixed about"  id="home" onclick="location.href='/about'">
     <h1 class="home-page"><a href ="/about" class="about">about</a></h1>
-    <div class="border-home" style="border-bottom: 1px solid #db6ecf;"></div>
+    <div class="about-border"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you new to this site? Let me introduce myself!</p>
 
   </div>
 
 
-<div class="fixed writings" id="featured" onclick="location.href='/writings'">
+<div class="fixed writings" id="home" onclick="location.href='/writings'">
     <h1 class="home-page"><a href = "/writings" class="writings">writings</a></h1>
-    <div class="border-home" style="border-bottom: 1px solid #e6abed;"></div>
+    <div class="writings-border"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you looking for some weird, spooky poems? Here are some of those!</p>
 
   </div>
 
 
-<div class="fixed code" id="featured" onclick="location.href='/code'">
+<div class="fixed code" id="home" onclick="location.href='/code'">
     <h1 class="home-page"><a href = "/code" class="code">code</a></h1>
-    <div class="border-home" style="border-bottom: 1px solid #cdd1fa;"></div>
+    <div class="code-border"></div>
     <p style="text-align: center; padding-bottom: 10px;">Are you in search of code that sometimes compiles? Well then you're in luck.</p>
 
   </div>
 
 
-<div class="fixed git" id="featured" onclick="location.href='https://www.github.com/lbeckman314'">
+<div class="fixed git" id="home" onclick="location.href='https://www.github.com/lbeckman314'">
     <h1 class="home-page" style="color:#678CFA;">
-    <a href = "https://www.github.com/lbeckman314" class="git">github</a> / <a href="https://git.liambeckman.com" class="git">cgit</a>
+    <a href = "https://www.github.com/lbeckman314" class="git">github</a><span> / </span><a href="https://git.liambeckman.com" class="git">cgit</a>
     </h1>
-    <div class="border-home" style="border-bottom: 1px solid #678cfa;"></div>
+    <div class="git-border"></div>
     <p style="text-align: center; padding-bottom: 10px;">Go straight to the source! Checkout some git repos.</p>
 
   </div>
 
-<div class="fixed favorites" id="featured" onclick="location.href='/favorites'">
+<div class="fixed favorites" id="home" onclick="location.href='/favorites'">
     <h1 class="home-page"><a href = "/favorites" class="favorites">favorites</a></h1>
-    <div class="border-home" style="border-bottom: 1px solid #595ef7;"></div>
+    <div class="favorites-border"></div>
     <p style="text-align: center; padding-bottom: 10px;">Here are a few of my favorite things!</p>
 
   </div>
@@ -51,8 +51,5 @@ title: hello!
 
 </div>
 
-<!--<h1 class="special">Special Message:</h1>-->
-<br />
 
-<img style="width: 65%; margin: auto; display: block; padding: 2%; border: 1px dashed #aaa;" src="/assets/images/WelcomeYourNeighbors.jpg" onclick="location.href='https://www.welcomeyourneighbors.org'">
 
