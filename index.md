@@ -51,5 +51,8 @@ title: hello!
 
 </div>
 
+<!--<h1 class="special">Special Message:</h1>-->
+<br />
 
+<img id="welcome" style="" src="/assets/images/WelcomeYourNeighbors.jpg" onclick="location.href='https://www.welcomeyourneighbors.org'">
 

@@ -313,6 +313,20 @@ div.favorites-border {
     transition: $tran;
 }
 
+#welcome {
+    transition: $tran;
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 3%;
+    border: 1px dashed #aaa;
+}
+
+#welcome:hover {
+    background: #0054a5;
+    transition: $tran;
+}
+
 
 /* headers */
 

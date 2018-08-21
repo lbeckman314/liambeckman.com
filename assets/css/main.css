@@ -189,6 +189,18 @@ div.favorites-border {
   border-bottom: 1px solid #4635F7;
   transition: 800ms; }
 
+#welcome {
+  transition: 800ms;
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding: 3%;
+  border: 1px dashed #aaa; }
+
+#welcome:hover {
+  background: #0054a5;
+  transition: 800ms; }
+
 /* headers */
 h1 {
   font-size: 3em;
