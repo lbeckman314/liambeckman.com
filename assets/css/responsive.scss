@@ -7,6 +7,15 @@
     .site-footer {
         height:8em
     }
+
+    button {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .style {
+        float: unset;
+    }
 }
 
 
@@ -14,7 +23,6 @@
     .site-footer {
         height:9em
     }
-
 
 }
 
@@ -57,7 +65,7 @@
 }
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
     ul.sidenav {
         width: 100%;
         height: 15em;
