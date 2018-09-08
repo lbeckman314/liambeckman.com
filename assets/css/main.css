@@ -167,7 +167,8 @@ div.favorites:hover {
   margin-top: 2%; }
 
 #home {
-  width: 100%; }
+  width: 100%;
+  cursor: pointer; }
 
 div.about-border {
   border-bottom: 1px solid #DB37C4;
@@ -313,6 +314,9 @@ span.date:before {
 .flex-item {
   flex-grow: 1; }
 
+.pointer {
+  cursor: pointer; }
+
 button {
   width: 1.3em;
   height: 1.3em;
@@ -408,6 +412,49 @@ div.sub {
 
 span.sub {
   font-size: 0.86em; }
+
+.safety {
+  background-color: lavender;
+  padding: 2em;
+  border: 1px dashed grey;
+  margin: 5%; }
+
+.code-title {
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
+  width: 50%;
+  background-color: #FF357A; }
+
+.code-type {
+  color: #333;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
+  width: 50%; }
+
+.web-app {
+  border: 1px solid #DB37C4; }
+
+#featured {
+  transition: 800ms;
+  cursor: pointer; }
+
+#featured:hover {
+  background-color: lavender;
+  transition: 800ms; }
+
+.command-line {
+  border: 1px solid #678CFA; }
 
 /**
  * Code formatting

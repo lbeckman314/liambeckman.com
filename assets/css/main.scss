@@ -281,6 +281,7 @@ div.favorites:hover {
 
 #home {
     width: 100%;
+    cursor: pointer;
 }
 
 
@@ -472,9 +473,16 @@ span.date:before {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 .flex-item {
     flex-grow: 1;
 }
+
+.pointer {
+    cursor: pointer;
+}
+
 
 button {
     width: 1.3em;
@@ -595,6 +603,58 @@ span.sub {
     font-size: 0.86em;
 }
 
+.safety {
+    background-color: lavender;
+    padding: 2em;
+    border: 1px dashed grey;
+    margin: 5%;
+}
+
+
+.code-title {
+    font-size: 1.2em;
+    text-align: center;
+    //background-color: $pop-1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    width: 50%;
+    background-color: #FF357A;
+}
+
+.code-type {
+    color: #333;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.web-app {
+    border: 1px solid $pop-1;
+}
+
+#featured {
+    transition: $tran;
+    cursor: pointer;
+}
+
+#featured:hover {
+    background-color: lavender;
+    transition: $tran;
+}
+
+.command-line {
+    border: 1px solid $pop-4;
+
+}
 
 /**
  * Code formatting

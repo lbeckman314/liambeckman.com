@@ -6,328 +6,19 @@ Feel free to copy and paste, fork, clone, or anything you like. */
   font-family: 'EB Garamond';
   src: url("/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf"); }
 /***************************************************/
-/* BASIC STUFF
+/* DARK THEMES
 /***************************************************/
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  box-sizing: border-box; }
-
 body {
-  word-wrap: break-word; }
-
-#content {
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-top: 4%; }
-
-/* paragraphs*/
-p {
-  font-size: 1.2em;
-  line-height: 1.7;
-  color: #333;
-  padding-bottom: 1.5%;
-  /*padding-bottom: 2%;*/
-  /*text-indent: 5%;*/
-  transition: 800ms; }
-
-p.code {
-  text-align: center;
-  padding: 0.5em;
-  font-size: 1.2em; }
-
-p.headers {
-  background-color: #D3D2E0;
-  border: 1px #aaa solid; }
-
-P.center {
-  text-align: center;
-  padding: 2%; }
-
-/* anchors */
-a {
-  color: #FF357A;
-  text-decoration: none; }
-
-a:hover {
-  text-decoration: underline;
-  text-decoration-color: #FF357A; }
-
-a.about {
-  color: #DB37C4;
-  text-decoration: snow; }
-
-a.writings {
-  color: #ED68D9;
-  text-decoration: none; }
-
-a.code {
-  color: #49CCD4;
-  text-decoration: none; }
-
-a.git {
-  color: #678CFA;
-  text-decoration: none; }
-
-a.favorites {
-  color: #4635F7;
-  text-decoration: none; }
-
-#home a {
-  font-size: 1.2em;
-  transition: 800ms; }
-
-#home span {
-  transition: 800ms; }
-
-#header a, #footer a {
-  color: #FFFFFF; }
-
-li.header::after {
-  content: " )";
-  color: grey; }
-
-li.header::before {
-  content: "( ";
-  color: grey; }
-
-a.secret {
-  float: right; }
-
-#home:hover a {
-  text-decoration-color: snow;
-  transition: 800ms; }
-
-/* div */
-div.about {
-  border: solid 1px #DB37C4;
-  transition: 800ms; }
-
-div.writings {
-  border: solid 1px #ED68D9;
-  transition: 800ms; }
-
-div.code {
-  border: solid 1px #49CCD4;
-  transition: 800ms; }
-
-div.git {
-  border: solid 1px #678CFA;
-  transition: 800ms; }
-
-div.favorites {
-  border: solid 1px #4635F7;
-  transition: 800ms; }
-
-div.about:hover {
-  background-color: #DB37C4;
-  transition: 800ms; }
-
-div.writings:hover {
-  background-color: #ED68D9;
-  transition: 800ms; }
-
-div.code:hover {
-  background-color: #49CCD4;
-  transition: 800ms; }
-
-div.git:hover {
-  background-color: #678CFA;
-  transition: 800ms; }
-
-div.favorites:hover {
-  background-color: #4635F7;
-  transition: 800ms; }
-
-#home:hover p {
-  color: snow;
-  transition: 800ms; }
-
-#home:hover span {
-  color: snow;
-  transition: 800ms; }
-
-#home:hover div {
-  border-bottom: 1px solid snow;
-  transition: 800ms; }
-
-#home:hover a {
-  color: snow;
-  transition: 800ms; }
-
-#home div {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 2%;
-  margin-top: 2%; }
-
-#home {
-  width: 100%; }
-
-div.about-border {
-  border-bottom: 1px solid #DB37C4;
-  transition: 800ms; }
-
-div.writings-border {
-  border-bottom: 1px solid #ED68D9;
-  transition: 800ms; }
-
-div.code-border {
-  border-bottom: 1px solid #49CCD4;
-  transition: 800ms; }
-
-div.git-border {
-  border-bottom: 1px solid #678CFA;
-  transition: 800ms; }
-
-div.favorites-border {
-  border-bottom: 1px solid #4635F7;
-  transition: 800ms; }
-
-/* headers */
-h1 {
-  font-size: 3em;
-  font-family: Helvetica, Ariral, Sans-Serif;
-  text-align: center;
-  color: #2a2730;
-  padding-top: 3%; }
-
-h1.home-page {
-  padding-top: 2%; }
-
-h1.favorites {
-  color: #4635f7;
-  text-decoration: underline dotted #4635f7; }
-
-.special {
-  color: grey;
-  text-decoration: underline dotted grey; }
-
-h2 {
-  font-size: 2.5em;
-  font-family: Helvetica, Ariral, Sans-Serif;
-  color: #2a2730;
-  padding-top: 3%; }
-
-h2.code {
-  /*color: #595EF7;*/ }
-
-/* lists */
-nav ul, #footer ul, #header ul {
-  font-family: Helvetica, Ariral, Sans-Serif;
-  padding: 10px;
-  list-style: none;
-  font-weight: bold; }
-
-nav ul li, #footer ul li, #header ul li, ul li {
-  display: inline;
-  color: #99979c; }
-
-ul.code, li.code {
-  text-align: center;
-  padding: 2%; }
-
-ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1.5em; }
-
-ul.posts li {
-  list-style: none; }
-
-li.quote {
-  float: right; }
-
-#header li {
-  margin-right: 20px; }
-
-hr {
-  border-bottom: 1px dashed #99979c;
-  border-top: 0px;
-  transition: 800ms; }
-
-#header {
-  font-size: .8em;
   background-color: #2a2730; }
 
+#header {
+  background-color: #151515; }
+
+#footer {
+  background-color: #151515; }
+
 .site-footer {
-  background-color: #2a2730;
-  height: 4.5em; }
-
-/* decorative splash of color at top of page */
-/* http://sass-lang.com/ */
-.popstripe {
-  height: .25em;
-  background-size: 100%;
-  background-image: linear-gradient(to right, #DB37C4 0%, #DB37C4 20%, #ED68D9 20%, #ED68D9 40%, #49CCD4 40%, #49CCD4 60%, #678CFA 60%, #678CFA 80%, #4635F7 80%, #4635F7 100%); }
-
-.heart {
-  color: #FF357A; }
-
-img.center {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-  padding: 2%;
-  max-width: 400px;
-  border: 1px dashed #aaa;
-  border-radius: 50%;
-  margin-top: 0.5em; }
-
-img.emily {
-  border-radius: 0; }
-
-span.date:before {
-  content: "|"; }
-
-/* boxed items like in code and writings */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 3%; }
-
-.fixed {
-  width: 30%;
-  word-wrap: break-word;
-  margin: 1.5em;
-  border: solid 1px #aaa;
-  margin-left: auto;
-  margin-right: auto; }
-
-.flex-item {
-  flex-grow: 1; }
-
-button {
-  width: 1.3em;
-  height: 1.3em;
-  margin-left: 0.3em;
-  margin-right: 0.3em; }
-
-button:hover {
-  border: 1px solid #FF357A; }
-
-.light {
-  background-color: whitesmoke;
-  border: 1px solid snow;
-  color: whitesmoke; }
-
-.dark {
-  background-color: #2a2730;
-  border: 1px solid #ff357a;
-  color: #2a2730; }
-
-.white {
-  color: snow; }
-
-.style {
-  display: inline;
-  margin-right: 1em;
-  margin-left: 1em;
-  float: right; }
+  background-color: #151515; }
 
 #content {
   background-color: #2a2730; }
@@ -341,229 +32,38 @@ div.text {
 #align p {
   color: snow; }
 
-.popstripe-bw {
-  height: 0.25em;
-  background-size: 100%;
-  background-image: linear-gradient(to right, #191917 0%, #191917 20%, #6D7564 20%, #6D7564 40%, #363436 40%, #363436 60%, #7F7F7D 60%, #7F7F7D 80%, #363634 80%, #363634 100%); }
-
-/* borders */
-.border {
-  margin: 6%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 1px solid #aaa; }
-
-.border-home {
-  margin: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 1px solid #db34ed; }
-  .border-home .border-code {
-    border-bottom: 1px solid #aaa; }
-
-/* arrow links for next and previous */
-/* http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html */
-.PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden; }
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  margin: 1em 0;
-  color: grey;
-  padding-left: 4%;
-  padding-right: 4%;
-  padding-top: 1%; }
-
-.PageNavigation .prev {
-  float: right;
-  text-align: right; }
-
-.PageNavigation .next {
-  float: left;
-  text-align: left;
-  padding-left: 4%; }
-
-.sub {
-  color: grey;
-  font-size: 1.0em;
-  line-height: 1.5; }
-
-div.sub {
-  float: right;
-  clear: right;
-  margin: 0px; }
-
-span.sub {
-  font-size: 0.86em; }
-
-/**
- * Code formatting
- */
-pre {
-  font-size: 0.9em;
-  padding: 8px 12px;
-  overflow-x: auto;
-  white-space: pre-wrap; }
-
-code {
-  font-size: 1.0em;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  border-radius: 15%;
-  /* top right bottom left */
-  padding: 0.1em 0.4em 0.1em 0.4em;
-  line-height: 1.5em;
-  /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
-  box-decoration-break: clone; }
-
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s; }
-
-.active, .accordion:hover {
-  background-color: #ccc; }
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden; }
-
-/* slideshow */
-#align a {
-  display: inline-block; }
-
-#align p {
-  padding-left: 1.5em; }
-
-* {
-  box-sizing: border-box; }
-
-img.slide {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  height: 36em;
-  object-fit: cover; }
-
-div.buttons {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 0.5em; }
-
-span.grey {
-  color: #5e5e5e; }
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto; }
-
-.mySlides {
-  display: none;
-  background: black; }
-
-.prev-slideshow, .next-slideshow {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  /*transition: 0.6s ease;*/
-  border-radius: 0 3px 3px 0; }
-
-.next-slideshow {
-  right: 0;
-  border-radius: 3px 0 0 3px; }
-
-.prev-slideshow:hover, .next-slideshow:hover {
-  background-color: rgba(0, 0, 0, 0.8); }
-
-.text {
-  font-size: 15px;
-  padding: 8px 12px;
-  width: 100%;
-  text-align: center;
-  background: snow; }
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  display: none; }
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  /*transition: background-color 0.6s ease;*/ }
+.safety {
+  background-color: unset; }
 
 .active, .dot:hover {
   background-color: #717171; }
 
-.black-fade {
-  position: relative; }
+.code-title, .code-type {
+  color: snow; }
 
-/* https://stackoverflow.com/questions/18322548/black-transparent-overlay-on-image-hover-with-only-css/18322705 */
-.black-fade:after {
-  content: '\A';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: black;
-  opacity: 0;
-  animation-name: fade-black;
-  animation-duration: 1.5s; }
+#featured:hover {
+  background-color: #421895; }
 
-@keyframes fade-black {
-  from {
-    opacity: 1.0; }
-  to {
-    opacity: 0.0; } }
-body {
-  background-color: #2a2730; }
+#lightswitch {
+  border: none; }
 
-#header {
-  background-color: #151515; }
+#lightswitch:hover {
+  border: none;
+  border: 1px solid #FF357A; }
 
-#footer {
-  background-color: #151515; }
-
-.site-footer {
-  background-color: #151515; }
+#darkswitch {
+  border: 1px solid #FF357A; }
 
 /***************************************************/
 /* RESPONSIVE DESIGN
 /***************************************************/
 @media only screen and (max-width: 800px) {
   .site-footer {
-    height: 8em; } }
+    height: 8em; }
+
+  .dark, .light {
+    width: 2.5em;
+    height: 2.5em; } }
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 9em; } }
@@ -586,7 +86,7 @@ body {
 @font-face {
   font-family: "BoswellRegular";
   src: url("assets/Boswell Regular.ttf"); }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
   ul.sidenav {
     width: 100%;
     height: 15em;
