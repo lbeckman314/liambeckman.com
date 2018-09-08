@@ -10,7 +10,7 @@ title: code
         Be careful — this code might be very evil! Only compile and run this program if you trust me and the code herein.
     </p>
     <p>
-        Signed checksums and gpg signatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+        ascned checksums and gpg ascnatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
     </p>
 </div>
 
@@ -40,6 +40,30 @@ title: code
 
 <br />
 <hr />
+<br />
+
+# Quick Start
+
+<br />
+
+<h2 class="code">Clone, compile, run</h2>
+
+```shell
+# clone
+git clone https://github.com/lbeckman314/palindrome
+cd palindrome
+
+# compile
+g++ src/palindrome.cpp -o palindrome
+
+# run
+./palindrome
+```
+
+<br />
+<hr />
+<br />
+
 
 # Installation
 
@@ -97,3 +121,100 @@ bccb
 cc
 Your string is a palindrome! Palindrome = true
 ```
+
+<br />
+<hr />
+<br />
+
+# Alternative Installation
+
+<br />
+
+<h2 class="code">1. Download</h2>
+
+```shell
+wget http://www.liambeckman.com/pkgs/palindrome/palindrome.tar.gz
+# or if you prefer curl:
+# curl http://www.liambeckman.com/pkgs/palindrome/palindrome.tar.gz -o palindrome.tar.gz
+```
+
+<br />
+
+
+
+<h2 class="code">Optional (but recommended): verify file integrity</h2>
+
+```shell
+#-------------------------------#
+# RECIEVE GPG KEYS
+#-------------------------------#
+
+gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
+
+#-------------------------------#
+# RECIEVE SHA256SUMS
+#-------------------------------#
+
+wget http://www.liambeckman.com/pkgs/palindrome/sha256sums.txt{,.asc}
+# or if you prefer curl:
+# curl http://www.liambeckman.com/pkgs/palindrome/sha256sums.txt{,.asc} -o sha256sums.txt -o sha256sums.txt.asc
+
+#-------------------------------#
+# VERIFY SHA256SUMS
+#-------------------------------#
+
+gpg --verify sha256sums.txt.asc
+
+# gpg: ascnature made Tue Oct 31 11:11:11 2017 PDT using RSA key ID AC1CC079
+# gpg: Good ascnature from "liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>" [unknown]
+
+#-------------------------------#
+# VERIFY FILE INTEGRITY
+#-------------------------------#
+
+sha256sum -c sha256sums.txt 2>/dev/null | grep palindrome.tar.gz
+
+# palindrome.tar.gz: OK
+
+#-------------------------------#
+# OPTIONALLY REMOVE PUBLIC KEY
+#-------------------------------#
+
+# to remove my public key from your public key ring, simply
+gpg --delete-key AC1CC079
+```
+
+<br />
+
+<h2 class="code">2. Extract</h2>
+
+
+```shell
+tar -zxvf palindrome.tar.gz
+# or if you downloaded the zip file
+# unzip palindrome.zip
+```
+
+<br />
+
+<h2 class="code">3. Compile and run</h2>
+
+
+```shell
+g++ src/palindrome.cpp -o palindrome
+./palindrome
+```
+
+<br />
+<br />
+
+# Uninstallation
+
+<br />
+
+<h2 class="code">1. Delete the directory/folder.</h2>
+
+```shell
+rm -rfI palindrome
+```
+

@@ -58,20 +58,41 @@ found in 31.0171 seconds
 ```
 
 <br />
+<hr />
 <br />
 
-# Installation
+# Quick Start
 
+<br />
 
+<h2 class="code">Clone, compile, run</h2>
+
+```shell
+# clone
+git clone https://github.com/lbeckman314/prime
+cd prime
+
+# compile
+g++ src/prime.cpp -o prime
+
+# run
+./prime
+```
+
+<br />
+<hr />
+<br />
+
+# Alternative Installation
 
 <br />
 
 <h2 class="code">1. Download</h2>
 
 ```shell
-wget http://www.liambeckman.com/code/prime/prime.tar.gz
+wget http://www.liambeckman.com/pkgs/prime/prime.tar.gz
 # or if you prefer curl:
-# curl http://www.liambeckman.com/code/prime/prime.tar.gz -o prime.tar.gz
+# curl http://www.liambeckman.com/pkgs/prime/prime.tar.gz -o prime.tar.gz
 ```
 
 <br />
@@ -91,9 +112,9 @@ gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 # RECIEVE SHA256SUMS
 #-------------------------------#
 
-wget http://www.liambeckman.com/code/prime/sha256sums.txt{,.sig}
+wget http://www.liambeckman.com/pkgs/prime/sha256sums.txt{,.sig}
 # or if you prefer curl:
-# curl http://www.liambeckman.com/code/prime/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
+# curl http://www.liambeckman.com/pkgs/prime/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
 
 #-------------------------------#
 # VERIFY SHA256SUMS
@@ -137,8 +158,8 @@ tar -zxvf prime.tar.gz
 
 
 ```shell
-g++ prime/src/prime.cpp -o prime/src/prime
-./prime/src/prime
+g++ src/prime.cpp -o prime
+./prime
 ```
 
 <br />
