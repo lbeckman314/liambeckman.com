@@ -4,11 +4,20 @@ title: code
 ---
 
 
+<div class="safety">
+    <h2>Safety First</h2>
+    <p>
+        Be careful — this code might be very evil! Only compile and run this program if you trust me and the code herein.
+    </p>
+    <p>
+        Signed checksums and gpg signatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+    </p>
+</div>
 
 <div class="container">
 
 
-<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 100%; margin: 0%">
+<div class="fixed" style="border: solid 1px #d5d5d5; width: 100%; margin: 0%">
     <a href="https://www.github.com/lbeckman314/prime"><img class="center" src="/assets/png/prime.png"></a>
     <div class="border-code"></div>
     <p style="text-align: center; padding: 1%">
@@ -16,10 +25,10 @@ title: code
     <p style="text-align: center; padding: 1%">This program outputs the first million primes!</p>
 
     <ul class="code">
-        <li class="code"><a href="prime.zip"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a></li>
-        <li class="code"><a href="prime.tar.gz"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/prime/prime.zip"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/prime/prime.tar.gz"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></li>
         <li class="code"><a href="https://github.com/lbeckman314/prime/"><img src="/assets/svg/octicons-5.0.1/lib/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/prime.git">cgit</a></li>
-        <li class="code"><a href="sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> sha256sums</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/prime/sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> sha256sums</a> / <a href="https://liambeckman.com/pkgs/prime/sha256sums.txt.asc">gpg</a></li>
     </ul>
 
   </div>

@@ -2,17 +2,20 @@
 layout: my-default
 title: code
 ---
-<div style="background-color: lavender;padding: 2em; border: 1px dashed grey; margin: 5%; ">
-<h2>Safety First!</h2>
-<p>
-This code might be very evil! Before compiling or executing any code, feel free to open it up in your favorite text editor to make sure there's no funny business. Signed checksums are included in every package for security. <a href="/code/security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
-</p>
+<div class="safety">
+    <h2>Safety First</h2>
+    <p>
+        Be careful — this code might be very evil! Only compile and run this program if you trust me and the code herein.
+    </p>
+    <p>
+        Signed checksums and gpg signatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+    </p>
 </div>
 
 <div class="container">
 
 
-<div class="fixed" id="featured" style="border: solid 1px #d5d5d5; width: 100%; margin: 0%">
+<div class="fixed" style="border: solid 1px #d5d5d5; width: 100%; margin: 0%">
     <a href="https://www.github.com/lbeckman314/devilish"><img class="center" src="/assets/png/devilish.png"></a>
     <div class="border-code"></div>
     <p class="center">
@@ -57,8 +60,8 @@ git clone https://github.com/lbeckman314/devilish
 # enter directory
 cd devilish
 
-# inspect the makefile and main script
-cat makefile
+# optionally inspect the makefile and main script
+cat makefile | less
 cat devilish.sh | less
 
 # compile

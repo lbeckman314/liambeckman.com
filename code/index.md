@@ -5,51 +5,50 @@ title: code
 
 <div class="container">
 
-    <div class="fixed" id="featured">
-   <a href="/code/withfeathers"><img class="center" src="/assets/png/withfeathers.png" ></a>
-    <div class="border"></div>
-    <p class = "code"><a id="title" href="/code/withfeathers">withFeathers</a></p>
+   <div class="fixed pointer" id="featured" onclick="location.href='https://withfeathers.liambeckman.com'">
+   <img class="center" src="/assets/png/withfeathers.png">
+    <div class = "code-title">withfeathers</div>
+    <div class = "code-type web-app">web app</div>
     <p class = "code">Add a little Emily Dickinson to your day.</p>
-
   </div>
 
-    <div class="fixed" id="featured">
-   <a href="/code/webdev"><img class="center" src="/assets/png/nest.png" ></a>
-    <div class="border"></div>
-    <p class = "code"><a id="title" href="/code/webdev">webdev projects</a></p>
+    <div class="fixed pointer" id="featured" onclick="location.href='https://webdev.liambeckman.com'">
+   <a href="https://webdev.liambeckman.com"><img class="center" src="/assets/png/nest.png" ></a>
+    <div class = "code-title">webdev projects</div>
+    <div class = "code-type web-app">web app</div>
     <p class = "code">A nest of web development projects that are just gaining their wings.</p>
 
   </div>
 
-    <div class="fixed" id="featured">
+    <div class="fixed pointer" id="featured" onclick="location.href='/code/devilish'">
    <a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
-    <div class="border"></div>
-    <p class = "code"><a id="title" href="/code/devilish">devilish</a></p>
+    <div class = "code-title">devilish</div>
+    <div class = "code-type command-line">command line</div>
     <p class = "code">The shell from hell!</p>
 
   </div>
 
-    <div class="fixed" id="featured">
+    <div class="fixed pointer" id="featured" onclick="location.href='/code/matrix'">
    <a href="/code/matrix"><img class="center" src="/assets/png/matrix.png" ></a>
-    <div class="border"></div>
-    <p class = "code"><a id="title" href="/code/paren">matrix</a></p>
+    <div class = "code-title">matrix</div>
+    <div class = "code-type command-line">command line</div>
     <p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
 
   </div>
 
-<div class="fixed" id="featured">
+<div class="fixed pointer" id="featured" onclick="location.href='/code/prime'">
     <a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
-    <div class="border"></div>
-    <p class="code"><a id="title" href="/code/prime">prime</a></p>
+    <div class = "code-title">prime</div>
+    <div class = "code-type command-line">command line</div>
     <p class="code">Output the first million primes!</p>
 
   </div>
 
 
-    <div class="fixed" id="featured">
+    <div class="fixed pointer" id="featured" onclick="location.href='/code/palindrome/'">
    <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
-    <div class="border"></div>
-    <p class="code"><a id="title" href="/code/palindrome">palindrome</a></p>
+    <div class = "code-title">palindrome</div>
+    <div class = "code-type command-line">command line</div>
     <p class="code">Determine whether your string is a palindrome!</p>
 
   </div>
@@ -61,9 +60,9 @@ title: code
 
 <hr />
 
-# make checksums, not war
+<h1 id="security">make checksums, not war</h1>
 
-adapted from the "Verifying file integrity and its digital signature" section of <a href="https://www.voidlinux.eu/download/#verifying-file-integrity-and-its-digital-signature">the Void Linux download page.</a>
+adapted from the "Verifying file integrity and its digital signature" section of <a href="https://www.voidlinux.org/download/#verifying-file-integrity-and-its-digital-signature">the Void Linux download page.</a>
 
 Copyright 2008-2017 Juan RP and contributors
 
