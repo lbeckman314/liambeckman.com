@@ -10,7 +10,7 @@ title: code
         Be careful — this code might be very evil! Only compile and run this program if you trust me and the code herein.
     </p>
     <p>
-        ascned checksums and gpg ascnatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+        signed checksums and gpg signatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
     </p>
 </div>
 
@@ -165,8 +165,8 @@ wget http://www.liambeckman.com/pkgs/palindrome/sha256sums.txt{,.asc}
 
 gpg --verify sha256sums.txt.asc
 
-# gpg: ascnature made Tue Oct 31 11:11:11 2017 PDT using RSA key ID AC1CC079
-# gpg: Good ascnature from "liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>" [unknown]
+# gpg: signature made Tue Oct 31 11:11:11 2017 PDT using RSA key ID AC1CC079
+# gpg: Good signature from "liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>" [unknown]
 
 #-------------------------------#
 # VERIFY FILE INTEGRITY

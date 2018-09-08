@@ -42,7 +42,7 @@ bundle install
 jekyll new myblog
 
 # alternatively, clone an existing jekyll site
-# git clone https://liambeckman.com/cgit/website.git
+# git clone https://github.com/lbeckman314/website
 
 # Change into your new directory
 cd myblog

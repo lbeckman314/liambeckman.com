@@ -112,15 +112,15 @@ gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 # RECIEVE SHA256SUMS
 #-------------------------------#
 
-wget http://www.liambeckman.com/pkgs/prime/sha256sums.txt{,.sig}
+wget http://www.liambeckman.com/pkgs/prime/sha256sums.txt{,.asc}
 # or if you prefer curl:
-# curl http://www.liambeckman.com/pkgs/prime/sha256sums.txt{,.sig} -o sha256sums.txt -o sha256sums.txt.sig
+# curl http://www.liambeckman.com/pkgs/prime/sha256sums.txt{,.asc} -o sha256sums.txt -o sha256sums.txt.asc
 
 #-------------------------------#
 # VERIFY SHA256SUMS
 #-------------------------------#
 
-gpg --verify sha256sums.txt.sig
+gpg --verify sha256sums.txt.asc
 
 # gpg: Signature made Tue Oct 31 11:11:11 2017 PDT using RSA key ID AC1CC079
 # gpg: Good signature from "liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>" [unknown]
