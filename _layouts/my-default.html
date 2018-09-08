@@ -1,12 +1,10 @@
 <!doctype html>
-<!--Louis, I think this is the beginning of a beautiful friendship.-->
+<!-- HTML I've cobbled together from the far corners of the world. Feel free to copy and paste, fork, clone, or anything you like. -->
 <html lang="en">
     <head>
         <link rel="stylesheet" href="/assets/css/main.css">
           <link id="dark" rel="stylesheet" href="">
         <link rel="icon" type="image/png" href="/assets/png/iconLambda.png" />
-        <!--<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">-->
-
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +13,6 @@
       <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
       <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-      <!--<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">-->
       <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
       <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
@@ -24,7 +21,7 @@
         <body>
         <div id="wrapper">
             <div id="header">
-            {% include headerGithub.html %}
+            {% include header-menu.html %}
             </div>
 
             <div class="popstripe"></div>
@@ -57,4 +54,4 @@
         </body>
 
 </html>
-
+<!--Louis, I think this is the beginning of a beautiful friendship.-->

@@ -321,6 +321,7 @@ div.favorites-border {
     display: block;
     padding: 3%;
     border: 1px dashed #aaa;
+    cursor: pointer;
 }
 
 #welcome:hover {
@@ -483,6 +484,11 @@ span.date:before {
     cursor: pointer;
 }
 
+.code-main {
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	margin: 0%;
+}
 
 button {
     width: 1.3em;

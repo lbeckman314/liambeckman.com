@@ -17,7 +17,7 @@ title: code
 <div class="container">
 
 
-<div class="fixed" style="border: solid 1px #d5d5d5; width: 100%; margin: 0%">
+<div class="code-main">
     <a href="https://www.github.com/lbeckman314/prime"><img class="center" src="/assets/png/prime.png"></a>
     <div class="border-code"></div>
     <p style="text-align: center; padding: 1%">

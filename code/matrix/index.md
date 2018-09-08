@@ -16,7 +16,7 @@ title: code
 <div class="container">
 
 
-<div class="fixed" style="border: solid 1px #d5d5d5; width: 100%; margin: 0%">
+<div class="code-main">
     <a href="https://www.github.com/lbeckman314/matrix"><img class="center" src="/assets/png/matrix.png"></a>
     <div class="border-code"></div>
     <p class="center">
