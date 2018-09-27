@@ -1,6 +1,6 @@
 ---
-title: if i could
-data: 2018-07-02
+title: if I could
+date: 2018-07-02
 ---
 
 ```

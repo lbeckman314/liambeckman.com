@@ -3,6 +3,7 @@ layout: my-default
 title: code
 ---
 
+
 <div class="container">
 
    <div class="fixed pointer" id="featured" onclick="location.href='https://withfeathers.liambeckman.com'">
@@ -62,9 +63,7 @@ title: code
 
 <h1 id="security">make checksums, not war</h1>
 
-adapted from the "Verifying file integrity and its digital signature" section of <a href="https://www.voidlinux.org/download/#verifying-file-integrity-and-its-digital-signature">the Void Linux download page.</a>
-
-Copyright 2008-2017 Juan RP and contributors
+adapted from the "Verifying file integrity and its digital signature" section of <a href="https://www.voidlinux.org/download/#verifying-file-integrity-and-its-digital-signature">the Void Linux download page.</a> (Copyright 2018 VoidLinux contributors. Copyright 2008-2018 Juan RP and contributors.)
 
 <br />
 
