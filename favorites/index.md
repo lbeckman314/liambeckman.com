@@ -189,8 +189,7 @@ title: favorites
 <p>※ <a href="https://www.sssscomic.com">Stand Still Stay Slient</a> ⇢ a beautifully illustrated webcomic by Minna Sundberg.</p>
 <p>※ <a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Naturfoto</a> ⇢ simply amazing photos of nature and the world.</p>
 <p>※ <a href="https://vimeo.com/257716930">Le Futur Sera Chauve / The Bald Future</a> ⇢ lovely animated short by Paul Cabon.</p>
-
-
+<p>※ <a href="http://falseknees.com/">False Knees</a> ⇢ Comics about birds.</p>
 
 
 <h2>books</h2>
