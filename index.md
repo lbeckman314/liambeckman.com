@@ -47,12 +47,4 @@ title: hello!
     <p style="text-align: center; padding-bottom: 10px;">Here are a few of my favorite things!</p>
 
   </div>
-
-
 </div>
-
-<!--<h1 class="special">Special Message:</h1>-->
-<br />
-
-<img id="welcome" style="" src="/assets/images/WelcomeYourNeighbors.jpg" onclick="location.href='https://www.welcomeyourneighbors.org'">
-
