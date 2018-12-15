@@ -23,7 +23,7 @@ body {
 #content {
   background-color: #2a2730; }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, .text, pre {
   color: snow; }
 
 div.text {

@@ -252,6 +252,17 @@ div.favorites:hover {
     transition: $tran;
 }
 
+#terminal {
+    overflow: auto;
+    width: 100%;
+    height: 20em;
+    resize: both;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border: 1px dashed grey;
+}
+
 #home:hover p {
     color: snow;
     transition: $tran;
@@ -826,6 +837,8 @@ span.grey {
 
 .black-fade {
     position: relative;
+    border: 1px dashed lightgrey;
+    padding: 1em;
 }
 
 /* https://stackoverflow.com/questions/18322548/black-transparent-overlay-on-image-hover-with-only-css/18322705 */

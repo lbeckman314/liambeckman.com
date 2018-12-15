@@ -37,6 +37,12 @@ title: code
 
 This program adds, multiplies, transposes, and averages matrices!  in action [here](https://asciinema.org/a/zjRyykwFxzX8SYoXAMemrWPk8).
 
+# Give it a Spin
+
+<script src="/assets/js/demo.js"></script>
+<textarea id="terminal"></textarea>
+<script type="text/javascript">MYLIBRARY.init(["matriz add m1 m1"]);</script>
+
 <br />
 <hr />
 

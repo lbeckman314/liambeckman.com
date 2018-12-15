@@ -83,18 +83,13 @@ title: favorites
     </div>
 
     <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/american-graffiti.jpg"></div>
+        <div class="text">American Graffiti</div>
+    </div>
+
+    <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/before-sunrise.jpg"></div>
-        <div class="text">Before Sunrise</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/olli-maki.jpg"></div>
-        <div class="text">The Happiest Day in the Life of Olli Mäki</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/kedi.jpg"></div>
-        <div class="text">Kedi</div>
+        <div class="text">Before Sunrise Trilogy</div>
     </div>
 
     <div class="mySlides fade">
@@ -103,18 +98,8 @@ title: favorites
     </div>
 
     <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/durrells.jpg"></div>
-        <div class="text">The Durrells in Corfu</div>
-    </div>
-
-    <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/mst3k.jpg"></div>
         <div class="text">Mystery Science Theater 3000</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/memories-of-murder.jpg"></div>
-        <div class="text">Memories of Murder</div>
     </div>
 
     <div class="mySlides fade">
@@ -127,10 +112,21 @@ title: favorites
         <div class="text">Raw</div>
     </div>
 
+
     <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/american-graffiti.jpg"></div>
-        <div class="text">American Graffiti</div>
+        <div class="black-fade"><img class="slide" src="/assets/favorites/saul-fia.jpg"></div>
+        <div class="text">Son of Saul</div>
     </div>
+
+
+    <div class="mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/memories-of-murder.jpg"></div>
+        <div class="text">Memories of Murder</div>
+    </div>
+
+
+
+
 
     <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/sexplanations.png"></div>
@@ -141,6 +137,7 @@ title: favorites
         <div class="black-fade"><img class="slide" src="/assets/favorites/KHdesign.jpg"></div>
         <div class="text">Knifepoint Horror</div>
     </div>
+
 
 
     <a class = "prev-slideshow" onclick="plusSlides(-1)">❮</a>
@@ -175,9 +172,11 @@ title: favorites
     <span class="dot" onclick="currentSlide(22)"></span>
     <span class="dot" onclick="currentSlide(23)"></span>
     <span class="dot" onclick="currentSlide(24)"></span>
-    <span class="grey"> | </span>
     <span class="dot" onclick="currentSlide(25)"></span>
     <span class="dot" onclick="currentSlide(26)"></span>
+    <span class="grey"> | </span>
+    <span class="dot" onclick="currentSlide(27)"></span>
+    <span class="dot" onclick="currentSlide(28)"></span>
 </div>
 
 
@@ -206,17 +205,15 @@ title: favorites
 <p>※ <a href="https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird">To Kill A Mockingbird</a> ⇢ Timeless classic.</p>
 
 <h2>movies and shows</h2>
+<p>※ <a href="https://en.wikipedia.org/wiki/American_Graffiti">American Graffiti</a> ⇢ A single night in the 1960's.</p>
 <p>※ <a href="https://en.wikipedia.org/wiki/Before_Sunrise">The Before Trilogy</a> ⇢ Two people walking around, pondering love and life.</p>
-<p>※ <a href="https://en.wikipedia.org/wiki/The_Happiest_Day_in_the_Life_of_Olli_M%C3%A4ki">The Happiest Day in the Life of Olli Mäki</a> ⇢ Finnish boxing extraordinaire</p>
-<p>※ <a href="https://en.wikipedia.org/wiki/Kedi_(2016_film)">Kedi</a> ⇢ Explores life as a cat in Turkey.</p>
-<p>※ <a href="https://en.wikipedia.org/wiki/Arrival_(film)">Arrival</a> ⇢ More aliens, more time travel, and more philosophy. Awesome.</p>
 
-<p>※ <a href="https://en.wikipedia.org/wiki/The_Durrells">The Durrells in Corfu</a> ⇢ A family living on the greek island Corfu. Perfect summer viewing.</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/Arrival_(film)">Arrival</a> ⇢ More aliens, more time travel, and more philosophy. Awesome.</p>
 <p>※ <a href="https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000">Mystery Science Theater 3000</a> ⇢ Oh, you're goin' to the moon, all right!</p>
-<p>※ <a href="https://en.wikipedia.org/wiki/Memories_of_Murder">Memories of Murder</a> ⇢ A fraught, and at times futile, search for a criminal.</p>
 <p>※ <a href="https://en.wikipedia.org/wiki/Moonlight_(2016_film)">Moonlight</a> ⇢ A tender look into one man's life.</p>
 <p>※ <a href="https://en.wikipedia.org/wiki/Raw_(film)">Raw</a> ⇢ When cannibalistic tendencies go wrong.</p>
-<p>※ <a href="https://en.wikipedia.org/wiki/American_Graffiti">American Graffiti</a> ⇢ A single night in the 1960's.</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/Son_of_Saul">Son of Saul</a> ⇢ A beautifully crafted film. Heartbreaking and harsh.</p>
+<p>※ <a href="https://en.wikipedia.org/wiki/Memories_of_Murder">Memories of Murder</a> ⇢ A fraught, and at times futile, search for a criminal.</p>
 
 
 <h2>podcasts</h2>

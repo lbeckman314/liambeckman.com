@@ -2,6 +2,7 @@
 layout: my-default
 title: code
 ---
+
 <div class="safety">
     <h2>Safety First</h2>
     <p>

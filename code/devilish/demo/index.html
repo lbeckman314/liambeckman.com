@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>.terminal-container { resize: both; overflow: hidden; } #terminal { background-color: black; color: white; width: 100%; height: 100%; padding: 2%;}</style>
+        <script data-main="scripts/main" src="scripts/require.js"></script>
+    </head>
+    <body>
+        <div class="terminal-container">
+            <textarea id="terminal" rows="10" cols="100" id="terminal" spellcheck="false"></textarea>
+        </div>
+    </body>
+</html>
+<script>
+
+let terminal = document.getElementById("terminal");
+
+// https://developer.mozilla.org/en-US/docs/Web/API/WebSocket
+
+//var WebSocket = require('ws')
+//const readline = require('readline');
+
+console.log("Connecting to server...");
+//terminal.value += "Connecting...\n";
+
+//process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
+
+// Create WebSocket connection.
+const socket = new WebSocket('wss://liambeckman.com:8181');
+//const socket = new WebSocket('https://liambeckman.com/demo/devilish');
+
+demo("devilish");
+
+function demo(userPrompt) {
+    // Connection opened
+    socket.onopen = function (event) {
+        console.log("Success!");
+        //terminal.value += "OK\n";
+        //command = readline.question(": ");
+        console.log("Sending initial message to server.");
+        //terminal.value += "Sending initial message to server.\n";
+        terminal.value += "Press ENTER to blast off!\n";
+
+        terminal.value += "> " + userPrompt;
+
+        //socket.send("devilish");
+
+        let message = "";
+        let messages = [];
+        // Listen for messages
+        socket.onmessage = function(event) {
+            //console.log("MESSAGE:", event.data);
+            terminal.value += event.data;
+            message = event.data.toString();
+            console.log("MESSAGE:", message);
+            terminal.scrollTop = terminal.scrollHeight;
+            messages = message.split("\n");
+            console.log("MESSAGES:", messages);
+
+            console.log("COMMAND:", comm);
+        }
+
+        document.getElementById('terminal').onkeypress = function (event) {
+            console.log("get command");
+            let key = event.keyCode;
+
+            if (key == 13)
+            {
+                let lines = terminal.value.split("\n");
+
+                for (let i = 0; i < lines.length; i++)
+                {
+                    //console.log(lines[i]);
+                }
+                console.log("message:", message);
+                comm = lines[lines.length-1];
+                //console.log("you entered:", comm);
+                console.log("messages.length:", messages.length);
+                if (messages.length > 0) {
+                    comm = comm.substring(messages[messages.length - 1].length - 1);
+                }
+                //console.log("you entered:", comm);
+                comm = comm.replace(/([>:]+ *)/g, "");
+                comm = comm.replace(/^[ ]*/g, "");
+                
+                console.log("you entered:", comm);
+                if (comm == "clear") {
+                    terminal.value = "";
+                }
+
+                else if (comm == "") {
+                    terminal.value += "> ";
+                }
+
+                else {
+                    socket.send(comm);
+                }
+
+                //terminal.value += "\n> ";
+            }
+        }
+    }
+}
+
+
+
+</script>

@@ -37,6 +37,12 @@ title: code
 </div>
 
 
+# Give it a Spin
+
+<script src="/assets/js/demo.js"></script>
+<textarea id="terminal"></textarea>
+<script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
+
 <br />
 <br />
 
