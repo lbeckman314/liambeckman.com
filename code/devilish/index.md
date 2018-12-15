@@ -63,7 +63,7 @@ cd devilish
 
 # optionally inspect the makefile and main script
 cat makefile | less
-cat devilish.sh | less
+cat devilish.c | less
 
 # compile
 make

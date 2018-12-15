@@ -53,6 +53,12 @@ time elapsed: 39.45207595825195 ms
 
 A really good **R implementation** (and inspiration for this program) is this one! -> [Display a random Emily Dickinson poem (Gutenberg edition)](https://r.amherst.edu/apps/nhorton/Dickinson1/)
 
+# Give it a Spin
+
+<script src="/assets/js/demo.js"></script>
+<textarea id="terminal"></textarea>
+<script type="text/javascript">MYLIBRARY.init(["withfeathers --print"]);</script>
+
 <br />
 <hr />
 
