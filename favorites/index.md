@@ -8,13 +8,11 @@ title: favorites
 
 <div class = "slideshow-container">
     <div class = "mySlides fade">
-        <div class="numbertext">1 / 3</div>
         <div class="black-fade"><img class="slide" src="/assets/favorites/ssss.jpg"></div>
         <div class="text"><a href="https://www.sssscomic.com">Stand Still Stay Slient</a></div>
     </div>
 
     <div class = "mySlides fade">
-        <div class="numbertext">1 / 3</div>
         <div class="black-fade"><img class="slide" src="/assets/favorites/gustav.jpg"></div>
         <div class="text"><a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Naturfoto</a></div>
     </div>
@@ -23,7 +21,6 @@ title: favorites
         <div class="black-fade"><img class="slide" src="/assets/favorites/the-bald-future.jpg"></div>
         <div class="text"><a href="https://www.instagram.com/wikstromnaturfoto/">Le Futur Sera Chauve / The Bald Future</a></div>
     </div>
-
 
     <div class = "mySlides fade">
         <div class="numbertext">2 / 3</div>
@@ -143,44 +140,8 @@ title: favorites
     <a class = "prev-slideshow" onclick="plusSlides(-1)">❮</a>
     <a class = "next-slideshow" onclick="plusSlides(+1)">❯</a>
 
+
 </div>
-
-<div class="buttons">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="grey"> | </span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
-    <span class="dot" onclick="currentSlide(7)"></span>
-    <span class="dot" onclick="currentSlide(8)"></span>
-    <span class="dot" onclick="currentSlide(9)"></span>
-    <span class="dot" onclick="currentSlide(10)"></span>
-    <span class="dot" onclick="currentSlide(11)"></span>
-    <span class="dot" onclick="currentSlide(12)"></span>
-    <span class="dot" onclick="currentSlide(13)"></span>
-    <span class="dot" onclick="currentSlide(14)"></span>
-    <span class="grey"> | </span>
-    <span class="dot" onclick="currentSlide(15)"></span>
-    <span class="dot" onclick="currentSlide(16)"></span>
-    <span class="dot" onclick="currentSlide(17)"></span>
-    <span class="dot" onclick="currentSlide(18)"></span>
-    <span class="dot" onclick="currentSlide(19)"></span>
-    <span class="dot" onclick="currentSlide(20)"></span>
-    <span class="dot" onclick="currentSlide(21)"></span>
-    <span class="dot" onclick="currentSlide(22)"></span>
-    <span class="dot" onclick="currentSlide(23)"></span>
-    <span class="dot" onclick="currentSlide(24)"></span>
-    <span class="dot" onclick="currentSlide(25)"></span>
-    <span class="dot" onclick="currentSlide(26)"></span>
-    <span class="grey"> | </span>
-    <span class="dot" onclick="currentSlide(27)"></span>
-    <span class="dot" onclick="currentSlide(28)"></span>
-</div>
-
-
-
 
 <div id="align">
 

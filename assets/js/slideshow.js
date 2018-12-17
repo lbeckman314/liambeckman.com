@@ -34,7 +34,7 @@ function showSlides(n) {
     console.log("slideIndex:", slideIndex);
     console.log("slides[slideIndex]:", slides[slideIndex]);
     console.log("slides[0]:", (slides)[0]);
-    var dots = document.getElementsByClassName("dot");
+    var dots = document.getElementsByClassName("demo");
     if (n > slides.length) {
         slideIndex = 1;
     }
