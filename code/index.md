@@ -8,7 +8,7 @@ title: code
 
    <div class="fixed pointer" id="featured" onclick="location.href='https://withfeathers.liambeckman.com'">
    <img class="center" src="/assets/png/withfeathers.png">
-    <div class = "code-title">withfeathers</div>
+    <div class = "code-title">withfeathers *</div>
     <div class = "code-type web-app">web app</div>
     <p class = "code">Add a little Emily Dickinson to your day.</p>
   </div>
@@ -31,7 +31,7 @@ title: code
 
     <div class="fixed pointer" id="featured" onclick="location.href='/code/matrix'">
    <a href="/code/matrix"><img class="center" src="/assets/png/matrix.png" ></a>
-    <div class = "code-title">matrix</div>
+    <div class = "code-title">matriz *</div>
     <div class = "code-type command-line">command line</div>
     <p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
 
@@ -39,7 +39,7 @@ title: code
 
 <div class="fixed pointer" id="featured" onclick="location.href='/code/prime'">
     <a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
-    <div class = "code-title">prime</div>
+    <div class = "code-title">prime *</div>
     <div class = "code-type command-line">command line</div>
     <p class="code">Output the first million primes!</p>
 
@@ -48,7 +48,7 @@ title: code
 
     <div class="fixed pointer" id="featured" onclick="location.href='/code/palindrome/'">
    <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
-    <div class = "code-title">palindrome</div>
+    <div class = "code-title">palindrome *</div>
     <div class = "code-type command-line">command line</div>
     <p class="code">Determine whether your string is a palindrome!</p>
 
@@ -58,6 +58,13 @@ title: code
 
 </div>
 
+# * Interactive Demos
+
+<script src="/assets/js/demo.js"></script>
+<textarea id="terminal"></textarea>
+<script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
+<a style="float: right;" href="https://github.com/lbeckman314/demo">What is this?</a>
+<br />
 
 <hr />
 

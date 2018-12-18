@@ -74,13 +74,11 @@ document.onkeypress =  function(event) {
 
     let key = event.keyCode;
     if (key == 39) {
-        console.log("right");
         slideIndex += 1;
         currentSlide(slideIndex);
         //plusSlides(1);
     }
     else if (key == 37) {
-        console.log("left");
         slideIndex -= 1;
         //minusSlides(1);
         currentSlide(slideIndex);

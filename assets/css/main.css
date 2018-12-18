@@ -144,6 +144,19 @@ div.favorites:hover {
   background-color: #4635F7;
   transition: 800ms; }
 
+.demo {
+  border: 1px dashed snow;
+  color: snow;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 3em;
+  width: 2em;
+  height: 2em;
+  line-height: 2em; }
+
 #terminal {
   overflow: auto;
   width: 100%;

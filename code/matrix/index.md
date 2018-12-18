@@ -17,17 +17,17 @@ title: code
 
 
 <div class="code-main">
-    <a href="https://www.github.com/lbeckman314/matrix"><img class="center" src="/assets/png/matrix.png"></a>
+    <a href="https://www.github.com/lbeckman314/matriz"><img class="center" src="/assets/png/matrix.png"></a>
     <div class="border-code"></div>
     <p class="center">
-    <a id="title" href="https://www.github.com/lbeckman314/matrix">matrix</a></p>
+    <a id="title" href="https://www.github.com/lbeckman314/matriz">matriz</a></p>
     <p class = "code">Add, average, multiply, and transpose matrices like it's going out of style!</p>
 
     <ul class="code">
-        <li class="code"><a href="https://liambeckman.com/pkgs/matrix/matrix.zip"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a></li>
-        <li class="code"><a href="https://liambeckman.com/pkgs/matrix/matrix.tar.gz"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></li>
-        <li class="code"><a href="https://github.com/lbeckman314/matrix/"><img src="/assets/svg/octicons-5.0.1/lib/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/matrix">cgit</a></li>
-        <li class="code"><a href="https://liambeckman.com/pkgs/matrix/sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/matrix/sha256sums.txt.asc">gpg</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/matriz/matriz.zip"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/matriz/matriz.tar.gz"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></li>
+        <li class="code"><a href="https://github.com/lbeckman314/matriz/"><img src="/assets/svg/octicons-5.0.1/lib/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/matriz">cgit</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/matriz/sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/matriz/sha256sums.txt.asc">gpg</a></li>
     </ul>
 
   </div>
@@ -66,16 +66,16 @@ The above utilities should be installed (or readily available) if you are runnin
 
 ```shell
 # clone the git repo
-git clone https://github.com/lbeckman314/matrix
+git clone https://github.com/lbeckman314/matriz
 
 # enter directory
-cd matrix
+cd matriz
 
 # allow the script to execute
-chmod u+x matrix
+chmod u+x matriz
 
 # run the script
-./matrix add m1 m1
+./matriz add m1 m1
 ```
 
 <br />
@@ -86,7 +86,7 @@ chmod u+x matrix
 <h2 class="code">0. Delete the directory/folder.</h2>
 
 ```shell
-rm -rfI matrix
+rm -rfI matriz
 ```
 
 <br />
@@ -94,9 +94,9 @@ rm -rfI matrix
 
 # Documentation
 
-(Run `man -l matrix.man` while in the directory for a basic man page for `matrix`.)
+(Run `man -l matriz.man` while in the directory for a basic man page for `matriz`.)
 
-`matrix` takes four arguments: **add**, **average**, **multiply**, and **transpose**. Matrix input (either with files or standard input) must be integers, either positive or negative, separated by white space. Non-numeric characters (including blank elements) will throw an error. Output will be tab-delimited elements.
+`matriz` takes four arguments: **add**, **average**, **multiply**, and **transpose**. matriz input (either with files or standard input) must be integers, either positive or negative, separated by white space. Non-numeric characters (including blank elements) will throw an error. Output will be tab-delimited elements.
 
 
 <br />
@@ -116,11 +116,11 @@ $ cat m2
 <br />
 
 **add**
-    takes two matrices of dimensions `row × col` and `row × col` and produces a sum matrix of dimesions `row × col`.
+    takes two matrices of dimensions `row × col` and `row × col` and produces a sum matriz of dimesions `row × col`.
 
 
 ```sh
-$ ./matrix add m1 m1
+$ ./matriz add m1 m1
 2   4   6   8
 10  12  14  16
 ```
@@ -129,10 +129,10 @@ $ ./matrix add m1 m1
 <br />
 
 **mean**
-    takes one matrix of dimension `row × col` and averages each of it's columns. Produces an average matrix of dimensions `1 × col`.
+    takes one matriz of dimension `row × col` and averages each of it's columns. Produces an average matriz of dimensions `1 × col`.
 
 ```sh
-$ ./matrix mean m1
+$ ./matriz mean m1
 3   4   5   6
 ```
 
@@ -140,10 +140,10 @@ $ ./matrix mean m1
 <br />
 
 **multiply**
-    takes two matrices of dimensions `row₁ × col₁` and `row₂ × col₂` and produces a sum matrix of dimesions `row₁ × col₂`. col₁ must be eqaul to row₂.
+    takes two matrices of dimensions `row₁ × col₁` and `row₂ × col₂` and produces a sum matriz of dimesions `row₁ × col₂`. col₁ must be eqaul to row₂.
 
 ```sh
-$ ./matrix multiply m1 m2
+$ ./matriz multiply m1 m2
 30  70
 70  174
 ```
@@ -152,10 +152,10 @@ $ ./matrix multiply m1 m2
 <br />
 
 **transpose**
-    takes one matrix and moves element at position `row × col` to position `col × row`.
+    takes one matriz and moves element at position `row × col` to position `col × row`.
 
 ```sh
-$ ./matrix transpose m1
+$ ./matriz transpose m1
 1   5
 2   6
 3   7
@@ -168,7 +168,7 @@ $ ./matrix transpose m1
 
 # Examples of valid and invalid matrices:
 
-m4 is a **valid** matrix
+m4 is a **valid** matriz
 ```sh
 $ cat m4
 
@@ -179,7 +179,7 @@ $ cat m4
 ```
 <br />
 
-m5 is an **invalid** matrix: non-numeric character at position (1, 3).
+m5 is an **invalid** matriz: non-numeric character at position (1, 3).
 ```sh
 $ cat m5
 
@@ -193,7 +193,7 @@ $ cat m5
 <hr />
 <br />
 
-m6 is a **valid** matrix
+m6 is a **valid** matriz
 ```sh
 $ cat m6
 
@@ -205,7 +205,7 @@ $ cat m6
 
 <br />
 
-m7 is an **invalid** matrix: blank character at position (2, 1)
+m7 is an **invalid** matriz: blank character at position (2, 1)
 ```sh
 $ cat m7
 
@@ -219,7 +219,7 @@ $ cat m7
 <hr />
 <br />
 
-m8 is a **valid** matrix
+m8 is a **valid** matriz
 ```sh
 $ cat -A m8
 
@@ -228,7 +228,7 @@ $ cat -A m8
 
 <br />
 
-m9 is an **invalid** matrix: trailing tab in first row
+m9 is an **invalid** matriz: trailing tab in first row
 ```sh
 $ cat -A m9
 
@@ -248,10 +248,10 @@ Click the tar.gz or zip buttons at the top of the page to download a tar.gz or .
 Or copy and paste the following command into the terminal to have it download it for you!
 
 ```shell
-wget http://www.liambeckman.com/pkgs/matrix/matrix.tar.gz
+wget http://www.liambeckman.com/pkgs/matriz/matriz.tar.gz
 
 # or if you prefer curl:
-# curl http://www.liambeckman.com/pkgs/matrix/matrix.tar.gz -o matrix.tar.gz
+# curl http://www.liambeckman.com/pkgs/matriz/matriz.tar.gz -o matriz.tar.gz
 ```
 
 
@@ -268,9 +268,9 @@ gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 # RECIEVE SHA256SUMS
 #-------------------------------#
 
-wget http://www.liambeckman.com/pkgs/matrix/sha256sums.txt{,.asc}
+wget http://www.liambeckman.com/pkgs/matriz/sha256sums.txt{,.asc}
 # or if you prefer curl:
-# curl http://www.liambeckman.com/pkgs/matrix/sha256sums.txt{,.asc} -o sha256sums.txt -o sha256sums.txt.asc
+# curl http://www.liambeckman.com/pkgs/matriz/sha256sums.txt{,.asc} -o sha256sums.txt -o sha256sums.txt.asc
 
 #-------------------------------#
 # VERIFY SHA256SUMS
@@ -285,9 +285,9 @@ gpg --verify sha256sums.txt.asc
 # VERIFY FILE INTEGRITY
 #-------------------------------#
 
-sha256sum -c sha256sums.txt 2>/dev/null | grep matrix.tar.gz
+sha256sum -c sha256sums.txt 2>/dev/null | grep matriz.tar.gz
 
-# matrix.tar.gz: OK
+# matriz.tar.gz: OK
 
 #-------------------------------#
 # OPTIONALLY REMOVE PUBLIC KEY
@@ -302,9 +302,9 @@ gpg --delete-key AC1CC079
 
 
 ```shell
-tar -zxvf matrix.tar.gz
+tar -zxvf matriz.tar.gz
 # or if you downloaded the zip file
-# unzip matrix.zip
+# unzip matriz.zip
 ```
 
 
@@ -312,10 +312,10 @@ tar -zxvf matrix.tar.gz
 
 
 ```shell
-cd matrix
+cd matriz
 
-chmod u+x matrix
-./matrix add m1 m1
+chmod u+x matriz
+./matriz add m1 m1
 ```
 
 <br />
@@ -326,7 +326,7 @@ chmod u+x matrix
 <h2 class="code">0. Delete the directory/folder.</h2>
 
 ```shell
-rm -rfI matrix
+rm -rfI matriz
 ```
 
 
