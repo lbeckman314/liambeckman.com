@@ -44,11 +44,29 @@ title: code
 <script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
 
 <br />
+
+Estimated times for above demo (running on a single board computer):
+
+```
+n:             nth Prime:
+5              11         found in    0.000135 seconds
+10             29         found in    0.000203 seconds
+100            541        found in    0.001669 seconds
+1000           7919       found in    0.04205  seconds
+10000          104729     found in    1.26253  seconds
+100000         1299709    found in   34.9215   seconds
+1000000        15485863   found in 1041.71     seconds (~18 minutes)
+
+```
+
+<br />
 <br />
 
 This program uses the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) to compute the first million primes. On my laptop it takes about 30 seconds, but it may be faster or slower on yours. [See it in action!](https://asciinema.org/a/CUqAnP8NgipoPTlQo2apmAErB)
 
 <br />
+
+Estimated times for modern-ish laptop:
 
 ```
 n:             nth Prime:
