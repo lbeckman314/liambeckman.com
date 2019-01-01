@@ -457,7 +457,7 @@ span.sub {
   margin-bottom: 1em;
   padding: 0.5em;
   border-radius: 1em;
-  width: 50%;
+  width: 60%;
   background-color: #FF357A; }
 
 .code-type {
@@ -469,7 +469,7 @@ span.sub {
   margin-bottom: 1em;
   padding: 0.5em;
   border-radius: 1em;
-  width: 50%; }
+  width: 60%; }
 
 .web-app {
   border: 1px solid #DB37C4; }
@@ -484,6 +484,9 @@ span.sub {
 
 .command-line {
   border: 1px solid #678CFA; }
+
+.android {
+  border: 1px solid #49CCD4; }
 
 /**
  * Code formatting
@@ -870,7 +873,7 @@ span.grey {
     height: 2.5em; } }
 @media only screen and (max-width: 700px) {
   img.slide {
-    height: 12em; } }
+    height: 25em; } }
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 9em; } }

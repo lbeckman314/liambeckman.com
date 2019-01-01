@@ -653,7 +653,7 @@ span.sub {
     margin-bottom: 1em;
     padding: 0.5em;
     border-radius: 1em;
-    width: 50%;
+    width: 60%;
     background-color: #FF357A;
 }
 
@@ -666,7 +666,7 @@ span.sub {
     margin-bottom: 1em;
     padding: 0.5em;
     border-radius: 1em;
-    width: 50%;
+    width: 60%;
 }
 
 .web-app {
@@ -685,7 +685,10 @@ span.sub {
 
 .command-line {
     border: 1px solid $pop-4;
+}
 
+.android {
+    border: 1px solid $pop-3;
 }
 
 /**

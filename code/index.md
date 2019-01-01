@@ -6,55 +6,56 @@ title: code
 
 <div class="container">
 
-   <div class="fixed pointer" id="featured" onclick="location.href='https://withfeathers.liambeckman.com'">
-   <img class="center" src="/assets/png/withfeathers.png">
-    <div class = "code-title">withfeathers *</div>
-    <div class = "code-type web-app">web app</div>
-    <p class = "code">Add a little Emily Dickinson to your day.</p>
-  </div>
+    <div class="fixed pointer" id="featured" onclick="location.href='https://withfeathers.liambeckman.com'">
+        <img class="center" src="/assets/png/withfeathers.png">
+        <div class = "code-title">withfeathers *</div>
+        <div class = "code-type web-app">web app</div>
+        <p class = "code">Add a little Emily Dickinson to your day.</p>
+    </div>
 
     <div class="fixed pointer" id="featured" onclick="location.href='https://webdev.liambeckman.com'">
-   <a href="https://webdev.liambeckman.com"><img class="center" src="/assets/png/nest.png" ></a>
-    <div class = "code-title">webdev projects</div>
-    <div class = "code-type web-app">web app</div>
-    <p class = "code">A nest of web development projects that are just gaining their wings.</p>
-
-  </div>
+        <a href="https://webdev.liambeckman.com"><img class="center" src="/assets/png/nest.png" ></a>
+        <div class = "code-title">webdev projects</div>
+        <div class = "code-type web-app">web app</div>
+        <p class = "code">A nest of web development projects that are just gaining their wings.</p>
+    </div>
 
     <div class="fixed pointer" id="featured" onclick="location.href='/code/devilish'">
-   <a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
-    <div class = "code-title">devilish</div>
-    <div class = "code-type command-line">command line</div>
-    <p class = "code">The shell from hell!</p>
-
-  </div>
+        <a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
+        <div class = "code-title">devilish</div>
+        <div class = "code-type command-line">command line</div>
+        <p class = "code">The shell from hell!</p>
+    </div>
 
     <div class="fixed pointer" id="featured" onclick="location.href='/code/matrix'">
-   <a href="/code/matrix"><img class="center" src="/assets/png/matrix.png" ></a>
-    <div class = "code-title">matriz *</div>
-    <div class = "code-type command-line">command line</div>
-    <p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
+        <a href="/code/matrix"><img class="center" src="/assets/png/matrix.png" ></a>
+        <div class = "code-title">matriz *</div>
+        <div class = "code-type command-line">command line</div>
+        <p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
+    </div>
 
-  </div>
-
-<div class="fixed pointer" id="featured" onclick="location.href='/code/prime'">
-    <a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
-    <div class = "code-title">prime *</div>
-    <div class = "code-type command-line">command line</div>
-    <p class="code">Output the first million primes!</p>
-
-  </div>
+    <div class="fixed pointer" id="featured" onclick="location.href='/code/prime'">
+        <a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
+        <div class = "code-title">prime *</div>
+        <div class = "code-type command-line">command line</div>
+        <p class="code">Output the first million primes!</p>
+    </div>
 
 
     <div class="fixed pointer" id="featured" onclick="location.href='/code/palindrome/'">
-   <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
-    <div class = "code-title">palindrome *</div>
-    <div class = "code-type command-line">command line</div>
-    <p class="code">Determine whether your string is a palindrome!</p>
+        <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
+        <div class = "code-title">palindrome *</div>
+        <div class = "code-type command-line">command line</div>
+        <p class="code">Determine whether your string is a palindrome!</p>
+    </div>
 
-  </div>
-
-
+    <div class="fixed pointer" id="featured" onclick="location.href='https://github.com/cs361-group24'">
+        <a href="https://github.com/cs361-group24"><img class="center" src="/assets/png/removemywaste.png"></a>
+        <div class = "code-title">RemoveMyWaste</div>
+        <div class = "code-type android" id="rmw">android</div>
+        <div class = "code-type web-app">web app</div>
+        <p class="code">An application for household hazardous waste removal.</p>
+    </div>
 
 </div>
 
@@ -123,3 +124,19 @@ sha256sum -c sha256sums.txt 2>/dev/null | grep EXAMPLE.tar.gz
 gpg --delete-key AC1CC079
 ```
 
+
+<script>
+// wait until the DOM before starting buttons
+document.addEventListener('DOMContentLoaded', bindButtons);
+
+function bindButtons() {
+    let rmw = document.getElementById('rmw');
+    rmw.onclick = function(e) {
+        // https://stackoverflow.com/questions/2385113/howto-div-with-onclick-inside-another-div-with-onclick-javascript
+        if (!e) var e = window.event;
+        e.cancelBubble = true;
+        if (e.stopPropagation) e.stopPropagation();
+        location.href='https://removemywaste.liambeckman.com/';
+    }
+}
+</script>
