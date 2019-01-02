@@ -52,8 +52,8 @@ title: code
     <div class="fixed pointer" id="featured" onclick="location.href='https://github.com/cs361-group24'">
         <a href="https://github.com/cs361-group24"><img class="center" src="/assets/png/removemywaste.png"></a>
         <div class = "code-title">RemoveMyWaste</div>
-        <div class = "code-type android" id="rmw">android</div>
-        <div class = "code-type web-app">web app</div>
+        <div class = "code-type android">android</div>
+        <div class = "code-type web-app" id="rmw">web app</div>
         <p class="code">An application for household hazardous waste removal.</p>
     </div>
 
