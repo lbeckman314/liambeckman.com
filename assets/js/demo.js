@@ -31,6 +31,15 @@ var MYLIBRARY = MYLIBRARY || (function(){
 
 document.addEventListener('DOMContentLoaded', function () {
     let terminal = document.getElementById("terminal");
+    let examples = document.getElementsByClassName("demo-examples");
+    for (let i = 0; i < examples.length; i++) {
+        let example = examples[i].innerHTML;
+        examples[i].onclick = function() {
+            terminal.value = terminal.value.replace(/.*$/ ,"> " + example);
+            terminal.focus();
+        }
+    }
+
     terminal.spellcheck = false;
     console.log("terminal:", terminal);
     console.log("Connecting to server...");

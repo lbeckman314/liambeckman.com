@@ -61,10 +61,27 @@ title: code
 
 # * Interactive Demos
 
+Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
+
+<code class="demo-examples">withfeathers --print</code>
+<code class="demo-examples">prime 10101</code>
+<code class="demo-examples">palindrome</code>
+<code class="demo-examples">matriz multiply m1 m2</code>
+<code class="demo-examples">cat m1</code>
+<code class="demo-examples">cat m2</code>
+
 <script src="/assets/js/demo.js"></script>
 <textarea id="terminal"></textarea>
 <script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
 <a style="float: right;" href="https://github.com/lbeckman314/demo">What is this?</a>
+
+<style>
+.demo-examples {
+    background-color: #4635f7;
+    border-radius: 0;
+}
+</style>
+
 <br />
 
 <hr />
