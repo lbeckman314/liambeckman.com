@@ -11,10 +11,7 @@ title: about
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue.
 
-
 Have a good book or movie recommendation? Let me know at <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
-
-When it comes to computer stuff, I'm a perpetual noob.
 
 ---
 

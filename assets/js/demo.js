@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let terminal = document.getElementById("terminal");
     let examples = document.getElementsByClassName("demo-examples");
     for (let i = 0; i < examples.length; i++) {
-        let example = examples[i].innerHTML;
+        let example = examples[i].textContent;
         examples[i].onclick = function() {
             terminal.value = terminal.value.replace(/.*$/ ,"> " + example);
             terminal.focus();
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     comm = comm.substring(messages[messages.length - 1].length - 1);
                 }
                 //console.log("you entered:", comm);
-                comm = comm.replace(/([>:]+ *)/g, "");
+                comm = comm.replace(/([>]+ *)/g, "");
                 comm = comm.replace(/^[ ]*/g, "");
                 
                 console.log("you entered:", comm);

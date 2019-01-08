@@ -63,12 +63,21 @@ title: code
 
 Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
-<code class="demo-examples">withfeathers --print</code>
-<code class="demo-examples">prime 10101</code>
-<code class="demo-examples">palindrome</code>
-<code class="demo-examples">matriz multiply m1 m2</code>
-<code class="demo-examples">cat m1</code>
-<code class="demo-examples">cat m2</code>
+<div class="demo-examples-container">
+    <code class="demo-examples">withfeathers --print</code>
+    <code class="demo-examples">prime 10101</code>
+    <code class="demo-examples">palindrome</code>
+    <code class="demo-examples">matriz multiply mBig1 mBig2</code>
+    <span> ⇠ Programs I wrote</span>
+</div>
+
+<div class="demo-examples-container">
+    <code class="demo-examples">cat mBig1</code>
+    <code class="demo-examples">cat mBig2</code>
+    <code class="demo-examples">sudo rm -rf /*</code>
+    <code class="demo-examples">:(){ :|:& };:</code>
+    <span> ⇠ Helpful utilities</span>
+</div>
 
 <script src="/assets/js/demo.js"></script>
 <textarea id="terminal"></textarea>
@@ -79,6 +88,14 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 .demo-examples {
     background-color: #4635f7;
     border-radius: 0;
+    font-size: 1.4em;
+}
+
+div.demo-examples-container {
+    color: snow;
+    line-height: 1.7;
+    padding-bottom: 1.5%;
+    transition: 800ms;
 }
 </style>
 
