@@ -25,30 +25,55 @@ var MYLIBRARY = MYLIBRARY || (function(){
     };
 }());
 
-
-document.addEventListener('DOMContentLoaded', function () {
+function dup() {
 
     let terminals = document.getElementsByClassName("terminal");
     let terminalContainer = document.getElementById("terminal-container");
     let buttonContainer = document.getElementById("button-container");
 
+
+    let clone = document.createElement("textarea");
+    clone.className = "terminal";
+    terminalContainer.appendChild(clone);
+
+    clone.focus();
+    doTerminal(clone);
+
+    let removeTerminal = document.createElement("span");
+    removeTerminal.id = "remove-terminal";
+    removeTerminal.innerHTML = "-";
+    buttonContainer.appendChild(removeTerminal);
+
+    removeTerminal.onclick = function() {
+        clone.remove();
+        removeTerminal.remove();
+        terminals[0].focus();
+    }
+}
+
+function zigzagPort(message) {
+    let terminals = document.getElementsByClassName("terminal");
+    let original = terminals[0];
+    let clone = terminals[1];
+
+    if (message.includes("port number:")) {
+
+        let port = message.split(" ");
+        port = port[port.length - 1];
+
+        terminals[1].value = terminals[1].value.replace(/.*$/ ,"> " + "zigzag-client " + parseInt(port));
+
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    let terminals = document.getElementsByClassName("terminal");
+
     let duplicateTerminal = document.getElementById("duplicate-terminal");
     duplicateTerminal.onclick = function() {
         if (terminals.length < 2) {
-            let clone = document.createElement("textarea");
-            clone.className = "terminal";
-            terminalContainer.appendChild(clone);
-            doTerminal(clone);
-
-            let removeTerminal = document.createElement("span");
-            removeTerminal.id = "remove-terminal";
-            removeTerminal.innerHTML = "-";
-            buttonContainer.appendChild(removeTerminal);
-
-            removeTerminal.onclick = function() {
-                clone.remove();
-                removeTerminal.remove();
-            }
+            dup();
         }
     }
 
@@ -118,6 +143,7 @@ function doTerminal(terminal) {
             console.log("MESSAGES:", messages);
 
             console.log("COMMAND:", comm);
+            zigzagPort(message);
         }
 
         // https://stackoverflow.com/questions/22092762/how-to-detect-ctrlc-and-ctrlv-key-pressing-using-regular-expression/22092839
@@ -247,10 +273,18 @@ function doTerminal(terminal) {
                     terminal.value += "\n> ";
                 }
 
+
                 else {
                     socket.send(comm);
                     commands[commNum] = comm;
                     commNum += 1;
+
+                    if (comm == "zigzag-server") {
+                        let terminals = document.getElementsByClassName("terminal");
+                        if (terminals.length < 2) {
+                            dup();
+                        }
+                    }
                 }
 
             terminal.scrollTop = terminal.scrollHeight;

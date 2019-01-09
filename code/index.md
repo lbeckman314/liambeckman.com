@@ -69,7 +69,6 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
     <code class="demo-examples">palindrome</code>
     <code class="demo-examples">matriz multiply mBig1 mBig2</code>
     <code class="demo-examples">zigzag-server</code>
-    <code class="demo-examples">zigzag-client</code>
     <span> ⇠ Programs I wrote</span>
 </div>
 
