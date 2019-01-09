@@ -71,9 +71,11 @@ document.addEventListener('DOMContentLoaded', function () {
     let terminals = document.getElementsByClassName("terminal");
 
     let duplicateTerminal = document.getElementById("duplicate-terminal");
-    duplicateTerminal.onclick = function() {
-        if (terminals.length < 2) {
-            dup();
+    if (duplicateTerminal) {
+        duplicateTerminal.onclick = function() {
+            if (terminals.length < 2) {
+                dup();
+            }
         }
     }
 
@@ -86,10 +88,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+    console.log(terminals[0]);
     doTerminal(terminals[0]);
 });
 
 function doTerminal(terminal) {
+    console.log("doTerm:", terminal);
     terminal.spellcheck = false;
     console.log("terminal:", terminal);
     console.log("Connecting to server...");

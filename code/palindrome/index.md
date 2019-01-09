@@ -40,7 +40,7 @@ title: code
 # Give it a Spin
 
 <script src="/assets/js/demo.js"></script>
-<textarea id="terminal"></textarea>
+<textarea class="terminal"></textarea>
 <script type="text/javascript">MYLIBRARY.init(["palindrome"]);</script>
 
 

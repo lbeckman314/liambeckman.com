@@ -40,7 +40,7 @@ This program adds, multiplies, transposes, and averages matrices!  in action [he
 # Give it a Spin
 
 <script src="/assets/js/demo.js"></script>
-<textarea id="terminal"></textarea>
+<textarea class="terminal"></textarea>
 <script type="text/javascript">MYLIBRARY.init(["matriz add m1 m1"]);</script>
 
 <br />

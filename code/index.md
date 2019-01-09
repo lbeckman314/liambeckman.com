@@ -85,54 +85,11 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 </div>
 <div id="button-container">
     <span id="duplicate-terminal">+</span>
-    <a style="float: right; margin-top: 1.5em;" href="https://github.com/lbeckman314/demo">What is this?</a>
+    <a class="what-is-this" href="https://github.com/lbeckman314/demo">What is this?</a>
 </div>
 
 <script src="/assets/js/demo.js"></script>
 <script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
-
-<style>
-.demo-examples {
-    background-color: #4635f7;
-    border-radius: 0;
-    font-size: 1.4em;
-}
-
-div.demo-examples-container {
-    color: snow;
-    line-height: 1.7;
-    padding-bottom: 1.5%;
-    transition: 800ms;
-}
-
-#duplicate-terminal, #remove-terminal {
-    border: 1px dashed grey;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-top: 0.5em;
-    transition: 800ms;
-    color: snow;
-    font-size: 1.2em;
-    line-height: 1.7;
-}
-
-#duplicate-terminal:hover {
-    background-color: #4635f7;
-    border: 1px solid #4635f7;
-    transition: 800ms;
-    cursor: pointer;
-}
-
-#remove-terminal:hover {
-    background-color: crimson;
-    border: 1px solid crimson;
-    transition: 800ms;
-    cursor: pointer;
-}
-</style>
 
 <br />
 
