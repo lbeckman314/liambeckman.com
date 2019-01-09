@@ -68,6 +68,8 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
     <code class="demo-examples">prime 10101</code>
     <code class="demo-examples">palindrome</code>
     <code class="demo-examples">matriz multiply mBig1 mBig2</code>
+    <code class="demo-examples">zigzag-server</code>
+    <code class="demo-examples">zigzag-client</code>
     <span> ⇠ Programs I wrote</span>
 </div>
 
@@ -79,10 +81,16 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
     <span> ⇠ Helpful utilities</span>
 </div>
 
+<div id="terminal-container">
+    <textarea class="terminal"></textarea>
+</div>
+<div id="button-container">
+    <span id="duplicate-terminal">+</span>
+    <a style="float: right; margin-top: 1.5em;" href="https://github.com/lbeckman314/demo">What is this?</a>
+</div>
+
 <script src="/assets/js/demo.js"></script>
-<textarea id="terminal"></textarea>
 <script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
-<a style="float: right;" href="https://github.com/lbeckman314/demo">What is this?</a>
 
 <style>
 .demo-examples {
@@ -96,6 +104,34 @@ div.demo-examples-container {
     line-height: 1.7;
     padding-bottom: 1.5%;
     transition: 800ms;
+}
+
+#duplicate-terminal, #remove-terminal {
+    border: 1px dashed grey;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0.5em;
+    transition: 800ms;
+    color: snow;
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+#duplicate-terminal:hover {
+    background-color: #4635f7;
+    border: 1px solid #4635f7;
+    transition: 800ms;
+    cursor: pointer;
+}
+
+#remove-terminal:hover {
+    background-color: crimson;
+    border: 1px solid crimson;
+    transition: 800ms;
+    cursor: pointer;
 }
 </style>
 

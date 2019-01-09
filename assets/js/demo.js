@@ -6,9 +6,6 @@
 
 //process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
-// Create WebSocket connection.
-const socket = new WebSocket('wss://liambeckman.com:8181');
-//const socket = new WebSocket('https://liambeckman.com/demo/devilish');
 
 const userPrompt = "devilish";
 
@@ -30,20 +27,53 @@ var MYLIBRARY = MYLIBRARY || (function(){
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    let terminal = document.getElementById("terminal");
+
+    let terminals = document.getElementsByClassName("terminal");
+    let terminalContainer = document.getElementById("terminal-container");
+    let buttonContainer = document.getElementById("button-container");
+
+    let duplicateTerminal = document.getElementById("duplicate-terminal");
+    duplicateTerminal.onclick = function() {
+        if (terminals.length < 2) {
+            let clone = document.createElement("textarea");
+            clone.className = "terminal";
+            terminalContainer.appendChild(clone);
+            doTerminal(clone);
+
+            let removeTerminal = document.createElement("span");
+            removeTerminal.id = "remove-terminal";
+            removeTerminal.innerHTML = "-";
+            buttonContainer.appendChild(removeTerminal);
+
+            removeTerminal.onclick = function() {
+                clone.remove();
+                removeTerminal.remove();
+            }
+        }
+    }
+
     let examples = document.getElementsByClassName("demo-examples");
     for (let i = 0; i < examples.length; i++) {
         let example = examples[i].textContent;
         examples[i].onclick = function() {
-            terminal.value = terminal.value.replace(/.*$/ ,"> " + example);
-            terminal.focus();
+            terminals[0].value = terminals[0].value.replace(/.*$/ ,"> " + example);
+            terminals[0].focus();
         }
     }
 
+    doTerminal(terminals[0]);
+});
+
+function doTerminal(terminal) {
     terminal.spellcheck = false;
     console.log("terminal:", terminal);
     console.log("Connecting to server...");
     terminal.value = "Connecting...\n";
+
+    // Create WebSocket connection.
+    const socket = new WebSocket('wss://liambeckman.com:8181');
+    //const socket = new WebSocket('https://liambeckman.com/demo/devilish');
+
     // Connection opened
     socket.onopen = function (event) {
         console.log("Success!");
@@ -68,9 +98,20 @@ document.addEventListener('DOMContentLoaded', function () {
         let ctrl = false;
         // Listen for messages
         socket.onmessage = function(event) {
-            //console.log("MESSAGE:", event.data);
-            terminal.value += event.data;
             message = event.data.toString();
+            console.log("MESSAGE:", message);
+            message.split('\n');
+
+            if (message.includes('\r')) {
+                console.log("SUCCESS");
+                message = message.replace(/\r/g,"");
+                terminal.value = terminal.value.replace(/.*$/ ,message);
+
+            }
+            else {
+                terminal.value += message
+
+            }
             console.log("MESSAGE:", message);
             messages = message.split("\n");
             terminal.scrollTop = terminal.scrollHeight;
@@ -80,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // https://stackoverflow.com/questions/22092762/how-to-detect-ctrlc-and-ctrlv-key-pressing-using-regular-expression/22092839
-        document.getElementById('terminal').addEventListener("keydown",function(e){
+        terminal.addEventListener("keydown",function(e){
             e = e || window.event;
             var key = e.which || e.keyCode; // keyCode detection
             var ctrl = e.ctrlKey ? e.ctrlKey : ((key === 17) ? true : false); // ctrl detection
@@ -111,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },false);
 
 
-        document.getElementById('terminal').onkeydown = function (event) {
+        terminal.onkeydown = function (event) {
             let key = event.keyCode;
             let lines = terminal.value.split("\n");
 
@@ -184,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
                 console.log("message:", message);
                 comm = lines[lines.length-1];
-                //console.log("you entered:", comm);
+                console.log("you entered:", comm);
                 console.log("messages.length:", messages.length);
                 if (messages.length > 0) {
                     comm = comm.substring(messages[messages.length - 1].length - 1);
@@ -217,8 +258,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
         }
     }
-});
 
-
-
-
+}
