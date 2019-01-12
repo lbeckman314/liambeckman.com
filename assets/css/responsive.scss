@@ -16,6 +16,11 @@
     .style {
         //float: unset;
     }
+
+    .demo-examples:after {
+        content: '\A';
+    }
+
 }
 
 @media only screen and (max-width: 700px) {

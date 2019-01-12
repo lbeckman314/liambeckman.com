@@ -28,7 +28,7 @@ body {
 
 /* paragraphs*/
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.7;
   color: #333;
   padding-bottom: 1.5%;
@@ -39,7 +39,7 @@ p {
 p.code {
   text-align: center;
   padding: 0.5em;
-  font-size: 1.2em; }
+  font-size: 1.1em; }
 
 p.headers {
   background-color: #D3D2E0;
@@ -79,7 +79,7 @@ a.favorites {
   text-decoration: none; }
 
 #home a {
-  font-size: 1.2em;
+  font-size: 1.1em;
   transition: 800ms; }
 
 #home span {
@@ -157,7 +157,7 @@ div.favorites:hover {
 .demo-examples {
   background-color: #4635f7;
   border-radius: 0;
-  font-size: 1.4em; }
+  font-size: 1.1em; }
 
 a.what-is-this {
   float: right;
@@ -179,7 +179,7 @@ div.demo-examples-container {
   margin-top: 0.5em;
   transition: 800ms;
   color: snow;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.7; }
 
 #duplicate-terminal:hover {
@@ -273,7 +273,7 @@ h1.favorites {
   text-decoration: underline dotted grey; }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-family: Helvetica, Ariral, Sans-Serif;
   color: #2a2730;
   padding-top: 3%; }
@@ -433,7 +433,6 @@ p {
 /* arrow links for next and previous */
 /* http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html */
 .PageNavigation {
-  font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden; }
@@ -458,16 +457,12 @@ p {
 
 .sub {
   color: grey;
-  font-size: 1.0em;
   line-height: 1.5; }
 
 div.sub {
   float: right;
   clear: right;
   margin: 0px; }
-
-span.sub {
-  font-size: 0.86em; }
 
 .safety {
   background-color: lavender;
@@ -476,7 +471,7 @@ span.sub {
   margin: 5%; }
 
 .code-title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -519,13 +514,11 @@ span.sub {
  * Code formatting
  */
 pre {
-  font-size: 0.9em;
   padding: 8px 12px;
   overflow-x: auto;
   white-space: pre-wrap; }
 
 code {
-  font-size: 1.0em;
   overflow-x: auto;
   white-space: pre-wrap;
   border-radius: 15%;
@@ -544,7 +537,6 @@ code {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
   transition: 0.4s; }
 
 .active, .accordion:hover {
@@ -602,7 +594,6 @@ span.grey {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
   /*transition: 0.6s ease;*/
   border-radius: 0 3px 3px 0; }
 
@@ -614,7 +605,6 @@ span.grey {
   background-color: rgba(0, 0, 0, 0.8); }
 
 .text {
-  font-size: 15px;
   padding: 8px 12px;
   width: 100%;
   text-align: center;
@@ -622,7 +612,6 @@ span.grey {
 
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -897,7 +886,10 @@ span.grey {
 
   .dark, .light {
     width: 2.5em;
-    height: 2.5em; } }
+    height: 2.5em; }
+
+  .demo-examples:after {
+    content: '\A'; } }
 @media only screen and (max-width: 700px) {
   img.slide {
     height: 25em; } }

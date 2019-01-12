@@ -38,7 +38,8 @@ $blue-light: #eef;
 
 
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   1.1em;
+$large-font-size:  2.3em;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.7;
@@ -90,7 +91,7 @@ body {
 
 /* paragraphs*/
 p {
-    font-size: 1.2em;
+    font-size: $base-font-size;
     line-height: $base-line-height;
     color: #333;
     padding-bottom: 1.5%;
@@ -103,7 +104,7 @@ p {
 p.code {
     text-align: center;
     padding: 0.5em;
-    font-size: 1.2em;
+    font-size: $base-font-size;
 }
 
 
@@ -165,7 +166,7 @@ a.favorites {
 
 
 #home a {
-  font-size: 1.2em;
+  font-size: $base-font-size;
   transition: $tran;
 }
 
@@ -266,7 +267,7 @@ div.favorites:hover {
 .demo-examples {
     background-color: #4635f7;
     border-radius: 0;
-    font-size: 1.4em;
+    font-size: $base-font-size;
 }
 
 a.what-is-this {
@@ -291,7 +292,7 @@ div.demo-examples-container {
     margin-top: 0.5em;
     transition: 800ms;
     color: snow;
-    font-size: 1.2em;
+    font-size: $base-font-size;
     line-height: 1.7;
 }
 
@@ -412,7 +413,7 @@ h1.favorites {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: $large-font-size;
     font-family: $font-stack;
     color: #2a2730;
     padding-top: 3%;
@@ -623,7 +624,6 @@ p {
 /* arrow links for next and previous */
 /* http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html */
 .PageNavigation {
-  font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden;
@@ -653,7 +653,6 @@ p {
 
 .sub {
         color: grey;
-        font-size: 1.0em;
         line-height: $small-line-height;
 }
 
@@ -663,7 +662,6 @@ div.sub {
     margin: 0px;
 }
 span.sub {
-    font-size: 0.86em;
 }
 
 .safety {
@@ -675,7 +673,7 @@ span.sub {
 
 
 .code-title {
-    font-size: 1.2em;
+    font-size: $base-font-size;
     text-align: center;
     //background-color: $pop-1;
     margin-left: auto;
@@ -726,7 +724,6 @@ span.sub {
  * Code formatting
  */
 pre {
-  font-size: 0.9em;
   //background-color: $blue-light;
 
   padding: 8px 12px;
@@ -735,7 +732,6 @@ pre {
 }
 
 code {
-  font-size: 1.0em;
   //background-color: $blue-light;
   overflow-x: auto;
   white-space: pre-wrap;
@@ -765,7 +761,6 @@ code {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
     transition: 0.4s;
 }
 
@@ -837,7 +832,6 @@ span.grey {
     padding: 16px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
     /*transition: 0.6s ease;*/
     border-radius: 0 3px 3px 0;
 }
@@ -852,7 +846,6 @@ span.grey {
 }
 
 .text {
-    font-size: 15px;
     padding: 8px 12px;
     width: 100%;
     text-align: center;
@@ -862,7 +855,6 @@ span.grey {
 
 .numbertext {
     color: #f2f2f2;
-    font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
