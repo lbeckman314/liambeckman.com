@@ -137,6 +137,10 @@ function doTerminal(terminal) {
                 terminal.value = terminal.value.replace(/.*$/ ,message);
 
             }
+            // suppress firejail warnings
+            else if (message.includes("Warning")) {
+                terminal.value = terminal.value.replace(/.*$/ ,"");
+            }
             else {
                 terminal.value += message
 
@@ -168,6 +172,15 @@ function doTerminal(terminal) {
                 //e.preventDefault();
                 //event.preventDefault();
                 socket.send("SIGINT");
+                terminal.value += "\n";
+                //terminal.value = terminal.value.replace(/.*$/ ,"> ");
+            }
+
+            else if ( key == 90 && ctrl ) {
+                console.log("Ctrl + Z Pressed !");
+                //e.preventDefault();
+                //event.preventDefault();
+                socket.send("SIGTSTP");
                 terminal.value += "\n";
                 //terminal.value = terminal.value.replace(/.*$/ ,"> ");
             }
@@ -260,8 +273,10 @@ function doTerminal(terminal) {
                 if (messages.length > 0) {
                     comm = comm.substring(messages[messages.length - 1].length - 1);
                 }
+
+                comm = comm.substring(1);
                 //console.log("you entered:", comm);
-                comm = comm.replace(/([>]+ *)/g, "");
+                //comm = comm.replace(/([>:]+ *)/g, "");
                 comm = comm.replace(/^[ ]*/g, "");
                 
                 console.log("you entered:", comm);
