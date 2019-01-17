@@ -22,7 +22,7 @@ title: code
 
     <div class="fixed pointer" id="featured" onclick="location.href='/code/devilish'">
         <a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
-        <div class = "code-title">devilish</div>
+        <div class = "code-title">devilish *</div>
         <div class = "code-type command-line">command line</div>
         <p class = "code">The shell from hell!</p>
     </div>
@@ -64,20 +64,21 @@ title: code
 Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
 <div class="demo-examples-container">
+    <h3>Programs I wrote:</h3>
     <code class="demo-examples">withfeathers --print</code>
     <code class="demo-examples">prime 10101</code>
     <code class="demo-examples">palindrome</code>
     <code class="demo-examples">matriz multiply mBig1 mBig2</code>
     <code class="demo-examples">zigzag-server</code>
-    <span> ⇠ Programs I wrote</span>
+    <code class="demo-examples">devilish</code>
 </div>
 
 <div class="demo-examples-container">
+    <h3>Helpful utilities:</h3>
     <code class="demo-examples">cat mBig1</code>
     <code class="demo-examples">cat mBig2</code>
     <code class="demo-examples">sudo rm -rf /*</code>
     <code class="demo-examples">:(){ :|:& };:</code>
-    <span> ⇠ Helpful utilities</span>
 </div>
 
 <div id="terminal-container">

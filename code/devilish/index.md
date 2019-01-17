@@ -37,6 +37,13 @@ title: code
 
 This is a minimalistic shell. It comes from the depths of hell, and can do lots of cool things!
 
+
+# Give it a Spin
+
+<script src="/assets/js/demo.js"></script>
+<textarea class="terminal"></textarea>
+<script type="text/javascript">MYLIBRARY.init(["devilish"]);</script>
+
 <br />
 <hr />
 
