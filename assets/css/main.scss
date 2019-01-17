@@ -267,7 +267,9 @@ div.favorites:hover {
 .demo-examples {
     background-color: #4635f7;
     border-radius: 0;
-    font-size: $base-font-size;
+    font-size: $base-font-size + 0.2;
+    margin-right: 0.5em;
+    cursor: pointer;
 }
 
 a.what-is-this {

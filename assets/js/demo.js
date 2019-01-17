@@ -36,7 +36,7 @@ function dup() {
     clone.className = "terminal";
     terminalContainer.appendChild(clone);
 
-    clone.focus();
+    //clone.focus();
     doTerminal(clone);
 
     let removeTerminal = document.createElement("span");
@@ -47,7 +47,7 @@ function dup() {
     removeTerminal.onclick = function() {
         clone.remove();
         removeTerminal.remove();
-        terminals[0].focus();
+        //terminals[0].focus();
     }
 }
 

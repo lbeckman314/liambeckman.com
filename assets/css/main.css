@@ -157,7 +157,9 @@ div.favorites:hover {
 .demo-examples {
   background-color: #4635f7;
   border-radius: 0;
-  font-size: 1.1em; }
+  font-size: 1.3em;
+  margin-right: 0.5em;
+  cursor: pointer; }
 
 a.what-is-this {
   float: right;

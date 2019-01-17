@@ -64,21 +64,12 @@ title: code
 Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
 <div class="demo-examples-container">
-    <h3>Programs I wrote:</h3>
     <code class="demo-examples">withfeathers --print</code>
     <code class="demo-examples">prime 10101</code>
     <code class="demo-examples">palindrome</code>
     <code class="demo-examples">matriz multiply mBig1 mBig2</code>
     <code class="demo-examples">zigzag-server</code>
     <code class="demo-examples">devilish</code>
-</div>
-
-<div class="demo-examples-container">
-    <h3>Helpful utilities:</h3>
-    <code class="demo-examples">cat mBig1</code>
-    <code class="demo-examples">cat mBig2</code>
-    <code class="demo-examples">sudo rm -rf /*</code>
-    <code class="demo-examples">:(){ :|:& };:</code>
 </div>
 
 <div id="terminal-container">
