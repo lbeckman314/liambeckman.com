@@ -14,24 +14,19 @@ var MYLIBRARY = MYLIBRARY || (function(){
     };
 }());
 
-function heartbeat() {
-    socket.isAlive = true;
-}
-
-// Create WebSocket connection.
-let socket = new WebSocket('wss://liambeckman.com:8181');
-
-
 function dup() {
     let terminals = document.getElementsByClassName("terminal");
-    let terminalContainer = document.getElementById("terminal-container");
+    let terminalContainer = document.getElementById("terminal");
     let buttonContainer = document.getElementById("button-container");
 
     let clone = document.createElement("textarea");
     clone.className = "terminal";
     terminalContainer.appendChild(clone);
 
-    doTerminal(clone);
+    // Create WebSocket connection.
+    let socket = new WebSocket('wss://liambeckman.com:8181');
+
+    doTerminal(clone, socket);
 
     let removeTerminal = document.createElement("span");
     removeTerminal.id = "remove-terminal";
@@ -41,6 +36,7 @@ function dup() {
     removeTerminal.onclick = function() {
         clone.remove();
         removeTerminal.remove();
+        socket.close();
     }
 }
 
@@ -81,14 +77,17 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    console.log(terminals[0]);
-    doTerminal(terminals[0]);
 
+    // Create WebSocket connection.
+    let socket = new WebSocket('wss://liambeckman.com:8181');
+
+    console.log(terminals[0]);
+    doTerminal(terminals[0], socket);
 
     const interval = setInterval(function ping() {
         if (socket.isAlive === false) {
             socket = new WebSocket('wss://liambeckman.com:8181');
-            doTerminal(terminals[0]);
+            doTerminal(terminals[0], socket);
         }
 
         else {
@@ -101,7 +100,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-function doTerminal(terminal) {
+function doTerminal(terminal, socket) {
+    function heartbeat() {
+        socket.isAlive = true;
+    }
+
     terminal.spellcheck = false;
     console.log("Connecting to server...");
     terminal.value = terminal.value.replace(/.*$/ , "Connecting...");
@@ -124,7 +127,7 @@ function doTerminal(terminal) {
         let up = 0;
         let down = 0;
         let ctrl = false;
-        //
+
         // Listen for messages
         socket.onmessage = function(event) {
             message = event.data.toString();
