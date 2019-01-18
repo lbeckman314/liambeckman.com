@@ -72,9 +72,10 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
     <code class="demo-examples">devilish</code>
 </div>
 
-<div id="terminal-container">
+<div id="terminal">
     <textarea class="terminal"></textarea>
 </div>
+
 <div id="button-container">
     <span id="duplicate-terminal">+</span>
     <a class="what-is-this" href="https://github.com/lbeckman314/demo">What is this?</a>
