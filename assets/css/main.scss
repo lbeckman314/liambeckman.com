@@ -253,6 +253,8 @@ div.favorites:hover {
     transition: $tran;
 }
 
+/* Demo terminal stuff */
+
 .terminal {
     overflow: auto;
     width: 100%;
@@ -312,6 +314,16 @@ div.demo-examples-container {
     cursor: pointer;
 }
 
+#info {
+    float: left;
+    font-size: 0.9em;
+    padding: 0.2em;
+    transition: 500ms;
+}
+
+
+/* home stuff */
+
 #home:hover p {
     color: snow;
     transition: $tran;
@@ -323,7 +335,7 @@ div.demo-examples-container {
 }
 
 #home:hover div {
-    border-bottom: 1px solid snow; 
+    border-bottom: 1px solid snow;
     transition: $tran;
 }
 
@@ -346,31 +358,31 @@ div.demo-examples-container {
 
 
 div.about-border {
-    border-bottom: 1px solid $pop-1; 
+    border-bottom: 1px solid $pop-1;
 
     transition: $tran;
 }
 
 div.writings-border {
-    border-bottom: 1px solid $pop-2; 
+    border-bottom: 1px solid $pop-2;
     transition: $tran;
 }
 
 
 div.code-border {
-    border-bottom: 1px solid $pop-3; 
+    border-bottom: 1px solid $pop-3;
     transition: $tran;
 }
 
 
 div.git-border {
-    border-bottom: 1px solid $pop-4; 
+    border-bottom: 1px solid $pop-4;
     transition: $tran;
 }
 
 
 div.favorites-border {
-    border-bottom: 1px solid $pop-5; 
+    border-bottom: 1px solid $pop-5;
     transition: $tran;
 }
 
@@ -545,9 +557,9 @@ span.date:before {
 }
 
 .code-main {
-	border: solid 1px #d5d5d5;
-	width: 100%;
-	margin: 0%;
+    border: solid 1px #d5d5d5;
+    width: 100%;
+    margin: 0%;
 }
 
 button {

@@ -144,6 +144,7 @@ div.favorites:hover {
   background-color: #4635F7;
   transition: 800ms; }
 
+/* Demo terminal stuff */
 .terminal {
   overflow: auto;
   width: 100%;
@@ -196,6 +197,13 @@ div.demo-examples-container {
   transition: 800ms;
   cursor: pointer; }
 
+#info {
+  float: left;
+  font-size: 0.9em;
+  padding: 0.2em;
+  transition: 500ms; }
+
+/* home stuff */
 #home:hover p {
   color: snow;
   transition: 800ms; }

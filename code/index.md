@@ -73,6 +73,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 </div>
 
 <div id="terminal">
+<span id="info">abc</span>
     <textarea class="terminal"></textarea>
 </div>
 
