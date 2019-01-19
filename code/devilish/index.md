@@ -40,6 +40,7 @@ This is a minimalistic shell. It comes from the depths of hell, and can do lots 
 
 # Give it a Spin
 
+<span id="info"></span>
 <div id="terminal">
     <textarea class="terminals"></textarea>
 </div>

@@ -72,6 +72,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
     <code class="demo-examples">devilish</code>
 </div>
 
+<span id="info"></span>
 <div id="terminal">
     <textarea class="terminals"></textarea>
 </div>

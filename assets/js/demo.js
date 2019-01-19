@@ -108,20 +108,14 @@ function doTerminal(terminal, socket) {
     terminal.spellcheck = false;
     console.log("Connecting to server...");
 
-    let terminalContainer = document.getElementById("terminal");
-
-    let info = document.createElement("span");
-    info.id = "info";
-    terminalContainer.insertBefore(info, terminal);
-
-    console.log("info:", info);
+    let info = document.getElementById("info");
     info.innerHTML = "Connecting...";
     info.style.backgroundColor = "#ff357a";
 
     // Connection opened
     socket.onopen = function (event) {
         console.log("Sending initial message to server.");
-        info.innerHTML = "Connected! Press ENTER to blast off!";
+        info.innerHTML = "Connected. Press ENTER to blast off!";
         info.style.backgroundColor = "#49ccd4";
 
         let userPrompt = MYLIBRARY.helloWorld();
