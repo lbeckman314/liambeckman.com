@@ -39,8 +39,10 @@ title: code
 
 # Give it a Spin
 
+<div id="terminal">
+    <textarea class="terminals"></textarea>
+</div>
 <script src="/assets/js/demo.js"></script>
-<textarea class="terminal"></textarea>
 <script type="text/javascript">MYLIBRARY.init(["palindrome"]);</script>
 
 

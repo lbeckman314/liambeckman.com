@@ -15,12 +15,12 @@ var MYLIBRARY = MYLIBRARY || (function(){
 }());
 
 function dup() {
-    let terminals = document.getElementsByClassName("terminal");
+    let terminals = document.getElementsByClassName("terminals");
     let terminalContainer = document.getElementById("terminal");
     let buttonContainer = document.getElementById("button-container");
 
     let clone = document.createElement("textarea");
-    clone.className = "terminal";
+    clone.className = "terminals";
     terminalContainer.appendChild(clone);
 
     // Create WebSocket connection.
@@ -41,7 +41,7 @@ function dup() {
 }
 
 function zigzagPort(message) {
-    let terminals = document.getElementsByClassName("terminal");
+    let terminals = document.getElementsByClassName("terminals");
     let original = terminals[0];
     let clone = terminals[1];
 
@@ -57,7 +57,7 @@ function zigzagPort(message) {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    let terminals = document.getElementsByClassName("terminal");
+    let terminals = document.getElementsByClassName("terminals");
 
     let duplicateTerminal = document.getElementById("duplicate-terminal");
     if (duplicateTerminal) {
@@ -107,7 +107,13 @@ function doTerminal(terminal, socket) {
 
     terminal.spellcheck = false;
     console.log("Connecting to server...");
-    let info = document.getElementById("info");
+
+    let terminalContainer = document.getElementById("terminal");
+
+    let info = document.createElement("span");
+    info.id = "info";
+    terminalContainer.insertBefore(info, terminal);
+
     console.log("info:", info);
     info.innerHTML = "Connecting...";
     info.style.backgroundColor = "#ff357a";
@@ -279,7 +285,7 @@ function doTerminal(terminal, socket) {
                     commNum += 1;
 
                     if (comm == "zigzag-server") {
-                        let terminals = document.getElementsByClassName("terminal");
+                        let terminals = document.getElementsByClassName("terminals");
                         if (terminals.length < 2) {
                             dup();
                         }

@@ -55,8 +55,10 @@ A really good **R implementation** (and inspiration for this program) is this on
 
 # Give it a Spin
 
+<div id="terminal">
+    <textarea class="terminals"></textarea>
+</div>
 <script src="/assets/js/demo.js"></script>
-<textarea id="terminal"></textarea>
 <script type="text/javascript">MYLIBRARY.init(["withfeathers --print"]);</script>
 
 <br />

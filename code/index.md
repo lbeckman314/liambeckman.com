@@ -73,17 +73,15 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 </div>
 
 <div id="terminal">
-<span id="info">abc</span>
-    <textarea class="terminal"></textarea>
+    <textarea class="terminals"></textarea>
 </div>
+<script src="/assets/js/demo.js"></script>
+<script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
 
 <div id="button-container">
     <span id="duplicate-terminal">+</span>
     <a class="what-is-this" href="https://github.com/lbeckman314/demo">What is this?</a>
 </div>
-
-<script src="/assets/js/demo.js"></script>
-<script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
 
 <br />
 

@@ -40,8 +40,10 @@ This is a minimalistic shell. It comes from the depths of hell, and can do lots 
 
 # Give it a Spin
 
+<div id="terminal">
+    <textarea class="terminals"></textarea>
+</div>
 <script src="/assets/js/demo.js"></script>
-<textarea class="terminal"></textarea>
 <script type="text/javascript">MYLIBRARY.init(["devilish"]);</script>
 
 <br />
