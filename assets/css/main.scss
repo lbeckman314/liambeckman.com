@@ -269,9 +269,15 @@ div.favorites:hover {
 .demo-examples {
     background-color: #4635f7;
     border-radius: 0;
-    font-size: $base-font-size + 0.2;
+    font-size: $base-font-size + 0.3;
     margin-right: 0.5em;
     cursor: pointer;
+    transition: 800ms;
+}
+
+.demo-examples:hover {
+    background-color: #ff357a;
+    transition: 800ms;
 }
 
 .what-is-this {
