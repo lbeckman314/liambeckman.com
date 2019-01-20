@@ -109,13 +109,13 @@ function doTerminal(terminal, socket) {
     console.log("Connecting to server...");
 
     let info = document.getElementById("info");
-    info.innerHTML = "Connecting...";
+    info.innerHTML = "Status: Connecting...";
     info.style.backgroundColor = "#ff357a";
 
     // Connection opened
     socket.onopen = function (event) {
         console.log("Sending initial message to server.");
-        info.innerHTML = "Connected. Press ENTER to blast off!";
+        info.innerHTML = "Status: Connected. Press ENTER to blast off!";
         info.style.backgroundColor = "#49ccd4";
 
         let userPrompt = MYLIBRARY.helloWorld();

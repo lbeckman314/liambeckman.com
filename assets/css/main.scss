@@ -274,9 +274,10 @@ div.favorites:hover {
     cursor: pointer;
 }
 
-a.what-is-this {
+.what-is-this {
     float: right;
     margin-top: 1.5em;
+    color: grey;
 }
 
 div.demo-examples-container {
@@ -316,8 +317,8 @@ div.demo-examples-container {
 
 #info {
     float: left;
-    font-size: 0.8em;
-    padding: 0.15em;
+    font-size: $base-font-size;
+    padding: 0.3em;
     transition: 400ms;
     color: black;
 }

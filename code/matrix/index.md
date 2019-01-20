@@ -39,7 +39,7 @@ This program adds, multiplies, transposes, and averages matrices!  in action [he
 
 # Give it a Spin
 
-<span id="info"></span>
+<pre id="info"></pre>
 <div id="terminal">
     <textarea class="terminals"></textarea>
 </div>

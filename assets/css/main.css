@@ -162,9 +162,10 @@ div.favorites:hover {
   margin-right: 0.5em;
   cursor: pointer; }
 
-a.what-is-this {
+.what-is-this {
   float: right;
-  margin-top: 1.5em; }
+  margin-top: 1.5em;
+  color: grey; }
 
 div.demo-examples-container {
   color: snow;
@@ -199,8 +200,8 @@ div.demo-examples-container {
 
 #info {
   float: left;
-  font-size: 0.8em;
-  padding: 0.15em;
+  font-size: 1.1em;
+  padding: 0.3em;
   transition: 400ms;
   color: black; }
 

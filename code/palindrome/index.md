@@ -39,7 +39,7 @@ title: code
 
 # Give it a Spin
 
-<span id="info"></span>
+<pre id="info"></pre>
 <div id="terminal">
     <textarea class="terminals"></textarea>
 </div>

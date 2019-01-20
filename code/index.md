@@ -72,7 +72,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
     <code class="demo-examples">devilish</code>
 </div>
 
-<span id="info"></span>
+<pre id="info"></pre>
 <div id="terminal">
     <textarea class="terminals"></textarea>
 </div>
@@ -81,8 +81,13 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 
 <div id="button-container">
     <span id="duplicate-terminal">+</span>
-    <a class="what-is-this" href="https://github.com/lbeckman314/demo">What is this?</a>
+    <div class="what-is-this">
+        <a href="/code/demo">About</a>
+        |
+        <a href="https://github.com/lbeckman314/demo">Source Code</a>
+    </div>
 </div>
+
 
 <br />
 
@@ -145,8 +150,8 @@ gpg --delete-key AC1CC079
 
 
 <script>
-// wait until the DOM before starting buttons
-document.addEventListener('DOMContentLoaded', bindButtons);
+    // wait until the DOM before starting buttons
+    document.addEventListener('DOMContentLoaded', bindButtons);
 
 function bindButtons() {
     let rmw = document.getElementById('rmw');
