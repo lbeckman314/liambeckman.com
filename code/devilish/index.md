@@ -9,7 +9,7 @@ title: code
         Be careful — this code might be very evil! Only compile and run this program if you trust me and the code herein.
     </p>
     <p>
-        Signed checksums and gpg signatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+        Signed checksums and gpg signatures are included in every package for security. <a href="https://voidlinux.org/download/#verifying-file-integrity-and-its-digital-signature">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
     </p>
 </div>
 
@@ -46,6 +46,10 @@ This is a minimalistic shell. It comes from the depths of hell, and can do lots 
 </div>
 <script src="/assets/js/demo.js"></script>
 <script type="text/javascript">MYLIBRARY.init(["devilish"]);</script>
+
+<br />
+
+Sick of ed and missing vi? Head on over to the [xterm.js](https://github.com/xtermjs/xterm.js)-powered [web app](https://liambeckman.com/code/term) for even more terminal goodness.
 
 <br />
 <hr />

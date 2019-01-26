@@ -10,7 +10,7 @@ title: code
         Be careful — this code might be very evil! Only compile and run this program if you trust me and the code herein.
     </p>
     <p>
-        signed checksums and gpg signatures are included in every package for security. <a href="/code#security">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
+        signed checksums and gpg signatures are included in every package for security. <a href="https://voidlinux.org/download/#verifying-file-integrity-and-its-digital-signature">Here</a> is an example of using the <a href="https://www.gnupg.org/">GNU Privacy Guard</a> to verify the integrity of a program.
     </p>
 </div>
 

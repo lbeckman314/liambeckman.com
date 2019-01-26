@@ -63,6 +63,7 @@ title: code
 
 Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
+
 <div class="demo-examples-container">
     <code class="demo-examples">withfeathers --print</code>
     <code class="demo-examples">prime 10101</code>
@@ -85,9 +86,10 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
         <a href="/code/demo">About</a>
         |
         <a href="https://github.com/lbeckman314/demo">Source Code</a>
+        |
+        <a href="https://liambeckman.com/code/term">Full Term</a>
     </div>
 </div>
-
 
 <br />
 
