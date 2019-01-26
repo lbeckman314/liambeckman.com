@@ -153,11 +153,6 @@ function doTerminal(terminal, socket) {
 
             }
 
-            // suppress firejail warnings
-            else if (message.includes("Warning")) {
-                terminal.value = terminal.value.replace(/.*$/ ,"");
-            }
-
             else {
                 terminal.value += message
             }
