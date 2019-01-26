@@ -273,8 +273,10 @@ div.favorites:hover {
     border-radius: 0;
     font-size: $base-font-size + 0.3;
     margin-right: 0.5em;
+    margin-top: 0.5em;
     cursor: pointer;
     transition: 800ms;
+    display: inline-block;
 }
 
 .demo-examples:hover {
