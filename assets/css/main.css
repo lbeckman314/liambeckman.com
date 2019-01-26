@@ -24,7 +24,9 @@ body {
 #content {
   padding-left: 6%;
   padding-right: 6%;
-  padding-top: 4%; }
+  padding-top: 4%;
+  margin: auto;
+  max-width: 1200px; }
 
 /* paragraphs*/
 p {
@@ -305,7 +307,7 @@ nav ul, #footer ul, #header ul {
   list-style: none;
   font-weight: bold; }
 
-nav ul li, #footer ul li, #header ul li {
+nav ul li, #footer ul li, #header ul li, ul li {
   display: inline;
   color: #99979c; }
 
@@ -423,13 +425,13 @@ button:hover {
 
 /*
 #content {
-    background-color: #2a2730;
+background-color: #2a2730;
 }
 
 p {
-    color: snow;
+color: snow;
 }
-*/
+ */
 .popstripe-bw {
   height: 0.25em;
   background-size: 100%;
