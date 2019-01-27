@@ -23,7 +23,7 @@ $heart: #FF357A;
 
 $grey-light: #aaa;
 $grey: #99979c;
-$grey-dark: #2a2730;
+$grey-dark: #131516;
 
 $white: #FFFFFF;
 
@@ -420,7 +420,7 @@ h1 {
     font-size: 3em;
     font-family: $font-stack;
     text-align: center;
-    color: #2a2730;
+    color: $grey-dark;
     padding-top: 3%;
 }
 
@@ -441,7 +441,7 @@ h1.favorites {
 h2 {
     font-size: $large-font-size;
     font-family: $font-stack;
-    color: #2a2730;
+    color: $grey-dark;
     padding-top: 3%;
 }
 
@@ -597,9 +597,9 @@ button:hover {
 }
 
 .dark {
-    background-color: #2a2730;
+    background-color: $grey-dark;
     border: 1px solid snow;
-    color: #2a2730;
+    color: $grey-dark;
 }
 
 .white {
@@ -615,7 +615,7 @@ button:hover {
 
 /*
 #content {
-background-color: #2a2730;
+background-color: $grey-dark;
 }
 
 p {

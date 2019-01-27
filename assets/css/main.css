@@ -279,7 +279,7 @@ h1 {
   font-size: 3em;
   font-family: Helvetica, Ariral, Sans-Serif;
   text-align: center;
-  color: #2a2730;
+  color: #131516;
   padding-top: 3%; }
 
 h1.home-page {
@@ -296,7 +296,7 @@ h1.favorites {
 h2 {
   font-size: 2.3em;
   font-family: Helvetica, Ariral, Sans-Serif;
-  color: #2a2730;
+  color: #131516;
   padding-top: 3%; }
 
 h2.code {
@@ -337,10 +337,10 @@ hr {
 
 #header {
   font-size: .8em;
-  background-color: #2a2730; }
+  background-color: #131516; }
 
 .site-footer {
-  background-color: #2a2730;
+  background-color: #131516;
   height: 4.5em; }
 
 /* decorative splash of color at top of page */
@@ -412,9 +412,9 @@ button:hover {
   color: whitesmoke; }
 
 .dark {
-  background-color: #2a2730;
+  background-color: #131516;
   border: 1px solid snow;
-  color: #2a2730; }
+  color: #131516; }
 
 .white {
   color: snow; }
@@ -427,7 +427,7 @@ button:hover {
 
 /*
 #content {
-background-color: #2a2730;
+background-color: $grey-dark;
 }
 
 p {

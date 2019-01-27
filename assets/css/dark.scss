@@ -17,13 +17,13 @@ $pop-3: #49CCD4; // teal
 $pop-4: #678CFA; // light blue
 $pop-5: #4635F7; // blue
 
-$header-footer: #2A2730;
+$header-footer: #131516;
 
 $heart: #FF357A;
 
 $grey-light: #aaa;
 $grey: #99979c;
-$grey-dark: #2a2730;
+$grey-dark: #131516;
 
 $white: #FFFFFF;
 
@@ -68,26 +68,13 @@ $on-laptop:        800px;
 /***************************************************/
 
 body {
-    background-color: #2a2730;
+    background-color: #131516;
 }
 
-#header {
-    background-color: #151515;
+#header, #footer, .site-footer {
+    background-color: black;
 }
 
-#footer {
-    background-color: #151515;
-}
-
-.site-footer {
-    background-color: #151515;
-}
-
-
-
-#content {
-    background-color: #2a2730;
-}
 
 p, h1, h2, h3, h4, h5, h6, .text, pre, dd, dt, li, ul, ol, label{
     color: snow;
@@ -99,7 +86,7 @@ pre.src:before {
 }
 
 div.text {
-    background: #2a2730;
+    background: #131516;;
 }
 
 #align p {
@@ -134,6 +121,10 @@ div.text {
 
 #darkswitch {
     border: 1px solid #FF357A;
+}
+
+.dark {
+    background-color: black;
 }
 
 .terminals {
