@@ -67,7 +67,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 
 [`npm`](https://www.npmjs.com/) :: for installing the dependencies.
 
-[`firejail`](https://firejail.wordpress.com/) :: for running progrmas in a sandboxed chroot environment.
+[`firejail`](https://firejail.wordpress.com/) :: for running programs in a sandboxed chroot environment.
 
 [`git`](https://git-scm.com/) :: for a quick git clone.
 

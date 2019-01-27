@@ -57,6 +57,21 @@ title: code
         <p class="code">An application for household hazardous waste removal.</p>
     </div>
 
+
+    <div class="fixed pointer" id="featured" onclick="location.href='/code/demo/'">
+        <a href="/code/demo/"><img class="center" src="/assets/png/demo.png"></a>
+        <div class = "code-title">demo</div>
+        <div class = "code-type web-app" id="demo">web app</div>
+        <p class="code">A terminal emulator emulator that allows users to try out programs.</p>
+    </div>
+
+    <div class="fixed pointer" id="featured" onclick="location.href='/code/demonic/'">
+        <a href="/code/demonic/"><img class="center" src="/assets/png/demonic.png"></a>
+        <div class = "code-title">demonic</div>
+        <div class = "code-type web-app" id="demonic">web app</div>
+        <p class="code">Like <a href="/code/demo">demo</a>, but more demonic!</p>
+    </div>
+
 </div>
 
 # * Interactive Demos
