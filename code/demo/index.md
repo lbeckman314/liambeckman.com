@@ -25,7 +25,13 @@ title: code
 
 </div>
 
+This is a glorified textarea element that emulates terminal emulators.
 
+| [demo](/code/demo)         | [demonic](/code/demonic) |
++----------------------------+--------------------------|
+| minimal, easily embeddable | lots of features         |
+| ed compatible :p           | vi, tmux compatible      |
+| made by a CS student       | made by professionals    |
 
 # Give it a Spin!
 

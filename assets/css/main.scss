@@ -855,9 +855,9 @@ span.grey {
 .prev-slideshow, .next-slideshow {
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
+    top: 0;
+    width: 50%;
+    height: 100%;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -871,7 +871,7 @@ span.grey {
 }
 
 .prev-slideshow:hover, .next-slideshow:hover {
-    background-color: rgba(0,0,0,0.8);
+    //background-color: rgba(0,0,0,0.8);
 }
 
 .text {

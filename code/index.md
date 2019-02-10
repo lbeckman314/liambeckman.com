@@ -10,6 +10,7 @@ title: code
         <img class="center" src="/assets/png/withfeathers.png">
         <div class = "code-title">withfeathers *</div>
         <div class = "code-type web-app">web app</div>
+        <div class = "code-type command-line">command line</div>
         <p class = "code">Add a little Emily Dickinson to your day.</p>
     </div>
 

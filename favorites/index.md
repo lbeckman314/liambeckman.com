@@ -4,8 +4,6 @@ title: favorites
 ---
 
 
-
-
 <style>
 .row {
     display: flex;
@@ -42,42 +40,6 @@ title: favorites
       }
   }
 </style>
-<!--
-    <div class="row">
-    <div class="column">
-    <img src="/assets/favorites/ssss.jpg">
-    <img src="/assets/favorites/gustav.jpg">
-    <img src="/assets/favorites/the-bald-future.jpg">
-    <img src="/assets/favorites/anne-frank-the-diary.jpg">
-    <img src="/assets/favorites/never-let-me-go.jpg">
-    <img src="/assets/favorites/jonathan-strange-mr-norrell.jpg">
-    <img src="/assets/favorites/moominland.jpg">
-    </div>
-    <div class="column">
-    <img src="/assets/favorites/stories-of-your-life.jpg">
-    <img src="/assets/favorites/the-book-thief.jpg">
-    <img src="/assets/favorites/contact.jpg">
-    <img src="/assets/favorites/downward-bound.jpg">
-    </div>
-    <div class="column">
-    <img src="/assets/favorites/his-dark-materials.jpg">
-    <img src="/assets/favorites/the-cartoon-history-of-time.jpg">
-    <img src="/assets/favorites/to-kill-a-mockingbird.jpg">
-    <img src="/assets/favorites/american-graffiti.jpg">
-    <img src="/assets/favorites/before-sunrise.jpg">
-    <img src="/assets/favorites/arrival.png">
-    <img src="/assets/favorites/mst3k.jpg">
-    </div>
-    <div class="column">
-    <img src="/assets/favorites/moonlight.jpg">
-    <img src="/assets/favorites/raw.jpg">
-    <img src="/assets/favorites/saul-fia.jpg">
-    <img src="/assets/favorites/memories-of-murder.jpg">
-    <img src="/assets/favorites/sexplanations.png">
-    <img src="/assets/favorites/KHdesign.jpg">
-    </div>
-    </div>
--->
 
 <h1 class="favorites">Favorites</h1>
 <br />
@@ -202,8 +164,8 @@ title: favorites
         <div class="text">Knifepoint Horror</div>
     </div>
 
-    <a class = "prev-slideshow" onclick="plusSlides(-1)">::</a>
-    <a class = "next-slideshow" onclick="plusSlides(+1)">::</a>
+    <a class = "prev-slideshow" onclick="plusSlides(-1)"></a>
+    <a class = "next-slideshow" onclick="plusSlides(+1)"></a>
 
 </div>
 

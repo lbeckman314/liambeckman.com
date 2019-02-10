@@ -1,21 +1,3 @@
-/*
-let names = document.getElementById("align").querySelectorAll("a");
-let maxWidth = 0;
-
-console.log(names);
-for (let i = 0; i < names.length; i++) {
-    console.log("names: " + names[i].innerText + " " + names[i].offsetWidth);
-    if (names[i].offsetWidth > maxWidth) {
-        maxWidth = names[i].offsetWidth;
-    }
-}
-
-for (let i = 0; i < names.length; i++) {
-    names[i].style.width = maxWidth + "px";
-}
-*/
-
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -70,17 +52,15 @@ function touch() {
     _C.addEventListener('touchmove', e => {e.preventDefault()}, false)
 }
 
-document.onkeypress =  function(event) {
+document.onkeydown =  function(event) {
 
     let key = event.keyCode;
     if (key == 39) {
         slideIndex += 1;
         currentSlide(slideIndex);
-        //plusSlides(1);
     }
     else if (key == 37) {
         slideIndex -= 1;
-        //minusSlides(1);
         currentSlide(slideIndex);
     }
 
@@ -91,10 +71,6 @@ function showSlides(n) {
 
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    //console.log("slides:", slides);
-    //console.log("slideIndex:", slideIndex);
-    //console.log("slides[slideIndex]:", slides[slideIndex]);
-    //console.log("slides[0]:", (slides)[0]);
     if (n > slides.length) {
         slideIndex = 1;
     }
@@ -116,7 +92,6 @@ function showSlides(n) {
 
     //setTimeout(showSlides, 9000);
     //slideIndex += 1;
-
 
 }
 

@@ -133,6 +133,67 @@ div.text {
 }
 
 
+table{
+    border-spacing: 0px;
+    width:50%;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin: auto;
+}
+
+th, td {
+    color: #2a2730;
+    padding: 1em;
+    min-width:4em;
+    border: 1px dashed white;
+}
+
+td.footer {
+    color: #2a2730;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.2em;
+    background-color: white
+}
+
+tr:nth-of-type(even) {
+    background-color: #ddd;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #b7d0fe99;
+}
+
+th {
+    background-color: white;
+}
+td.footer, th, textarea {
+    color: lightgrey;
+    background-color: black;
+}
+
+input, input.submit, input.search, input.buttonEdit, input.buttonDelete {
+    background-color: #151515;
+    border: 1px solid black;
+    color: grey;
+}
+
+tr:nth-of-type(even) {
+    background-color: #474747;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #151515;
+    //background-color: lavender;
+}
+
+th, td {
+    color: lightgrey;
+    border: 1px dashed grey;
+}
+
+
 // import partials
 @import 'responsive';
 @import 'footer';
