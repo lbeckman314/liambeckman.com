@@ -674,6 +674,20 @@ span.grey {
     opacity: 1.0; }
   to {
     opacity: 0.0; } }
+div.menu-container {
+  display: inline;
+  cursor: pointer; }
+
+div.menu {
+  width: 20px;
+  height: 3px;
+  background-color: snow;
+  margin: 3px 0;
+  transition: 0.4s; }
+
+/* Rotate first bar */
+/* Fade out the second bar */
+/* Rotate last bar */
 /***************************************************/
 /* SYNTAX HIGHLIGHTING
 /***************************************************/
