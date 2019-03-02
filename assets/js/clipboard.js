@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
     let container = document.getElementsByTagName("div");
     Array.from(container).forEach((element) => {
@@ -14,7 +15,6 @@ $(document).ready(function() {
             //element.appendChild(copyContainer);
             element.insertBefore(copyContainer, element.childNodes[0]);  // Insert <li> before the first child of <ul> 
         }
-
     });
-
 });
+*/
