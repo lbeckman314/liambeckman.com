@@ -1,5 +1,7 @@
 <ul class="sidenav">
 
+
+    <div id="full-screen-menu">
         <li class="header" onclick="location.href='/'"><a href="/">home</a></li>
         <li class="header" onclick="location.href='/about'"><a href="/about">about</a></li>
         <li class="header" onclick="location.href='/writings'"><a href="/writings">writings</a></li>
@@ -8,11 +10,64 @@
 
         <li class="header" onclick="location.href='/favorites'"><a href="/favorites">favorites</a></li>
         <li onclick="location.href='/code/s'"> <a class="secret" href="/code/s" style="color:#99979c;">:(){ :|:& };:</a> </li>
+    </div>
 
-        <div class="style">
-        <span class="white">·</span>
-        <button id="lightswitch" class="light" type="button">·</button>
-        <span class="white">·</span>
-        <button id="darkswitch" class="dark" type="button">·</button>
-        <span class="white">·</span>
+
+    <div id="menu-items">
+        <div class="dropbtn menu-container" onclick="nav()">
+            <div id="bar1" class="menu"></div>
+            <div id="bar2" class="menu"></div>
+            <div id="bar3" class="menu"></div>
+        </div>
+    </div>
+
+    <img id="settings" src="/assets/svg/gear.svg" ></img>
+
+    <div id="myDropdown" class="dropdown-content">
+        <a href="/">home</a>
+        <a href="/about">about</a>
+        <a href="/writings">writings</a>
+        <a href="/code">code</a>
+        <div class="inline"><a href="https://github.com/lbeckman314">github</a> / <a href="https://git.liambeckman.com">cgit</a></div>
+        <a href="/favorites">favorites</a>
+        <a href="/code/s" style="color:#99979c;">:(){ :|:& };:</a>
+    </div>
+
+
+    <div id="config" class="config-content">
+
+        <span>Theme:</span>
+
+        <div class="inline">
+            <button id="lightswitch" class="light center" type="button">·</button>
+            <button id="darkswitch" class="dark center" type="button">·</button>
+        </div>
+
+        <div class="inline">
+            <p>Padding left: </p>
+            <input id="padding-left" placeholder="6%"></input>
+        </div>
+
+        <button id="linker" class="center">
+            <object type="image/svg+xml" data="/assets/svg/link.svg" ></object>
+        </button>
+
+        <div class="inline">
+            <p>Padding right: </p>
+            <input id="padding-right" placeholder="6%"></input>
+        </div>
+
+        <div class="inline">
+            <p>Font size: </p>
+            <input id="font-size" placeholder="1em"></input>
+        </div>
+
+        <div class="inline">
+            <p>Font height: </p>
+            <input id="line-height" placeholder="1.7"></input>
+        </div>
+
+        <button class="default center" onclick="setDefault()">Reset to Default</button>
+    </div>
+
 </ul>

@@ -42,11 +42,13 @@
  * @author Zeno Rocha <hi@zenorocha.com>
  */
 
-  .highlighter-rouge .highlight {
-    //background: #eef; }
-    //background-color: #f9f2f4;
- background: #282a36; color: #f8f8f2 ;
+div.highlighter-rouge div.highlight {
     border: 1px dashed grey;
+}
+
+.highlighter-rouge .highlight {
+    background: #282a36; 
+    color: #f8f8f2 ;
 }
 
  .highlight .hll { background-color: #f1fa8c }

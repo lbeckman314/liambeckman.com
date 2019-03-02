@@ -90,16 +90,20 @@ a.favorites {
 #header a, #footer a {
   color: #FFFFFF; }
 
+/*
 li.header::after {
-  content: " )";
-  color: grey; }
+    content: " )";
+    color: grey;
+}
 
 li.header::before {
-  content: "( ";
-  color: grey; }
-
+    content: "( ";
+    color: grey;
+}
+*/
 a.secret {
-  float: right; }
+  float: right;
+  padding-right: 3em; }
 
 #home:hover a {
   text-decoration-color: snow;
@@ -307,7 +311,8 @@ nav ul, #footer ul, #header ul {
   font-family: Helvetica, Ariral, Sans-Serif;
   padding: 10px;
   list-style: none;
-  font-weight: bold; }
+  font-weight: bold;
+  color: grey; }
 
 nav ul li, #footer ul li, #header ul li, ul li {
   display: inline;
@@ -398,13 +403,12 @@ span.date:before {
   margin: 0%; }
 
 button {
-  width: 1.3em;
-  height: 1.3em;
-  margin-left: 0.3em;
-  margin-right: 0.3em; }
+  border: 1px solid gray;
+  transition: 800ms; }
 
 button:hover {
-  border: 1px solid #FF357A; }
+  border: 1px solid #FF357A;
+  transition: 800ms; }
 
 .light {
   background-color: whitesmoke;
@@ -412,9 +416,9 @@ button:hover {
   color: whitesmoke; }
 
 .dark {
-  background-color: #131516;
+  background-color: black;
   border: 1px solid snow;
-  color: #131516; }
+  color: black; }
 
 .white {
   color: snow; }
@@ -424,6 +428,113 @@ button:hover {
   margin-right: 1em;
   margin-left: 1em;
   float: right; }
+
+span, input {
+  color: snow; }
+
+#full-screen-menu {
+  display: inline; }
+
+/* Change color of dropdown links on hover */
+.config-content, .dropdown-content, .header:hover {
+  background-color: #131516; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #131516;
+  border: 1px solid grey;
+  min-width: 40%;
+  z-index: 1; }
+
+.config-content {
+  display: none;
+  position: absolute;
+  background-color: #131516;
+  border: 1px solid grey;
+  z-index: 1;
+  max-width: 40%;
+  min-width: 40%;
+  left: 59%; }
+
+li.header::after {
+  content: " )";
+  color: grey; }
+
+li.header::before {
+  content: "( ";
+  color: grey; }
+
+#menu-items {
+  display: none;
+  width: 100%; }
+
+#settings {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px; }
+
+.menu-container {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 5px; }
+
+#header ul li {
+  background: #131516;
+  margin: 1em;
+  margin-left: auto;
+  width: 70%;
+  border: 1px solid black; }
+
+/* Links inside the dropdown */
+.inline, .config-content span, .dropdown-content a {
+  margin: 15%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: block; }
+
+.dropdown-content > a {
+  margin-bottom: 5%;
+  margin-top: 15%;
+  margin-bottom: 15%; }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block; }
+
+.inline > a, .inline > span {
+  display: inline;
+  padding: 0;
+  margin: 0; }
+
+.default {
+  color: snow;
+  padding: 1em; }
+
+svg {
+  fill: snow; }
+
+input {
+  max-width: 100%;
+  min-width: 100%;
+  height: 3.5em; }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: block; }
+
+#darkswitch, #lightswitch {
+  height: 3em;
+  width: 3em;
+  display: inline;
+  margin-right: 2%;
+  margin-left: 2%; }
 
 /*
 #content {
@@ -682,12 +793,20 @@ div.menu {
   width: 20px;
   height: 3px;
   background-color: snow;
-  margin: 3px 0;
+  margin: 5px 0;
   transition: 0.4s; }
 
 /* Rotate first bar */
 /* Fade out the second bar */
 /* Rotate last bar */
+.copyContainer {
+  float: right;
+  margin-left: -1%;
+  padding: 1%; }
+
+div.highlight {
+  margin: 5%; }
+
 /***************************************************/
 /* SYNTAX HIGHLIGHTING
 /***************************************************/
@@ -716,9 +835,11 @@ div.menu {
   font-variant-position: normal;
   background: #fff; }
 
-.highlighter-rouge .highlight {
-  background-color: #fdeeff;
+div.highlighter-rouge div.highlight {
   border: 1px dashed pink; }
+
+.highlighter-rouge .highlight {
+  background-color: #fdeeff; }
 
 .highlight .c {
   color: #998;
@@ -927,7 +1048,13 @@ div.menu {
     content: '\A'; } }
 @media only screen and (max-width: 700px) {
   img.slide {
-    height: 25em; } }
+    height: 25em; }
+
+  #menu-items {
+    display: inline-block; }
+
+  #full-screen-menu {
+    display: none; } }
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 9em; } }
@@ -951,37 +1078,8 @@ div.menu {
   font-family: "BoswellRegular";
   src: url("assets/Boswell Regular.ttf"); }
 @media screen and (max-width: 740px) {
-  ul.sidenav {
-    width: 100%;
-    height: 15em;
-    position: relative;
-    columns: 2; }
-
-  #header ul.sidenav {
-    padding: 0px; }
-
-  ul.sidenav li:hover {
-    background-color: #555; }
-
-  #header ul li {
-    padding: 1em;
-    display: block;
-    margin: 0px;
-    text-align: center; }
-
-  ul.sidenav li a {
-    float: left;
-    padding: 15px; }
-
-  #header a {
-    padding: 1em; }
-
   div.content {
     margin-left: 0; }
-
-  ul.sidenav li a {
-    text-align: center;
-    float: none; }
 
   li.quote {
     white-space: pre-line; }

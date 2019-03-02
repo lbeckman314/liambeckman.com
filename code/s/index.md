@@ -5,27 +5,33 @@ title: code
 
 # commands I don't want to forget (but often do...)
 
-<br />
+
 
 ## $ shell
 
-<br />
+
 
 ```shell
 # recursively search for "date" in files, and output date combined with filename
 grep -r -T date * | awk -e '/date/{ print $3 "-" $1 }' | sort -r | sed 's/://'
+```
 
+```sh
 # does the same as above, then prints out files that do not contain "date"
 grep -r -T date * | awk -e '/date/{ print $3 "-" $1 }' | sort -r | sed 's/://'; echo;  grep -L -r -T date *
+```
 
+```sh
 # for all files in current directory, change spaces to dashes
 for file in ./*; do; mv "$file" "${file// /-}"; done
+```
 
+```sh
 # for all files in current directory, change uppercase to lowercase
 for f in `./*`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
 ```
 
-<br />
+
 
 ```shell
 # mount hardrive as rw
@@ -33,25 +39,34 @@ for f in `./*`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
 sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/USBDRIVE/
 ```
 
-<br />
+
 ```sh
 # view packages by size
 # https://unix.stackexchange.com/questions/40442/which-installed-software-packages-use-the-most-disk-space-on-debian
 dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
 ```
 
-<br />
+
 ```sh
 # remove uninstalled packages from dpkg
 # https://unix.stackexchange.com/questions/40442/which-installed-software-packages-use-the-most-disk-space-on-debian
 dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 ```
 
-<br />
+
+```sh
+# https://wiki.archlinux.org/index.php/QEMU#Running_virtualized_system
+qemu-system-x86_64 -m 4G -enable-kvm -drive file=img1.cow,format=qcow2 -vga qxl -device virtio-serial-pci -device virtserialport[0/125]
+v=spicechannel0,name=com.redhat.spice.0 -chardev spicevmc,id=spicechannel0,name=vdagent -spice unix,addr=/tmp/vm_spice.socket,disable-ticketing
+
+remote-viewer spice+unix:///tmp/vm_spice.socket
+```
+
+
 
 ## : vim
 
-<br />
+
 ```vim
 " don't add comments on new lines
 set formatoptions-=ro
@@ -59,13 +74,13 @@ set formatoptions-=ro
 " don't hide markup characters
 set conceallevel=0
 ```
-<br />
+
 ```vim
 " remove trailing whitespace
 " http://vim.wikia.com/wiki/Remove_unwanted_spaces
 %s/\s\+$//
 ```
-<br />
+
 
 ```vim
 " silently remove trailing whitespace from all open buffers
@@ -73,7 +88,7 @@ set conceallevel=0
 " https://stackoverflow.com/questions/8906905/how-to-yank-from-the-command-line
 bufdo %s/\s\+$//e | update
 ```
-<br />
+
 
 ```vim
 " does the same removal as above, but silently restores position in buffer (and retabs)
@@ -81,7 +96,7 @@ bufdo %s/\s\+$//e | update
 let currBuff=bufnr("%") | let save_pos = getpos(".") | silent bufdo %s/\s\+$//e | silent retab | update | execute 'buffer ' . currBuff | call setpos('.', save_pos) | noh
 ```
 
-<br />
+
 
 ```vim
 " add !important to css color values

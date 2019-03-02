@@ -3,54 +3,56 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="/assets/css/main.css">
-          <link id="dark" rel="stylesheet" href="/assets/css/dark.css">
+        <link id="dark" rel="stylesheet" href="/assets/css/dark.css">
         <link rel="icon" type="image/png" href="/assets/png/iconLambda.png" />
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="theme-color" content="#FF357A">
-      <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-      <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-      <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-      <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#FF357A">
+        <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+        <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-<script type="text/javascript" src="/assets/js/theme.js" async></script>
-</head>
+        <script type="text/javascript" src="/assets/js/theme.js" async></script>
+        <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
+        <script type="text/javascript" src="/assets/js/menu.js" async></script>
+    </head>
 
-        <body>
+    <body>
         <div id="wrapper">
             <div id="header">
-            {% include header-menu.html %}
+                {% include header-menu.html %}
             </div>
 
             <div class="popstripe"></div>
 
             <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
-<div class="PageNavigation">
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">◂ {{page.next.title}}</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">{{page.previous.title}} ▸</a>
-  {% endif %}
-</div>
+            <div class="PageNavigation">
+                {% if page.next.url %}
+                <a class="next" href="{{page.next.url}}">◂ {{page.next.title}}</a>
+                {% endif %}
+                {% if page.previous.url %}
+                <a class="prev" href="{{page.previous.url}}">{{page.previous.title}} ▸</a>
+                {% endif %}
+            </div>
             <div id="content">
 
                 <!-- https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post -->
-            {% if page.is_writing %}
+                {% if page.is_writing %}
                 <h1>{{ page.title }}</h1>
                 <br />
-            {% endif %}
+                {% endif %}
 
-            {{ content }}
+                {{ content }}
             </div>
 
             <div id="footer">
-            {% include footer-mst3k.html %}
+                {% include footer-mst3k.html %}
             </div>
         </div>
         <div id="bottom"></div>
-        </body>
+    </body>
 </html>
 
 <!--Louis, I think this is the beginning of a beautiful friendship.-->

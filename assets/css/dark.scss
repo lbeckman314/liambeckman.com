@@ -193,6 +193,10 @@ th, td {
     border: 1px dashed grey;
 }
 
+.config-content, .dropdown-content, .header:hover {
+    background-color: black;
+}
+
 
 // import partials
 @import 'responsive';

@@ -105,6 +105,9 @@ th, td {
   color: lightgrey;
   border: 1px dashed grey; }
 
+.config-content, .dropdown-content, .header:hover {
+  background-color: black; }
+
 /***************************************************/
 /* RESPONSIVE DESIGN
 /***************************************************/
@@ -120,7 +123,13 @@ th, td {
     content: '\A'; } }
 @media only screen and (max-width: 700px) {
   img.slide {
-    height: 25em; } }
+    height: 25em; }
+
+  #menu-items {
+    display: inline-block; }
+
+  #full-screen-menu {
+    display: none; } }
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 9em; } }
@@ -144,37 +153,8 @@ th, td {
   font-family: "BoswellRegular";
   src: url("assets/Boswell Regular.ttf"); }
 @media screen and (max-width: 740px) {
-  ul.sidenav {
-    width: 100%;
-    height: 15em;
-    position: relative;
-    columns: 2; }
-
-  #header ul.sidenav {
-    padding: 0px; }
-
-  ul.sidenav li:hover {
-    background-color: #555; }
-
-  #header ul li {
-    padding: 1em;
-    display: block;
-    margin: 0px;
-    text-align: center; }
-
-  ul.sidenav li a {
-    float: left;
-    padding: 15px; }
-
-  #header a {
-    padding: 1em; }
-
   div.content {
     margin-left: 0; }
-
-  ul.sidenav li a {
-    text-align: center;
-    float: none; }
 
   li.quote {
     white-space: pre-line; }
@@ -302,10 +282,12 @@ body {
  * @author Chris Bracco <chris@cbracco.me>
  * @author Zeno Rocha <hi@zenorocha.com>
  */
+div.highlighter-rouge div.highlight {
+  border: 1px dashed grey; }
+
 .highlighter-rouge .highlight {
   background: #282a36;
-  color: #f8f8f2;
-  border: 1px dashed grey; }
+  color: #f8f8f2; }
 
 .highlight .hll {
   background-color: #f1fa8c; }
