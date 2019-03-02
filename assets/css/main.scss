@@ -633,7 +633,7 @@ span, input {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #131516; 
+    background-color: #131516;
     border: 1px solid grey;
     min-width: 40%;
     z-index: 1;
@@ -642,7 +642,7 @@ span, input {
 .config-content {
     display: none;
     position: absolute;
-    background-color: #131516; 
+    background-color: #131516;
     border: 1px solid grey;
     z-index: 1;
 
@@ -689,6 +689,28 @@ li.header::before {
     border: 1px solid black;
 }
 
+#myDropdown > a {
+    margin: 0;
+    padding: 10%;
+    transition: $tran;
+}
+
+#myDropdown > a:hover {
+    background-color: #4635f7;
+    transition: $tran;
+    text-decoration: none;
+}
+
+#myDropdown > .inline {
+    margin: 0;
+    padding: 10%;
+    transition: $tran;
+}
+
+#myDropdown > .inline:hover {
+    background-color: #4635f7;
+    transition: $tran;
+}
 
 /* Links inside the dropdown */
 .inline, .config-content span, .dropdown-content a {
@@ -706,7 +728,7 @@ li.header::before {
 
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;} 
+.show {display:block;}
 
 .inline > a, .inline > span {
     display: inline;

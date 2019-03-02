@@ -75,10 +75,10 @@ function setDefault() {
     let padding_left_local = localStorage.getItem("padding-left");
     let padding_right_local = localStorage.getItem("padding-right");
 
-    padding_left.placeholder = padding_left_local; 
-    padding_right.placeholder = padding_right_local; 
-    padding_left.value = padding_left_local; 
-    padding_right.value = padding_right_local; 
+    padding_left.placeholder = padding_left_local;
+    padding_right.placeholder = padding_right_local;
+    padding_left.value = padding_left_local;
+    padding_right.value = padding_right_local;
 
 
     let font_size_local = "1em"
@@ -141,8 +141,8 @@ $( document ).ready(function() {
     }
 
     // Close the dropdown menu if the user clicks outside of it
-    /*
     window.addEventListener("click", function(event) {
+        console.log("click");
         if (!event.target.matches('.dropbtn')) {
             var dropdowns = document.getElementsByClassName("dropdown-content");
             var i;
@@ -153,9 +153,9 @@ $( document ).ready(function() {
                 }
             }
         }
-
         console.log("target:", event.target);
-        if (!event.target.matches('#settings') && !event.target.matches('#config')) {
+        console.log("current target:", event.currentTarget);
+        if (!event.target.matches('#settings') && !event.target.parentNode.matches('.config-content') && !event.target.parentNode.matches('.inline') && !event.target.matches('.config-content')) {
             var dropdowns = document.getElementsByClassName("config-content");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
@@ -166,7 +166,28 @@ $( document ).ready(function() {
             }
         }
     });
-    */
+
+    window.addEventListener("keydown", function(e) {
+        e = e || window.event;
+        let key = e.which || e.keyCode; // keyCode detection
+        console.log("key:", key);
+        if (key == 27) {
+            var dropdowns_menu = document.getElementsByClassName("dropdown-content");
+            var dropdowns_config = document.getElementsByClassName("config-content");
+
+            var i;
+            for (i = 0; i < dropdowns_menu.length; i++) {
+                var openDropdown = dropdowns_menu[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+                var openDropdown_config = dropdowns_config[i];
+                if (openDropdown_config.classList.contains('show')) {
+                    openDropdown_config.classList.remove('show');
+                }
+            }
+        }
+    });
 
     let content = document.getElementById("content");
     let padding_left_local = localStorage.getItem("padding-left");
@@ -176,11 +197,11 @@ $( document ).ready(function() {
 
     if (padding_left_local) {
         content.style.paddingLeft = String(padding_left_local);
-        padding_left.placeholder = padding_left_local; 
+        padding_left.placeholder = padding_left_local;
     }
     if (padding_right_local) {
         content.style.paddingRight = String(padding_right_local);
-        padding_right.placeholder = padding_right_local; 
+        padding_right.placeholder = padding_right_local;
     }
 
     let font_size = document.getElementById("font-size");
