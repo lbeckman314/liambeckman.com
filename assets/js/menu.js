@@ -1,7 +1,8 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function nav() {
+function nav(x) {
     document.getElementById("myDropdown").classList.toggle("show");
+    x.classList.toggle("change");
 }
 
 function config() {
@@ -99,6 +100,12 @@ function setDefault() {
 $( document ).ready(function() {
     $("#settings").click(function() {
         document.getElementById("config").classList.toggle("show");
+        if (document.getElementById("settings").style.transform == "rotate(180deg)") {
+            document.getElementById("settings").style.transform = "unset";
+        }
+        else {
+            document.getElementById("settings").style.transform = "rotate(180deg)";
+        }
     });
 
     $("#linker").click(function() {
@@ -164,6 +171,9 @@ $( document ).ready(function() {
                     openDropdown.classList.remove('show');
                 }
             }
+
+            document.getElementById("settings").style.transform = "rotate(180deg)";
+            document.getElementById("settings").style.transform = "unset";
         }
     });
 

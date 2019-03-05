@@ -474,7 +474,8 @@ li.header::before {
   cursor: pointer;
   position: absolute;
   top: 5px;
-  right: 5px; }
+  right: 5px;
+  transition: 800ms; }
 
 .menu-container {
   cursor: pointer;
@@ -492,21 +493,42 @@ li.header::before {
 #myDropdown > a {
   margin: 0;
   padding: 10%;
-  transition: 800ms; }
+  transition: 1200ms; }
 
 #myDropdown > a:hover {
   background-color: #4635f7;
-  transition: 800ms;
+  transition: 400ms;
   text-decoration: none; }
 
 #myDropdown > .inline {
   margin: 0;
   padding: 10%;
-  transition: 800ms; }
+  transition: 1200ms; }
 
 #myDropdown > .inline:hover {
   background-color: #4635f7;
-  transition: 800ms; }
+  transition: 400ms; }
+
+#myDropdown > #home:hover {
+  background-color: #ff357a; }
+
+#myDropdown > #about:hover {
+  background-color: #DB37C4; }
+
+#myDropdown > #writings:hover {
+  background-color: #ED68D9; }
+
+#myDropdown > #code:hover {
+  background-color: #49CCD4; }
+
+#myDropdown > #vcs:hover {
+  background-color: #678CFA; }
+
+#myDropdown > #favorites:hover {
+  background-color: #4635F7; }
+
+#myDropdown > #secret:hover {
+  background-color: #ff357a; }
 
 /* Links inside the dropdown */
 .inline, .config-content span, .dropdown-content a {
@@ -813,11 +835,20 @@ div.menu {
   height: 3px;
   background-color: snow;
   margin: 5px 0;
-  transition: 0.4s; }
+  transition: 400ms; }
 
 /* Rotate first bar */
+.change #bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px); }
+
 /* Fade out the second bar */
+.change #bar2 {
+  opacity: 0; }
+
 /* Rotate last bar */
+.change #bar3 {
+  transform: rotate(45deg) translate(-5px, -6px); }
+
 .copyContainer {
   float: right;
   margin-left: -1%;

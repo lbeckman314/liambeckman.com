@@ -14,7 +14,7 @@
 
 
     <div id="menu-items">
-        <div class="dropbtn menu-container" onclick="nav()">
+        <div class="dropbtn menu-container" onclick="nav(this)">
             <div id="bar1" class="menu"></div>
             <div id="bar2" class="menu"></div>
             <div id="bar3" class="menu"></div>
@@ -24,13 +24,13 @@
     <img id="settings" src="/assets/svg/gear.svg" ></img>
 
     <div id="myDropdown" class="dropdown-content">
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/writings">writings</a>
-        <a href="/code">code</a>
-        <div class="inline"><a href="https://github.com/lbeckman314">github</a> / <a href="https://git.liambeckman.com">cgit</a></div>
-        <a href="/favorites">favorites</a>
-        <a href="/code/s" style="color:#99979c;">:(){ :|:& };:</a>
+        <a id="home" href="/">home</a>
+        <a id="about" href="/about">about</a>
+        <a id="writings" href="/writings">writings</a>
+        <a id="code" href="/code">code</a>
+        <div id="vcs" class="inline"><a href="https://github.com/lbeckman314">github</a> / <a href="https://git.liambeckman.com">cgit</a></div>
+        <a id="favorites" href="/favorites">favorites</a>
+        <a id="secret" href="/code/s" style="color:#99979c;">:(){ :|:& };:</a>
     </div>
 
     <div id="config" class="config-content">

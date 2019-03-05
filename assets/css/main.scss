@@ -670,6 +670,7 @@ li.header::before {
     position: absolute;
     top: 5px;
     right: 5px;
+    transition: $tran;
 }
 
 .menu-container {
@@ -692,24 +693,52 @@ li.header::before {
 #myDropdown > a {
     margin: 0;
     padding: 10%;
-    transition: $tran;
+    transition: $tran * 1.5;
 }
 
 #myDropdown > a:hover {
     background-color: #4635f7;
-    transition: $tran;
+    transition: $tran / 2;
     text-decoration: none;
 }
 
 #myDropdown > .inline {
     margin: 0;
     padding: 10%;
-    transition: $tran;
+    transition: $tran * 1.5;
 }
 
 #myDropdown > .inline:hover {
     background-color: #4635f7;
-    transition: $tran;
+    transition: $tran / 2;
+}
+
+#myDropdown > #home:hover {
+    background-color: #ff357a;
+}
+
+#myDropdown > #about:hover {
+    background-color: $pop-1;
+}
+
+#myDropdown > #writings:hover {
+    background-color: $pop-2;
+}
+
+#myDropdown > #code:hover {
+    background-color: $pop-3;
+}
+
+#myDropdown > #vcs:hover {
+    background-color: $pop-4;
+}
+
+#myDropdown > #favorites:hover {
+    background-color: $pop-5;
+}
+
+#myDropdown > #secret:hover {
+    background-color: #ff357a;
 }
 
 /* Links inside the dropdown */
@@ -1098,23 +1127,23 @@ div.menu {
     height: 3px;
     background-color: snow;
     margin: 5px 0;
-    transition: 0.4s;
+    transition: $tran / 2;
 }
 
 
 /* Rotate first bar */
 .change #bar1 {
-  //transform: rotate(-45deg) translate(-4px, 4px) ;
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 /* Fade out the second bar */
 .change #bar2 {
-  //opacity: 0;
+  opacity: 0;
 }
 
 /* Rotate last bar */
 .change #bar3 {
-  //transform: rotate(45deg) translate(-4px, -4px) ;
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .copyContainer {
