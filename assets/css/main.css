@@ -474,7 +474,7 @@ li.header::before {
   cursor: pointer;
   position: absolute;
   top: 5px;
-  right: 5px;
+  right: 10px;
   transition: 800ms; }
 
 .menu-container {
@@ -484,7 +484,6 @@ li.header::before {
   left: 5px; }
 
 #header ul li {
-  background: #131516;
   margin: 1em;
   margin-left: auto;
   width: 70%;

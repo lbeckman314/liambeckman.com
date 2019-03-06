@@ -669,7 +669,7 @@ li.header::before {
     cursor: pointer;
     position: absolute;
     top: 5px;
-    right: 5px;
+    right: 10px;
     transition: $tran;
 }
 
@@ -682,7 +682,7 @@ li.header::before {
 }
 
 #header ul li{
-    background: #131516;
+    //background: #131516;
     margin: 1em;
     margin-left: auto;
     //margin-right: auto;

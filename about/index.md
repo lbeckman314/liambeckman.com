@@ -13,7 +13,7 @@ I'm a sleepy human with a dark history of secrets and intrigue.
 
 Have a good book or movie recommendation or just want to chat? I'm available at <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
 
-All projects on this website are open-source and free. Source code can be found on [gitlab](https://gitlab.com/lbeckman314/), [github](https://github.com/lbeckman314), or [cgit](https://git.liambeckman.com). Forks, issues, translations, artwork, and contributions of any kind are always welcome!
+All projects on this website are open-source and free. Source code can be found on [gitlab](https://gitlab.com/lbeckman314/), [github](https://github.com/lbeckman314), or [cgit](https://git.liambeckman.com). Contributions of any kind are always welcome!
 
 ---
 
