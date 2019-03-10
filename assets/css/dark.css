@@ -108,6 +108,9 @@ th, td {
 .config-content, .dropdown-content, .header:hover {
   background-color: black; }
 
+svg {
+  fill: snow; }
+
 /***************************************************/
 /* RESPONSIVE DESIGN
 /***************************************************/
@@ -129,7 +132,17 @@ th, td {
     display: inline-block; }
 
   #full-screen-menu {
-    display: none; } }
+    display: none; }
+
+  .config-content, .dropdown-content {
+    max-width: 60%;
+    min-width: 60%; }
+
+  .config-content {
+    left: 39%; }
+
+  .dropdown-content {
+    right: 39%; } }
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 9em; } }

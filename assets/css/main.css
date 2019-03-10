@@ -92,15 +92,15 @@ a.favorites {
 
 /*
 li.header::after {
-    content: " )";
-    color: grey;
+content: " )";
+color: grey;
 }
 
 li.header::before {
-    content: "( ";
-    color: grey;
+content: "( ";
+color: grey;
 }
-*/
+ */
 a.secret {
   float: right;
   padding-right: 3em; }
@@ -309,12 +309,17 @@ h2.code {
 /* lists */
 nav ul, #footer ul, #header ul {
   font-family: Helvetica, Ariral, Sans-Serif;
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   list-style: none;
   font-weight: bold;
   color: grey; }
 
-nav ul li, #footer ul li, #header ul li, ul li {
+#header ul {
+  padding-bottom: 10px; }
+
+nav ul li, #footer ul li, #header ul li {
   display: inline;
   color: #99979c; }
 
@@ -334,6 +339,52 @@ li.quote {
 
 #header li {
   margin-right: 20px; }
+
+/* https://stackoverflow.com/questions/4980525/css-center-display-inline-block */
+.inline-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%; }
+
+/* https://stackoverflow.com/questions/4980525/css-center-display-inline-block */
+.inline-block > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+ul.showoff > li {
+  border: 1px solid #aaa;
+  margin: 1em;
+  width: 45%;
+  text-align: center;
+  padding: 1%;
+  list-style-type: none; }
+
+object.showoff {
+  height: 2em; }
+
+.zigzag-container {
+  position: absolute;
+  left: 0; }
+
+object.zigzag {
+  width: 70%;
+  margin: auto;
+  margin-bottom: auto;
+  display: block;
+  margin-bottom: -1em;
+  display: none; }
+
+.rainbow-box {
+  padding: 1em;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to bottom right, #DB37C4 0%, #DB37C4 25%, #49CCD4 50%, #678CFA 75%, #4635F7 100%);
+  border-image-slice: 1;
+  transition: 800ms;
+  margin-bottom: 5%;
+  text-align: center; }
 
 hr {
   border-bottom: 1px dashed #99979c;
@@ -856,6 +907,27 @@ div.menu {
 div.highlight {
   margin: 5%; }
 
+/* https://stackoverflow.com/questions/8160514/is-there-css-for-typesetting-the-latex-logo-in-html */
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase; }
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em; }
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em; }
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em; }
+
+svg {
+  fill: black; }
+
 /***************************************************/
 /* SYNTAX HIGHLIGHTING
 /***************************************************/
@@ -1113,7 +1185,10 @@ div.highlighter-rouge div.highlight {
     left: 39%; }
 
   .dropdown-content {
-    right: 39%; } }
+    right: 39%; }
+
+  object.zigzag {
+    display: block; } }
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 9em; } }

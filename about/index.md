@@ -3,7 +3,7 @@ layout: my-default
 title: about
 ---
 
-# hello! i'm liam. <object type="image/svg+xml" data="../assets/svg/iconSmile5Optimized.svg"></object>
+# hello! i'm liam. <object type="image/svg+xml" data="/assets/svg/iconSmile5Optimized.svg"></object>
 <!-- <img> -->
 <p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 2em">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
 
@@ -13,7 +13,28 @@ I'm a sleepy human with a dark history of secrets and intrigue.
 
 Have a good book or movie recommendation or just want to chat? I'm available at <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
 
-All projects on this website are open-source and free. Source code can be found on [gitlab](https://gitlab.com/lbeckman314/), [github](https://github.com/lbeckman314), or [cgit](https://git.liambeckman.com). Contributions of any kind are always welcome!
+Are you looking for a plucky CS student with a small propensity for segmentation faults? Here are some links of interest:
+
+<div class="inline-block">
+    <ul class="showoff">
+        <li id="featured" onclick="location.href='./resume.pdf'">
+            <object class="showoff" type="image/svg+xml" data="/assets/svg/octicons-5.0.1/lib/svg/file-pdf.svg"></object><p> Resume (PDF)</p>
+        </li>
+        <li id="featured" onclick="location.href='https://git.liambeckman.com/cgit/resume/tree/resume.tex'">
+            <object class="showoff" type="image/svg+xml" data="/assets/svg/tex.svg"></object><p> Resume (<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>)</p>
+        </li>
+        <li id="featured" onclick="location.href='https://github.com/lbeckman314/'">
+            <object class="showoff" type="image/svg+xml" data="/assets/svg/github.svg"></object><p> My Github profile</p>
+        </li>
+        <li id="featured" onclick="location.href='https://gitlab.com/lbeckman314/'">
+            <object class="showoff" type="image/svg+xml" data="/assets/svg/gitlab-2.svg"></object><p> My Gitlab profile</p>
+        </li>
+        <li id="featured" onclick="location.href='https://www.linkedin.com/in/liam-beckman-ab3183a6/'">
+            <object class="showoff" type="image/svg+xml" data="/assets/svg/linkedin.svg"></object><p> My LinkedIn profile</p>
+        </li>
+    </ul>
+</div>
+
 
 ---
 
@@ -25,7 +46,7 @@ This website stores and presents some various works and projects. It originally 
 The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/).
 <br/>
 <br/>
-The [source code](https://github.com/lbeckman314/lbeckman314.github.io) is yours. Feel free to copy and paste, fork, clone, or anything you like. Be forwarn! This site is written in an ungodly mix of markdown, html, and inline css. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
+The [website's source code](https://github.com/lbeckman314/website) is yours. Feel free to copy and paste, fork, clone, or anything you like. Be forwarn! This site is written in an ungodly mix of markdown, html, and inline css. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
 
 <br/>
 

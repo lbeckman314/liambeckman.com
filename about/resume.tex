@@ -1,91 +1,98 @@
-\documentclass[a4paper]{article}
+%% Latex I've cobbled together from the far corners of the world. Feel free to copy and paste, fork, clone, or anything you like.
 
-%% Language and font encodings
-\usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
-\usepackage[T1]{fontenc}
-
-%% Sets page size and margins
-\usepackage[a4paper,top=1cm,bottom=1cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
-\setlength{\parindent}{0in} %% rmeoves insentation
-\renewcommand{\labelitemi}{$\square$}
-
-%% Useful packages
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{color}
-\usepackage{xcolor}
-
-\title{LIAM BECKMAN}
-\author{lbeckman314@gmail.com | 503.593.8493 | liambeckman.com}
-\date{\vspace{-5ex}}
-%\date{}  % Toggle commenting to test
+\input{main.tex}
+\usepackage[margin=1.5cm, top=-0.5cm, bottom=1cm]{geometry}
 
 \begin{document}
+
 \maketitle
 
-\noindent\rule{\textwidth}{1pt}\vspace{-1.5em}
-\section*{EDUCATION}\vspace{-1.5em}
-\textcolor[RGB]{128,128,128}{\rule{\linewidth}{1pt}}
+\begin{center}
+An open-source and free software enthusiast who loves making programs that work for people.
+\end{center}
 
-\medskip
+\textcolor{my-grey}{\rule{\textwidth}{1pt}\vspace{-1.5em}}
+\section*{\large{EDUCATION}}\vspace{-1.5em}
+\textcolor{my-grey}{\rule{\linewidth}{1pt}}
 
-\textbf{Bachelor of Science, Biology; University of Oregon Presidential Scholar}\\ 
-\textcolor[RGB]{128,128,128}{Eugene, OR \hfill Graduated June 2017}
+\medbreak
 
-\medskip
+\textcolor{my-blue}{\textbf{Bachelor of Science; Computer Science}} --- Oregon State University Postbaccalaureate\\
+\textcolor{my-grey}{Expected graduation Fall 2019 \hfill Corvallis, OR}
 
+\textcolor{my-grey}{\dotfill}
+\medbreak
 
-\textbf{Bachelor of Science, Computer Science; Oregon State University}\\ 
-\textcolor[RGB]{128,128,128}{Corvallis, OR \hfill Expected graduation September 2019}
+\textcolor{my-blue}{\textbf{Bachelor of Science; Biology}} --- University of Oregon Presidential Scholar\\
+\textcolor{my-grey}{Graduated June 2017 \hfill Eugene, OR}
 
+\medbreak
 
-\noindent\rule{\textwidth}{1pt}\vspace{-1.5em}
-\section*{EXPERIENCE}\vspace{-1.5em}
-\textcolor[RGB]{128,128,128}{\rule{\linewidth}{1pt}}
+\textcolor{my-grey}{\rule{\textwidth}{1pt}\vspace{-1.5em}}
+\section*{\large{EXPERIENCE \& PROJECTS}}\vspace{-1.5em}
+\textcolor{my-grey}{\rule{\linewidth}{1pt}}
 
-\medskip
+\medbreak
 
-\textbf{Ski Equipment Technician November}\\
-\textcolor[RGB]{128,128,128}{Mountain Sports; Welches, OR \hfill 2016—March 2017; 20 hours per week}\\
-Assissted customers of all ages in finding and fitting outdoor gear. Restocked store equipment. Adjusted ski and snowboards for customers and educated on proper and safe use. Served as a knowledgable source of information on local trails and outdoor areas. Helped with group trip planning and rentals.
+\textcolor{my-blue}{\textbf{\href{https://liambeckman.com}{liambeckman.com/code}}} --- personal website and portfolio\\
+\textcolor{my-grey}{JavaScript, HTML, CSS, Jekyll \hfill \href{https://github.com/lbeckman314/website}{github.com/lbeckman314/website}}\\
 
-\medskip
+A website that presents a variety of my projects and software development tools, including \href{https://git.liambeckman.com}{a Git server} and an instance of \href{https://liambeckman.com/jenkins}{Jenkins continuous integration service}. The website and all projects are hosted on a modest single-board computer (Raspbian on RPi3 Model B).
 
-\textbf{Lab Prep Assistant}\\
-\textcolor[RGB]{128,128,128}{University of Oregon Biology Lab; Eugene, OR \hfill September—June. 2015; 5 hours per week}\\
-Prepared materials and procedures for The Honors Biology Lab curriculum at the University of Oregon. Relevant responsibilities included making and curing petri plate solutions, evaluating states and types of bacterial growth, and studying the processes and mechanisms of cytological phenotypic expression and function.
+%\textcolor{my-grey}{\rule{\linewidth}{0pt}}
+\textcolor{my-grey}{\dotfill}
+\medbreak
 
-\medskip
+\textcolor{my-blue}{\textbf{\href{https://biblioteca.liambeckman.com}{biblioteca}}} --- relational database web app\\
+\textcolor{my-grey}{MariaDB/MySQL, JavaScript, HTML, CSS \hfill \href{https://github.com/lbeckman314/biblioteca}{github.com/lbeckman314/biblioteca}}\\
 
-\textbf{Student Researcher—Ecology and Restoration}\\
-\textcolor[RGB]{128,128,128}{H.J. Andrews Experimental Forest; Blue River, OR \hfill June—August 2013; 40 hours per week}\\
-Analyzed forest networks and plant response to fire disturbances; surveyed plant communities in experimental sub-alpine meadows as part of ongoing research; published study in Restoration Ecology: The Journal of the Society for Ecological Restoration (\textit{Vegetation Recovery in Slash-Pile Scars Following Conifer Removal in a Grassland-Restoration Experiment}, November 2014).
+A hostable database designed to store information for one's favorite programs. Allows users to keep track of what language each program was written in, the version number, it’s purpose, and original authors and contributors. Serves as a rudimentary search engine for code and projects that one has encountered, and wants to keep accessible in the future. An instance may be found at \textcolor{my-blue}{\href{https://biblioteca.liambeckman.com}{biblioteca.liambeckman.com}}.
 
-\medskip
+\textcolor{my-grey}{\dotfill}
+\medbreak
 
-\textbf{Student Researcher—Response to Climate Change}\\
-\textcolor[RGB]{128,128,128}{University of Oregon; Eugene, OR \hfill June—August 2012; 40 hours per week}\\
-Researched the effects of climate change on northwest plant communities to determine how carbon may be allocated under future climate scenarios; measured and analyzed biomass samples collected in situ from experimental grasslands with experimentally manipulated temperature and precipitation levels; presented my findings at The 2012 Apprenticeships in Science and Engineering (ASE) Symposium hosted by the University of Portland.
+\textcolor{my-blue}{\textbf{\href{https://liambeckman.com/code/matriz}{RemoveMyWaste}}} --- application for hazardous waste removal\\
+\textcolor{my-grey}{Java, MariaDB/MySQL, SQLite, JavaScript, HTML, CSS \hfill \href{https://github.com/cs361-group24/RemoveMyWaste}{github.com/cs361-group24/RemoveMyWaste}}\\
 
-\medskip
+An Android and web application with the purpose of giving anyone the ability to safely dispose of hazardous household and industriual materials. Users can locate disposal centers near them, as well as read specific information on the materials they wish to dispose of. The web interface may be found at \textcolor{my-blue}{\href{https://removemywaste.liambeckman.com}{removemywaste.liambeckman.com}}.
 
-\textbf{NSF Funded REU Researcher—Botanical Genetics}\\
-\textcolor[RGB]{128,128,128}{University of Minnesota; Minneapolis, MN \hfill  May—August 2014; 40 hours per week}\\
-Conducted research involving botanical DNA isolation, purification, sequencing, and analysis; examined the effect of personally designed genetic markers had on a tropical tree's evolution/phylogeny; presented results and conclusions at the following scientific conferences:\\ 
-• The 2015 Emerging Researchers National Conference in STEM hosted in Washington D.C.\\
-• The 2015 University of Oregon Undergraduate Research Symposium\\
-• The 2014 University of Minnesota Undergraduate Symposium\\
+\textcolor{my-grey}{\dotfill}
+\medbreak
 
-\noindent\rule{\textwidth}{1pt}\vspace{-1.5em}
-\section*{VOLUNTEER WORK}\vspace{-1.5em}
-\textcolor[RGB]{128,128,128}{\rule{\linewidth}{1pt}}
+\textcolor{my-blue}{\textbf{\href{https://withfeathers.liambeckman.com}{withfeathers}}} --- poetry web app and shell program\\
+\textcolor{my-grey}{Python, Flask \hfill \href{https://github.com/lbeckman314/withfeathers}{github.com/lbeckman314/withfeathers}}\\
 
-• Welches Elementary School: Developed reading and comprehension skills for elementary students as a STAR Reading voluteer. \hfill \textcolor[RGB]{128,128,128}{November 2016— March 2017}\\
-• Multnomah Education Service District's Outdoor School Program: Served as a Student Leader in the Outdoor School Program by leading a cabin of twenty students per week and teaching the basics of ecology, zoology, and geology. \hfill \textcolor[RGB]{128,128,128}{April 2011—October 2012}\\
-• Legacy Mt. Hood Medical Center: Volunteered at the Front Desk and in the ICU; received the Summit Award for outstanding service from the Volunteer Guild. \hfill \textcolor[RGB]{128,128,128}{June 2010—January 2013}\\
+Fetches, parses, and selects a random poem by Emily Dickinson from Project Gutenberg. A hostable web interface at \textcolor{my-blue}{\href{https://withfeathers.liambeckman.com}{withfeathers.liambeckman.com}} makes these poem selections available to anyone with an internet access.
 
+\textcolor{my-grey}{\dotfill}
+\medbreak
+
+\textcolor{my-blue}{\textbf{\href{https://liambeckman.com/code/devilish}{devilish*}}} --- portable shell for *nix operating systems\\
+\textcolor{my-grey}{C \hfill \href{https://github.com/lbeckman314/devilish}{github.com/lbeckman314/devilish}}\\
+
+A minimalistic shell for Unix-like operating systems. Allows for standard input/output redirection, foreground/background processes, and SIGTSTP/SIGINT signal handling. 
+
+\textcolor{my-grey}{\dotfill}
+\medbreak
+
+\textcolor{my-blue}{\textbf{\href{https://liambeckman.com/code/matriz}{matriz*}}} --- mathematics shell program\\
+\textcolor{my-grey}{Bash \hfill \href{https://github.com/lbeckman314/matriz}{github.com/lbeckman314/matriz}}\\
+
+A shell script for managing matrix operations including multiplication, addition, and transposition. A matrix generator is included in the available functions.
+
+\textcolor{my-grey}{\dotfill}
+\medbreak
+
+\textcolor{my-blue}{\textbf{\href{https://liambeckman.com/code/matriz}{prime*}}} --- program for calculating large prime numbers\\
+\textcolor{my-grey}{C++\hfill \href{https://github.com/lbeckman314/prime}{github.com/lbeckman314/prime}}\\
+
+A program that uses the Sieve of Eratosthenes to compute the first million primes.
+
+\textcolor{my-grey}{\dotfill}
+\medbreak
+
+\vfill
+* Interactive demos available at \textcolor{my-blue}{\href{https://liambeckman.com/code\#terminal}{liambeckman.com/code\#terminal}}
+\hfill\textcolor{my-red}{\LaTeX{} source: \href{https://git.io/fhsem}{git.io/fhsem}}
 
 \end{document}
-
-
