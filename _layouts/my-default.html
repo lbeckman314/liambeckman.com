@@ -19,8 +19,11 @@
         <script type="text/javascript" src="/assets/js/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="/assets/js/theme.js" async></script>
 
-        <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
         <script type="text/javascript" src="/assets/js/menu.js" async></script>
+
+        {% if page.title != "writings" %}
+        <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
+        {% endif %}
     </head>
     <body>
         <div id="wrapper">

@@ -5,10 +5,12 @@ title: code
 
 # commands I don't want to forget (but often do...)
 
-
+<div class="safety">
+    <h2>Safety First</h2>
+    <p>Copying and pasting the code samples below can be <a href="https://thejh.net/misc/website-terminal-copy-paste">dangerous</a>. I recommend not copying and pasting as the root or administrative user.</p>
+</div>
 
 ## $ shell
-
 
 
 ```shell

@@ -543,6 +543,25 @@ object.zigzag {
 	display:none;
 }
 
+.copyMessage {
+    color: #fff;
+    background-color: #333;
+    font-size: 0.8em;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: -50%;
+    transform: translateY(-30%);
+    margin-right: -50%;
+    padding: 10%;
+    margin-bottom: -10%;
+	transition: $tran;
+}
+
+.hide {
+    visibility: hidden;
+	transition: $tran;
+}
+
 .rainbow-box {
 	padding: 1em;
 	border: 3px solid transparent;
@@ -1207,8 +1226,19 @@ div.menu {
 
 .copyContainer {
 	float: right;
-	margin-left: -1%;
-	padding: 1%;
+	margin-left: -4%;
+	padding-left: 4%;
+}
+
+.copySymbol {
+    float: right;
+    margin-right: 20%;
+    transition: $tran;
+}
+
+.copySymbol:hover {
+    transition: $tran;
+	cursor: pointer;
 }
 
 div.highlight {

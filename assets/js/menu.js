@@ -149,7 +149,6 @@ $( document ).ready(function() {
 
     // Close the dropdown menu if the user clicks outside of it
     window.addEventListener("click", function(event) {
-        console.log("click");
         if (!event.target.matches('.dropbtn')) {
             var dropdowns = document.getElementsByClassName("dropdown-content");
             var i;
