@@ -116,11 +116,6 @@ p.headers {
 
 }
 
-P.center {
-	text-align: center;
-	padding: 2%;
-}
-
 /* anchors */
 
 a {
@@ -478,6 +473,11 @@ nav ul li, #footer ul li, #header ul li {
 ul.code, li.code {
 	text-align: center;
 	padding: 2%;
+}
+
+li.code {
+    list-style: none;
+    display: inline;
 }
 
 ul.posts {
@@ -861,9 +861,9 @@ input {
 .center {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5%;
 	margin-top: 5%;
 	display: block;
+	text-align: center;
 }
 
 #darkswitch, #lightswitch {
@@ -1195,12 +1195,12 @@ span.grey {
 	}
 }
 
-div.menu-container {
+.menu-container {
 	display: inline;
 	cursor: pointer;
 }
 
-div.menu {
+.bar1, .bar2, .bar3 {
 	width: 20px;
 	height: 3px;
 	background-color: snow;
@@ -1210,17 +1210,17 @@ div.menu {
 
 
 /* Rotate first bar */
-.change #bar1 {
+.change .bar1 {
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 /* Fade out the second bar */
-.change #bar2 {
+.change .bar2 {
 	opacity: 0;
 }
 
 /* Rotate last bar */
-.change #bar3 {
+.change .bar3 {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
 

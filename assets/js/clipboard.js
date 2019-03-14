@@ -18,11 +18,11 @@ $(document).ready(function() {
 			copyMessage.className = "copyMessage hide";
 			copyMessage.innerHTML = "Copied!";
 			copyContainer.appendChild(copyMessage);
-			
+
             copyContainer.appendChild(copySymbol);
             //element.appendChild(copyContainer);
-            element.insertBefore(copyContainer, element.childNodes[0]);  // Insert <li> before the first child of <ul> 
-            //element.insertBefore(copyContainer, element.childNodes[0]);  // Insert <li> before the first child of <ul> 
+            element.insertBefore(copyContainer, element.childNodes[0]);  // Insert <li> before the first child of <ul>
+            //element.insertBefore(copyContainer, element.childNodes[0]);  // Insert <li> before the first child of <ul>
         }
     });
 

@@ -1,7 +1,7 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function nav(x) {
-    document.getElementById("myDropdown").classList.toggle("show");
+    $("#myDropdown").toggleClass("show");
     x.classList.toggle("change");
 }
 
@@ -98,6 +98,13 @@ function setDefault() {
 }
 
 $( document ).ready(function() {
+    $(".menu-container").click(function() {
+        $("#myDropdown").toggleClass("show");
+        $(this).toggleClass("change");
+    });
+
+
+
     $("#settings").click(function() {
         document.getElementById("config").classList.toggle("show");
         if (document.getElementById("settings").style.transform == "rotate(180deg)") {
@@ -149,13 +156,14 @@ $( document ).ready(function() {
 
     // Close the dropdown menu if the user clicks outside of it
     window.addEventListener("click", function(event) {
-        if (!event.target.matches('.dropbtn')) {
+        if (!event.target.matches('.dropbtn') && !event.target.matches('.bar1') && !event.target.matches('.bar2') && !event.target.matches('.bar3')) {
             var dropdowns = document.getElementsByClassName("dropdown-content");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
                 var openDropdown = dropdowns[i];
                 if (openDropdown.classList.contains('show')) {
                     openDropdown.classList.remove('show');
+                    $(".menu-container").toggleClass("change");
                 }
             }
         }
@@ -168,6 +176,7 @@ $( document ).ready(function() {
                 var openDropdown = dropdowns[i];
                 if (openDropdown.classList.contains('show')) {
                     openDropdown.classList.remove('show');
+                    $(".menu-container").toggleClass("change");
                 }
             }
 
@@ -189,10 +198,12 @@ $( document ).ready(function() {
                 var openDropdown = dropdowns_menu[i];
                 if (openDropdown.classList.contains('show')) {
                     openDropdown.classList.remove('show');
+                    $(".menu-container").toggleClass("change");
                 }
                 var openDropdown_config = dropdowns_config[i];
                 if (openDropdown_config.classList.contains('show')) {
                     openDropdown_config.classList.remove('show');
+                    $(".menu-container").toggleClass("change");
                 }
             }
         }

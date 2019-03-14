@@ -893,11 +893,11 @@ span.grey {
     opacity: 1.0; }
   to {
     opacity: 0.0; } }
-.menu-container {
+div.menu-container {
   display: inline;
   cursor: pointer; }
 
-.bar1, .bar2, .bar3 {
+div.menu {
   width: 20px;
   height: 3px;
   background-color: snow;
@@ -905,15 +905,15 @@ span.grey {
   transition: 400ms; }
 
 /* Rotate first bar */
-.change .bar1 {
+.change #bar1 {
   transform: rotate(-45deg) translate(-5px, 6px); }
 
 /* Fade out the second bar */
-.change .bar2 {
+.change #bar2 {
   opacity: 0; }
 
 /* Rotate last bar */
-.change .bar3 {
+.change #bar3 {
   transform: rotate(45deg) translate(-5px, -6px); }
 
 .copyContainer {
@@ -1327,4 +1327,4 @@ body {
   left: 0;
   font-size: .8em; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.csss.map */
