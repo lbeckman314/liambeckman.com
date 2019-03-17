@@ -57,9 +57,15 @@
                 {{ content }}
             </div>
 
+            {% if page.title == "favorites" %}
+            <div id="footer">
+                {% include footer-mst3k.html %}
+            </div>
+            {% else %}
             <div id="footer">
                 {% include footer.html %}
             </div>
+            {% endif %}
         </div>
         <div id="bottom"></div>
     </body>

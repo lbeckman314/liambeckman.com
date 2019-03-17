@@ -1,5 +1,5 @@
 ---
-layout: my-default-mst3k
+layout: my-default
 title: favorites
 ---
 
