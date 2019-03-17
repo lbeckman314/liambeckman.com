@@ -20,7 +20,7 @@ permalink: /writings/
 <!-- 0 1 2 3 4 5 6 7 8 9 -->
 <!-- ∫ ≓ ⋟ ∻ ≈ ⋗ ∴ ⋈ ⋌ ≗ -->
 
-<span class="date">
+<span class="date sub">
 {% assign m = writing.date | date: "%Y" %}
 {% case m %}
   {% when '2015' %}⋟∫≓⋗

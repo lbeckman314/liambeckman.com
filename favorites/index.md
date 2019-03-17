@@ -3,44 +3,6 @@ layout: my-default-mst3k
 title: favorites
 ---
 
-
-<style>
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-      .column {
-          flex: 50%;
-          max-width: 50%;
-      }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-      .column {
-          flex: 100%;
-          max-width: 100%;
-      }
-  }
-</style>
-
 <h1 class="favorites">Favorites</h1>
 <br />
 
@@ -59,6 +21,12 @@ title: favorites
         <div class="black-fade"><img class="slide" src="/assets/favorites/the-bald-future.jpg"></div>
         <div class="text"><a href="https://www.instagram.com/wikstromnaturfoto/">Le Futur Sera Chauve / The Bald Future</a></div>
     </div>
+
+    <div class = "mySlides fade">
+        <div class="black-fade"><img class="slide" src="/assets/favorites/false-knees.png"></div>
+        <div class="text"><a href="http://falseknees.com/">False Knees</a></div>
+    </div>
+
 
     <div class = "mySlides fade">
         <div class="numbertext">2 / 3</div>
@@ -103,11 +71,6 @@ title: favorites
     </div>
 
     <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/his-dark-materials.jpg"></div>
-        <div class="text">His Dark Materials</div>
-    </div>
-
-    <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/the-cartoon-history-of-time.jpg"></div>
         <div class="text">The Cartoon History of Time</div>
     </div>
@@ -147,12 +110,10 @@ title: favorites
         <div class="text">Raw</div>
     </div>
 
-
     <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/saul-fia.jpg"></div>
         <div class="text">Son of Saul</div>
     </div>
-
 
     <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/memories-of-murder.jpg"></div>
@@ -173,6 +134,7 @@ title: favorites
 
     <h2>artwork</h2>
     <p>※ <a href="https://www.sssscomic.com">Stand Still Stay Slient</a> ⇢ a beautifully illustrated webcomic by Minna Sundberg.</p>
+    <p>※ <a href="https://www.instagram.com/wikstromnaturfoto/">Wikström Photos</a> ⇢ simply amazing photos of nature and the world. </p>
     <p>※ <a href="https://vimeo.com/257716930">Le Futur Sera Chauve / The Bald Future</a> ⇢ lovely animated short by Paul Cabon.</p>
     <p>※ <a href="http://falseknees.com/">False Knees</a> ⇢ Comics about birds.</p>
 

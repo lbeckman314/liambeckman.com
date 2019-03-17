@@ -35,7 +35,6 @@ Are you looking for a plucky CS student with a small propensity for segmentation
     </ul>
 </div>
 
-
 ---
 
 ## about the website:

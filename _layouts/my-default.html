@@ -21,8 +21,12 @@
 
         <script type="text/javascript" src="/assets/js/menu.js" async></script>
 
-        {% if page.title != "writings" %}
+        <!--<pre>VAR: {{ page.title | inspect }}</pre>-->
+
+        {% if page.collection != "writings"  %}
+        {% if page.title != "writings"  %}
         <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
+        {% endif %}
         {% endif %}
     </head>
     <body>

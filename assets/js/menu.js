@@ -163,7 +163,7 @@ $( document ).ready(function() {
                 var openDropdown = dropdowns[i];
                 if (openDropdown.classList.contains('show')) {
                     openDropdown.classList.remove('show');
-                    $(".menu-container").toggleClass("change");
+                    $(".menu-container").removeClass("change");
                 }
             }
         }
@@ -176,7 +176,7 @@ $( document ).ready(function() {
                 var openDropdown = dropdowns[i];
                 if (openDropdown.classList.contains('show')) {
                     openDropdown.classList.remove('show');
-                    $(".menu-container").toggleClass("change");
+                    $(".menu-container").removeClass("change");
                 }
             }
 
