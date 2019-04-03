@@ -7,10 +7,15 @@ title: code
 	<p>All of my projects are <a href="https://opensource.org/osd-annotated">open-source</a> and <a href="https://www.gnu.org/philosophy/free-sw.en.html">free</a>. Source code can be found on <a href="https://gitlab.com/lbeckman314/">gitlab</a>, <a href="https://github.com/lbeckman314">github</a>, or <a href="https://git.liambeckman.com">cgit</a>. Contributions of any kind are always welcome!</p>
 </div>
 
+<div class="inline-content">
+<input id="program-search" type="text_input" name="search" placeholder="Search...">
+<button id="clear">x</button>
+</div>
+
 
 <div class="container">
 
-	<div class="fixed pointer" id="featured" onclick="location.href='https://withfeathers.liambeckman.com'">
+	<div class="fixed pointer featured" onclick="location.href='https://withfeathers.liambeckman.com'">
 		<img class="center" src="/assets/png/withfeathers.png">
 		<div class = "code-title">withfeathers *</div>
 		<div class = "code-type web-app">web app</div>
@@ -18,28 +23,28 @@ title: code
 		<p class = "code">Add a little Emily Dickinson to your day.</p>
 	</div>
 
-	<div class="fixed pointer" id="featured" onclick="location.href='https://webdev.liambeckman.com'">
+	<div class="fixed pointer featured" onclick="location.href='https://webdev.liambeckman.com'">
 		<a href="https://webdev.liambeckman.com"><img class="center" src="/assets/png/nest.png" ></a>
 		<div class = "code-title">webdev projects</div>
 		<div class = "code-type web-app">web app</div>
 		<p class = "code">A nest of web development projects that are just gaining their wings.</p>
 	</div>
 
-	<div class="fixed pointer" id="featured" onclick="location.href='/code/devilish'">
+	<div class="fixed pointer featured" onclick="location.href='/code/devilish'">
 		<a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
 		<div class = "code-title">devilish *</div>
 		<div class = "code-type command-line">command line</div>
 		<p class = "code">The shell from hell!</p>
 	</div>
 
-	<div class="fixed pointer" id="featured" onclick="location.href='/code/matrix'">
-		<a href="/code/matrix"><img class="center" src="/assets/png/matrix.png" ></a>
+	<div class="fixed pointer featured" onclick="location.href='/code/matriz'">
+		<a href="/code/matriz"><img class="center" src="/assets/png/matriz.png" ></a>
 		<div class = "code-title">matriz *</div>
 		<div class = "code-type command-line">command line</div>
 		<p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
 	</div>
 
-	<div class="fixed pointer" id="featured" onclick="location.href='/code/prime'">
+	<div class="fixed pointer featured" onclick="location.href='/code/prime'">
 		<a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
 		<div class = "code-title">prime *</div>
 		<div class = "code-type command-line">command line</div>
@@ -47,14 +52,23 @@ title: code
 	</div>
 
 
-	<div class="fixed pointer" id="featured" onclick="location.href='/code/palindrome/'">
+	<div class="fixed pointer featured" onclick="location.href='/code/palindrome/'">
 		<a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
 		<div class = "code-title">palindrome *</div>
 		<div class = "code-type command-line">command line</div>
 		<p class="code">Determine whether your string is a palindrome!</p>
 	</div>
 
-	<div class="fixed pointer" id="featured" onclick="location.href='https://github.com/cs361-group24'">
+
+
+	<div class="fixed pointer featured" onclick="location.href='https://biblioteca.liambeckman.com'">
+		<a href="https://biblioteca.liambeckman.com"><img class="center" src="/assets/png/biblioteca.png"></a>
+		<div class = "code-title">biblioteca</div>
+		<div class = "code-type web-app" id="biblioteca">web app</div>
+		<p class="code">~ A library for all your code, great and small. ~</p>
+	</div>
+
+	<div class="fixed pointer featured" onclick="location.href='https://github.com/cs361-group24'">
 		<a href="https://github.com/cs361-group24"><img class="center" src="/assets/png/removemywaste.png"></a>
 		<div class = "code-title">RemoveMyWaste</div>
 		<div class = "code-type android">android</div>
@@ -63,18 +77,32 @@ title: code
 	</div>
 
 
-	<div class="fixed pointer" id="featured" onclick="location.href='/code/demo/'">
+	<div class="fixed pointer featured" onclick="location.href='/code/demo/'">
 		<a href="/code/demo/"><img class="center" src="/assets/png/demo.png"></a>
 		<div class = "code-title">demo</div>
 		<div class = "code-type web-app" id="demo">web app</div>
 		<p class="code">A terminal emulator emulator that allows users to try out programs.</p>
 	</div>
 
-	<div class="fixed pointer" id="featured" onclick="location.href='/code/demonic/'">
+	<div class="fixed pointer featured" onclick="location.href='/code/demonic/'">
 		<a href="/code/demonic/"><img class="center" src="/assets/png/demonic.png"></a>
 		<div class = "code-title">demonic</div>
 		<div class = "code-type web-app" id="demonic">web app</div>
 		<p class="code">Like <a href="/code/demo">demo</a>, but more demonic!</p>
+	</div>
+
+	<div class="fixed pointer featured" onclick="location.href='/code/wyeast/'">
+		<a href="/code/wyeast/"><img class="center" src="/assets/png/wyeast.png"></a>
+		<div class = "code-title">wyeast *</div>
+		<div class = "code-type command-line">command line</div>
+		<p class="code">A multithreaded adventure game!</p>
+	</div>
+
+	<div class="fixed pointer featured" onclick="location.href='/code/zigzag/'">
+		<a href="/code/zigzag/"><img class="center" src="/assets/png/zigzag.png"></a>
+		<div class = "code-title">zigzag *</div>
+		<div class = "code-type command-line">command line</div>
+		<p class="code">A homegrown TCP chat system built with love.</p>
 	</div>
 
 </div>
@@ -85,12 +113,13 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 
 
 <div class="demo-examples-container">
-	<code class="demo-examples">withfeathers --print</code>
-	<code class="demo-examples">prime 10101</code>
-	<code class="demo-examples">palindrome</code>
-	<code class="demo-examples">matriz multiply mBig1 mBig2</code>
-	<code class="demo-examples">zigzag-server</code>
 	<code class="demo-examples">devilish</code>
+	<code class="demo-examples">matriz multiply mBig1 mBig2</code>
+	<code class="demo-examples">palindrome</code>
+	<code class="demo-examples">prime 10101</code>
+	<code class="demo-examples">withfeathers --print</code>
+	<code class="demo-examples">wyeast</code>
+	<code class="demo-examples">zigzag-server</code>
 </div>
 
 <pre id="info"></pre>
@@ -185,4 +214,31 @@ function bindButtons() {
 		location.href='https://removemywaste.liambeckman.com/';
 	}
 }
+
+$(document).ready(function() {
+    $("#program-search").on("input", function(){
+        console.log(this.value);
+        let value = this.value;
+        iter(value);
+    });
+
+    $("#clear").click(function() {
+        $("#program-search")[0].value = "";
+        let val = $("#program-search")[0].value;
+        console.log("value:", val);
+        iter("");
+    });
+
+    function iter(value){
+        $(".featured").each(function() {
+            if (this.outerHTML.includes(value)) {
+                console.log("this:", this.outerHTML);
+                $(this).css("display", "unset");
+            }
+            else {
+                $(this).css("display", "none");
+            }
+        });
+    }
+});
 </script>

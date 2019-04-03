@@ -38,12 +38,13 @@ This is a glorified textarea element that emulates terminal emulators.
 Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
 <div class="demo-examples-container">
-    <code class="demo-examples">withfeathers --print</code>
-    <code class="demo-examples">prime 10101</code>
-    <code class="demo-examples">palindrome</code>
-    <code class="demo-examples">matriz multiply mBig1 mBig2</code>
-    <code class="demo-examples">zigzag-server</code>
-    <code class="demo-examples">devilish</code>
+	<code class="demo-examples">devilish</code>
+	<code class="demo-examples">matriz multiply mBig1 mBig2</code>
+	<code class="demo-examples">palindrome</code>
+	<code class="demo-examples">prime 10101</code>
+	<code class="demo-examples">withfeathers --print</code>
+	<code class="demo-examples">wyeast</code>
+	<code class="demo-examples">zigzag-server</code>
 </div>
 
 <pre id="info"></pre>

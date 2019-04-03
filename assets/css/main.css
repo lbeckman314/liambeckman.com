@@ -478,6 +478,22 @@ button:hover {
   border: 1px solid #FF357A;
   transition: 800ms; }
 
+.inline-content {
+  text-align: center; }
+
+button#clear {
+  width: 3em;
+  height: 3em;
+  color: snow;
+  margin: -1%;
+  margin-left: -3em;
+  border: none;
+  font-size: 1.5em; }
+
+button#clear:hover {
+  border: none;
+  color: #FF357A; }
+
 .light {
   background-color: whitesmoke;
   border: 1px solid #ff357a;
@@ -626,14 +642,18 @@ svg {
   fill: snow; }
 
 input {
+  height: 3.5em;
   max-width: 100%;
-  min-width: 100%;
-  height: 3.5em; }
+  min-width: 70%;
+  padding: 1em; }
+  input .max {
+    min-width: 100%; }
 
 .center {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  margin-bottom: 5%;
   display: block;
   text-align: center; }
 
