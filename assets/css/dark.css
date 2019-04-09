@@ -36,7 +36,7 @@ div.text {
 .code-title, .code-type {
   color: snow; }
 
-#featured:hover {
+.featured:hover {
   background-color: #421895; }
 
 #lightswitch {
@@ -142,7 +142,10 @@ svg {
     left: 39%; }
 
   .dropdown-content {
-    right: 39%; } }
+    right: 39%; }
+
+  object.zigzag {
+    display: block; } }
 @media only screen and (max-width: 500px) {
   .site-footer {
     height: 9em; } }

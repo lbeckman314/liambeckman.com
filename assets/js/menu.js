@@ -103,6 +103,36 @@ $( document ).ready(function() {
         $(this).toggleClass("change");
     });
 
+    let convida = localStorage.getItem("convida");
+    if (convida == "true") {
+        console.log("convida:", convida);
+        let scriptTag = document.createElement('script');
+        scriptTag.setAttribute('src', '/assets/js/convida/index.js');
+        scriptTag.setAttribute('type', 'module');
+        scriptTag.setAttribute('id', 'convida');
+        document.head.appendChild(scriptTag)
+        document.getElementById("convida-select").checked = true;
+    }
+
+    $("#convida-select").change(function() {
+        if(this.checked) {
+            let scriptTag = document.createElement('script');
+            scriptTag.setAttribute('src', '/assets/js/convida/index.js');
+            scriptTag.setAttribute('type', 'module');
+            scriptTag.setAttribute('id', 'convida');
+            document.head.appendChild(scriptTag)
+            localStorage.setItem("convida", "true");
+            console.log('checked');
+            $(".game-of-life-canvas").css("display", "unset");
+        }
+        else {
+            let scriptTag = document.getElementById("convida");
+            scriptTag.parentNode.removeChild(scriptTag);
+            localStorage.setItem("convida", "false");
+            console.log('unchecked');
+            $(".game-of-life-canvas").css("display", "none");
+        }
+    });
 
 
     $("#settings").click(function() {

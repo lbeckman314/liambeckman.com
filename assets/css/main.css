@@ -642,11 +642,11 @@ svg {
   fill: snow; }
 
 input {
-  height: 3.5em;
-  max-width: 100%;
-  min-width: 70%;
   padding: 1em; }
   input .max {
+    height: 3.5em;
+    max-width: 100%;
+    min-width: 70%;
     min-width: 100%; }
 
 .center {
@@ -759,11 +759,11 @@ div.sub {
 .web-app {
   border: 1px solid #DB37C4; }
 
-#featured {
+.featured {
   transition: 800ms;
   cursor: pointer; }
 
-#featured:hover {
+.featured:hover {
   background-color: lavender;
   transition: 800ms; }
 

@@ -21,6 +21,14 @@
 
         <script type="text/javascript" src="/assets/js/menu.js" async></script>
 
+        <script src="/assets/js/particles.js"></script>
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', '/assets/js/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+    </script>
+
         <!--<pre>VAR: {{ page.title | inspect }}</pre>-->
 
         {% if page.collection != "writings"  %}
@@ -37,6 +45,11 @@
 
             <div class="popstripe"></div>
 
+            <div id="cgol">
+                <canvas class="game-of-life-canvas left"></canvas>
+                <canvas class="game-of-life-canvas right"></canvas>
+            </div>
+
             <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
             <div class="PageNavigation">
                 {% if page.next.url %}
@@ -46,8 +59,8 @@
                 <a class="prev" href="{{page.previous.url}}">{{page.previous.title}} ▸</a>
                 {% endif %}
             </div>
-            <div id="content">
 
+            <div id="content">
                 <!-- https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post -->
                 {% if page.is_writing %}
                 <h1>{{ page.title }}</h1>
@@ -55,8 +68,10 @@
                 {% endif %}
 
                 {{ content }}
+
             </div>
 
+            <!--<div id="particles-js"></div>-->
             {% if page.title == "favorites" %}
             <div id="footer">
                 {% include footer-mst3k.html %}
@@ -70,5 +85,31 @@
         <div id="bottom"></div>
     </body>
 
+    <style>
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.game-of-life-canvas {
+    height: 100%;
+    //width: 100%;
+    z-index: 0;
+}
+
+#cgol {
+    z-index: 0;
+}
+
+#content {
+    position: relative;
+}
+    </style>
 </html>
 <!--Louis, I think this is the beginning of a beautiful friendship.-->
+
