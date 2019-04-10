@@ -15,6 +15,7 @@ $(document).ready(function() {
 
     document.getElementById("darkswitch").onclick = function() {
         setDark();
+
     };
 
     document.getElementById("lightswitch").onclick = function() {
@@ -33,6 +34,7 @@ $(document).ready(function() {
         localStorage.setItem("theme", "light");
         document.getElementById("dark").href = "";
         lightMst3k();
+        const canvasPrime = document.getElementsByClassName("game-of-life-canvas")[0];
     }
 
     function lightMst3k() {

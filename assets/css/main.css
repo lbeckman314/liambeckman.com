@@ -21,6 +21,9 @@ Feel free to copy and paste, fork, clone, or anything you like. */
 body {
   word-wrap: break-word; }
 
+#wrapper {
+  background-color: snow; }
+
 #content {
   padding-left: 6%;
   padding-right: 6%;
