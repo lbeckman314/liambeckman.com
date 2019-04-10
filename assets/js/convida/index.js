@@ -162,11 +162,6 @@ async function run() {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
 
-        for (let i = 0; i < 1; i++) {
-            universe.tick();
-        }
-
-
         // The result of 'requestAnimationFrame' is assigned to 'animationId'.
         const renderLoop = () => {
             //debugger;
