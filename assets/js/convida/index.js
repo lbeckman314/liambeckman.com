@@ -190,6 +190,7 @@ async function run() {
                 console.log("MISMATCH");
                 DEAD_COLOR_OLD = DEAD_COLOR_NEW;
                 drawCells();
+                canvasAlt = cloneCanvas(canvasPrime);
             }
         }
 
