@@ -19,9 +19,7 @@ Feel free to copy and paste, fork, clone, or anything you like. */
   box-sizing: border-box; }
 
 body {
-  word-wrap: break-word; }
-
-#wrapper {
+  word-wrap: break-word;
   background-color: snow; }
 
 #content {

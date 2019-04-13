@@ -8,7 +8,7 @@ Feel free to copy and paste, fork, clone, or anything you like. */
 /***************************************************/
 /* DARK THEMES
 /***************************************************/
-#wrapper {
+body {
   background-color: #131516; }
 
 #header, #footer, .site-footer {

@@ -177,20 +177,6 @@ async function run() {
             canvasAlt = cloneCanvas(canvasPrime);
         };
 
-        const theme = () => {
-            let DEAD_COLOR_NEW = window.getComputedStyle(document.getElementById("wrapper")).backgroundColor;
-            //console.log("OLD:", DEAD_COLOR_NEW);
-            //console.log("NEW:", DEAD_COLOR_OLD);
-            if (DEAD_COLOR_NEW != DEAD_COLOR_OLD) {
-                console.log("MISMATCH");
-                DEAD_COLOR_OLD = DEAD_COLOR_NEW;
-                drawCells();
-                canvasAlt = cloneCanvas(canvasPrime);
-            }
-        }
-
-        setInterval(theme, 50);
-
         const xyz = async () => {
             console.log("xyz:", animationId);
             if (con == 1) {
@@ -272,7 +258,7 @@ async function run() {
                         continue;
                     }
 
-                    ctx.fillRect(
+                    ctx.clearRect(
                         col * (CELL_SIZE + 1) + 1,
                         row * (CELL_SIZE + 1) + 1,
                         CELL_SIZE + 1,
