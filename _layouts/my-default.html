@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- HTML I've cobbled together from the far corners of the world. Feel free to copy and paste, fork, clone, or anything you like. -->
+<!--Louis, I think this is the beginning of a beautiful friendship.-->
 <html lang="en">
     <head>
         <link rel="stylesheet" href="/assets/css/main.css">
@@ -20,13 +20,16 @@
         <script type="text/javascript" src="/assets/js/theme.js" async></script>
 
         <script type="text/javascript" src="/assets/js/menu.js" async></script>
+        <script type="text/javascript" src="/assets/js/top.js" async></script>
 
 
         <!--<pre>VAR: {{ page.title | inspect }}</pre>-->
 
         {% if page.collection != "writings"  %}
         {% if page.title != "writings"  %}
+        {% if page.title != "favorites"  %}
         <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
+        {% endif %}
         {% endif %}
         {% endif %}
     </head>
@@ -53,6 +56,8 @@
                 {% endif %}
             </div>
 
+            <a href="#" class="circle">↑</a>
+
             <div id="content">
                 <!-- https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post -->
                 {% if page.is_writing %}
@@ -61,11 +66,9 @@
                 {% endif %}
 
                 {{ content }}
-
             </div>
 
-            <!--<div id="particles-js"></div>-->
-            {% if page.title == "favorites" %}
+            {% if page.title == "about" %}
             <div id="footer">
                 {% include footer-mst3k.html %}
             </div>
@@ -77,32 +80,5 @@
         </div>
         <div id="bottom"></div>
     </body>
-
-    <style>
-.left {
-    position: absolute;
-    left: 0;
-}
-
-.right {
-    position: absolute;
-    right: 0;
-}
-
-.game-of-life-canvas {
-    max-height: 100%;
-    /*width: 100%;*/
-    z-index: 0;
-}
-
-#cgol {
-    z-index: 0;
-}
-
-#content {
-    position: relative;
-}
-    </style>
 </html>
-<!--Louis, I think this is the beginning of a beautiful friendship.-->
-
+<!-- That's all folks! -- >

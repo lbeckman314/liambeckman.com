@@ -1143,7 +1143,7 @@ span.grey {
     cursor: pointer;
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 30%;
     height: 100%;
     padding: 16px;
     color: white;
@@ -1203,8 +1203,10 @@ span.grey {
 .black-fade:after {
     content: '\A';
     position: absolute;
-    width: 100%; height:100%;
-    top:0; left:0;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
     background: black;
     opacity: 0;
     animation-name: fade-black;
@@ -1218,6 +1220,11 @@ span.grey {
     to {
         opacity: 0.0;
     }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .menu-container {
@@ -1299,6 +1306,53 @@ svg {
 #mst3k {
   width:100%;
   margin-bottom: -0.6em;
+}
+
+.circle {
+    padding: 1em;
+    background-color: #282a36;
+    border-radius: 50%;
+    position: fixed;
+    right: 5%;
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    bottom: 5%;
+    border: 1px solid;
+    z-index: 1;
+    animation-name: fadein;
+    /*animation-duration: 500ms;*/
+    transition: opacity 300ms;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.game-of-life-canvas {
+    max-height: 100%;
+    /*width: 100%;*/
+    z-index: 0;
+}
+
+#cgol {
+    z-index: 0;
+}
+
+#content {
+    position: relative;
 }
 
 // import partials

@@ -4,7 +4,6 @@ layout: my-default
 permalink: /writings/
 ---
 
-
 {% assign writings = site.writings | sort: 'date' | reverse %}
 {% for writing in writings %}
 
