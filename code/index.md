@@ -8,64 +8,17 @@ title: code
 </div>
 
 <div class="inline-content">
-<input id="program-search" type="text_input" name="search" placeholder="Search...">
-<button id="clear">x</button>
+    <input id="program-search" type="text_input" name="search" placeholder="Search...">
+    <button id="clear">x</button>
 </div>
-
 
 <div class="container">
 
-    <div class="fixed pointer featured" onclick="location.href='https://withfeathers.liambeckman.com'">
-        <img class="center" src="/assets/png/withfeathers.png">
-        <div class = "code-title">withfeathers *</div>
+    <div class="fixed pointer featured" onclick="location.href='https://convida.liambeckman.com'">
+        <a href="https://convida.liambeckman.com"><img class="center" src="/assets/png/convida.png"></a>
+        <div class = "code-title">Convida</div>
         <div class = "code-type web-app">web app</div>
-        <div class = "code-type command-line">command line</div>
-        <p class = "code">Add a little Emily Dickinson to your day.</p>
-    </div>
-
-    <div class="fixed pointer featured" onclick="location.href='https://webdev.liambeckman.com'">
-        <a href="https://webdev.liambeckman.com"><img class="center" src="/assets/png/nest.png" ></a>
-        <div class = "code-title">webdev projects</div>
-        <div class = "code-type web-app">web app</div>
-        <p class = "code">A nest of web development projects that are just gaining their wings.</p>
-    </div>
-
-    <div class="fixed pointer featured" onclick="location.href='/code/devilish'">
-        <a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
-        <div class = "code-title">devilish *</div>
-        <div class = "code-type command-line">command line</div>
-        <p class = "code">The shell from hell!</p>
-    </div>
-
-    <div class="fixed pointer featured" onclick="location.href='/code/matriz'">
-        <a href="/code/matriz"><img class="center" src="/assets/png/matriz.png" ></a>
-        <div class = "code-title">matriz *</div>
-        <div class = "code-type command-line">command line</div>
-        <p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
-    </div>
-
-    <div class="fixed pointer featured" onclick="location.href='/code/prime'">
-        <a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
-        <div class = "code-title">prime *</div>
-        <div class = "code-type command-line">command line</div>
-        <p class="code">Output the first million primes!</p>
-    </div>
-
-
-    <div class="fixed pointer featured" onclick="location.href='/code/palindrome/'">
-        <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
-        <div class = "code-title">palindrome *</div>
-        <div class = "code-type command-line">command line</div>
-        <p class="code">Determine whether your string is a palindrome!</p>
-    </div>
-
-
-
-    <div class="fixed pointer featured" onclick="location.href='https://biblioteca.liambeckman.com'">
-        <a href="https://biblioteca.liambeckman.com"><img class="center" src="/assets/png/biblioteca.png"></a>
-        <div class = "code-title">biblioteca</div>
-        <div class = "code-type web-app" id="biblioteca">web app</div>
-        <p class="code">~ A library for all your code, great and small. ~</p>
+        <p class="code">Conway's Game of Life implemented in Rust and WebAssembly.</p>
     </div>
 
     <div class="fixed pointer featured" onclick="location.href='https://github.com/cs361-group24'">
@@ -75,7 +28,6 @@ title: code
         <div class = "code-type web-app" id="rmw">web app</div>
         <p class="code">An application for household hazardous waste removal.</p>
     </div>
-
 
     <div class="fixed pointer featured" onclick="location.href='/code/demo/'">
         <a href="/code/demo/"><img class="center" src="/assets/png/demo.png"></a>
@@ -98,11 +50,62 @@ title: code
         <p class="code">A multithreaded adventure game!</p>
     </div>
 
+    <div class="fixed pointer featured" onclick="location.href='https://withfeathers.liambeckman.com'">
+        <img class="center" src="/assets/png/withfeathers.png">
+        <div class = "code-title">withfeathers *</div>
+        <div class = "code-type web-app">web app</div>
+        <div class = "code-type command-line">command line</div>
+        <p class = "code">Add a little Emily Dickinson to your day.</p>
+    </div>
+
+    <div class="fixed pointer featured" onclick="location.href='/code/devilish'">
+        <a href="/code/devilish"><img class="center" src="/assets/png/devilish.png" ></a>
+        <div class = "code-title">devilish *</div>
+        <div class = "code-type command-line">command line</div>
+        <p class = "code">The shell from hell!</p>
+    </div>
+
+    <div class="fixed pointer featured" onclick="location.href='https://biblioteca.liambeckman.com'">
+        <a href="https://biblioteca.liambeckman.com"><img class="center" src="/assets/png/biblioteca.png"></a>
+        <div class = "code-title">biblioteca</div>
+        <div class = "code-type web-app" id="biblioteca">web app</div>
+        <p class="code">~ A library for all your code, great and small. ~</p>
+    </div>
+
     <div class="fixed pointer featured" onclick="location.href='/code/zigzag/'">
         <a href="/code/zigzag/"><img class="center" src="/assets/png/zigzag.png"></a>
         <div class = "code-title">zigzag *</div>
         <div class = "code-type command-line">command line</div>
         <p class="code">A homegrown TCP chat system built with love.</p>
+    </div>
+
+
+    <div class="fixed pointer featured" onclick="location.href='/code/prime'">
+        <a href="/code/prime"><img class="center" src="/assets/png/prime.png"></a>
+        <div class = "code-title">prime *</div>
+        <div class = "code-type command-line">command line</div>
+        <p class="code">Output the first million primes!</p>
+    </div>
+
+    <div class="fixed pointer featured" onclick="location.href='/code/matriz'">
+        <a href="/code/matriz"><img class="center" src="/assets/png/matriz.png" ></a>
+        <div class = "code-title">matriz *</div>
+        <div class = "code-type command-line">command line</div>
+        <p class = "code">Multiply, add, transpose, and average matrices like it's going out of style!</p>
+    </div>
+
+    <div class="fixed pointer featured" onclick="location.href='/code/palindrome/'">
+        <a href="/code/palindrome/"><img class="center" src="/assets/png/palindrome.png"></a>
+        <div class = "code-title">palindrome *</div>
+        <div class = "code-type command-line">command line</div>
+        <p class="code">Determine whether your string is a palindrome!</p>
+    </div>
+
+    <div class="fixed pointer featured" onclick="location.href='https://webdev.liambeckman.com'">
+        <a href="https://webdev.liambeckman.com"><img class="center" src="/assets/png/nest.png" ></a>
+        <div class = "code-title">webdev projects</div>
+        <div class = "code-type web-app">web app</div>
+        <p class = "code">A nest of web development projects that are just gaining their wings.</p>
     </div>
 
 </div>

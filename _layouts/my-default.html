@@ -26,11 +26,11 @@
         <!--<pre>VAR: {{ page.title | inspect }}</pre>-->
 
         {% if page.collection != "writings"  %}
-        {% if page.title != "writings"  %}
-        {% if page.title != "favorites"  %}
-        <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
-        {% endif %}
-        {% endif %}
+            {% if page.title != "writings"  %}
+                {% if page.title != "favorites"  %}
+                    <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
+                {% endif %}
+            {% endif %}
         {% endif %}
     </head>
     <body>

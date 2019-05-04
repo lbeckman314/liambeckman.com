@@ -171,7 +171,7 @@ title: favorites
 
 ## music
 
-※ [Spigel im Spigel](https://en.wikipedia.org/wiki/Spiegel_im_Spiegel) ⇢ Beautiful classical piece.
+※ [Spiegel im Spiegel](https://en.wikipedia.org/wiki/Spiegel_im_Spiegel) ⇢ Beautiful classical piece.
 
 ## poems
 

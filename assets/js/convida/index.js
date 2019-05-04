@@ -43,7 +43,6 @@ async function run() {
 
     // Import the WebAssembly memory at the top of the file.
 
-
     const CELL_SIZE = 10; // px
     const GRID_COLOR = "#131516";
     //const DEAD_COLOR = "#131516";
