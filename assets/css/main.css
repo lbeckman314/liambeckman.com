@@ -31,7 +31,7 @@ body {
 
 /* paragraphs*/
 p {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.7;
   color: #333;
   padding-bottom: 1.5%;
@@ -42,7 +42,7 @@ p {
 p.code {
   text-align: center;
   padding: 0.5em;
-  font-size: 1.1em; }
+  font-size: 1em; }
 
 p.headers {
   background-color: #D3D2E0;
@@ -78,7 +78,7 @@ a.favorites {
   text-decoration: none; }
 
 #home a {
-  font-size: 1.1em;
+  font-size: 1em;
   transition: 800ms; }
 
 #home span {
@@ -161,7 +161,7 @@ div.favorites:hover {
 .demo-examples {
   background-color: #4635f7;
   border-radius: 0;
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin-right: 0.5em;
   margin-top: 0.5em;
   cursor: pointer;
@@ -193,7 +193,7 @@ div.demo-examples-container {
   margin-top: 0.5em;
   transition: 800ms;
   color: snow;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.7; }
 
 #duplicate-terminal:hover {
@@ -210,7 +210,7 @@ div.demo-examples-container {
 
 #info {
   float: left;
-  font-size: 1.1em;
+  font-size: 1em;
   padding: 0.3em;
   transition: 400ms;
   color: black; }
@@ -735,7 +735,7 @@ div.sub {
   margin: 5%; }
 
 .code-title {
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -790,7 +790,8 @@ code {
   padding: 0.1em 0.4em 0.1em 0.4em;
   line-height: 1.5em;
   /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
-  box-decoration-break: clone; }
+  box-decoration-break: clone;
+  font-size: 0.9em; }
 
 .accordion {
   background-color: #eee;

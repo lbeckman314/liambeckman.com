@@ -35,10 +35,8 @@ $blue-light: #eef;
     src: url('/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf');
 }
 
-
-
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   1.1em;
+$base-font-size:   1em;
 $large-font-size:  2.3em;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -1065,6 +1063,7 @@ code {
     //color: #c80032;
     //background-color: #f9f2f4;
     //background-color: #fdeeff;
+    font-size: 0.9em;
 
 }
 
