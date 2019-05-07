@@ -178,219 +178,219 @@ title: favorites
 ※ [The Sea Shell](https://www.poetryfoundation.org/poems/51021/the-sea-shell) By Marin Sorescu, Translated by Michael Hamburger
 
 ```
-    I have hidden inside a sea shell
-    but forgotten in which.
+I have hidden inside a sea shell
+but forgotten in which.
 
-    Now daily I dive,
-    filtering the sea through my fingers,
-    to find myself.
-    Sometimes I think
-    a giant fish has swallowed me.
-    Looking for it everywhere I want to make sure
-    it will get me completely.
+Now daily I dive,
+filtering the sea through my fingers,
+to find myself.
+Sometimes I think
+a giant fish has swallowed me.
+Looking for it everywhere I want to make sure
+it will get me completely.
 
-    The sea-bed attracts me, and
-    I'm repelled by millions
-    of sea shells that all look alike.
-    Help, I am one of them.
-    If only I knew, which.
+The sea-bed attracts me, and
+I'm repelled by millions
+of sea shells that all look alike.
+Help, I am one of them.
+If only I knew, which.
 
-    How often I've gone straight up
-    to one of them, saying: That’s me.
-    Only, when I prised it open
-    it was empty.
+How often I've gone straight up
+to one of them, saying: That’s me.
+Only, when I prised it open
+it was empty.
 ```
 
 
 ※ [Summer at North Farm](https://www.poetryfoundation.org/poetrymagazine/poems/37522/summer-at-north-farm) By Stephen Kuusisto
 
 ```
-    Summer at North Farm
-    By Stephen Kuusisto
+Summer at North Farm
+By Stephen Kuusisto
 
-    Finnish rural life, ca. 1910
+Finnish rural life, ca. 1910
 
-    Fires, always fires after midnight,
-    the sun depending in the purple birches
+Fires, always fires after midnight,
+the sun depending in the purple birches
 
-    and gleaming like a copper kettle.
-    By the solstice they’d burned everything,
+and gleaming like a copper kettle.
+By the solstice they’d burned everything,
 
-    the bad-luck sleigh, a twisted rocker,
-    things “possessed” and not-quite-right.
+the bad-luck sleigh, a twisted rocker,
+things “possessed” and not-quite-right.
 
-    The bonfire coils and lurches,
-    big as a house, and then it settles.
+The bonfire coils and lurches,
+big as a house, and then it settles.
 
-    The dancers come, dressed like rainbows
-    (if rainbows could be spun),
+The dancers come, dressed like rainbows
+(if rainbows could be spun),
 
-    and linking hands they turn
-    to the melancholy fiddles.
+and linking hands they turn
+to the melancholy fiddles.
 
-    A red bird spreads its wings now
-    and in the darker days to come.
+A red bird spreads its wings now
+and in the darker days to come.
 ```
 
 ※ [Flowers](https://www.poetryfoundation.org/poetrymagazine/poems/55300/flowers-56d236be6a805) By Wendy Videlock
 
 ```
-    /for my mother/
+/for my mother/
 
-    They are fleeting.
-    They are fragile.
-    They require
+They are fleeting.
+They are fragile.
+They require
 
-    little water.
-    They'll surprise you.
-    They'll remind you
+little water.
+They'll surprise you.
+They'll remind you
 
-    that they aren't
-    and they are you.
+that they aren't
+and they are you.
 ```
 
 
 ※ [Example of Recursion](https://stackoverflow.com/questions/126756/examples-of-recursive-functions/126785##126785) by wharfinger
 
 ```
-    A CS professor once explained recursion as follows:
-    A child couldn't sleep, so her mother told her a story about a little frog,
-        who couldn't sleep, so the frog's mother told her a story about a little bear,
-            who couldn't sleep, so the bear's mother told her a story about a little weasel...
-                who fell asleep.
-                ...and the little bear fell asleep;
-            ...and the little frog fell asleep;
-    ...and the child fell asleep.
+A CS professor once explained recursion as follows:
+A child couldn't sleep, so her mother told her a story about a little frog,
+    who couldn't sleep, so the frog's mother told her a story about a little bear,
+        who couldn't sleep, so the bear's mother told her a story about a little weasel...
+            who fell asleep.
+            ...and the little bear fell asleep;
+        ...and the little frog fell asleep;
+...and the child fell asleep.
 ```
 
 
 ※ [Point by Point](http://www.tahirihthepureone.com/PointByPoint.php) by Táhirih (Qurratu l-ʿAyn)
 
 ```
-    If I met you face to face, I
-    would retrace—erase!—my heartbreak,
-        pain by pain,
-        ache by ache,
-        word by word,
-        point by point.
-    In search of you—just your face!—I
-    roam through the streets lost in disgrace,
-        house to house,
-        lane to lane,
-        place to place,
-        door to door.
-    My heart hopeless—broken,crushed!—I
-    heard it pound, till blood gushed from me,
-        fountain by fountain,
-        stream by stream,
-        river by river,
-        sea by sea.
-    The garden of your lips—your cheeks!—
-    your perfumed hair, I wonder there,
-        bloom to bloom,
-        rose to rose,
-        petal to petal,
-        scent to scent.
-    Your eyebrow—your eye!—and the mole
-    on your face, somehow they tie me,
-        trait to trait,
-        kindness to kindness,
-        passion to passion,
-        love to love.
-    While I grieve, with love—your love!—I
-    will reweave the fabric of my soul,
-        stitch by stitch,
-        thread by thread,
-        warp by warp,
-        woof by woof.
-    Last, I—Tahirih—searched my heart, I
-    looked line by line. What did I find?
-        You and you,
-        you and you,
-        you and you.
+If I met you face to face, I
+would retrace—erase!—my heartbreak,
+    pain by pain,
+    ache by ache,
+    word by word,
+    point by point.
+In search of you—just your face!—I
+roam through the streets lost in disgrace,
+    house to house,
+    lane to lane,
+    place to place,
+    door to door.
+My heart hopeless—broken,crushed!—I
+heard it pound, till blood gushed from me,
+    fountain by fountain,
+    stream by stream,
+    river by river,
+    sea by sea.
+The garden of your lips—your cheeks!—
+your perfumed hair, I wonder there,
+    bloom to bloom,
+    rose to rose,
+    petal to petal,
+    scent to scent.
+Your eyebrow—your eye!—and the mole
+on your face, somehow they tie me,
+    trait to trait,
+    kindness to kindness,
+    passion to passion,
+    love to love.
+While I grieve, with love—your love!—I
+will reweave the fabric of my soul,
+    stitch by stitch,
+    thread by thread,
+    warp by warp,
+    woof by woof.
+Last, I—Tahirih—searched my heart, I
+looked line by line. What did I find?
+    You and you,
+    you and you,
+    you and you.
 ```
 
 ※ [Recursion](https://www.poetryfoundation.org/poetrymagazine/browse?contentId=39682) by Maria M. Benet
 
 ```
-    A tomato I overlooked on the window ledge,
-    remembers the hold of vine, the brace of ground,
-    and puts down roots inside its own flesh.
+A tomato I overlooked on the window ledge,
+remembers the hold of vine, the brace of ground,
+and puts down roots inside its own flesh.
 
-    Halved under the blade of my knife,
-    the tomato unbinds its shoots, sends them
-    into an abyss of air and light—
+Halved under the blade of my knife,
+the tomato unbinds its shoots, sends them
+into an abyss of air and light—
 
-    Here at my desk I sit remembering,
-    putting down words far from the vine
-    of a native tongue, as if they could be roots,
+Here at my desk I sit remembering,
+putting down words far from the vine
+of a native tongue, as if they could be roots,
 
-    each, like the tomato with its faith curlicues
-    in pale inward shoots, calling to itself,
-    back to the source of fruit.
+each, like the tomato with its faith curlicues
+in pale inward shoots, calling to itself,
+back to the source of fruit.
 ```
 
 ※ [The Tea and Sage Poem](https://www.poetryfoundation.org/poems/54517/the-tea-and-sage-poem) by Fady Joudah
 
 ```
-    At a desk made of glass,
-    In a glass walled-room
-    With red airport carpet,
+At a desk made of glass,
+In a glass walled-room
+With red airport carpet,
 
-    An officer asked
-    My father for fingerprints,
-    And my father refused,
+An officer asked
+My father for fingerprints,
+And my father refused,
 
-    So another offered him tea
-    And he sipped it. The teacup
-    Template for fingerprints.
+So another offered him tea
+And he sipped it. The teacup
+Template for fingerprints.
 
-    My father says, it was just
-    Hot water with a bag.
-    My father says, in his country,
+My father says, it was just
+Hot water with a bag.
+My father says, in his country,
 
-    Because the earth knows
-    The scent of history,
-    It gave the people sage.
+Because the earth knows
+The scent of history,
+It gave the people sage.
 
-    I like my tea with sage
-    From my mother’s garden,
-    Next to the snapdragons
+I like my tea with sage
+From my mother’s garden,
+Next to the snapdragons
 
-    She calls fishmouths
-    Coming out for air. A remedy
-    For stomach pains she keeps
+She calls fishmouths
+Coming out for air. A remedy
+For stomach pains she keeps
 
-    In the kitchen where
-    She always sings.
-    First, she is Hagar
+In the kitchen where
+She always sings.
+First, she is Hagar
 
-    Boiling water
-    Where tea is loosened.
-    Then she drops
+Boiling water
+Where tea is loosened.
+Then she drops
 
-    In it a pinch of sage
-    And lets it sit a while.
-    She tells a story:
+In it a pinch of sage
+And lets it sit a while.
+She tells a story:
 
-    The groom arrives late
-    To his wedding
-    Wearing only one shoe.
+The groom arrives late
+To his wedding
+Wearing only one shoe.
 
-    The bride asks him
-    About the shoe. He tells her
-    He lost it while jumping
+The bride asks him
+About the shoe. He tells her
+He lost it while jumping
 
-    Over a house-wall.
-    Breaking away from soldiers.
-    She asks:
+Over a house-wall.
+Breaking away from soldiers.
+She asks:
 
-    Tea with sage
-    Or tea with mint?
+Tea with sage
+Or tea with mint?
 
-    With sage, he says,
-    Sweet scent, bitter tongue.
-    She makes it, he drinks.
+With sage, he says,
+Sweet scent, bitter tongue.
+She makes it, he drinks.
 ```
 
 # ※
