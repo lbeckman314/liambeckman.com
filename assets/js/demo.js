@@ -56,7 +56,6 @@ function zigzagPort(message) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-
     let terminals = document.getElementsByClassName("terminals");
 
     let duplicateTerminal = document.getElementById("duplicate-terminal");

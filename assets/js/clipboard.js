@@ -10,14 +10,14 @@ $(document).ready(function() {
             copyContainer.className = "copyContainer";
             let copySymbol = document.createElement("object");
             //copySymbol.innerHTML = "copy!";
-			copySymbol.className = "copySymbol";
+            copySymbol.className = "copySymbol";
             //copySymbol.data = "/assets/svg/copy.svg"
             copySymbol.data = "/assets/png/copy.png"
             //<object type="image/svg+xml" data="/assets/svg/heart.svg"></object>
-			let copyMessage = document.createElement("p");
-			copyMessage.className = "copyMessage hide";
-			copyMessage.innerHTML = "Copied!";
-			copyContainer.appendChild(copyMessage);
+            let copyMessage = document.createElement("p");
+            copyMessage.className = "copyMessage hide";
+            copyMessage.innerHTML = "Copied!";
+            copyContainer.appendChild(copyMessage);
 
             copyContainer.appendChild(copySymbol);
             //element.appendChild(copyContainer);
@@ -26,29 +26,30 @@ $(document).ready(function() {
         }
     });
 
-	$(".copySymbol").click(function() {
-		console.log("click!");
-		let par = $(this).parent().parent().children()[1];
-		//let par = $(".highlight").text();
-		//document.execCommand("copy");
-		copy(par.textContent);
-		console.log("this:", par);
-		let message = $(this).parent().children()[0];
-		message.classList.toggle("hide");
-		setTimeout(function() {
-			message.classList.toggle("hide");
-		}, 1000);
-		console.log("message:", message);
-	});
+    $(".copySymbol").click(function() {
+        console.log("click!");
+        let par = $(this).parent().parent().children()[1];
+        //let par = $(".highlight").text();
+        //document.execCommand("copy");
+        // https://stackoverflow.com/questions/14918939/match-the-start-of-each-new-line-with-javascript-regex
+        copy(par.textContent.replace(/^(?:["#].*)\n/gm,''));
+        console.log("this:", par);
+        let message = $(this).parent().children()[0];
+        message.classList.toggle("hide");
+        setTimeout(function() {
+            message.classList.toggle("hide");
+        }, 1000);
+        console.log("message:", message);
+    });
 
 });
 
 
 function copy(text){
-	var $tempInput =  $("<textarea>");
-	$("body").append($tempInput);
-	$tempInput.val(text).select();
-	document.execCommand("copy");
-	$tempInput.remove();
+    console.log("text:", text)
+    var $tempInput =  $("<textarea>");
+    $("body").append($tempInput);
+    $tempInput.val(text).select();
+    document.execCommand("copy");
+    $tempInput.remove();
 }
-

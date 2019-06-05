@@ -1,6 +1,5 @@
 <ul class="sidenav">
 
-
     <div id="full-screen-menu">
         <li class="header" onclick="location.href='/'"><a href="/">home</a></li>
         <li class="header" onclick="location.href='/about'"><a href="/about">about</a></li>
@@ -49,7 +48,7 @@
 
         <div class="inline">
             <p>Padding left: </p>
-            <input class="max" id="padding-left" placeholder="6%"></input>
+            <input class="max" id="padding-left" value="6%"></input>
         </div>
 
         <button id="linker" class="center">
@@ -58,17 +57,21 @@
 
         <div class="inline">
             <p>Padding right: </p>
-            <input class="max" id="padding-right" placeholder="6%"></input>
+            <input class="max" id="padding-right" value="6%"></input>
         </div>
 
         <div class="inline">
             <p>Font size: </p>
-            <input class="max" id="font-size" placeholder="1em"></input>
+            <input class="max" id="font-size" value="1em"></input>
         </div>
 
         <div class="inline">
             <p>Font height: </p>
-            <input class="max" id="line-height" placeholder="1.7"></input>
+            <input class="max" id="line-height" value="1.7"></input>
+        </div>
+
+        <div class="inline">
+            <input id="convida-select" type="checkbox"> ⇢ Show Life</input>
         </div>
 
         <button class="default center" onclick="setDefault()">Reset to Default</button>

@@ -3,7 +3,6 @@ layout: my-default
 title: hello!
 ---
 
-
 <!-- https://stackoverflow.com/questions/1685078/how-do-you-make-a-div-tag-into-a-link -->
 
 <div class="container">

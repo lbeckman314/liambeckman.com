@@ -76,11 +76,8 @@ function setDefault() {
     let padding_left_local = localStorage.getItem("padding-left");
     let padding_right_local = localStorage.getItem("padding-right");
 
-    padding_left.placeholder = padding_left_local;
-    padding_right.placeholder = padding_right_local;
     padding_left.value = padding_left_local;
     padding_right.value = padding_right_local;
-
 
     let font_size_local = "1em"
     let line_height_local = 1.7
@@ -88,9 +85,15 @@ function setDefault() {
     let line_height_input = document.getElementById("line-height");
 
     document.getElementsByTagName("html")[0].style.fontSize = font_size_local;
-    font_size_input.placeholder = font_size_local;
+    font_size_input.value = font_size_local;
     document.getElementsByTagName("html")[0].style.lineHeight = line_height_local;
-    line_height_input.placeholder = line_height_local;
+    line_height_input.value = line_height_local;
+
+    const codes = document.getElementsByTagName("code")
+    for (let i = 0; i < codes.length; i++) {
+        codes[i].style.fontHeight = line_height_local;
+        codes[i].style.fontSize = font_size_local;
+    }
 
     localStorage.setItem("font-size", String(font_size_local));
     localStorage.setItem("line-height", String(line_height_local));
@@ -103,6 +106,36 @@ $( document ).ready(function() {
         $(this).toggleClass("change");
     });
 
+    let convida = localStorage.getItem("convida");
+    if (convida == "true") {
+        console.log("convida:", convida);
+        let scriptTag = document.createElement('script');
+        scriptTag.setAttribute('src', '/assets/js/convida/index.js');
+        scriptTag.setAttribute('type', 'module');
+        scriptTag.setAttribute('id', 'convida');
+        document.head.appendChild(scriptTag)
+        document.getElementById("convida-select").checked = true;
+    }
+
+    $("#convida-select").change(function() {
+        if(this.checked) {
+            let scriptTag = document.createElement('script');
+            scriptTag.setAttribute('src', '/assets/js/convida/index.js');
+            scriptTag.setAttribute('type', 'module');
+            scriptTag.setAttribute('id', 'convida');
+            document.head.appendChild(scriptTag)
+            localStorage.setItem("convida", "true");
+            console.log('checked');
+            $(".game-of-life-canvas").css("display", "unset");
+        }
+        else {
+            let scriptTag = document.getElementById("convida");
+            scriptTag.parentNode.removeChild(scriptTag);
+            localStorage.setItem("convida", "false");
+            console.log('unchecked');
+            $(".game-of-life-canvas").css("display", "none");
+        }
+    });
 
 
     $("#settings").click(function() {
@@ -230,12 +263,20 @@ $( document ).ready(function() {
     function change_font_size() {
         let size = font_size.value;
         document.getElementsByTagName("html")[0].style.fontSize = size;
+        const codes = document.getElementsByTagName("code")
+        for (let i = 0; i < codes.length; i++) {
+            codes[i].style.fontSize = size;
+        }
         localStorage.setItem("font-size", String(font_size.value));
     }
 
     function change_font_height() {
         let height = font_height.value;
         document.getElementsByTagName("html")[0].style.lineHeight = height;
+        const codes = document.getElementsByTagName("code")
+        for (let i = 0; i < codes.length; i++) {
+            codes[i].style.fontHeight = height;
+        }
         localStorage.setItem("line-height", String(line.value));
     }
 
@@ -246,12 +287,22 @@ $( document ).ready(function() {
 
     if (font_size_local) {
         document.getElementsByTagName("html")[0].style.fontSize = font_size_local;
-        font_size_input.placeholder = font_size_local;
+        font_size_input.value = font_size_local;
+
+        const codes = document.getElementsByTagName("code")
+        for (let i = 0; i < codes.length; i++) {
+            codes[i].style.fontSize = font_size_local;
+        }
     }
 
     if (line_height_local) {
         document.getElementsByTagName("html")[0].style.lineHeight = line_height_local;
-        line_height_input.placeholder = line_height_local;
+        line_height_input.value = line_height_local;
+
+        const codes = document.getElementsByTagName("code")
+        for (let i = 0; i < codes.length; i++) {
+            codes[i].style.fontHeight = line_height_local;
+        }
     }
 
     font_size.addEventListener("input", change_font_size);

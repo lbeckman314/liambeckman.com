@@ -17,19 +17,19 @@ Are you looking for a plucky CS student with a small propensity for segmentation
 
 <div class="inline-block">
     <ul class="showoff">
-        <li id="featured" onclick="location.href='https://liambeckman.com/pkgs/resume/resume.pdf'">
+        <li class="featured" onclick="location.href='https://liambeckman.com/pkgs/resume/resume.pdf'">
             <object class="showoff" type="image/svg+xml" data="/assets/svg/octicons-5.0.1/lib/svg/file-pdf.svg"></object><p> Resume (PDF)</p>
         </li>
-        <li id="featured" onclick="location.href='https://git.liambeckman.com/cgit/resume/tree/resume.tex'">
+        <li class="featured" onclick="location.href='https://git.liambeckman.com/cgit/resume/tree/resume-liam-beckman.tex'">
             <object class="showoff" type="image/svg+xml" data="/assets/svg/tex.svg"></object><p> Resume (<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>)</p>
         </li>
-        <li id="featured" onclick="location.href='https://github.com/lbeckman314/'">
+        <li class="featured" onclick="location.href='https://github.com/lbeckman314/'">
             <object class="showoff" type="image/svg+xml" data="/assets/svg/github.svg"></object><p> My Github profile</p>
         </li>
-        <li id="featured" onclick="location.href='https://gitlab.com/lbeckman314/'">
+        <li class="featured" onclick="location.href='https://gitlab.com/lbeckman314/'">
             <object class="showoff" type="image/svg+xml" data="/assets/svg/gitlab-2.svg"></object><p> My Gitlab profile</p>
         </li>
-        <li id="featured" onclick="location.href='https://www.linkedin.com/in/liam-beckman-ab3183a6/'">
+        <li class="featured" onclick="location.href='https://www.linkedin.com/in/liam-beckman-ab3183a6/'">
             <object class="showoff" type="image/svg+xml" data="/assets/svg/linkedin.svg"></object><p> My LinkedIn profile</p>
         </li>
     </ul>

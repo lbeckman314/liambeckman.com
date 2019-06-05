@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- HTML I've cobbled together from the far corners of the world. Feel free to copy and paste, fork, clone, or anything you like. -->
+<!--Louis, I think this is the beginning of a beautiful friendship.-->
 <html lang="en">
     <head>
         <link rel="stylesheet" href="/assets/css/main.css">
@@ -20,14 +20,21 @@
         <script type="text/javascript" src="/assets/js/theme.js" async></script>
 
         <script type="text/javascript" src="/assets/js/menu.js" async></script>
+<<<<<<< HEAD
         <script type="text/javascript" src="/assets/js/" async></script>
+=======
+        <script type="text/javascript" src="/assets/js/top.js" async></script>
+
+>>>>>>> f8b1ab12cc875f8c2106164b437b9b17a2030169
 
         <!--<pre>VAR: {{ page.title | inspect }}</pre>-->
 
         {% if page.collection != "writings"  %}
-        {% if page.title != "writings"  %}
-        <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
-        {% endif %}
+            {% if page.title != "writings"  %}
+                {% if page.title != "favorites"  %}
+                    <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
+                {% endif %}
+            {% endif %}
         {% endif %}
     </head>
     <body>
@@ -37,6 +44,11 @@
             </div>
 
             <div class="popstripe"></div>
+
+            <div id="cgol">
+                <canvas class="game-of-life-canvas left"></canvas>
+                <canvas class="game-of-life-canvas right"></canvas>
+            </div>
 
             <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
             <div class="PageNavigation">
@@ -48,6 +60,8 @@
                 {% endif %}
             </div>
 
+            <a href="#" class="circle fade-out">↑</a>
+
             <div id="content">
                 <!-- https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post -->
                 {% if page.is_writing %}
@@ -58,7 +72,7 @@
                 {{ content }}
             </div>
 
-            {% if page.title == "favorites" %}
+            {% if page.title == "about" %}
             <div id="footer">
                 {% include footer-mst3k.html %}
             </div>
@@ -70,6 +84,5 @@
         </div>
         <div id="bottom"></div>
     </body>
-
 </html>
-<!--Louis, I think this is the beginning of a beautiful friendship.-->
+<!-- That's all folks! -- >

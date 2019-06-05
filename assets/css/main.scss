@@ -35,10 +35,8 @@ $blue-light: #eef;
     src: url('/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf');
 }
 
-
-
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   1.1em;
+$base-font-size:   1em;
 $large-font-size:  2.3em;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -81,6 +79,7 @@ $on-laptop:        800px;
 
 body {
     word-wrap: break-word;
+    background-color: snow;
 }
 
 #content {
@@ -764,7 +763,7 @@ li.header::before {
 #settings{
     cursor: pointer;
     position: absolute;
-    top: 5px;
+    top: 0px;
     right: 10px;
     transition: $tran;
 }
@@ -871,12 +870,12 @@ svg {
 }
 
 input {
-    height: 3.5em;
-    max-width: 100%;
-    min-width: 70%;
     padding: 1em;
+    max-width: 100%;
 
     .max {
+        height: 3.5em;
+        min-width: 70%;
         min-width: 100%;
     }
 }
@@ -1017,12 +1016,12 @@ span.sub {
     border: 1px solid $pop-1;
 }
 
-#featured {
+.featured {
     transition: $tran;
     cursor: pointer;
 }
 
-#featured:hover {
+.featured:hover {
     background-color: lavender;
     transition: $tran;
 }
@@ -1064,6 +1063,7 @@ code {
     //color: #c80032;
     //background-color: #f9f2f4;
     //background-color: #fdeeff;
+    font-size: 0.9em;
 
 }
 
@@ -1142,7 +1142,7 @@ span.grey {
     cursor: pointer;
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 30%;
     height: 100%;
     padding: 16px;
     color: white;
@@ -1202,8 +1202,10 @@ span.grey {
 .black-fade:after {
     content: '\A';
     position: absolute;
-    width: 100%; height:100%;
-    top:0; left:0;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
     background: black;
     opacity: 0;
     animation-name: fade-black;
@@ -1217,6 +1219,11 @@ span.grey {
     to {
         opacity: 0.0;
     }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .menu-container {
@@ -1298,6 +1305,53 @@ svg {
 #mst3k {
   width:100%;
   margin-bottom: -0.6em;
+}
+
+.circle {
+    padding: 1em;
+    background-color: #282a36;
+    border-radius: 50%;
+    position: fixed;
+    right: 5%;
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    bottom: 5%;
+    border: 1px solid;
+    z-index: 1;
+    animation-name: fadein;
+    /*animation-duration: 500ms;*/
+    transition: opacity 300ms;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.game-of-life-canvas {
+    max-height: 100%;
+    /*width: 100%;*/
+    z-index: 0;
+}
+
+#cgol {
+    z-index: 0;
+}
+
+#content {
+    position: relative;
 }
 
 // import partials
