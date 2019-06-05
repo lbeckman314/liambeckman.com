@@ -12,12 +12,15 @@ github_username: lbeckman314
 markdown: kramdown
 # theme: minima
 gems:
-    - jekyll-feed
+    #  - jekyll-feed
     #  - jekyll-sitemap
     #  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
+  - tags
+  - tags.temp
+  - tags.lock
 
 # Welcome to Jekyll!
 #

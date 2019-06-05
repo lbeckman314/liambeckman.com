@@ -134,33 +134,44 @@ function doTerminal(terminal, socket) {
         let down = 0;
         let ctrl = false;
 
-        // Listen for messages
-        socket.onmessage = function(event) {
-            message = event.data.toString();
-            console.log("MESSAGE:", message);
+        socket.onmessage = (event) => {
+            message = event.data;
 
-            if (message == "pong") {
-                heartbeat();
-                return;
-            }
+            var myblob = new Blob([message], {
+                type: 'text/plain'
+            });
 
-            message.split('\n');
+            var reader = new FileReader();
+            reader.addEventListener("loadend", function() {
+                message = reader.result;
 
-            if (message.includes('\r')) {
-                console.log("SUCCESS");
-                message = message.replace(/\r/g,"");
-                terminal.value = terminal.value.replace(/.*$/ ,message);
+                if (message == "pong") {
+                    heartbeat();
+                    return;
+                }
 
-            }
+                if (message.includes('\r')) {
+                    message = message.replace(/\r/g,"");
+                    terminal.innerHTML = terminal.innerHTML.replace(/.*$/, message);
+                }
 
-            else {
-                terminal.value += message
-            }
+                else {
+                    //message = ansi_up.ansi_to_html(message);
+                    //message = Autolinker.link(message);
+                    console.log('message:', message);
+                    console.log('typeof message:', typeof message);
+                    terminal.value += message;
+                    //setCaret(terminal);
+                    zigzagPort(message);
+                }
+            });
 
-            messages = message.split("\n");
+            reader.readAsText(myblob);
+
+            //messages = message.split("\n");
             terminal.scrollTop = terminal.scrollHeight;
-            zigzagPort(message);
         }
+
 
         // https://stackoverflow.com/questions/22092762/how-to-detect-ctrlc-and-ctrlv-key-pressing-using-regular-expression/22092839
         terminal.addEventListener("keydown",function(e){

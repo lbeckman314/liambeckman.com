@@ -124,7 +124,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 
 <pre id="info"></pre>
 <div id="terminal">
-	<textarea class="terminals"></textarea>
+	<textarea class="terminals" tabindex="0" contentEditable="true"></textarea>
 </div>
 <script src="/assets/js/demo.js"></script>
 <script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
