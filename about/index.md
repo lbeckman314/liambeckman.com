@@ -17,7 +17,7 @@ Are you looking for a plucky CS student with a small propensity for segmentation
 
 <div class="inline-block">
     <ul class="showoff">
-        <li class="featured" onclick="location.href='https://liambeckman.com/pkgs/resume/resume.pdf'">
+        <li class="featured" onclick="location.href='https://liambeckman.com/pkgs/resume/resume-liam-beckman.pdf'">
             <object class="showoff" type="image/svg+xml" data="/assets/svg/octicons-5.0.1/lib/svg/file-pdf.svg"></object><p> Resume (PDF)</p>
         </li>
         <li class="featured" onclick="location.href='https://git.liambeckman.com/cgit/resume/tree/resume-liam-beckman.tex'">
