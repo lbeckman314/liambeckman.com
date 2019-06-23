@@ -132,6 +132,7 @@ function doTerminal(terminal, socket) {
         let up = 0;
         let down = 0;
         let ctrl = false;
+        let pinged = false;
 
         socket.onmessage = (event) => {
             message = event.data;
@@ -146,6 +147,7 @@ function doTerminal(terminal, socket) {
 
                 if (message == "pong") {
                     heartbeat();
+                    pinged = true;
                     return;
                 }
 
@@ -168,7 +170,9 @@ function doTerminal(terminal, socket) {
             reader.readAsText(myblob);
 
             //messages = message.split("\n");
-            terminal.scrollTop = terminal.scrollHeight;
+            if (pinged == false) {
+                terminal.scrollTop = terminal.scrollHeight;
+            }
         }
 
 
