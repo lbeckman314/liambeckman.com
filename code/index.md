@@ -127,7 +127,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 
 <pre id="info"></pre>
 <div id="terminal">
-	<textarea class="terminals" tabindex="0" contentEditable="true"></textarea>
+    <textarea class="terminals" tabindex="0" contentEditable="true"></textarea>
 </div>
 <script src="/assets/js/demo.js"></script>
 <script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
@@ -139,7 +139,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
         |
         <a href="https://github.com/lbeckman314/demo">Source Code</a>
         |
-        <a href="https://liambeckman.com/code/term">Full Term</a>
+        <a href="https://liambeckman.com/code/term">Demonic</a>
     </div>
 </div>
 
