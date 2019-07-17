@@ -2,7 +2,7 @@
 
 I built this website as a way to store and present various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](jmcglone.com/guides/github-pages/).
 
-This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Raspberry Pi (Raspbian on RPi3 Model B).
+This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Raspberry Pi ([Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on RPi3 Model B).
 
 # Building
 
@@ -49,4 +49,10 @@ bundle exec jekyll serve
 
 # CI/CD
 
+The website is updated every time a push is made to the `master` branch. Build commands are defined in the [Jenkinsfile](./Jenkinsfile), and build results can be viewed at either of the following URL's.
+
+- [Jenkins (standard)](https://liambeckman.com/jenkins/job/website/)
+- [Jenkins (Blue Ocean)](https://liambeckman.com/jenkins/blue/organizations/jenkins/website/activity)
+
+[![Screenshot of website in Jenkins](./build.png)](https://liambeckman.com/jenkins/blue/organizations/jenkins/website/)
 
