@@ -4,11 +4,12 @@ JEKYLL = "/usr/local/bin/jekyll"
 
 node {
    stage('Update') {
-      git url: "https://git.liambeckman.com/cgit/website/"
-      sh "echo pwd; pwd"
-      sh "echo whoami; whoami"
+      // git url: "https://git.liambeckman.com/cgit/website/"
+      sh "git clean -fdx"
    }
    stage('Build') {
+      sh "echo pwd; pwd"
+      sh "echo whoami; whoami"
       sh "$BUNDLE install"
       sh "$BUNDLE exec $JEKYLL build --incremental --source . --destination $PUBLIC_WWW"
    }
