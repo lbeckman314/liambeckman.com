@@ -3,6 +3,7 @@ BUNDLE = "/usr/local/bin/bundle"
 
 node {
    stage('Build') {
-      sh "$BUNDLE exec jekyll build --incremental -s . -d $PUBLIC_WWW"
+      sh "$BUNDLE install"
+      sh "$BUNDLE exec jekyll build --incremental --source . --destination $PUBLIC_WWW"
    }
 }
