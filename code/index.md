@@ -21,8 +21,8 @@ title: code
         <p class="code">Conway's Game of Life implemented in Rust and WebAssembly.</p>
     </div>
 
-    <div class="fixed pointer featured" onclick="location.href='https://github.com/cs361-group24'">
-        <a href="https://github.com/cs361-group24"><img class="center" src="/assets/png/removemywaste.png"></a>
+    <div class="fixed pointer featured" onclick="location.href='https://github.com/removemywaste'">
+        <a href="https://github.com/removemywaste"><img class="center" src="/assets/png/removemywaste.png"></a>
         <div class = "code-title">RemoveMyWaste</div>
         <div class = "code-type android">android</div>
         <div class = "code-type web-app" id="rmw">web app</div>
