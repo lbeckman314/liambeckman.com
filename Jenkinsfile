@@ -9,6 +9,6 @@ node {
    }
    stage('Build') {
       sh "$BUNDLE install"
-      sh "$BUNDLE exec $JEKYLL build --source . --destination $PUBLIC_WWW"
+      sh "$BUNDLE exec $JEKYLL build --incremental --source . --destination $PUBLIC_WWW"
    }
 }
