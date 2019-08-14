@@ -1,5 +1,6 @@
 ---
 layout: my-default
+permalink: /posts/
 ---
 
 {% assign posts = site.posts | sort: 'date' | reverse %}
