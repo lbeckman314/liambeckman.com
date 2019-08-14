@@ -2,25 +2,24 @@
 layout: my-default
 ---
 
-
-{% assign writings = site.writings | sort: 'date' | reverse %}
-{% for writing in writings %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
+{% for post in posts %}
 
 <h2>
-    <a href="{{ writing.url }}" >
-        {{ writing.title }}
+    <a href="{{ post.url }}" >
+        {{ post.title }}
     </a>
     <br />
 </h2>
 <p style="font-size: 1em; color: #696969">
-{{ writing.date  | date: "%A, %B %d, %Y" }}
+{{ post.date  | date: "%A, %B %d, %Y" }}
 :: 
-{% assign m = writing.date | date: "%Y" %}
+{% assign m = post.date | date: "%Y" %}
 {% case m %}
   {% when '2018' %}⋟∫≓⋌
 {% endcase %}
 ※
-{% assign m = writing.date | date: "%m" %}
+{% assign m = post.date | date: "%m" %}
 {% case m %}
   {% when '01' %}∫≓
   {% when '02' %}∫⋟
@@ -36,7 +35,7 @@ layout: my-default
   {% when '12' %}≓⋟
 {% endcase %}
 ※
-{% assign m = writing.date | date: "%d" %}
+{% assign m = post.date | date: "%d" %}
 {% case m %}
   {% when '01' %}∫≓
   {% when '02' %}∫⋟
@@ -72,16 +71,8 @@ layout: my-default
 {% endcase %}
 
 </p>
-<br />
-<p>{{ writing.description }}</p>
-<p>{{ writing.content }}</p>
-<br />
-<br />
-<hr />
-<br />
-<br />
+<p>{{ post.description }}</p>
 
 {% endfor %}
 [//]: # "%A, %B %d, %Y"
 [//]: # "%A"
-

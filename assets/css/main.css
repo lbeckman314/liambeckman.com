@@ -23,20 +23,21 @@ body {
   background-color: snow; }
 
 #content {
+  font-family: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif;
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 4%;
   margin: auto;
-  max-width: 1200px; }
+  max-width: 1200px;
+  font-size: 1em;
+  line-height: 2;
+  font-weight: 500;
+  position: relative; }
 
 /* paragraphs*/
 p {
-  font-size: 1em;
-  line-height: 1.7;
   color: #333;
   padding-bottom: 1.5%;
-  /*padding-bottom: 2%;*/
-  /*text-indent: 5%;*/
   transition: 800ms; }
 
 p.code {
@@ -51,7 +52,8 @@ p.headers {
 /* anchors */
 a {
   color: #FF357A;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 600; }
 
 a:hover {
   text-decoration: underline;
@@ -61,7 +63,7 @@ a.about {
   color: #DB37C4;
   text-decoration: snow; }
 
-a.writings {
+a.writings, a.posts {
   color: #ED68D9;
   text-decoration: none; }
 
@@ -69,7 +71,7 @@ a.code {
   color: #49CCD4;
   text-decoration: none; }
 
-a.git {
+a.git, .git {
   color: #678CFA;
   text-decoration: none; }
 
@@ -111,7 +113,7 @@ div.about {
   border: solid 1px #DB37C4;
   transition: 800ms; }
 
-div.writings {
+div.writings, div.posts {
   border: solid 1px #ED68D9;
   transition: 800ms; }
 
@@ -131,7 +133,7 @@ div.about:hover {
   background-color: #DB37C4;
   transition: 800ms; }
 
-div.writings:hover {
+div.writings:hover, div.posts:hover {
   background-color: #ED68D9;
   transition: 800ms; }
 
@@ -246,7 +248,7 @@ div.about-border {
   border-bottom: 1px solid #DB37C4;
   transition: 800ms; }
 
-div.writings-border {
+div.writings-border, div.posts-border {
   border-bottom: 1px solid #ED68D9;
   transition: 800ms; }
 
@@ -278,7 +280,7 @@ div.favorites-border {
 /* headers */
 h1 {
   font-size: 3em;
-  font-family: Helvetica, Ariral, Sans-Serif;
+  font-family: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif;
   text-align: center;
   color: #131516;
   padding-top: 3%; }
@@ -296,16 +298,25 @@ h1.favorites {
 
 h2 {
   font-size: 2.3em;
-  font-family: Helvetica, Ariral, Sans-Serif;
   color: #131516;
-  padding-top: 3%; }
+  padding-top: 3%;
+  padding-bottom: 1%; }
 
-h2.code {
-  /*color: #595EF7;*/ }
+h3 {
+  font-size: 1.8em;
+  padding-top: 1%;
+  padding-bottom: 1%; }
 
 /* lists */
+ul {
+  padding-left: 5%; }
+
+li {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em; }
+
 nav ul, #footer ul, #header ul {
-  font-family: Helvetica, Ariral, Sans-Serif;
+  font-family: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -336,7 +347,9 @@ ul.posts li {
   list-style: none; }
 
 li.quote {
-  float: right; }
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0; }
 
 #header li {
   margin-right: 20px; }
@@ -364,7 +377,8 @@ ul.showoff > li {
   list-style-type: none; }
 
 object.showoff {
-  height: 2em; }
+  height: 2em;
+  margin: 0.5em; }
 
 .zigzag-container {
   position: absolute;
@@ -407,7 +421,8 @@ object.zigzag {
 hr {
   border-bottom: 1px dashed #99979c;
   border-top: 0px;
-  transition: 800ms; }
+  transition: 800ms;
+  padding: 2%; }
 
 #header {
   font-size: .8em;
@@ -572,7 +587,8 @@ li.header::before {
   margin: 1em;
   margin-left: auto;
   width: 70%;
-  border: 1px solid black; }
+  border: 1px solid black;
+  padding-bottom: 0; }
 
 #myDropdown > a {
   margin: 0;
@@ -650,7 +666,7 @@ input {
     min-width: 70%;
     min-width: 100%; }
 
-.center {
+.center, #linker {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -665,15 +681,6 @@ input {
   margin-right: 2%;
   margin-left: 2%; }
 
-/*
-#content {
-background-color: $grey-dark;
-}
-
-p {
-color: snow;
-}
- */
 .popstripe-bw {
   height: 0.25em;
   background-size: 100%;
@@ -721,7 +728,7 @@ color: snow;
 
 .sub {
   color: grey;
-  line-height: 1.5; }
+  line-height: 1.8; }
 
 div.sub {
   float: right;
@@ -1021,9 +1028,6 @@ svg {
 
 #cgol {
   z-index: 0; }
-
-#content {
-  position: relative; }
 
 /***************************************************/
 /* SYNTAX HIGHLIGHTING

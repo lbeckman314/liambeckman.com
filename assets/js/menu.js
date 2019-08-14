@@ -60,8 +60,6 @@ function bothPadding(evt) {
 }
 
 
-
-
 function setDefault() {
     let content = document.getElementById("content");
 
@@ -100,8 +98,8 @@ function setDefault() {
 
 }
 
-$( document ).ready(function() {
-    $(".menu-container").click(function() {
+$( document ).ready(() => {
+    $(".menu-container").click(() => {
         $("#myDropdown").toggleClass("show");
         $(this).toggleClass("change");
     });
@@ -117,7 +115,7 @@ $( document ).ready(function() {
         document.getElementById("convida-select").checked = true;
     }
 
-    $("#convida-select").change(function() {
+    $("#convida-select").change(() => {
         if(this.checked) {
             let scriptTag = document.createElement('script');
             scriptTag.setAttribute('src', '/assets/js/convida/index.js');
@@ -138,7 +136,7 @@ $( document ).ready(function() {
     });
 
 
-    $("#settings").click(function() {
+    $("#settings").click(() => {
         document.getElementById("config").classList.toggle("show");
         if (document.getElementById("settings").style.transform == "rotate(180deg)") {
             document.getElementById("settings").style.transform = "unset";
@@ -148,15 +146,15 @@ $( document ).ready(function() {
         }
     });
 
-    $("#linker").click(function() {
+    $("#linker").click(() => {
         link();
     });
 
-
     let linked = false;
-    link();
+    link()
 
     function link() {
+        console.log('link:', linked);
         let content = document.getElementById("content");
         let linker = document.getElementById("linker");
         let padding_left = document.getElementById("padding-left");

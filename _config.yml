@@ -11,7 +11,7 @@ github_username: lbeckman314
 #Build settings
 markdown: kramdown
 # theme: minima
-gems:
+plugins:
     #  - jekyll-feed
     #  - jekyll-sitemap
     #  - jekyll-seo-tag
@@ -48,10 +48,10 @@ collections:
         label: mywritings
         layout: my-default
         #permalink: /:collection/:path
-    gallery:
+    posts:
         output: true
+        label: myposts
         layout: my-default
-        permalink: /:collection/:path
 
 # https://stackoverflow.com/a/23555679/7656815
 defaults:

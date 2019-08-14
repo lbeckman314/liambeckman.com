@@ -9,7 +9,7 @@ Feel free to copy and paste, fork, clone, or anything you like. */
 //* SASS VARIABLES
 //***************************************************/
 
-$font-stack: Helvetica, Ariral, Sans-Serif;
+$font-stack: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif;
 
 $pop-1: #DB37C4; // pink
 $pop-2: #ED68D9; // purple
@@ -35,12 +35,11 @@ $blue-light: #eef;
     src: url('/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf');
 }
 
-$base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   1em;
-$large-font-size:  2.3em;
-$base-font-weight: 400;
+$large-font-size:  3em;
+$base-font-weight: 500;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.7;
+$base-line-height: 2;
 $small-line-height: $base-line-height - 0.2;
 
 $spacing-unit:     30px;
@@ -83,22 +82,22 @@ body {
 }
 
 #content {
+    font-family: $font-stack;
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 4%;
     margin: auto;
     max-width: 1200px;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: $base-font-weight;
+    position: relative;
 }
 
 /* paragraphs*/
 p {
-    font-size: $base-font-size;
-    line-height: $base-line-height;
     color: #333;
     padding-bottom: 1.5%;
-    /*padding-bottom: 2%;*/
-    /*text-indent: 5%;*/
-
     transition: $tran;
 }
 
@@ -112,7 +111,6 @@ p.code {
 p.headers {
     background-color: #D3D2E0;
     border: 1px $grey-light solid;
-
 }
 
 /* anchors */
@@ -120,6 +118,7 @@ p.headers {
 a {
     color: $heart;
     text-decoration: none;
+    font-weight: $base-font-weight + 100;
 }
 
 a:hover {
@@ -134,7 +133,7 @@ a.about {
     text-decoration: snow;
 }
 
-a.writings {
+a.writings, a.posts {
     color: $pop-2;
     //text-decoration-color: $pop-2;
     text-decoration: none;
@@ -148,7 +147,7 @@ a.code {
 }
 
 
-a.git {
+a.git, .git {
     color: $pop-4;
     //text-decoration-color: $pop-4;
     text-decoration: none;
@@ -206,7 +205,7 @@ div.about {
     transition: $tran;
 }
 
-div.writings {
+div.writings, div.posts {
     border: solid 1px $pop-2;
     //background-image: url('/assets/png/code_example2_pink.png');
     transition: $tran;
@@ -232,7 +231,7 @@ div.about:hover {
     transition: $tran;
 }
 
-div.writings:hover {
+div.writings:hover, div.posts:hover {
     background-color: $pop-2;
     transition: $tran;
 }
@@ -372,7 +371,7 @@ div.about-border {
     transition: $tran;
 }
 
-div.writings-border {
+div.writings-border, div.posts-border {
     border-bottom: 1px solid $pop-2;
     transition: $tran;
 }
@@ -436,19 +435,28 @@ h1.favorites {
 }
 
 h2 {
-    font-size: $large-font-size;
-    font-family: $font-stack;
+    font-size: $large-font-size - 0.7;
     color: $grey-dark;
     padding-top: 3%;
+    padding-bottom: 1%;
 }
 
-
-h2.code {
-    /*color: #595EF7;*/
+h3 {
+    font-size: $large-font-size - 1.2;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-
 
 /* lists */
+
+ul {
+    padding-left: 5%;
+}
+
+li {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
 
 nav ul, #footer ul, #header ul {
     font-family: $font-stack;
@@ -488,9 +496,10 @@ ul.posts li {
     list-style: none;
 }
 
-li.quote
-{
+li.quote {
     float:right;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 #header li {
@@ -526,6 +535,7 @@ ul.showoff > li {
 
 object.showoff {
     height: 2em;
+    margin: 0.5em;
 }
 
 .zigzag-container {
@@ -576,6 +586,7 @@ hr {
     border-bottom: 1px dashed $grey;
     border-top: 0px;
     transition: $tran;
+    padding: 2%;
 }
 
 #header {
@@ -769,7 +780,6 @@ li.header::before {
 }
 
 .menu-container {
-    //display: inline-block;
     cursor: pointer;
     position: absolute;
     top: 5px;
@@ -777,12 +787,11 @@ li.header::before {
 }
 
 #header ul li{
-    //background: #131516;
     margin: 1em;
     margin-left: auto;
-    //margin-right: auto;
     width: 70%;
     border: 1px solid black;
+    padding-bottom: 0;
 }
 
 #myDropdown > a {
@@ -880,7 +889,7 @@ input {
     }
 }
 
-.center {
+.center, #linker {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -896,17 +905,6 @@ input {
     margin-right: 2%;
     margin-left: 2%;
 }
-
-
-/*
-#content {
-background-color: $grey-dark;
-}
-
-p {
-color: snow;
-}
- */
 
 .popstripe-bw {
     height: 0.25em;
@@ -1348,10 +1346,6 @@ svg {
 
 #cgol {
     z-index: 0;
-}
-
-#content {
-    position: relative;
 }
 
 // import partials

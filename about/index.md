@@ -11,7 +11,7 @@ title: about
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue.
 
-Have a good book or movie recommendation or just want to chat? I'm available at <a href="mailto:lbeckman314@gmail.com">lbeckman314@gmail.com</a>
+Have a good book or movie recommendation or just want to chat? I'm available at <a href="mailto:liam@liambeckman.com">liam@liambeckman.com</a>
 
 Are you looking for a plucky CS student with a small propensity for segmentation faults? Here are some links of interest:
 

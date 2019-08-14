@@ -87,13 +87,7 @@ permalink: /writings/
 {{ writing.tags }}
 {% endif %}
 </p>
-<br />
 {{ writing.content }}
-<br />
-<br />
-<hr />
-<br />
-<br />
 
 {% endfor %}
 [//]: # "%A, %B %d, %Y"

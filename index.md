@@ -15,10 +15,10 @@ title: hello!
   </div>
 
 
-<div class="fixed writings" id="home" onclick="location.href='/writings'">
-    <h1 class="home-page"><a href = "/writings" class="writings">writings</a></h1>
-    <div class="writings-border"></div>
-    <p style="text-align: center; padding-bottom: 10px;">Are you looking for some weird, spooky poems? Here are some of those!</p>
+<div class="fixed posts" id="home" onclick="location.href='/posts'">
+    <h1 class="home-page"><a href = "/posts" class="posts">posts</a></h1>
+    <div class="posts-border"></div>
+    <p style="text-align: center; padding-bottom: 10px;">Posts about programming and everything else.</p>
 
   </div>
 
@@ -33,7 +33,7 @@ title: hello!
 
 <div class="fixed git" id="home" onclick="location.href='https://www.github.com/lbeckman314'">
     <h1 class="home-page" style="color:#678CFA;">
-    <a href = "https://www.github.com/lbeckman314" class="git">github</a><span> / </span><a href="https://git.liambeckman.com" class="git">cgit</a>
+    <a href = "https://www.github.com/lbeckman314" class="git">github</a><span class="git"> / </span><a href="https://git.liambeckman.com" class="git">cgit</a>
     </h1>
     <div class="git-border"></div>
     <p style="text-align: center; padding-bottom: 10px;">Go straight to the source! Checkout some git repos.</p>
