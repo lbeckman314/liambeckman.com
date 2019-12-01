@@ -1,26 +1,26 @@
 ---
 layout: my-default
-permalink: /posts/
+permalink: /writings/
 ---
 
-{% assign posts = site.posts | sort: 'date' | reverse %}
-{% for post in posts %}
+{% assign writings = site.posts | sort: 'date' | reverse %}
+{% for writing in posts %}
 
 <h2>
-    <a href="{{ post.url }}" >
-        {{ post.title }}
+    <a href="{{ writing.url }}" >
+        {{ writing.title }}
     </a>
     <br />
 </h2>
 <p style="font-size: 1em; color: #696969">
-{{ post.date  | date: "%A, %B %d, %Y" }}
+{{ writing.date  | date: "%A, %B %d, %Y" }}
 :: 
-{% assign m = post.date | date: "%Y" %}
+{% assign m = writing.date | date: "%Y" %}
 {% case m %}
   {% when '2018' %}⋟∫≓⋌
 {% endcase %}
 ※
-{% assign m = post.date | date: "%m" %}
+{% assign m = writing.date | date: "%m" %}
 {% case m %}
   {% when '01' %}∫≓
   {% when '02' %}∫⋟
@@ -36,7 +36,7 @@ permalink: /posts/
   {% when '12' %}≓⋟
 {% endcase %}
 ※
-{% assign m = post.date | date: "%d" %}
+{% assign m = writing.date | date: "%d" %}
 {% case m %}
   {% when '01' %}∫≓
   {% when '02' %}∫⋟
@@ -72,8 +72,16 @@ permalink: /posts/
 {% endcase %}
 
 </p>
-<p>{{ post.description }}</p>
+<br />
+<p>{{ writing.description }}</p>
+<p>{{ writing.content }}</p>
+<br />
+<br />
+<hr />
+<br />
+<br />
 
 {% endfor %}
 [//]: # "%A, %B %d, %Y"
 [//]: # "%A"
+

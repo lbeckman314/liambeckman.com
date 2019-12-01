@@ -44,12 +44,6 @@ title: favorites
         <div class="text">Comet in Moominland</div>
     </div>
 
-
-    <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/the-book-thief.jpg"></div>
-        <div class="text">The Book Thief</div>
-    </div>
-
     <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/contact.jpg"></div>
         <div class="text">Contact</div>
@@ -83,11 +77,6 @@ title: favorites
     <div class="mySlides fade">
         <div class="black-fade"><img class="slide" src="/assets/favorites/before-sunrise.jpg"></div>
         <div class="text">Before Sunrise Trilogy</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="black-fade"><img class="slide" src="/assets/favorites/arrival.png"></div>
-        <div class="text">Arrival</div>
     </div>
 
     <div class="mySlides fade">
@@ -139,8 +128,6 @@ title: favorites
 
 ※ [Comet In Moominland](https://en.wikipedia.org/wiki/Comet_in_Moominland) ⇢ What happens when a comet is bearing down on the entire world? Adventures of course!
 
-※ [The Book Thief](https://en.wikipedia.org/wiki/The_Book_Thief) ⇢ Finding solace in books during a time of great turmoil.
-
 ※ [Downward Bound: A Mad! Guide to Rock Climbing](http://publications.americanalpineclub.org/articles/12197656700/Downward-Bound-A-Mad-Guide-to-Rock-Climbing) ⇢ How to rock climb and fall into disrepute.
 
 ※ [The Cartoon History of Time](http://www.katecharlesworth.com/time/index.html) ⇢ Ever been taught physics by a chicken and a cat?
@@ -154,8 +141,6 @@ title: favorites
 ※ [American Graffiti](https://en.wikipedia.org/wiki/American_Graffiti) ⇢ A single night in the 1960's.
 
 ※ [The Before Trilogy](https://en.wikipedia.org/wiki/Before_Sunrise) ⇢ Two people walking around, pondering love and life.
-
-※ [Arrival](https://en.wikipedia.org/wiki/Arrival_(film)) ⇢ Aliens, time travel, and philosophy. Awesome.
 
 ※ [Moonlight](https://en.wikipedia.org/wiki/Moonlight_(2016_film)) ⇢ A tender look into one man's life.
 
@@ -174,6 +159,127 @@ title: favorites
 ※ [Spiegel im Spiegel](https://en.wikipedia.org/wiki/Spiegel_im_Spiegel) ⇢ Beautiful classical piece.
 
 ## poems
+
+※ [Getting Used to Your Name](https://www.poetryfoundation.org/poems/52565/getting-used-to-your-name) By Marin Sorescu, Translated by Gabriela Dragnea
+
+```
+After you’ve learned to walk,
+Tell one thing from another,
+Your first care as a child
+Is to get used to your name.
+What is it?
+They keep asking you.
+You hesitate, stammer,
+And when you start to give a fluent answer
+Your name’s no longer a problem.
+
+When you start to forget your name,
+It’s very serious.
+But don’t despair,
+An interval will set in.
+
+And soon after your death,
+When the mist rises from your eyes,
+And you begin to find your way
+In the everlasting darkness,
+Your first care (long forgotten,
+Long since buried with you)
+Is to get used to your name.
+You’re called — just as arbitrarily —
+Dandelion, cowslip, cornel,
+Blackbird, chaffinch, turtle dove,
+Costmary, zephyr — or all these together.
+And when you nod, to show you’ve got it,
+Everything’s all right:
+The earth, almost round, may spin
+Like a top among stars.
+
+```
+
+※ [Things](https://www.poetryfoundation.org/poems/53133/things-56d2322956d0a) By Lisel Mueller
+
+```
+What happened is, we grew lonely
+living among the things,
+so we gave the clock a face,
+the chair a back,
+the table four stout legs
+which will never suffer fatigue.
+
+We fitted our shoes with tongues
+as smooth as our own
+and hung tongues inside bells
+so we could listen
+to their emotional language,
+
+and because we loved graceful profiles
+the pitcher received a lip,
+the bottle a long, slender neck.
+
+Even what was beyond us
+was recast in our image;
+we gave the country a heart,
+the storm an eye,
+the cave a mouth
+so we could pass into safety.
+```
+
+※ [Bleak Weather](https://www.poetryfoundation.org/poems/53212/bleak-weather) By Ella Wheeler Wilcox
+
+```
+Dear love, where the red lillies blossomed and grew,
+The white snows are falling;
+And all through the wood, where I wandered with you,
+The loud winds are calling;
+And the robin that piped to us tune upon tune,
+Neath the elm—you remember,
+Over tree-top and mountain has followed the June,
+And left us—December.
+
+Has left, like a friend that is true in the sun,
+And false in the shadows.
+He has found new delights, in the land where he's gone,
+Greener woodlands and meadows.
+What care we? let him go! let the snow shroud the lea,
+Let it drift on the heather!
+We can sing through it all; I have you—you have me,
+And we’ll laugh at the weather.
+
+The old year may die, and a new one be born
+That is bleaker and colder;
+But it cannot dismay us; we dare it—we scorn,
+For love makes us bolder.
+Ah Robin! sing loud on the far-distant lea,
+Thou friend in fair weather;
+But here is a song sung, that’s fuller of glee,
+By two warm hearts together.
+
+```
+
+※ [The Sciences Sing a Lullabye](https://poets.org/poem/sciences-sing-lullabye) By Albert Goldbarth  
+
+```
+Physics says: go to sleep. Of course
+you're tired. Every atom in you
+has been dancing the shimmy in silver shoes
+nonstop from mitosis to now.
+Quit tapping your feet. They'll dance
+inside themselves without you. Go to sleep.
+
+Geology says: it will be all right. Slow inch
+by inch America is giving itself
+to the ocean. Go to sleep. Let darkness
+lap at your sides. Give darkness an inch.
+You aren't alone. All of the continents used to be
+one body. You aren't alone. Go to sleep.
+
+Astronomy says: the sun will rise tomorrow,
+Zoology says: on rainbow-fish and lithe gazelle,
+Psychology says: but first it has to be night, so
+Biology says: the body-clocks are stopped all over town
+and
+History says: here are the blankets, layer on layer, down and down. 
+```
 
 ※ [The Sea Shell](https://www.poetryfoundation.org/poems/51021/the-sea-shell) By Marin Sorescu, Translated by Michael Hamburger
 
