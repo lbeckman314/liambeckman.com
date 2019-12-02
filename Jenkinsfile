@@ -5,7 +5,7 @@ JEKYLL = "/usr/local/bin/jekyll"
 node {
    stage('Update') {
       sh "git clean -fdx"
-      git url: "https://git.liambeckman.com/cgit/website/"
+      git url: "git@liambeckman.com:/srv/git/website.git"
    }
    stage('Build') {
       sh "$BUNDLE install"
