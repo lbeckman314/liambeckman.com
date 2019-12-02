@@ -193,7 +193,6 @@ And when you nod, to show you’ve got it,
 Everything’s all right:
 The earth, almost round, may spin
 Like a top among stars.
-
 ```
 
 ※ [Things](https://www.poetryfoundation.org/poems/53133/things-56d2322956d0a) By Lisel Mueller
