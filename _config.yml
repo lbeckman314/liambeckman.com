@@ -1,20 +1,12 @@
 name: liam beckman
-title: hello
-email: lbeckman314@gmail.com
+title: hello!
+email: liam@liambeckman.com
 description: > #ignore  newlines until "baseurl:"
   Welcome to downtown Coolsville! Population — us.
-baseurl: # the subpath of your site, e.g. /blog
 url: "https://liambeckman.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username: lbeckman314
 
 #Build settings
 markdown: kramdown
-# theme: minima
-plugins:
-    #  - jekyll-feed
-    #  - jekyll-sitemap
-    #  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -38,9 +30,6 @@ exclude:
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#permalink: /:slug
-layout: my-default
-
 # https://jekyllrb.com/docs/collections/
 collections:
     writings:
@@ -58,10 +47,7 @@ defaults:
   -
     scope:
       path: ""      # empty string for all files
-      type: writings   # limit to posts
     values:
-      is_writing: true # automatically set is_post=true for all posts
-
       # https://jekyllrb.com/docs/collections/
       layout: my-default
 

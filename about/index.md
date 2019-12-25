@@ -1,12 +1,10 @@
 ---
-layout: my-default
 title: about
 ---
 
-# hello! i'm liam. <object type="image/svg+xml" data="/assets/svg/iconSmile5Optimized.svg"></object>
-<!-- <img> -->
-<p style="font-family: 'EB Garamond'; padding-left: 11%; font-size: 2em">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
-
+<h1>hello! i'm liam</h1>
+<object type="image/svg+xml" data="/assets/svg/iconSmile5Optimized.svg"></object>
+<p>A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
 
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue.
@@ -40,14 +38,10 @@ Are you looking for a plucky CS student with a small propensity for segmentation
 ## about the website:
 
 This website stores and presents some various works and projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
-<br/>
-<br/>
-The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/).
-<br/>
-<br/>
-The [website's source code](https://github.com/lbeckman314/website) is yours. Feel free to copy and paste, fork, clone, or anything you like. Be forwarn! This site is written in an ungodly mix of markdown, html, and inline css. To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
 
-<br/>
+The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/) and [Certbot](https://certbot.eff.org/).
+
+The [website's source code](https://github.com/lbeckman314/website) is yours. Feel free to copy and paste, fork, clone, or anything you like! To spin up your own site, simply follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
 
 ```shell
 # install ruby
@@ -78,5 +72,4 @@ bundle exec jekyll serve
 
 # hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
 # self-hosting with apache and/or nginx is another cool possibility!
-
 ```

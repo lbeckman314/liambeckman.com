@@ -1,5 +1,4 @@
 ---
-layout: my-default
 title: code
 ---
 
@@ -11,7 +10,6 @@ title: code
 </div>
 
 ## $ shell
-
 
 ```shell
 # recursively search for "date" in files, and output date combined with filename
@@ -33,14 +31,11 @@ for file in ./*; do; mv "$file" "${file// /-}"; done
 for f in `./*`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
 ```
 
-
-
 ```shell
 # mount hardrive as rw
 # https://raspberrypi.stackexchange.com/questions/38723/ntfs-usb-hdd-read-only-how-to-enable-write-permissions
 sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/USBDRIVE/
 ```
-
 
 ```sh
 # view packages by size
@@ -48,13 +43,11 @@ sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/USBDRIVE/
 dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
 ```
 
-
 ```sh
 # remove uninstalled packages from dpkg
 # https://unix.stackexchange.com/questions/40442/which-installed-software-packages-use-the-most-disk-space-on-debian
 dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 ```
-
 
 ```sh
 # https://wiki.archlinux.org/index.php/QEMU#Running_virtualized_system
@@ -64,10 +57,7 @@ v=spicechannel0,name=com.redhat.spice.0 -chardev spicevmc,id=spicechannel0,name=
 remote-viewer spice+unix:///tmp/vm_spice.socket
 ```
 
-
-
 ## : vim
-
 
 ```vim
 " don't add comments on new lines
@@ -83,7 +73,6 @@ set conceallevel=0
 %s/\s\+$//
 ```
 
-
 ```vim
 " silently remove trailing whitespace from all open buffers
 " http://vim.wikia.com/wiki/Run_a_command_in_multiple_buffers
@@ -91,14 +80,11 @@ set conceallevel=0
 bufdo %s/\s\+$//e | update
 ```
 
-
 ```vim
 " does the same removal as above, but silently restores position in buffer (and retabs)
 " https://vi.stackexchange.com/questions/7761/how-to-restore-the-position-of-the-cursor-after-executing-a-normal-command
 let currBuff=bufnr("%") | let save_pos = getpos(".") | silent bufdo %s/\s\+$//e | silent retab | update | execute 'buffer ' . currBuff | call setpos('.', save_pos) | noh
 ```
-
-
 
 ```vim
 " add !important to css color values

@@ -1,6 +1,5 @@
 ---
 title: Programming Resources
-layout: my-default
 description: Your Off the Cuff, Hot Stuff, Good Enuff Guide to Programming Resources
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: my-default
 title: code
 ---
 
