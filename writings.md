@@ -1,6 +1,5 @@
 ---
 title: writings
-layout: my-default
 permalink: /writings/
 ---
 

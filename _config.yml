@@ -34,13 +34,8 @@ exclude:
 collections:
     writings:
         output: true
-        label: mywritings
-        layout: my-default
-        #permalink: /:collection/:path
-    posts:
-        output: true
-        label: myposts
-        layout: my-default
+    favorites:
+        label: my-favorites
 
 # https://stackoverflow.com/a/23555679/7656815
 defaults:
