@@ -25,13 +25,6 @@
         <link href="https://fonts.googleapis.com/css?family=Averia+Libre&display=swap" rel="stylesheet">
         <!--<pre>VAR: {{ page.title | inspect }}</pre>-->
 
-        {% if page.collection != "writings"  %}
-            {% if page.title != "writings"  %}
-                {% if page.title != "favorites"  %}
-                    <script type="text/javascript" src="/assets/js/clipboard.js" async></script>
-                {% endif %}
-            {% endif %}
-        {% endif %}
     </head>
     <body>
         <div id="wrapper">
@@ -60,11 +53,6 @@
 
             <div id="content">
                 <!-- https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post -->
-                {% if page.is_writing %}
-                <h1>{{ page.title }}</h1>
-                <br />
-                {% endif %}
-
                 {{ content }}
             </div>
 
