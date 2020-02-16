@@ -1,7 +1,7 @@
 ---
 title: Flowers
 author: Wendy Videlock
-url: https://www.poetryfoundation.org/poetrymagazine/poems/55300/flowers-56d236be6a805
+src: https://www.poetryfoundation.org/poetrymagazine/poems/55300/flowers-56d236be6a805
 ---
 
 *for my mother*

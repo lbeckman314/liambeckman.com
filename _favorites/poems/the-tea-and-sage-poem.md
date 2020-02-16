@@ -1,7 +1,7 @@
 ---
 title: The Tea and Sage Poem
 author: Fady Joudah
-url: https://www.poetryfoundation.org/poems/54517/the-tea-and-sage-poem
+src: https://www.poetryfoundation.org/poems/54517/the-tea-and-sage-poem
 ---
 
 At a desk made of glass,

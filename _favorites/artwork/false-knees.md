@@ -1,7 +1,7 @@
 ---
 title: False Knees
-url: http://falseknees.com/
-img: /assets/favorites/false-knees.png
+src: http://falseknees.com/
+img: /assets/favorites/false-knees.jpg
 ---
 
 Comics about birds.

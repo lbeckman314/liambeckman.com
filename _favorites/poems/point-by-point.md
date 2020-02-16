@@ -1,7 +1,7 @@
 ---
 title: Point by Point
 author: Táhirih (Qurratu l-ʿAyn)
-url: http://www.tahirihthepureone.com/PointByPoint.php
+src: http://www.tahirihthepureone.com/PointByPoint.php
 ---
 
 If I met you face to face, I

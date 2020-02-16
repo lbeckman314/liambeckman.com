@@ -1,6 +1,6 @@
 ---
 title: The Cartoon History of Time
-url: http://www.katecharlesworth.com/time/index.html
+src: http://www.katecharlesworth.com/time/index.html
 img: /assets/favorites/the-cartoon-history-of-time.jpg
 ---
 

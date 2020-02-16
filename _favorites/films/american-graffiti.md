@@ -1,6 +1,6 @@
 ---
 title: American Graffiti
-url: https://en.wikipedia.org/wiki/American_Graffiti
+src: https://en.wikipedia.org/wiki/American_Graffiti
 img: /assets/favorites/american-graffiti.jpg
 ---
 

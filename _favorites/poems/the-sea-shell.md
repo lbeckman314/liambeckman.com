@@ -1,7 +1,7 @@
 ---
 title: The Sea Shell
 author: Marin Sorescu, Translated by Michael Hamburger
-url: https://www.poetryfoundation.org/poems/51021/the-sea-shell
+src: https://www.poetryfoundation.org/poems/51021/the-sea-shell
 ---
 
 I have hidden inside a sea shell

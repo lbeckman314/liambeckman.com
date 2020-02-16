@@ -1,6 +1,6 @@
 ---
 title: The Diary of Anne Frank
-url: https://en.wikipedia.org/wiki/Anne_Frank
+src: https://en.wikipedia.org/wiki/Anne_Frank
 img: /assets/favorites/anne-frank-the-diary.jpg
 ---
 

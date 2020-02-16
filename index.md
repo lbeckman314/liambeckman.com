@@ -10,12 +10,6 @@ title: hello!
         <p>Are you new to this site? Let me introduce myself!</p>
     </div>
 
-    <div class="fixed writings" id="home" onclick="location.href='/writings'">
-        <h1 class="home-page"><a href = "/writings" class="writings">writings</a></h1>
-        <div class="writings-border"></div>
-        <p>Are you looking for some weird, spooky poems? Here are some of those!</p>
-    </div>
-
     <div class="fixed code" id="home" onclick="location.href='/code'">
         <h1 class="home-page"><a href = "/code" class="code">code</a></h1>
         <div class="code-border"></div>

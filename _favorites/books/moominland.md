@@ -1,6 +1,6 @@
 ---
 title: Comet In Moominland
-url: https://en.wikipedia.org/wiki/Comet_in_Moominland
+src: https://en.wikipedia.org/wiki/Comet_in_Moominland
 img: /assets/favorites/moominland.jpg
 ---
 

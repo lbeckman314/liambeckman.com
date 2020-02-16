@@ -1,7 +1,7 @@
 ---
 title: The Sciences Sing a Lullabye
 author: Albert Goldbarth  
-url: https://poets.org/poem/sciences-sing-lullabye
+src: https://poets.org/poem/sciences-sing-lullabye
 ---
 
 *Physics says:* go to sleep. Of course

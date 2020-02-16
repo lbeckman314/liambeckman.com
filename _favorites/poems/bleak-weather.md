@@ -1,7 +1,7 @@
 ---
 title: Bleak Weather
 author: Ella Wheeler Wilcox
-url: https://www.poetryfoundation.org/poems/53212/bleak-weather)
+src: https://www.poetryfoundation.org/poems/53212/bleak-weather)
 ---
 
 Dear love, where the red lillies blossomed and grew,

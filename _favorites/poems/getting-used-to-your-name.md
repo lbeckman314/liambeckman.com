@@ -1,7 +1,7 @@
 ---
 title: Getting Used to Your Name
 author: Marin Sorescu, Translated by Gabriela Dragnea
-url: https://www.poetryfoundation.org/poems/52565/getting-used-to-your-name
+src: https://www.poetryfoundation.org/poems/52565/getting-used-to-your-name
 ---
 
 After you’ve learned to walk,

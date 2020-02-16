@@ -1,7 +1,7 @@
 ---
 title: Recursion
 author: Maria M. Benet
-url: https://www.poetryfoundation.org/poetrymagazine/browse?contentId=39682
+src: https://www.poetryfoundation.org/poetrymagazine/browse?contentId=39682
 ---
 
 A tomato I overlooked on the window ledge,
@@ -16,7 +16,7 @@ Here at my desk I sit remembering,
 putting down words far from the vine
 of a native tongue, as if they could be roots,
 
-each, like the tomato with its faith curlicues
+each, like the tomato with its faith csrcicues
 in pale inward shoots, calling to itself,
 back to the source of fruit.
 

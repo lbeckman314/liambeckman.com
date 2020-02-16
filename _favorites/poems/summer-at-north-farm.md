@@ -1,7 +1,7 @@
 ---
 title: Summer at North Farm
 author: Stephen Kuusisto
-url: https://www.poetryfoundation.org/poetrymagazine/poems/37522/summer-at-north-farm
+src: https://www.poetryfoundation.org/poetrymagazine/poems/37522/summer-at-north-farm
 ---
 
   *Finnish rural life, ca. 1910*

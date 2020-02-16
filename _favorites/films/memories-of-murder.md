@@ -1,6 +1,6 @@
 ---
 title: Memories of Murder
-url: https://en.wikipedia.org/wiki/Memories_of_Murder
+src: https://en.wikipedia.org/wiki/Memories_of_Murder
 img: /assets/favorites/memories-of-murder.jpg
 ---
 
