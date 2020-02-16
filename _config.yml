@@ -41,6 +41,8 @@ collections:
         output: true
         label: myposts
         layout: my-default
+    favorites:
+        layout: my-default
 
 # https://stackoverflow.com/a/23555679/7656815
 defaults:
