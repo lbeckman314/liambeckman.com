@@ -60,6 +60,26 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+#hello:hover {
+    transition: $tran;
+    text-shadow: none;
+}
+
+#hello {
+    text-shadow: 3px 3px 0px #4635f7, 6px 6px 0px #678cfa, 9px 9px 0px #49ccd4, 12px 12px 0px #ed68d9, 15px 15px 0px #db37c4;
+    transition: $tran;
+}
+
+#stuck-up {
+    font-weight: 100;
+    font-family: times;
+}
+
+#wiki:hover {
+    text-decoration: unset;
+    transition: $tran;
+}
+
 
 /***************************************************/
 /* BASIC STUFF
@@ -113,6 +133,10 @@ p.headers {
     border: 1px $grey-light solid;
 }
 
+#home p {
+    text-align: center;
+}
+
 /* anchors */
 
 a {
@@ -129,33 +153,28 @@ a:hover {
 
 a.about {
     color: $pop-1;
-    //text-decoration-color: $pop-1;
     text-decoration: snow;
 }
 
 a.writings, a.posts {
     color: $pop-2;
-    //text-decoration-color: $pop-2;
     text-decoration: none;
 }
 
 
 a.code {
     color: $pop-3;
-    //text-decoration-color: $pop-3;
     text-decoration: none;
 }
 
 
 a.git, .git {
     color: $pop-4;
-    //text-decoration-color: $pop-4;
     text-decoration: none;
 }
 
 a.favorites {
     color: $pop-5;
-    //text-decoration-color: $pop-5;
     text-decoration: none;
 }
 
@@ -503,7 +522,6 @@ li.quote {
 }
 
 #header li {
-
     margin-right: 20px;
 }
 

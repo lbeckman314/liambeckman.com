@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#FF357A">
+        <meta name="theme-color" content="black">
 
         <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
         <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
@@ -16,15 +16,11 @@
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
         <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-        <script type="text/javascript" src="/assets/js/jquery-3.3.1.js"></script>
-        <script type="text/javascript" src="/assets/js/theme.js" async></script>
+        <script type="text/javascript" src="/assets/js/jquery.js"></script>
+        <script type="text/javascript" src="/assets/js/theme.js"></script>
 
-        <script type="text/javascript" src="/assets/js/menu.js" async></script>
-        <script type="text/javascript" src="/assets/js/top.js" async></script>
-
-        <link href="https://fonts.googleapis.com/css?family=Averia+Libre&display=swap" rel="stylesheet">
-        <!--<pre>VAR: {{ page.title | inspect }}</pre>-->
-
+        <script type="text/javascript" src="/assets/js/menu.js"></script>
+        <script type="text/javascript" src="/assets/js/top.js"></script>
     </head>
     <body>
         <div id="wrapper">
@@ -33,11 +29,6 @@
             </div>
 
             <div class="popstripe"></div>
-
-            <div id="cgol">
-                <canvas class="game-of-life-canvas left"></canvas>
-                <canvas class="game-of-life-canvas right"></canvas>
-            </div>
 
             <!-- http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
             <div class="PageNavigation">
@@ -56,12 +47,10 @@
                 {{ content }}
             </div>
 
-            {% if page.title == "about" %}
             <div id="footer">
-                {% include footer-mst3k.html %}
-            </div>
-            {% else %}
-            <div id="footer">
+                {% if page.title == "about" %}
+                <img id="mst3k" src="/assets/png/mst3k-dark.png">
+                {% else %}
                 {% include footer.html %}
             </div>
             {% endif %}
@@ -69,4 +58,3 @@
         <div id="bottom"></div>
     </body>
 </html>
-<!-- That's all folks! -- >

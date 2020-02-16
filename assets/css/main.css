@@ -5,6 +5,22 @@ Feel free to copy and paste, fork, clone, or anything you like. */
 @font-face {
   font-family: 'EB Garamond';
   src: url("/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf"); }
+#hello:hover {
+  transition: 800ms;
+  text-shadow: none; }
+
+#hello {
+  text-shadow: 3px 3px 0px #4635f7, 6px 6px 0px #678cfa, 9px 9px 0px #49ccd4, 12px 12px 0px #ed68d9, 15px 15px 0px #db37c4;
+  transition: 800ms; }
+
+#stuck-up {
+  font-weight: 100;
+  font-family: times; }
+
+#wiki:hover {
+  text-decoration: unset;
+  transition: 800ms; }
+
 /***************************************************/
 /* BASIC STUFF
 /***************************************************/
@@ -48,6 +64,9 @@ p.code {
 p.headers {
   background-color: #D3D2E0;
   border: 1px #aaa solid; }
+
+#home p {
+  text-align: center; }
 
 /* anchors */
 a {

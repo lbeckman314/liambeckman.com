@@ -2,9 +2,11 @@
 title: about
 ---
 
-<h1>hello! i'm liam</h1>
-<object type="image/svg+xml" data="/assets/svg/iconSmile5Optimized.svg"></object>
-<p>A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</p>
+<h1><a href="" id="wiki"><span id="hello">Hello, I'm liam</span></a>
+<object id="smile" type="image/svg+xml" data="/assets/svg/iconSmile5Optimized.svg"></object>
+</h1>
+
+<h2 id="stuck-up">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</h2>
 
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue.
@@ -73,3 +75,5 @@ bundle exec jekyll serve
 # hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
 # self-hosting with apache and/or nginx is another cool possibility!
 ```
+<script type="text/javascript" src="/assets/js/name.js"/>
+
