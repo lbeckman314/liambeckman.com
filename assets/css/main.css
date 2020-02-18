@@ -2,16 +2,14 @@
 /* CSS I've cobbled together from the far corners of the world.
 Feel free to copy and paste, fork, clone, or anything you like. */
 /***************************************************/
-@font-face {
-  font-family: 'EB Garamond';
-  src: url("/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf"); }
 #hello:hover {
   transition: 800ms;
   text-shadow: none; }
 
 #hello {
   text-shadow: 3px 3px 0px #4635f7, 6px 6px 0px #678cfa, 9px 9px 0px #49ccd4, 12px 12px 0px #ed68d9, 15px 15px 0px #db37c4;
-  transition: 800ms; }
+  transition: 800ms;
+  color: darkblue; }
 
 #stuck-up {
   font-weight: 100;
@@ -348,7 +346,7 @@ nav ul, #footer ul, #header ul {
 
 nav ul li, #footer ul li, #header ul li {
   display: inline;
-  color: #99979c; }
+  color: grey; }
 
 ul.code, li.code {
   text-align: center;
@@ -438,7 +436,7 @@ object.zigzag {
   text-align: center; }
 
 hr {
-  border-bottom: 1px dashed #99979c;
+  border-bottom: 1px dashed grey;
   border-top: 0px;
   transition: 800ms;
   padding: 2%; }
@@ -577,37 +575,41 @@ span, input {
   min-width: 40%;
   left: 59%; }
 
-li.header::after {
+#menu > li::after {
   content: " )";
   color: grey; }
 
-li.header::before {
+#menu > li::before {
   content: "( ";
   color: grey; }
+
+.sidenav {
+  display: flex;
+  align-items: center; }
+
+#header #theme {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  vertical-align: middle;
+  color: snow; }
+
+#header #theme:hover {
+  color: #FF357A; }
+
+#fork {
+  margin-left: auto;
+  display: inline; }
 
 #menu-items {
   display: none;
   width: 100%; }
-
-#settings {
-  cursor: pointer;
-  position: absolute;
-  top: 0px;
-  right: 10px;
-  transition: 800ms; }
 
 .menu-container {
   cursor: pointer;
   position: absolute;
   top: 5px;
   left: 5px; }
-
-#header ul li {
-  margin: 1em;
-  margin-left: auto;
-  width: 70%;
-  border: 1px solid black;
-  padding-bottom: 0; }
 
 #myDropdown > a {
   margin: 0;
@@ -693,12 +695,11 @@ input {
   display: block;
   text-align: center; }
 
-#darkswitch, #lightswitch {
-  height: 3em;
-  width: 3em;
-  display: inline;
-  margin-right: 2%;
-  margin-left: 2%; }
+#theme {
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+  transition: 800ms; }
 
 .popstripe-bw {
   height: 0.25em;
@@ -946,28 +947,9 @@ span.grey {
     opacity: 0; }
   to {
     opacity: 1; } }
-.menu-container {
-  display: inline;
-  cursor: pointer; }
-
-.bar1, .bar2, .bar3 {
-  width: 20px;
-  height: 3px;
-  background-color: snow;
-  margin: 5px 0;
-  transition: 400ms; }
-
-/* Rotate first bar */
-.change .bar1 {
-  transform: rotate(-45deg) translate(-5px, 6px); }
-
-/* Fade out the second bar */
-.change .bar2 {
-  opacity: 0; }
-
-/* Rotate last bar */
-.change .bar3 {
-  transform: rotate(45deg) translate(-5px, -6px); }
+#drop-button {
+  font-size: 5em;
+  color: snow; }
 
 .copyContainer {
   float: right;
@@ -1083,7 +1065,7 @@ div.highlighter-rouge div.highlight {
   background-color: #fdeeff; }
 
 .highlight .c {
-  color: #998;
+  color: #4c4c4c;
   font-style: italic; }
 
 .highlight .err {
@@ -1281,13 +1263,60 @@ div.highlighter-rouge div.highlight {
   .site-footer {
     height: 8em; }
 
-  .dark, .light {
-    width: 2.5em;
-    height: 2.5em; }
-
   .demo-examples:after {
     content: '\A'; } }
+@media only screen and (min-width: 701px) {
+  #drop-button {
+    display: none; } }
 @media only screen and (max-width: 700px) {
+  #menu {
+    display: none;
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    background: black;
+    border: 1px solid gray;
+    z-index: 1; }
+
+  div#menu > li {
+    padding: 15%;
+    display: block;
+    margin: 0; }
+
+  #secret li {
+    padding: 0;
+    display: unset; }
+
+  #menu > li::after {
+    content: ""; }
+
+  #menu > li::before {
+    content: ""; }
+
+  #menu > li:hover {
+    transition: 800ms; }
+
+  #menu > li {
+    transition: 800ms; }
+
+  #menu > #home:hover {
+    background-color: #DB37C4; }
+
+  #menu > #about:hover {
+    background-color: #ED68D9; }
+
+  #menu > #code:hover {
+    background-color: #49CCD4; }
+
+  #menu > #vcs:hover {
+    background-color: #678CFA; }
+
+  #menu > #favorites:hover {
+    background-color: #4635F7; }
+
+  #menu > #secret:hover {
+    background-color: #ff357a; }
+
   img.slide {
     height: 25em; }
 
@@ -1328,9 +1357,6 @@ div.highlighter-rouge div.highlight {
 
   #header li::before {
     content: none; } }
-@font-face {
-  font-family: "BoswellRegular";
-  src: url("assets/Boswell Regular.ttf"); }
 @media screen and (max-width: 740px) {
   div.content {
     margin-left: 0; }

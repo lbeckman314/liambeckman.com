@@ -1,78 +1,22 @@
 <ul class="sidenav">
 
-    <div id="full-screen-menu">
-        <li class="header" onclick="location.href='/'"><a href="/">home</a></li>
-        <li class="header" onclick="location.href='/about'"><a href="/about">about</a></li>
-        <li class="header" onclick="location.href='/code'"><a href="/code">code</a></li>
-        <li class="header" onclick="location.href='/https://github.com/lbeckman314'"><a href="https://github.com/lbeckman314">github</a> / <a href="https://git.liambeckman.com">cgit</a> </li>
+    <div id="drop-button">☰</div>
 
-        <li class="header" onclick="location.href='/favorites'"><a href="/favorites">favorites</a></li>
-        <li onclick="location.href='/code/s'"> <a class="secret" href="/code/s" style="color:#99979c;">:(){ :|:& };:</a> </li>
-
+    <div id="menu">
+        <li id="home"><a href="/">home</a></li>
+        <li id="about"><a href="/about">about</a></li>
+        <li id="code"><a href="/code">code</a></li>
+        <li id="vcs"><a href="https://github.com/lbeckman314">github</a> / <a href="https://git.liambeckman.com">cgit</a> </li>
+        <li id="favorites"><a href="/favorites">favorites</a></li>
     </div>
 
-    <div class="zigzag-container">
-        <object class="zigzag" type="image/svg+xml" data="/assets/svg/drawing.svg"></object>
+    <div id="fork">
+        <li id="secret"><a href="/code/s">:(){ :|:& };:</a> </li>
+        <li id="theme">☯</li>
     </div>
 
-
-    <div id="menu-items">
-        <div class="dropbtn menu-container">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-    </div>
-
-    <img id="settings" src="/assets/svg/gear.svg" />
-
-    <div id="myDropdown" class="dropdown-content">
-        <a id="home" href="/">home</a>
-        <a id="about" href="/about">about</a>
-        <a id="code" href="/code">code</a>
-        <div id="vcs" class="inline"><a href="https://github.com/lbeckman314">github</a> / <a href="https://git.liambeckman.com">cgit</a></div>
-        <a id="favorites" href="/favorites">favorites</a>
-        <a id="secret" href="/code/s" style="color:#99979c;">:(){ :|:& };:</a>
-    </div>
-
-    <div id="config" class="config-content">
-
-        <span>Theme:</span>
-
-        <div class="inline">
-            <button id="lightswitch" class="light center" type="button">·</button>
-            <button id="darkswitch" class="dark center" type="button">·</button>
-        </div>
-
-        <div class="inline">
-            <p>Padding left: </p>
-            <input class="max" id="padding-left" value="6%" />
-        </div>
-
-        <button id="linker" class="center">
-            <object type="image/svg+xml" data="/assets/svg/link.svg" ></object>
-        </button>
-
-        <div class="inline">
-            <p>Padding right: </p>
-            <input class="max" id="padding-right" value="6%" />
-        </div>
-
-        <div class="inline">
-            <p>Font size: </p>
-            <input class="max" id="font-size" value="1em" />
-        </div>
-
-        <div class="inline">
-            <p>Font height: </p>
-            <input class="max" id="line-height" value="1.7" />
-        </div>
-
-        <div class="inline">
-            <input id="convida-select" type="checkbox"> ⇢ Show Life
-        </div>
-
-        <button class="default center" onclick="setDefault()">Reset to Default</button>
-    </div>
-
+<!--    <div class="zigzag-container">-->
+        <!--<object id="zigzag" type="image/svg+xml" data="/assets/svg/zigzag.svg"></object>-->
+    <!--</div>-->
 </ul>
+

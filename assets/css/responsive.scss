@@ -8,22 +8,80 @@
         height:8em
     }
 
-    .dark, .light {
-        width: 2.5em;
-        height: 2.5em;
-    }
-
-    .style {
-        //float: unset;
-    }
-
     .demo-examples:after {
         content: '\A';
     }
-
 }
 
+@media only screen and (min-width: 701px) {
+    #drop-button {
+        display: none
+    }
+}
+
+
 @media only screen and (max-width: 700px) {
+    #menu {
+        display: none;
+        position: absolute;
+        top: 10%;
+        width: 60%;
+        background: black;
+        border: 1px solid gray;
+        z-index: 1;
+    }
+
+    div#menu > li {
+        padding: 15%;
+        display: block;
+        margin: 0;
+    }
+
+    #secret li {
+        padding: 0;
+        display: unset;
+    }
+
+#menu > li::after {
+    content: "";
+}
+#menu > li::before {
+    content: "";
+}
+
+#menu > li:hover {
+    transition: $tran;
+}
+
+#menu > li {
+    transition: $tran;
+}
+
+
+#menu > #home:hover {
+    background-color: $pop-1
+}
+
+#menu > #about:hover {
+    background-color: $pop-2;
+}
+
+#menu > #code:hover {
+    background-color: $pop-3;
+}
+
+#menu > #vcs:hover {
+    background-color: $pop-4;
+}
+
+#menu > #favorites:hover {
+    background-color: $pop-5;
+}
+
+#menu > #secret:hover {
+    background-color: #ff357a;
+}
+
     img.slide {
         height: 25em;
     }
@@ -58,11 +116,9 @@
     .site-footer {
         height:9em
     }
-
 }
 
 @media only screen and (max-width: 400px) {
-
     span.date:before {
         content: ' ';
         display: block;
@@ -83,7 +139,6 @@
 }
 
 @media only screen and (max-width: 620px) {
-
     #header li::after {
         content: none;
     }
@@ -94,19 +149,12 @@
 
 }
 
-@font-face {
-    font-family:"BoswellRegular";
-    src: url("assets/Boswell Regular.ttf") /* TTF file for CSS3 browsers */
-}
-
-
 @media screen and (max-width: 740px) {
     div.content {margin-left: 0;}
 
     li.quote {
         white-space: pre-line;
     }
-
 
     .fixed {
         width: 100%;
@@ -119,7 +167,6 @@
     #content {
         padding: 4%;
     }
-
 
     div.about {
         width: 100%;

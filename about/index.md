@@ -3,7 +3,7 @@ title: about
 ---
 
 <h1><a href="" id="wiki"><span id="hello">Hello, I'm liam</span></a>
-<object id="smile" type="image/svg+xml" data="/assets/svg/iconSmile5Optimized.svg"></object>
+<object id="smile" type="image/svg+xml" data="/assets/svg/icon-smile.svg"></object>
 </h1>
 
 <h2 id="stuck-up">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</h2>

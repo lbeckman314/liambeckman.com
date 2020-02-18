@@ -111,6 +111,9 @@ th, td {
 svg {
   fill: snow; }
 
+#hello {
+  color: snow; }
+
 /***************************************************/
 /* RESPONSIVE DESIGN
 /***************************************************/
@@ -118,13 +121,60 @@ svg {
   .site-footer {
     height: 8em; }
 
-  .dark, .light {
-    width: 2.5em;
-    height: 2.5em; }
-
   .demo-examples:after {
     content: '\A'; } }
+@media only screen and (min-width: 701px) {
+  #drop-button {
+    display: none; } }
 @media only screen and (max-width: 700px) {
+  #menu {
+    display: none;
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    background: black;
+    border: 1px solid gray;
+    z-index: 1; }
+
+  div#menu > li {
+    padding: 15%;
+    display: block;
+    margin: 0; }
+
+  #secret li {
+    padding: 0;
+    display: unset; }
+
+  #menu > li::after {
+    content: ""; }
+
+  #menu > li::before {
+    content: ""; }
+
+  #menu > li:hover {
+    transition: 800ms; }
+
+  #menu > li {
+    transition: 800ms; }
+
+  #menu > #home:hover {
+    background-color: #DB37C4; }
+
+  #menu > #about:hover {
+    background-color: #ED68D9; }
+
+  #menu > #code:hover {
+    background-color: #49CCD4; }
+
+  #menu > #vcs:hover {
+    background-color: #678CFA; }
+
+  #menu > #favorites:hover {
+    background-color: #4635F7; }
+
+  #menu > #secret:hover {
+    background-color: #ff357a; }
+
   img.slide {
     height: 25em; }
 
@@ -165,9 +215,6 @@ svg {
 
   #header li::before {
     content: none; } }
-@font-face {
-  font-family: "BoswellRegular";
-  src: url("assets/Boswell Regular.ttf"); }
 @media screen and (max-width: 740px) {
   div.content {
     margin-left: 0; }
@@ -313,7 +360,7 @@ div.highlighter-rouge div.highlight {
   color: #f8f8f2; }
 
 .highlight .c {
-  color: #6272a4; }
+  color: #dbe0ef; }
 
 /* Comment */
 .highlight .err {

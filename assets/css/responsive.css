@@ -1,114 +1,79 @@
-/***************************************************/
-/* RESPONSIVE DESIGN
-/***************************************************/
-@media only screen and (max-width: 800px) {
-  .site-footer {
-    height: 8em; }
+/*
+Error: Undefined variable: "$tran".
+        on line 53 of responsive.scss
 
-  .dark, .light {
-    width: 2.5em;
-    height: 2.5em; }
+48: #menu > li::before {
+49:     content: "";
+50: }
+51: 
+52: #menu > li:hover {
+53:     transition: $tran;
+54: }
+55: 
+56: #menu > li {
+57:     transition: $tran;
+58: }
 
-  .demo-examples:after {
-    content: '\A'; } }
-@media only screen and (max-width: 700px) {
-  img.slide {
-    height: 25em; }
-
-  #menu-items {
-    display: inline-block; }
-
-  #full-screen-menu {
-    display: none; }
-
-  .config-content, .dropdown-content {
-    max-width: 60%;
-    min-width: 60%; }
-
-  .config-content {
-    left: 39%; }
-
-  .dropdown-content {
-    right: 39%; }
-
-  object.zigzag {
-    display: unset; } }
-@media only screen and (max-width: 500px) {
-  .site-footer {
-    height: 9em; } }
-@media only screen and (max-width: 400px) {
-  span.date:before {
-    content: ' ';
-    display: block; } }
-@media only screen and (max-width: 350px) {
-  .site-footer {
-    height: 10em; } }
-@media only screen and (max-width: 300px) {
-  .site-footer {
-    height: 11em; } }
-@media only screen and (max-width: 620px) {
-  #header li::after {
-    content: none; }
-
-  #header li::before {
-    content: none; } }
-@font-face {
-  font-family: "BoswellRegular";
-  src: url("assets/Boswell Regular.ttf"); }
-@media screen and (max-width: 740px) {
-  div.content {
-    margin-left: 0; }
-
-  li.quote {
-    white-space: pre-line; }
-
-  .fixed {
-    width: 100%;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    margin-top: 1em;
-    margin-bottom: 1em; }
-
-  #content {
-    padding: 4%; }
-
-  div.about {
-    width: 100%;
-    background-image: none; }
-
-  div.writings {
-    width: 100%;
-    background-image: none; }
-
-  div.code {
-    width: 100%;
-    background-image: none; }
-
-  div.git {
-    width: 100%;
-    background-image: none; }
-
-  div.favorites {
-    width: 100%;
-    background-image: none; }
-
-  h1 {
-    font-size: 2.5em; }
-
-  img.center {
-    width: 70%;
-    padding: 5%; }
-
-  ul.code, li.code {
-    display: inherit; } }
-ul .icon-bar {
-  margin-top: .375em;
-  margin-bottom: .375em;
-  display: block;
-  margin-right: auto;
-  margin-left: 20px;
-  width: 2em;
-  height: 0.3em;
-  background-color: white; }
-
-/*# sourceMappingURL=responsive.css.map */
+Backtrace:
+responsive.scss:53
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:440:in `map'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:524:in `visit_media'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/exec/sass_scss.rb:387:in `run'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/exec/base.rb:50:in `parse'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/exec/base.rb:18:in `parse!'
+/usr/lib/ruby/gems/2.6.0/gems/sass-3.7.3/bin/sass:13:in `<top (required)>'
+/bin/sass:23:in `load'
+/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$tran\".\A         on line 53 of responsive.scss\A \A 48: #menu > li::before {\A 49:     content: \"\";\A 50: }\A 51: \A 52: #menu > li:hover {\A 53:     transition: $tran;\A 54: }\A 55: \A 56: #menu > li {\A 57:     transition: $tran;\A 58: }"; }

@@ -22,7 +22,6 @@ $header-footer: #2A2730;
 $heart: #FF357A;
 
 $grey-light: #aaa;
-$grey: #99979c;
 $grey-dark: #131516;
 
 $white: #FFFFFF;
@@ -62,6 +61,7 @@ $on-laptop:        800px;
 #hello {
     text-shadow: 3px 3px 0px #4635f7, 6px 6px 0px #678cfa, 9px 9px 0px #49ccd4, 12px 12px 0px #ed68d9, 15px 15px 0px #db37c4;
     transition: $tran;
+    color: darkblue;
 }
 
 #stuck-up {
@@ -487,7 +487,7 @@ nav ul, #footer ul, #header ul {
 
 nav ul li, #footer ul li, #header ul li {
     display: inline;
-    color: #99979c;
+    color: grey;
 }
 
 ul.code, li.code {
@@ -595,7 +595,7 @@ object.zigzag {
 
 
 hr {
-    border-bottom: 1px dashed $grey;
+    border-bottom: 1px dashed grey;
     border-top: 0px;
     transition: $tran;
     padding: 2%;
@@ -769,26 +769,40 @@ span, input {
     left: 59%
 }
 
-li.header::after {
+#menu > li::after {
     content: " )";
     color: grey;
 }
-li.header::before {
+#menu > li::before {
     content: "( ";
     color: grey;
+}
+
+.sidenav {
+    display: flex;
+    align-items: center;
+}
+
+#header #theme {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    vertical-align: middle;
+    color: snow;
+}
+
+#header #theme:hover {
+    color: #FF357A;
+}
+
+#fork {
+    margin-left: auto;
+    display: inline;
 }
 
 #menu-items {
     display: none;
     width: 100%;
-}
-
-#settings{
-    cursor: pointer;
-    position: absolute;
-    top: 0px;
-    right: 10px;
-    transition: $tran;
 }
 
 .menu-container {
@@ -799,11 +813,11 @@ li.header::before {
 }
 
 #header ul li{
-    margin: 1em;
-    margin-left: auto;
-    width: 70%;
-    border: 1px solid black;
-    padding-bottom: 0;
+    //margin: 1em;
+    //margin-left: auto;
+    //width: 70%;
+    //border: 1px solid black;
+    //padding-bottom: 0;
 }
 
 #myDropdown > a {
@@ -910,12 +924,11 @@ input {
     text-align: center;
 }
 
-#darkswitch, #lightswitch {
-    height: 3em;
-    width: 3em;
-    display: inline;
-    margin-right: 2%;
-    margin-left: 2%;
+#theme {
+    height: 2em;
+    width: 2em;
+    cursor: pointer;
+    transition: $tran;
 }
 
 .popstripe-bw {
@@ -1236,33 +1249,9 @@ span.grey {
     to   { opacity: 1; }
 }
 
-.menu-container {
-    display: inline;
-    cursor: pointer;
-}
-
-.bar1, .bar2, .bar3 {
-    width: 20px;
-    height: 3px;
-    background-color: snow;
-    margin: 5px 0;
-    transition: $tran / 2;
-}
-
-
-/* Rotate first bar */
-.change .bar1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-/* Fade out the second bar */
-.change .bar2 {
-    opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+#drop-button {
+    font-size: 5em;
+    color: snow;
 }
 
 .copyContainer {
