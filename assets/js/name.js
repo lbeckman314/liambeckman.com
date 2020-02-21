@@ -239,7 +239,6 @@ let nameObj = JSON.parse(name);
 let keys = Object.keys(nameObj);
 let random = keys[Math.floor(Math.random() * keys.length)];
 let hello = document.getElementById("hello");
-console.log("hello:", hello);
 hello.innerHTML = nameObj[random].string;
 let wiki = document.getElementById("wiki");
 wiki.href = nameObj[random].wiki;

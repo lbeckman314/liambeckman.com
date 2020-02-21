@@ -7,42 +7,14 @@ title: code
 </div>
 
 <div class="container">
-    <div class="fixed pointer featured" onclick="location.href='https://convida.liambeckman.com'">
-        <a href="https://convida.liambeckman.com"><img class="center" src="/assets/png/convida.png"></a>
-        <a class="code-title">Convida</a>
-        <a class="code-type web-app">web app</a>
-        <p class="code">Conway's Game of Life implemented in Rust and WebAssembly.</p>
+    {% for code in site.code %}
+    <div class="fixed pointer featured" onclick="location.href=https://{{code.url}}">
+        <a href="https://convida.liambeckman.com"><img class="center" src="/assets/images/{{code.img}}"></a>
+        <a class="code-title">{{code.name}}</a>
+        <a class="code-type {{code.type}}">{{code.type}}</a>
+        <p class="code">{{code.content}}</p>
     </div>
-
-    <div class="fixed pointer featured" onclick="location.href='https://github.com/removemywaste'">
-        <a href="https://github.com/removemywaste"><img class="center" src="/assets/png/removemywaste.png"></a>
-        <a class="code-title">RemoveMyWaste</a>
-        <a class="code-type android">android</a>
-        <a class="code-type web-app" id="rmw">web app</a>
-        <p class="code">An application for household hazardous waste removal.</p>
-    </div>
-
-    <div class="fixed pointer featured" onclick="location.href='/code/demo/'">
-        <a href="/code/demo/"><img class="center" src="/assets/png/demo.png"></a>
-        <a class="code-title">demo</a>
-        <a class="code-type web-app" id="demo">web app</a>
-        <p class="code">A terminal emulator emulator that allows users to try out programs.</p>
-    </div>
-
-    <div class="fixed pointer featured" onclick="location.href='/code/demonic/'">
-        <a href="/code/demonic/"><img class="center" src="/assets/png/demonic.png"></a>
-        <a class="code-title">demonic</a>
-        <a class="code-type web-app" id="demonic">web app</a>
-        <p class="code">Like <a href="/code/demo">demo</a>, but more demonic!</p>
-    </div>
-
-    <div class="fixed pointer featured" onclick="location.href='https://withfeathers.liambeckman.com'">
-        <img class="center" src="/assets/png/withfeathers.png">
-        <a class="code-title">withfeathers *</a>
-        <a class="code-type web-app">web app</a>
-        <a class="code-type command-line">command line</a>
-        <p class="code">Add a little Emily Dickinson to your day.</p>
-    </div>
+    {% endfor %}
 </div>
 
 # * Interactive Demos

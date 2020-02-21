@@ -32,10 +32,10 @@ exclude:
 
 # https://jekyllrb.com/docs/collections/
 collections:
-    writings:
-        output: true
     favorites:
-        label: my-favorites
+        label: favorites
+    code:
+        label: code
 
 # https://stackoverflow.com/a/23555679/7656815
 defaults:

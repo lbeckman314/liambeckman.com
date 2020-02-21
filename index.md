@@ -4,10 +4,16 @@ title: hello!
 
 <!-- https://stackoverflow.com/questions/1685078/how-do-you-make-a-div-tag-into-a-link -->
 <div class="container">
-    <div class="fixed about"  id="home" onclick="location.href='/about'">
+    <div class="fixed about" id="home" onclick="location.href='/about'">
         <h1 class="home-page"><a href ="/about" class="about">about</a></h1>
         <div class="about-border"></div>
         <p>Are you new to this site? Let me introduce myself!</p>
+    </div>
+
+    <div class="fixed posts" id="home" onclick="location.href='/posts'">
+        <h1 class="home-page"><a href = "/posts" class="posts">posts</a></h1>
+        <div class="posts-border"></div>
+        <p>/dev/random</p>
     </div>
 
     <div class="fixed code" id="home" onclick="location.href='/code'">
@@ -18,10 +24,10 @@ title: hello!
 
     <div class="fixed git" id="home" onclick="location.href='https://www.github.com/lbeckman314'">
         <h1 class="home-page">
-            <a href = "https://www.github.com/lbeckman314" class="git">github</a><span class="git"> / </span><a href="https://git.liambeckman.com" class="git">cgit</a>
+            <a href = "https://www.github.com/lbeckman314" class="git">github</a><span class="git"> / </span><a href="https://git.liambeckman.com/liam" class="git">gitea</a>
         </h1>
         <div class="git-border"></div>
-        <p>Go straight to the source! Checkout some git repos.</p>
+        <p>Go straight to the source! Checkout some repos.</p>
     </div>
 
     <div class="fixed favorites" id="home" onclick="location.href='/favorites'">
@@ -30,3 +36,4 @@ title: hello!
         <p>Here are a few of my favorite things!</p>
     </div>
 </div>
+
