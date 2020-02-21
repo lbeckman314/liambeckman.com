@@ -2,8 +2,8 @@
 name: demonic
 img: demonic.png
 type: web app
-url: demonic.liambeckman.com
+url: liambeckman.com/demo
 ---
 
-Like <a href="/code/demo">demo</a>, but more demonic!
+A suite of sandboxed applications that allows users to try out programs.
 
