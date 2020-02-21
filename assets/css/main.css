@@ -19,6 +19,16 @@ Feel free to copy and paste, fork, clone, or anything you like. */
   text-decoration: unset;
   transition: 800ms; }
 
+.featured > a {
+  display: block; }
+
+.featured {
+  text-align: center; }
+
+.featured > p {
+  padding-left: 2em;
+  padding-right: 2em; }
+
 /***************************************************/
 /* BASIC STUFF
 /***************************************************/

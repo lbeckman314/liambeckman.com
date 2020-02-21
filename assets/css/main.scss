@@ -74,6 +74,18 @@ $on-laptop:        800px;
     transition: $tran;
 }
 
+.featured > a {
+    display: block;
+}
+
+.featured {
+    text-align: center;
+}
+
+.featured > p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
 /***************************************************/
 /* BASIC STUFF
