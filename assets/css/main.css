@@ -26,8 +26,8 @@ Feel free to copy and paste, fork, clone, or anything you like. */
   text-align: center; }
 
 .featured > p {
-  padding-left: 2em;
-  padding-right: 2em; }
+  padding-left: 1em;
+  padding-right: 1em; }
 
 /***************************************************/
 /* BASIC STUFF
@@ -78,13 +78,13 @@ p.headers {
 
 /* anchors */
 a {
-  color: #FF357A;
+  color: #678cfa;
   text-decoration: none;
   font-weight: 600; }
 
 a:hover {
   text-decoration: underline;
-  text-decoration-color: #FF357A; }
+  text-decoration-color: #678cfa; }
 
 a.about {
   color: #DB37C4;
@@ -198,7 +198,7 @@ div.favorites:hover {
   display: inline-block; }
 
 .demo-examples:hover {
-  background-color: #ff357a;
+  background-color: #678cfa;
   transition: 800ms; }
 
 .what-is-this {
@@ -395,17 +395,29 @@ li.quote {
   justify-content: center;
   align-items: center; }
 
-ul.showoff > li {
+object.showoff {
+  height: 2em;
+  margin: 1em; }
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.profiles div {
   border: 1px solid #aaa;
   margin: 1em;
   width: 45%;
   text-align: center;
-  padding: 1%;
-  list-style-type: none; }
+  list-style-type: none;
+  position: relative; }
 
-object.showoff {
-  height: 2em;
-  margin: 0.5em; }
+.profiles a, .code-link {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block; }
 
 .zigzag-container {
   position: absolute;
@@ -453,10 +465,10 @@ hr {
 
 #header {
   font-size: .8em;
-  background-color: #131516; }
+  background-color: #000; }
 
 .site-footer {
-  background-color: #131516;
+  background-color: #000;
   height: 4.5em; }
 
 /* decorative splash of color at top of page */
@@ -518,7 +530,7 @@ button {
   transition: 800ms; }
 
 button:hover {
-  border: 1px solid #FF357A;
+  border: 1px solid #678cfa;
   transition: 800ms; }
 
 .inline-content {
@@ -535,11 +547,11 @@ button#clear {
 
 button#clear:hover {
   border: none;
-  color: #FF357A; }
+  color: #678cfa; }
 
 .light {
   background-color: whitesmoke;
-  border: 1px solid #ff357a;
+  border: 1px solid #678cfa;
   color: whitesmoke; }
 
 .dark {
@@ -605,7 +617,7 @@ span, input {
   color: snow; }
 
 #header #theme:hover {
-  color: #FF357A; }
+  color: #678cfa; }
 
 #fork {
   margin-left: auto;
@@ -641,7 +653,7 @@ span, input {
   transition: 400ms; }
 
 #myDropdown > #home:hover {
-  background-color: #ff357a; }
+  background-color: #678cfa; }
 
 #myDropdown > #about:hover {
   background-color: #DB37C4; }
@@ -659,7 +671,7 @@ span, input {
   background-color: #4635F7; }
 
 #myDropdown > #secret:hover {
-  background-color: #ff357a; }
+  background-color: #678cfa; }
 
 /* Links inside the dropdown */
 .inline, .config-content span, .dropdown-content a {
@@ -781,7 +793,13 @@ div.sub {
   padding: 0.5em;
   border-radius: 1em;
   width: 60%;
-  background-color: #FF357A; }
+  background-color: #421895;
+  border: 1px solid white; }
+
+.type-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .code-type {
   color: #333;
@@ -792,20 +810,22 @@ div.sub {
   margin-bottom: 1em;
   padding: 0.5em;
   border-radius: 1em;
-  width: 60%; }
+  width: 30%;
+  margin: 2%; }
 
-.web-app {
+.web {
   border: 1px solid #DB37C4; }
 
 .featured {
   transition: 800ms;
-  cursor: pointer; }
+  cursor: pointer;
+  position: relative; }
 
 .featured:hover {
-  background-color: lavender;
+  background-color: #ccccfc;
   transition: 800ms; }
 
-.command-line {
+.CLI {
   border: 1px solid #678CFA; }
 
 .android {
@@ -828,7 +848,8 @@ code {
   line-height: 1.5em;
   /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
   box-decoration-break: clone;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  font-weight: bold; }
 
 .accordion {
   background-color: #eee;
@@ -1021,6 +1042,13 @@ svg {
   /*animation-duration: 500ms;*/
   transition: opacity 300ms; }
 
+.poem {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 8%;
+  border: 1px dashed gray;
+  background-color: #282a36; }
+
 .fade-out {
   opacity: 0; }
 
@@ -1032,13 +1060,8 @@ svg {
   position: absolute;
   right: 0; }
 
-.game-of-life-canvas {
-  max-height: 100%;
-  /*width: 100%;*/
-  z-index: 0; }
-
-#cgol {
-  z-index: 0; }
+#svg8 {
+  fill: white; }
 
 /***************************************************/
 /* SYNTAX HIGHLIGHTING
@@ -1069,14 +1092,20 @@ svg {
   background: #fff; }
 
 div.highlighter-rouge div.highlight {
-  border: 1px dashed pink; }
+  border: 1px dashed blue; }
 
 .highlighter-rouge .highlight {
-  background-color: #fdeeff; }
+  background-color: #f1f1fc; }
+
+.code-title {
+  color: snow; }
+
+span {
+  color: black; }
 
 .highlight .c {
   color: #4c4c4c;
-  font-style: italic; }
+  font-weight: normal; }
 
 .highlight .err {
   color: #a61717;

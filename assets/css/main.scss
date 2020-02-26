@@ -83,8 +83,8 @@ $on-laptop:        800px;
 }
 
 .featured > p {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 /***************************************************/
@@ -146,15 +146,14 @@ p.headers {
 /* anchors */
 
 a {
-    color: $heart;
+    color: #678cfa;
     text-decoration: none;
     font-weight: $base-font-weight + 100;
 }
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: $heart;
-
+    text-decoration-color: #678cfa;
 }
 
 a.about {
@@ -301,7 +300,7 @@ div.favorites:hover {
 }
 
 .demo-examples:hover {
-    background-color: #ff357a;
+    background-color: #678cfa;
     transition: 800ms;
 }
 
@@ -548,18 +547,32 @@ li.quote {
     align-items: center;
 }
 
-ul.showoff > li {
+object.showoff {
+    height: 2em;
+    margin: 1em;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profiles div {
     border: 1px solid #aaa;
     margin: 1em;
     width: 45%;
     text-align: center;
-    padding: 1%;
     list-style-type: none;
+    position: relative;
 }
 
-object.showoff {
-    height: 2em;
-    margin: 0.5em;
+.profiles a, .code-link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
 }
 
 .zigzag-container {
@@ -615,11 +628,11 @@ hr {
 
 #header {
     font-size: .8em;
-    background-color: $grey-dark;
+    background-color: #000;
 }
 
 .site-footer {
-    background-color: $grey-dark;
+    background-color: #000;
     height:4.5em;
 }
 
@@ -699,7 +712,7 @@ button {
 }
 
 button:hover {
-    border: 1px solid #FF357A;
+    border: 1px solid #678cfa;
     transition: $tran;
 }
 
@@ -719,12 +732,12 @@ button#clear {
 
 button#clear:hover {
     border: none;
-    color: #FF357A;
+    color: #678cfa;
 }
 
 .light {
     background-color: whitesmoke;
-    border: 1px solid #ff357a;
+    border: 1px solid #678cfa;
     color: whitesmoke;
 }
 
@@ -804,7 +817,7 @@ span, input {
 }
 
 #header #theme:hover {
-    color: #FF357A;
+    color: #678cfa;
 }
 
 #fork {
@@ -856,7 +869,7 @@ span, input {
 }
 
 #myDropdown > #home:hover {
-    background-color: #ff357a;
+    background-color: #678cfa;
 }
 
 #myDropdown > #about:hover {
@@ -880,7 +893,7 @@ span, input {
 }
 
 #myDropdown > #secret:hover {
-    background-color: #ff357a;
+    background-color: #678cfa;
 }
 
 /* Links inside the dropdown */
@@ -1020,7 +1033,6 @@ span.sub {
     margin: 5%;
 }
 
-
 .code-title {
     font-size: $base-font-size;
     text-align: center;
@@ -1032,7 +1044,14 @@ span.sub {
     padding: 0.5em;
     border-radius: 1em;
     width: 60%;
-    background-color: #FF357A;
+    background-color: #421895;
+    border: 1px solid white;
+}
+
+.type-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .code-type {
@@ -1044,24 +1063,26 @@ span.sub {
     margin-bottom: 1em;
     padding: 0.5em;
     border-radius: 1em;
-    width: 60%;
+    width: 30%;
+    margin: 2%;
 }
 
-.web-app {
+.web {
     border: 1px solid $pop-1;
 }
 
 .featured {
     transition: $tran;
     cursor: pointer;
+    position: relative;
 }
 
 .featured:hover {
-    background-color: lavender;
+    background-color: #ccccfc;
     transition: $tran;
 }
 
-.command-line {
+.CLI {
     border: 1px solid $pop-4;
 }
 
@@ -1094,11 +1115,8 @@ code {
 
     /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
     box-decoration-break: clone;
-
-    //color: #c80032;
-    //background-color: #f9f2f4;
-    //background-color: #fdeeff;
     font-size: 0.9em;
+    font-weight: bold;
 
 }
 
@@ -1337,6 +1355,14 @@ svg {
     transition: opacity 300ms;
 }
 
+.poem {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 8%;
+    border: 1px dashed gray;
+    background-color: #282a36;
+}
+
 .fade-out {
     opacity: 0;
 }
@@ -1351,17 +1377,13 @@ svg {
     right: 0;
 }
 
-.game-of-life-canvas {
-    max-height: 100%;
-    /*width: 100%;*/
-    z-index: 0;
-}
-
-#cgol {
-    z-index: 0;
+// Gitea SVG.
+#svg8 {
+    fill: white;
 }
 
 // import partials
 @import 'codelight';
 @import 'responsive';
 @import 'footer';
+

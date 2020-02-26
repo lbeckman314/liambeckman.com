@@ -31,16 +31,24 @@
 background: #fff; }
 
 div.highlighter-rouge div.highlight {
-    border: 1px dashed pink;
+    border: 1px dashed blue;
 }
 
 .highlighter-rouge .highlight {
-    background-color: #fdeeff;
+    background-color: #f1f1fc;
+}
+
+.code-title {
+    color: snow;
+}
+
+span {
+    color: black;
 }
 
 .highlight .c {
     color: #4c4c4c;
-font-style: italic; }
+font-weight: normal; }
 .highlight .err {
     color: #a61717;
 background-color: #e3d2d2; }

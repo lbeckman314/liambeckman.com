@@ -8,10 +8,15 @@ title: code
 
 <div class="container">
     {% for code in site.code %}
-    <div class="fixed pointer featured" onclick="location.href=https://{{code.url}}">
-        <a href="https://convida.liambeckman.com"><img class="center" src="/assets/images/{{code.img}}"></a>
-        <a class="code-title">{{code.name}}</a>
-        <a class="code-type {{code.type}}">{{code.type}}</a>
+    <div class="fixed pointer featured">
+        <a class="code-link" href="https://{{code.link}}"></a>
+        <img class="center" src="/assets/images/{{code.img}}">
+        <p class="code-title">{{code.name}}</p>
+            <div class="type-container">
+            {% for type in code.type %}
+                <span class="code-type {{type}}">{{type}}</span>
+            {% endfor %}
+            </div>
         <p class="code">{{code.content}}</p>
     </div>
     {% endfor %}

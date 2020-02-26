@@ -1,5 +1,5 @@
 window.onscroll = () => {
-    let scroll = $(window).scrollTop();
+    let scroll = window.scrollY;
     if (scroll > 3000) {
         document.getElementsByClassName("circle")[0].classList.remove('fade-out');
     }

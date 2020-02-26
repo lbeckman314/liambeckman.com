@@ -192,12 +192,6 @@ let name = `[
     "wiki": "https://wikipedia.org/wiki/Russian_language"
   },
   {
-    "locale": "so",
-    "country": "Somali",
-    "string": "Salaan, been baan ahay",
-    "wiki": "https://wikipedia.org/wiki/Somali_language"
-  },
-  {
     "locale": "sv",
     "country": "Swedish",
     "string": "Hej, jag är liam",

@@ -28,7 +28,7 @@ div.text {
   color: snow; }
 
 .safety {
-  background-color: unset; }
+  background-color: #282a36; }
 
 .active, .dot:hover {
   background-color: #717171; }
@@ -360,7 +360,7 @@ div.highlighter-rouge div.highlight {
   color: #f8f8f2; }
 
 .highlight .c {
-  color: #dbe0ef; }
+  color: #f1f1ff; }
 
 /* Comment */
 .highlight .err {

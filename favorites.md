@@ -30,7 +30,7 @@ permalink: /favorites/
     {% endif %}
     {% if favorite.path contains "poems" %}
         <p>※ <a href="{{ favorite.src }}">{{ favorite.title }}</a> by {{ favorite.author }}</p>
-        <pre>{{ favorite.content }}</pre>
+        <pre class="poem">{{ favorite.content }}</pre>
     {% else %}
         <p>※ <a href="{{ favorite.src }}">{{ favorite.title }}</a> ⇢ {{ favorite.content | strip_html }}</p>
     {% endif %}

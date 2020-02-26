@@ -15,50 +15,63 @@ Have a good book or movie recommendation or just want to chat? I'm available at 
 
 Are you looking for a plucky developer with a small propensity for segmentation faults? Here are some links of interest —
 
-<div class="inline-block">
-    <ul class="showoff">
-        <li class="featured" onclick="location.href='https://liambeckman.com/pkgs/resume/resume-liam-beckman.pdf'">
-            <object class="showoff" type="image/svg+xml" data="/assets/svg/octicons-5.0.1/lib/svg/file-pdf.svg"></object><p> Resume (PDF)</p>
-        </li>
-        <li class="featured" onclick="location.href='https://git.liambeckman.com/cgit/resume/tree/resume-liam-beckman.tex'">
-            <object class="showoff" type="image/svg+xml" data="/assets/svg/tex.svg"></object><p>Resume (<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>)</p>
-        </li>
-        <li class="featured" onclick="location.href='https://github.com/lbeckman314/'">
-            <object class="showoff" type="image/svg+xml" data="/assets/svg/github.svg"></object><p>Github profile</p>
-        </li>
-        <li class="featured" onclick="location.href='https://gitlab.com/lbeckman314/'">
-            <object class="showoff" type="image/svg+xml" data="/assets/svg/gitlab-2.svg"></object><p>Gitea profile</p>
-        </li>
-        <li class="featured" onclick="location.href='https://www.linkedin.com/in/liam-beckman-ab3183a6/'">
-            <object class="showoff" type="image/svg+xml" data="/assets/svg/linkedin.svg"></object><p>LinkedIn profile</p>
-        </li>
-    </ul>
+<div class="inline-block profiles">
+    <div class="featured">
+        <a href="https://liambeckman.com/pkgs/resume/resume-liam-beckman.pdf"></a>
+        <object class="showoff" type="image/svg+xml" data="/assets/svg/pdf.svg"></object>
+        <p> Resume (PDF)</p>
+    </div>
+    <div class="featured">
+        <a href="https://git.liambeckman.com/liam/resume/src/branch/master/resume-liam-beckman.tex"></a>
+        <object class="showoff" type="image/svg+xml" data="/assets/svg/tex.svg"></object>
+        <p>Resume (LaTeX)</p>
+    </div>
+    <div class="featured">
+        <a href="https://github.com/lbeckman314/"></a>
+        <object class="showoff" type="image/svg+xml" data="/assets/svg/github.svg"></object>
+        <p>Github Profile</p>
+    </div>
+    <div class="featured">
+        <a href="https://git.liambeckman.com/liam"></a>
+        <object class="showoff" type="image/svg+xml" data="/assets/svg/gitea.svg"></object>
+        <p>Gitea Profile</p>
+    </div>
+    <div class="featured">
+        <a href="https://www.linkedin.com/in/liam-beckman-ab3183a6/"></a>
+        <object class="showoff" type="image/svg+xml" data="/assets/svg/linkedin.svg"></object>
+        <p>LinkedIn Profile</p>
+    </div>
 </div>
 
 ---
 
 ## about the website:
 
-This website stores and presents some various works and projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
+This website stores and presents various projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
 
 The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
+
+1) Updates are made and pushed to a local git server (https://git.liambeckman.com/liam/website).
+2) A post-receive git hook triggers a new Jenkins 
+
+### Installation
 
 The [website's source code](https://github.com/lbeckman314/website) is yours. Feel free to copy and paste, fork, clone, or anything you like! To spin up your own site, follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below) —
 
 ```shell
-# install ruby
+# Install ruby
 # for OS-specific instructions, check out https://www.ruby-lang.org/en/downloads/
 
 # Install Jekyll and Bundler gems through RubyGems
 gem install jekyll bundler
 
-# install dependencies
+# Install dependencies
 bundle install
 
 # Create a new Jekyll site at ./myblog
 jekyll new myblog
 
-# alternatively, clone an existing jekyll site
+# Alternatively, clone an existing jekyll site
 # git clone https://github.com/lbeckman314/website
 
 # Change into your new directory
@@ -69,10 +82,10 @@ bundle exec jekyll serve
 
 # Now browse to http://localhost:4000
 
-# then you can change the html/css files in your website directory (e.g. myblog/) to suit your tastes!
+# Then you can change the html/css files in your website directory (e.g. myblog/) to suit your tastes!
 # some cool templates → https://html5up.net/
 
-# hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
+# Hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
 # self-hosting with apache and/or nginx is another cool possibility!
 ```
 <script type="text/javascript" src="/assets/js/name.js"/>
