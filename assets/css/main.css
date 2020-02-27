@@ -29,6 +29,14 @@ Feel free to copy and paste, fork, clone, or anything you like. */
   padding-left: 1em;
   padding-right: 1em; }
 
+.home > div {
+  border: solid 1px #aaa;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
 /***************************************************/
 /* BASIC STUFF
 /***************************************************/
@@ -137,44 +145,76 @@ a.secret {
 
 /* div */
 div.about {
-  border: solid 1px #DB37C4;
-  transition: 800ms; }
+  color: #DB37C4; }
+  div.about h1 {
+    color: currentColor; }
 
 div.writings, div.posts {
-  border: solid 1px #ED68D9;
-  transition: 800ms; }
+  color: #ED68D9; }
+  div.writings h1, div.posts h1 {
+    color: currentColor; }
 
 div.code {
-  border: solid 1px #49CCD4;
-  transition: 800ms; }
+  color: #49CCD4; }
+  div.code h1 {
+    color: currentColor; }
 
 div.git {
-  border: solid 1px #678CFA;
-  transition: 800ms; }
+  color: #678CFA; }
+  div.git h1 {
+    color: currentColor; }
 
 div.favorites {
-  border: solid 1px #4635F7;
+  color: #4635F7; }
+  div.favorites h1 {
+    color: currentColor; }
+
+.home > div {
+  transition: 800ms;
+  border: solid 1px currentColor;
+  position: relative; }
+
+.home > div > h1 {
+  border-bottom: 1px solid currentColor;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
   transition: 800ms; }
+
+.home > div > a {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+.home > div > h1 > a {
+  text-decoration: none;
+  transition: 800ms; }
+
+.home > div:hover {
+  transition: 800ms; }
+  .home > div:hover h1, .home > div:hover a {
+    color: snow;
+    transition: 800ms; }
+
+.relative {
+  position: relative; }
 
 div.about:hover {
-  background-color: #DB37C4;
-  transition: 800ms; }
+  background-color: #DB37C4; }
 
 div.writings:hover, div.posts:hover {
-  background-color: #ED68D9;
-  transition: 800ms; }
+  background-color: #ED68D9; }
 
 div.code:hover {
-  background-color: #49CCD4;
-  transition: 800ms; }
+  background-color: #49CCD4; }
 
 div.git:hover {
-  background-color: #678CFA;
-  transition: 800ms; }
+  background-color: #678CFA; }
 
 div.favorites:hover {
-  background-color: #4635F7;
-  transition: 800ms; }
+  background-color: #4635F7; }
 
 /* Demo terminal stuff */
 .terminals {
@@ -309,8 +349,7 @@ h1 {
   font-size: 3em;
   font-family: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif;
   text-align: center;
-  color: #131516;
-  padding-top: 3%; }
+  color: #131516; }
 
 h1.home-page {
   padding-top: 2%; }
@@ -413,7 +452,7 @@ object.showoff {
   list-style-type: none;
   position: relative; }
 
-.profiles a, .code-link {
+.profiles a, .code-src {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -469,7 +508,15 @@ hr {
 
 .site-footer {
   background-color: #000;
-  height: 4.5em; }
+  height: 4.5em;
+  color: snow;
+  font-family: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif; }
+
+.quote {
+  float: right; }
+
+.site-footer div {
+  padding: 0.5em; }
 
 /* decorative splash of color at top of page */
 /* http://sass-lang.com/ */
@@ -925,7 +972,8 @@ span.grey {
   border-radius: 3px 0 0 3px; }
 
 .text {
-  padding: 8px 12px;
+  padding-top: 0.5em;
+  height: 2em;
   width: 100%;
   text-align: center;
   background: snow; }
@@ -1099,9 +1147,6 @@ div.highlighter-rouge div.highlight {
 
 .code-title {
   color: snow; }
-
-span {
-  color: black; }
 
 .highlight .c {
   color: #4c4c4c;

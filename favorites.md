@@ -9,8 +9,13 @@ permalink: /favorites/
 {% for favorite in site.favorites %}
    {% if favorite.img %}
        <div class="mySlides fade">
-            <div class="black-fade"><img class="slide" src="{{ favorite.img }}"/></div>
+            <div class="black-fade"><img class="slide" src="/assets/favorites/{{favorite.img}}"/></div>
             <div class="text"><a href="{{ favorite.src }}">{{ favorite.title }}</a></div>
+            {% if favorite.author %}
+            <div class="text">© {{ favorite.author }}</div>
+            {% else %}
+            <div class="text"></div>
+            {% endif %}
         </div>
     {% endif %}
 {% endfor %}

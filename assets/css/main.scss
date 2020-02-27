@@ -87,6 +87,16 @@ $on-laptop:        800px;
     padding-right: 1em;
 }
 
+.home > div {
+    border: solid 1px #aaa;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
 /***************************************************/
 /* BASIC STUFF
 /***************************************************/
@@ -222,57 +232,85 @@ a.secret {
 
 /* div */
 
-
 div.about {
-    border: solid 1px $pop-1;
-    //background-image: url('/assets/png/code_example2_pink.png');
-    transition: $tran;
+    color: $pop-1;
+    h1 { color: currentColor; }
 }
-
 div.writings, div.posts {
-    border: solid 1px $pop-2;
-    //background-image: url('/assets/png/code_example2_pink.png');
-    transition: $tran;
+    color: $pop-2;
+    h1 { color: currentColor; }
 }
 div.code {
-    border: solid 1px $pop-3;
-    //background-image: url('/assets/png/code_example2_pink.png');
-    transition: $tran;
+    color: $pop-3;
+    h1 { color: currentColor; }
 }
 div.git {
-    border: solid 1px $pop-4;
-    //background-image: url('/assets/png/code_example2_pink.png');
-    transition: $tran;
+    color: $pop-4;
+    h1 { color: currentColor; }
 }
 div.favorites {
-    border: solid 1px $pop-5;
-    //background-image: url('/assets/png/code_example2_pink.png');
+    color: $pop-5;
+    h1 { color: currentColor; }
+}
+
+
+.home > div {
     transition: $tran;
+    border: solid 1px currentColor;
+    position: relative;
+}
+
+.home > div > h1 {
+    border-bottom: 1px solid currentColor;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    transition: $tran;
+}
+
+.home > div > a {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.home > div > h1 > a {
+    text-decoration: none;
+    transition: $tran;
+}
+
+.home > div:hover {
+    transition: $tran;
+    h1, a { 
+        color: snow;
+        transition: $tran;
+    }
+}
+
+.relative {
+    position: relative;
 }
 
 div.about:hover {
     background-color: $pop-1;
-    transition: $tran;
 }
 
 div.writings:hover, div.posts:hover {
     background-color: $pop-2;
-    transition: $tran;
 }
 
 div.code:hover {
     background-color: $pop-3;
-    transition: $tran;
 }
 
 div.git:hover {
     background-color: $pop-4;
-    transition: $tran;
 }
 
 div.favorites:hover {
     background-color: $pop-5;
-    transition: $tran;
 }
 
 /* Demo terminal stuff */
@@ -441,7 +479,6 @@ h1 {
     font-family: $font-stack;
     text-align: center;
     color: $grey-dark;
-    padding-top: 3%;
 }
 
 h1.home-page {
@@ -568,7 +605,7 @@ object.showoff {
     position: relative;
 }
 
-.profiles a, .code-link {
+.profiles a, .code-src {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -634,8 +671,18 @@ hr {
 .site-footer {
     background-color: #000;
     height:4.5em;
+    color: snow;
+    font-family: $font-stack;
 }
 
+.quote {
+    float: right;
+}
+
+.site-footer div {
+    padding: 0.5em;
+    font-size: .8em;
+}
 
 /* decorative splash of color at top of page */
 /* http://sass-lang.com/ */
@@ -646,12 +693,9 @@ hr {
     background-image: linear-gradient(to right, $pop-1 0%, $pop-1 20%, $pop-2 20%, $pop-2 40%, $pop-3 40%, $pop-3 60%, $pop-4 60%, $pop-4 80%, $pop-5 80%, $pop-5 100%);
 }
 
-
-
 .heart {
     color: $heart;
 }
-
 
 img {
     max-width: 100%;
@@ -1214,12 +1258,12 @@ span.grey {
 }
 
 .text {
-    padding: 8px 12px;
+    padding-top: 0.5em;
+    height: 2em;
     width: 100%;
     text-align: center;
     background: snow;
 }
-
 
 .numbertext {
     color: #f2f2f2;

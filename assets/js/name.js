@@ -42,12 +42,6 @@ let name = `[
     "wiki": "https://wikipedia.org/wiki/German_language"
   },
   {
-    "locale": "el",
-    "country": "Greek",
-    "string": "Γεια σας, είμαι λυμάμαι",
-    "wiki": "https://wikipedia.org/wiki/Greek_language"
-  },
-  {
     "locale": "en",
     "country": "English",
     "string": "Hello, I'm liam",
@@ -62,13 +56,13 @@ let name = `[
   {
     "locale": "et",
     "country": "Estonian",
-    "string": "Tere, ma olen valetaja",
+    "string": "Tere, minu nimi on liam",
     "wiki": "https://wikipedia.org/wiki/Estonian_language"
   },
   {
     "locale": "fa",
     "country": "Persian",
-    "string": "سلام ، من دروغ می گویم",
+    "string": "سلام ، اسم من لیام است",
     "wiki": "https://wikipedia.org/wiki/Persian_language"
   },
   {
@@ -102,12 +96,6 @@ let name = `[
     "wiki": "https://wikipedia.org/wiki/Haitia_language"
   },
   {
-    "locale": "hy",
-    "country": "Armenian",
-    "string": "Բարև, ես կեղծ եմ",
-    "wiki": "https://wikipedia.org/wiki/Armenian_language"
-  },
-  {
     "locale": "id",
     "country": "Indonesian",
     "string": "Halo, saya liam",
@@ -136,18 +124,6 @@ let name = `[
     "country": "Latin",
     "string": "Salve, sum liam",
     "wiki": "https://wikipedia.org/wiki/Latin_language"
-  },
-  {
-    "locale": "mn",
-    "country": "Mongolian",
-    "string": "Сайн байна уу, би худал байна",
-    "wiki": "https://wikipedia.org/wiki/Mongolian_language"
-  },
-  {
-    "locale": "my",
-    "country": "Myanmar (Burmese)",
-    "string": "ဟယ်လိုငါလမ်",
-    "wiki": "https://wikipedia.org/wiki/Myanma_language"
   },
   {
     "locale": "ne",
@@ -200,7 +176,7 @@ let name = `[
   {
     "locale": "th",
     "country": "Thai",
-    "string": "สวัสดีฉันเลียม",
+    "string": "สวัสดีฉันชื่อเลียม",
     "wiki": "https://wikipedia.org/wiki/Thai_language"
   },
   {

@@ -1,7 +1,7 @@
 ---
 title: Knifepoint Horror
 src: https://knifepointhorror.libsyn.com/
-img: /assets/favorites/KHdesign.jpg
+img: KHdesign.jpg
 ---
 
 The best horror stories around.

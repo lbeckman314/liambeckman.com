@@ -1,7 +1,8 @@
 ---
 title: False Knees
 src: http://falseknees.com/
-img: /assets/favorites/false-knees.jpg
+img: false-knees.jpg
+author: Joshua Barkman
 ---
 
 Comics about birds.
