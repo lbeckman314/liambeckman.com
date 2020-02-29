@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // or hits the Escape key.
     let menu = document.getElementById('menu');
     let drop = document.getElementById('drop-button');
+    console.log("drop:", drop);
 
     drop.addEventListener('click', (e) => {
         menu.style.display = menu.style.display == 'unset' ? '' : 'unset';
@@ -10,7 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('click', (e) => {
         if (!e.target.matches('#drop-button')) {
+            console.log("click");
             menu.style.display = '';
+        menu.style.display = menu.style.display == 'unset' ? '' : 'unset';
+            console.log("menu:", menu.style.display);
         }
     });
 

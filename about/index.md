@@ -51,9 +51,6 @@ This website stores and presents various projects. It originally got up and runn
 
 The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
 
-1) Updates are made and pushed to a local git server (https://git.liambeckman.com/liam/website).
-2) A post-receive git hook triggers a new Jenkins 
-
 ### Installation
 
 The [website's source code](https://github.com/lbeckman314/website) is yours. Feel free to copy and paste, fork, clone, or anything you like! To spin up your own site, follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below) —

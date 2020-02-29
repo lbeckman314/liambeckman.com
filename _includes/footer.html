@@ -1,10 +1,14 @@
 <footer class="site-footer">
     <div>
-    <a href="/about">made with lots of <object type="image/svg+xml" data="/assets/svg/heart.svg"></object></a> :: <a href="https://www.github.com/lbeckman314/website"> open-source and free</a>
+        <a href="/about">made with lots of <object type="image/svg+xml" data="/assets/svg/heart.svg"></object></a> ~ <a href="https://www.github.com/lbeckman314/website"> open-source and free</a>
     </div>
     <div>
-        © <span id="date">{{ site.time | date: '%Y' }}</span> liam beckman :: code → <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a> :: all else → <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
-        <span class="quote">"I only want to live in peace, plant potatoes and dream!" -Tove Jansson<span>
+        <span>© <span id="date">{{ site.time | date: '%Y' }}</span> liam beckman ~ <span>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+            <object class="cc-icon" type="image/svg+xml" data="/assets/svg/cc.svg"></object>
+            <object class="cc-icon" type="image/svg+xml" data="/assets/svg/by.svg"></object>
+        </a>
+        <span class="quote">"I only want to live in peace and plant potatoes and dream!" -Tove Jansson<span>
     </div>
 </footer>
 
@@ -12,3 +16,4 @@
 let date = document.getElementById('date');
 date.innerHTML = parseInt(date.innerHTML).toString(16);
 </script>
+

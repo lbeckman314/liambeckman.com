@@ -37,6 +37,11 @@ Feel free to copy and paste, fork, clone, or anything you like. */
   margin-right: auto;
   text-align: center; }
 
+.cc-icon {
+  height: 2em;
+  vertical-align: middle;
+  pointer-events: none; }
+
 /***************************************************/
 /* BASIC STUFF
 /***************************************************/
@@ -180,7 +185,8 @@ div.favorites {
   margin-right: 3%;
   margin-bottom: 1%;
   padding-bottom: 1%;
-  transition: 800ms; }
+  transition: 800ms;
+  padding: 0.5em; }
 
 .home > div > a {
   position: absolute;
@@ -508,7 +514,7 @@ hr {
 
 .site-footer {
   background-color: #000;
-  height: 4.5em;
+  height: 5.1em;
   color: snow;
   font-family: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif; }
 
@@ -516,7 +522,8 @@ hr {
   float: right; }
 
 .site-footer div {
-  padding: 0.5em; }
+  padding: 1em;
+  padding-bottom: 0; }
 
 /* decorative splash of color at top of page */
 /* http://sass-lang.com/ */
@@ -644,6 +651,9 @@ span, input {
   min-width: 40%;
   left: 59%; }
 
+#menu {
+  width: 100%; }
+
 #menu > li::after {
   content: " )";
   color: grey; }
@@ -652,14 +662,24 @@ span, input {
   content: "( ";
   color: grey; }
 
+.zigzag-container {
+  display: none; }
+
+#secret {
+  float: right; }
+
+#menu > #secret::after, #menu > #secret::before {
+  content: none; }
+
 .sidenav {
   display: flex;
   align-items: center; }
 
 #header #theme {
-  margin: 0;
-  padding: 0;
-  font-size: 2em;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 2.5em;
   vertical-align: middle;
   color: snow; }
 
@@ -765,10 +785,9 @@ input {
   text-align: center; }
 
 #theme {
-  height: 2em;
-  width: 2em;
   cursor: pointer;
-  transition: 800ms; }
+  transition: 800ms;
+  margin-left: auto; }
 
 .popstripe-bw {
   height: 0.25em;
@@ -1027,8 +1046,10 @@ span.grey {
   to {
     opacity: 1; } }
 #drop-button {
-  font-size: 5em;
-  color: snow; }
+  font-size: 3em;
+  color: snow;
+  pointer-events: none;
+  cursor: pointer; }
 
 .copyContainer {
   float: right;
@@ -1354,15 +1375,24 @@ div.highlighter-rouge div.highlight {
     display: none; } }
 @media only screen and (max-width: 700px) {
   #menu {
-    display: none;
-    position: absolute;
-    top: 10%;
-    width: 60%;
-    background: black;
-    border: 1px solid gray;
-    z-index: 1; }
+    display: unset;
+    top: 4em; }
 
-  div#menu > li {
+  #header ul {
+    padding: 0; }
+
+  #secret {
+    float: unset; }
+
+  .zigzag-container {
+    display: unset; }
+
+  #zigzag {
+    width: 70%;
+    margin: auto;
+    display: block; }
+
+  ul#menu > li {
     padding: 15%;
     display: block;
     margin: 0; }
@@ -1529,6 +1559,6 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: .8em; }
+  font-size: 0.8em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -11,6 +11,7 @@
     .demo-examples:after {
         content: '\A';
     }
+
 }
 
 @media only screen and (min-width: 701px) {
@@ -22,16 +23,28 @@
 
 @media only screen and (max-width: 700px) {
     #menu {
-        display: none;
-        position: absolute;
-        top: 10%;
-        width: 60%;
-        background: black;
-        border: 1px solid gray;
-        z-index: 1;
+        display: unset;
+        top: 4em;
     }
 
-    div#menu > li {
+    #header ul {
+        padding: 0;
+    }
+
+    #secret {
+        float: unset;
+    }
+
+    .zigzag-container {
+        display: unset;
+    }
+    #zigzag {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    ul#menu > li {
         padding: 15%;
         display: block;
         margin: 0;
@@ -42,45 +55,45 @@
         display: unset;
     }
 
-#menu > li::after {
-    content: "";
-}
-#menu > li::before {
-    content: "";
-}
+    #menu > li::after {
+        content: "";
+    }
+    #menu > li::before {
+        content: "";
+    }
 
-#menu > li:hover {
-    transition: $tran;
-}
+    #menu > li:hover {
+        transition: $tran;
+    }
 
-#menu > li {
-    transition: $tran;
-}
+    #menu > li {
+        transition: $tran;
+    }
 
 
-#menu > #home:hover {
-    background-color: $pop-1
-}
+    #menu > #home:hover {
+        background-color: $pop-1
+    }
 
-#menu > #about:hover {
-    background-color: $pop-2;
-}
+    #menu > #about:hover {
+        background-color: $pop-2;
+    }
 
-#menu > #code:hover {
-    background-color: $pop-3;
-}
+    #menu > #code:hover {
+        background-color: $pop-3;
+    }
 
-#menu > #vcs:hover {
-    background-color: $pop-4;
-}
+    #menu > #vcs:hover {
+        background-color: $pop-4;
+    }
 
-#menu > #favorites:hover {
-    background-color: $pop-5;
-}
+    #menu > #favorites:hover {
+        background-color: $pop-5;
+    }
 
-#menu > #secret:hover {
-    background-color: #ff357a;
-}
+    #menu > #secret:hover {
+        background-color: #ff357a;
+    }
 
     img.slide {
         height: 25em;
