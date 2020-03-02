@@ -23,8 +23,14 @@
 
 @media only screen and (max-width: 700px) {
     #menu {
-        display: unset;
+        display: none;
+        position: absolute;
         top: 4em;
+        background: black;
+        outline: 1px solid gray;
+        z-index: 1;
+        width: 70%;
+        outline-offset: -1px;
     }
 
     #header ul {
@@ -38,21 +44,34 @@
     .zigzag-container {
         display: unset;
     }
+
     #zigzag {
-        width: 70%;
+        width: 90%;
         margin: auto;
         display: block;
     }
 
-    ul#menu > li {
-        padding: 15%;
+    #header a {
+        width: 100%;
+        height: 100%;
+        padding: 2em;
         display: block;
-        margin: 0;
+        transition: $tran;
+    }
+
+    #delim {
+        display: none;
     }
 
     #secret li {
         padding: 0;
         display: unset;
+    }
+
+    #header ul li {
+        display: flex;
+        margin: 0;
+        padding: 0;
     }
 
     #menu > li::after {
@@ -62,36 +81,36 @@
         content: "";
     }
 
-    #menu > li:hover {
+    #menu > a:hover {
         transition: $tran;
     }
 
-    #menu > li {
+    #menu > a {
         transition: $tran;
     }
 
 
-    #menu > #home:hover {
+    #home > a:hover {
         background-color: $pop-1
     }
 
-    #menu > #about:hover {
+    #about > a:hover {
         background-color: $pop-2;
     }
 
-    #menu > #code:hover {
+    #code > a:hover {
         background-color: $pop-3;
     }
 
-    #menu > #vcs:hover {
+    #vcs > a:hover {
         background-color: $pop-4;
     }
 
-    #menu > #favorites:hover {
+    #favorites > a:hover {
         background-color: $pop-5;
     }
 
-    #menu > #secret:hover {
+    #secret > a:hover {
         background-color: #ff357a;
     }
 

@@ -464,17 +464,11 @@ object.showoff {
   position: absolute;
   display: block; }
 
-.zigzag-container {
-  position: absolute;
-  left: 0; }
-
-object.zigzag {
+#zigzag {
   width: 70%;
   margin: auto;
   margin-bottom: auto;
-  display: block;
-  margin-bottom: -1em;
-  display: none; }
+  margin-bottom: -1em; }
 
 .copyMessage {
   color: #fff;
@@ -510,7 +504,10 @@ hr {
 
 #header {
   font-size: .8em;
-  background-color: #000; }
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  height: 4em; }
 
 .site-footer {
   background-color: #000;
@@ -671,12 +668,8 @@ span, input {
 #menu > #secret::after, #menu > #secret::before {
   content: none; }
 
-.sidenav {
-  display: flex;
-  align-items: center; }
-
-#header #theme {
-  padding: 5px;
+#drop-button, #theme {
+  padding: 10px;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 2.5em;
@@ -1048,7 +1041,6 @@ span.grey {
 #drop-button {
   font-size: 3em;
   color: snow;
-  pointer-events: none;
   cursor: pointer; }
 
 .copyContainer {
@@ -1375,8 +1367,14 @@ div.highlighter-rouge div.highlight {
     display: none; } }
 @media only screen and (max-width: 700px) {
   #menu {
-    display: unset;
-    top: 4em; }
+    display: none;
+    position: absolute;
+    top: 4em;
+    background: black;
+    outline: 1px solid gray;
+    z-index: 1;
+    width: 70%;
+    outline-offset: -1px; }
 
   #header ul {
     padding: 0; }
@@ -1388,18 +1386,28 @@ div.highlighter-rouge div.highlight {
     display: unset; }
 
   #zigzag {
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: block; }
 
-  ul#menu > li {
-    padding: 15%;
+  #header a {
+    width: 100%;
+    height: 100%;
+    padding: 2em;
     display: block;
-    margin: 0; }
+    transition: 800ms; }
+
+  #delim {
+    display: none; }
 
   #secret li {
     padding: 0;
     display: unset; }
+
+  #header ul li {
+    display: flex;
+    margin: 0;
+    padding: 0; }
 
   #menu > li::after {
     content: ""; }
@@ -1407,28 +1415,28 @@ div.highlighter-rouge div.highlight {
   #menu > li::before {
     content: ""; }
 
-  #menu > li:hover {
+  #menu > a:hover {
     transition: 800ms; }
 
-  #menu > li {
+  #menu > a {
     transition: 800ms; }
 
-  #menu > #home:hover {
+  #home > a:hover {
     background-color: #DB37C4; }
 
-  #menu > #about:hover {
+  #about > a:hover {
     background-color: #ED68D9; }
 
-  #menu > #code:hover {
+  #code > a:hover {
     background-color: #49CCD4; }
 
-  #menu > #vcs:hover {
+  #vcs > a:hover {
     background-color: #678CFA; }
 
-  #menu > #favorites:hover {
+  #favorites > a:hover {
     background-color: #4635F7; }
 
-  #menu > #secret:hover {
+  #secret > a:hover {
     background-color: #ff357a; }
 
   img.slide {
