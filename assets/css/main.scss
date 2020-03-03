@@ -619,18 +619,11 @@ object.showoff {
     display: block;
 }
 
-.zigzag-container {
-    position: absolute;
-    left: 0;
-}
-
-object.zigzag {
+#zigzag {
     width: 70%;
     margin: auto;
     margin-bottom: auto;
-    display: block;
     margin-bottom: -1em;
-    display:none;
 }
 
 .copyMessage {
@@ -673,6 +666,9 @@ hr {
 #header {
     font-size: .8em;
     background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 4em;
 }
 
 .site-footer {
@@ -870,13 +866,8 @@ span, input {
     content: none;
 }
 
-.sidenav {
-    display: flex;
-    align-items: center;
-}
-
-#header #theme {
-    padding: 5px;
+#drop-button, #theme {
+    padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 2.5em;
@@ -1349,7 +1340,6 @@ span.grey {
 #drop-button {
     font-size: 3em;
     color: snow;
-    pointer-events: none;
     cursor: pointer;
 }
 

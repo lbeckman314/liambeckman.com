@@ -6,14 +6,15 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("drop:", drop);
 
     drop.addEventListener('click', (e) => {
-        menu.style.display = menu.style.display == 'unset' ? '' : 'unset';
+        console.log("drop:", e.currentTarget);
+        menu.style.display = menu.style.display == 'block' ? '' : 'block';
     });
 
     window.addEventListener('click', (e) => {
+        console.log("target:", e.target);
+        console.log("current:", e.currentTarget);
         if (!e.target.matches('#drop-button')) {
-            console.log("click");
             menu.style.display = '';
-        menu.style.display = menu.style.display == 'unset' ? '' : 'unset';
             console.log("menu:", menu.style.display);
         }
     });
