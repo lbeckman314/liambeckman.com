@@ -7,17 +7,17 @@ title: code
 
 
 <div class="code-main">
-    <a href="https://www.github.com/lbeckman314/withfeathers"><img class="center emily" src="/assets/png/emily-dickinson.png"></a>
+    <a href="https://www.github.com/lbeckman314/withfeathers"><img class="center" src="/assets/images/withfeathers.png"></a>
     <div class="border-code"></div>
     <p class="center">
     <a id="title" href="https://www.github.com/lbeckman314/withfeathers">withfeathers</a></p>
     <p class = "code">Print a poem by Emily!</p>
 
     <ul class="code">
-        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/withfeathers.zip"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a></li>
-        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/withfeathers.tar.gz"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></li>
-        <li class="code"><a href="https://github.com/lbeckman314/withfeathers/"><img src="/assets/svg/octicons-5.0.1/lib/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/withfeathers">cgit</a></li>
-        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/withfeathers/sha256sums.txt.asc">gpg</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/withfeathers.zip"><img src="/assets/svg/file-zip.svg"> zip</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/withfeathers.tar.gz"><img src="/assets/svg/file-zip.svg"> tar.gz</a></li>
+        <li class="code"><a href="https://github.com/lbeckman314/withfeathers/"><img src="/assets/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/withfeathers">cgit</a></li>
+        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/sha256sums.txt"><img src="/assets/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/withfeathers/sha256sums.txt.asc">gpg</a></li>
     </ul>
 
   </div>
