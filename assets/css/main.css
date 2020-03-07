@@ -533,7 +533,8 @@ hr {
   color: #FF357A; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  vertical-align: middle; }
 
 img.center {
   display: block;
