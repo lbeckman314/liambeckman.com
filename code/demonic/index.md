@@ -5,7 +5,7 @@ title: code
 <div class="container">
 
     <div class="code-main">
-        <a href="https://www.github.com/lbeckman314/demonic"><img class="center" src="/assets/png/demonic-2.png"></a>
+        <a href="https://www.github.com/lbeckman314/demonic"><img class="center" src="/assets/images/demonic.png"></a>
         <div class="border-code"></div>
         <p class="center">
         <a id="title" href="https://www.github.com/lbeckman314/demonic">demonic</a></p>
@@ -13,10 +13,10 @@ title: code
         <p class = "code">Like <a href="/code/demo">demo</a>, but more demonic!</p>
 
         <ul class="code">
-            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/demonic.zip"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> zip</a></li>
-            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/demonic.tar.gz"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-zip.svg"> tar.gz</a></li>
-            <li class="code"><a href="https://github.com/lbeckman314/demonic/"><img src="/assets/svg/octicons-5.0.1/lib/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/demonic">cgit</a></li>
-            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/sha256sums.txt"><img src="/assets/svg/octicons-5.0.1/lib/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/demonic/sha256sums.txt.asc">gpg</a></li>
+            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/demonic.zip"><img src="/assets/svg/file-zip.svg"> zip</a></li>
+            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/demonic.tar.gz"><img src="/assets/svg/file-zip.svg"> tar.gz</a></li>
+            <li class="code"><a href="https://github.com/lbeckman314/demonic/"><img src="/assets/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/demonic">cgit</a></li>
+            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/sha256sums.txt"><img src="/assets/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/demonic/sha256sums.txt.asc">gpg</a></li>
         </ul>
 
     </div>
@@ -30,7 +30,7 @@ This is an [xterm.js](http://xtermjs.org/)-powered web app that runs a shell I w
 Try it out [here](https://liambeckman.com/code/term).
 
 <a href="https://liambeckman.com/code/term">
-    <img src="/assets/png/demonic-example-vi-tmux.png">
+    <img src="/assets/images/demonic-example-vi-tmux.png">
 </a>
 
 
