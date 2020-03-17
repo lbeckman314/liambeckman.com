@@ -9,9 +9,9 @@ title: home
         <p>introductions</p>
     </div>
 
-    <div class="posts">
-        <a href="/posts"></a>
-        <h1>posts</h1>
+    <div class="notes">
+        <a href="/notes"></a>
+        <h1>notes</h1>
         <p>/dev/random</p>
     </div>
 

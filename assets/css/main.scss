@@ -177,7 +177,7 @@ a.about {
     text-decoration: snow;
 }
 
-a.writings, a.posts {
+a.writings, a.notes {
     color: $pop-2;
     text-decoration: none;
 }
@@ -242,7 +242,7 @@ div.about {
     color: $pop-1;
     h1 { color: currentColor; }
 }
-div.writings, div.posts {
+div.writings, div.notes {
     color: $pop-2;
     h1 { color: currentColor; }
 }
@@ -304,7 +304,7 @@ div.about:hover {
     background-color: $pop-1;
 }
 
-div.writings:hover, div.posts:hover {
+div.writings:hover, div.notes:hover {
     background-color: $pop-2;
 }
 
@@ -440,7 +440,7 @@ div.about-border {
     transition: $tran;
 }
 
-div.writings-border, div.posts-border {
+div.writings-border, div.notes-border {
     border-bottom: 1px solid $pop-2;
     transition: $tran;
 }
@@ -555,12 +555,12 @@ li.code {
     display: inline;
 }
 
-ul.posts {
+ul.notes {
     margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
-ul.posts li {
+ul.notes li {
     list-style: none;
 }
 
@@ -573,7 +573,6 @@ li.quote {
 #header li {
     margin-right: 20px;
 }
-
 
 /* https://stackoverflow.com/questions/4980525/css-center-display-inline-block */
 .inline-block {

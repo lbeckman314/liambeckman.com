@@ -103,7 +103,7 @@ a.about {
   color: #DB37C4;
   text-decoration: snow; }
 
-a.writings, a.posts {
+a.writings, a.notes {
   color: #ED68D9;
   text-decoration: none; }
 
@@ -154,9 +154,9 @@ div.about {
   div.about h1 {
     color: currentColor; }
 
-div.writings, div.posts {
+div.writings, div.notes {
   color: #ED68D9; }
-  div.writings h1, div.posts h1 {
+  div.writings h1, div.notes h1 {
     color: currentColor; }
 
 div.code {
@@ -210,7 +210,7 @@ div.favorites {
 div.about:hover {
   background-color: #DB37C4; }
 
-div.writings:hover, div.posts:hover {
+div.writings:hover, div.notes:hover {
   background-color: #ED68D9; }
 
 div.code:hover {
@@ -321,7 +321,7 @@ div.about-border {
   border-bottom: 1px solid #DB37C4;
   transition: 800ms; }
 
-div.writings-border, div.posts-border {
+div.writings-border, div.notes-border {
   border-bottom: 1px solid #ED68D9;
   transition: 800ms; }
 
@@ -411,11 +411,11 @@ li.code {
   list-style: none;
   display: inline; }
 
-ul.posts {
+ul.notes {
   margin: 20px auto 40px;
   font-size: 1.5em; }
 
-ul.posts li {
+ul.notes li {
   list-style: none; }
 
 li.quote {

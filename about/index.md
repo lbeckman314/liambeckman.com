@@ -2,7 +2,7 @@
 title: about
 ---
 
-<h1><a href="" id="wiki"><span id="hello" title="Hello, I'm liam">Hello, I'm liam</span></a>
+<h1><span id="hello">Hello, I'm liam</span>
     <object id="smile" type="image/svg+xml" data="/assets/svg/icon-smile.svg"></object>
 </h1>
 
@@ -29,17 +29,17 @@ Are you looking for a plucky developer with a small propensity for segmentation 
     <div class="featured">
         <a href="https://github.com/lbeckman314/"></a>
         <object class="showoff" type="image/svg+xml" data="/assets/svg/github.svg"></object>
-        <p>Github Profile</p>
+        <p>Github</p>
     </div>
     <div class="featured">
         <a href="https://git.liambeckman.com/liam"></a>
         <object class="showoff" type="image/svg+xml" data="/assets/svg/gitea.svg"></object>
-        <p>Gitea Profile</p>
+        <p>Gitea</p>
     </div>
     <div class="featured">
         <a href="https://www.linkedin.com/in/liam-beckman-ab3183a6/"></a>
         <object class="showoff" type="image/svg+xml" data="/assets/svg/linkedin.svg"></object>
-        <p>LinkedIn Profile</p>
+        <p>LinkedIn</p>
     </div>
 </div>
 
@@ -85,5 +85,4 @@ bundle exec jekyll serve
 # Hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
 # self-hosting with apache and/or nginx is another cool possibility!
 ```
-<script type="text/javascript" src="/assets/js/name.js"/>
 

@@ -36,6 +36,9 @@ collections:
         label: favorites
     code:
         label: code
+    notes:
+        label: notes
+        output: true
 
 # https://stackoverflow.com/a/23555679/7656815
 defaults:
@@ -44,5 +47,5 @@ defaults:
       path: ""      # empty string for all files
     values:
       # https://jekyllrb.com/docs/collections/
-      layout: my-default
+      layout: default
 
