@@ -6,10 +6,10 @@ RSYNC = "/usr/local/bin/rsync"
 node {
    stage('Build') {
       sh "$BUNDLE install"
-      sh "$BUNDLE exec $JEKYLL build --incremental
+      sh "$BUNDLE exec $JEKYLL build --incremental"
    }
    stage('Deploy') {
-       rsync -crvz --delete _site/* PUBLIC_WWW
+       sh "rsync -crvz --delete _site/* $PUBLIC_WWW"
    }
 }
 
