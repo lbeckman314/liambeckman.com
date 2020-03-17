@@ -1,5 +1,6 @@
 ---
-title: etc
+title: notes
+permalink: /notes/
 ---
 
 {% assign notes = site.notes | sort: 'date' | reverse %}
