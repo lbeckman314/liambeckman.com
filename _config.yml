@@ -39,6 +39,9 @@ collections:
     notes:
         label: notes
         output: true
+    writings:
+        label: writings
+        output: true
 
 # https://stackoverflow.com/a/23555679/7656815
 defaults:

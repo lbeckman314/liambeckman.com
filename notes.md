@@ -9,12 +9,10 @@ permalink: /notes/
 
 <p class="sub">
 Created → {{ note.created  | date: "%B %d, %Y" }}
-<!--:: {{ note.created | date: "%Y※%m※%d" | xyz }}-->
 </p>
 
 <p class="sub">
 Updated → {{ note.date  | date: "%B %d, %Y" }}
-<!--:: {{ note.date | date: "%Y※%m※%d" | xyz }}-->
 </p>
 {% endfor %}
 
