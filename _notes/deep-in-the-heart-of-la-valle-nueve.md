@@ -11,5 +11,5 @@ date: 2016-09-01
     The boy stood silently, 20 paces away. As soon as La Negra died, he bent down to the ground a picked up a stone and hurrled it at the black body--striking it in the chest and bouncing off away from the oak. He scrambled for another stone and flung it, missing the body. As he hurridely grabbed another, tears fell his eyes and soaked his cheeks. His nose ran and his cheeks blushed as he cried out and cursed La Negra, striking her in the shoulder.
 
     When the boy's aunt found him, he was curled into himself, wrapped in his own arms and lying on the ground by the body of La Negra. She picked him up slowly, wiping the tears and dirt off his face. She looked around at the Blancos and whispered something small and quiet. She then quickly walked away from the oak, as the light began to fall beyond the western mountains. Never once did she let her eyes fall on the black body nestled in the roots. The boy had exhausted himself, and did not wake from his slumber until he was once again home.
-
 ```
+

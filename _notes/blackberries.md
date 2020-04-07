@@ -19,6 +19,5 @@ I should have left it in the shed, where it belongs.
 Do you remember what he wrote?
 "I love this — I love making it — and finding things, all by myself."
 That's what I did today, with a few of these blackberries.
-
 ```
 
