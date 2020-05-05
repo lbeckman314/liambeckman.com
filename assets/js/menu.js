@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // or hits the Escape key.
     let menu = document.getElementById('menu');
     let drop = document.getElementById('drop-button');
-    console.log("drop:", drop);
 
     drop.addEventListener('click', (e) => {
         console.log("drop:", e.currentTarget);

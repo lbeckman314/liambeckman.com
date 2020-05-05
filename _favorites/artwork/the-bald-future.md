@@ -5,4 +5,5 @@ img: the-bald-future.jpg
 author: Paul Cabon
 ---
 
-lovely animated short by Paul Cabon.
+Lovely animated short.
+

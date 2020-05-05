@@ -19,7 +19,6 @@ permalink: /favorites/
         </div>
     {% endif %}
 {% endfor %}
-
 <a class="prev-slideshow" onclick="plusSlides(-1)"></a>
 <a class="next-slideshow" onclick="plusSlides(+1)"></a>
 </div>

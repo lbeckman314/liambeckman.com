@@ -23,7 +23,7 @@ title: home
 
     <div class="git">
         <a href="https://www.github.com/lbeckman314"></a>
-        <h1>github / <a class="relative" href="https://git.liambeckman.com/liam">gitea</a></h1>
+        <h1>github / <a class="relative git" href="https://git.liambeckman.com/liam">gitea</a></h1>
         <p>go straight to the source — checkout some repos</p>
     </div>
 

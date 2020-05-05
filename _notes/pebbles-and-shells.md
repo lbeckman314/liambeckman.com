@@ -1,5 +1,4 @@
 ---
-layout: my-default
 title: pebbles & shells
 desc: I remember you playing at the beach // when you were five years old...
 date: 2017-06-01

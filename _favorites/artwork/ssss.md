@@ -5,4 +5,5 @@ src: https://www.sssscomic.com
 author: Minna Sundberg
 ---
 
-a beautifully illustrated webcomic by Minna Sundberg.
+Post-apocalyptic magic, mythology, and monsters.
+

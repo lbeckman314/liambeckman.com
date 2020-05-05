@@ -52,7 +52,7 @@ div.text {
 .dark {
   background-color: black; }
 
-.terminals {
+#terminal {
   background-color: black;
   color: white; }
 

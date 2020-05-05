@@ -4,4 +4,5 @@ src: http://www.katecharlesworth.com/time/index.html
 img: the-cartoon-history-of-time.jpg
 ---
 
-Ever been taught physics by a chicken and a cat?
+Time and Physics as taught by a chicken and a cat.
+

@@ -162,14 +162,14 @@ p.headers {
 /* anchors */
 
 a {
-    color: #678cfa;
+    color: #ff357a;
     text-decoration: none;
     font-weight: $base-font-weight + 100;
 }
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: #678cfa;
+    text-decoration-color: #ff357a;
 }
 
 a.about {
@@ -258,7 +258,12 @@ div.favorites {
     color: $pop-5;
     h1 { color: currentColor; }
 }
-
+div#demonic-examples {
+    color: snow;
+    line-height: 1.7;
+    padding-bottom: 1.5%;
+    transition: 800ms;
+}
 
 .home > div {
     transition: $tran;
@@ -320,9 +325,9 @@ div.favorites:hover {
     background-color: $pop-5;
 }
 
-/* Demo terminal stuff */
+/* Demonic terminal stuff */
 
-.terminals {
+#terminal {
     overflow: auto;
     width: 100%;
     height: 25em;
@@ -331,9 +336,10 @@ div.favorites:hover {
     color: black;
     padding: 2%;
     border: 1px dashed grey;
+    line-height: normal;
 }
 
-.demo-examples {
+#demonic-examples > code {
     background-color: #4635f7;
     border-radius: 0;
     font-size: $base-font-size + 0.3;
@@ -344,8 +350,8 @@ div.favorites:hover {
     display: inline-block;
 }
 
-.demo-examples:hover {
-    background-color: #678cfa;
+#demonic-examples > code:hover {
+    background-color: #ff357a;
     transition: 800ms;
 }
 
@@ -355,39 +361,15 @@ div.favorites:hover {
     color: grey;
 }
 
-div.demo-examples-container {
+#terminal-container {
+    padding-bottom: 10%;
+}
+
+div#demonic-examples{
     color: snow;
     line-height: 1.7;
     padding-bottom: 1.5%;
     transition: 800ms;
-}
-
-#duplicate-terminal, #remove-terminal {
-    border: 1px dashed grey;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-top: 0.5em;
-    transition: 800ms;
-    color: snow;
-    font-size: $base-font-size;
-    line-height: 1.7;
-}
-
-#duplicate-terminal:hover {
-    background-color: #4635f7;
-    border: 1px solid #4635f7;
-    transition: 800ms;
-    cursor: pointer;
-}
-
-#remove-terminal:hover {
-    background-color: crimson;
-    border: 1px solid crimson;
-    transition: 800ms;
-    cursor: pointer;
 }
 
 #info {
@@ -759,7 +741,7 @@ button {
 }
 
 button:hover {
-    border: 1px solid #678cfa;
+    border: 1px solid #ff357a;
     transition: $tran;
 }
 
@@ -784,7 +766,7 @@ button#clear:hover {
 
 .light {
     background-color: whitesmoke;
-    border: 1px solid #678cfa;
+    border: 1px solid #ff357a;
     color: whitesmoke;
 }
 
@@ -876,7 +858,7 @@ span, input {
 }
 
 #header #theme:hover {
-    color: #678cfa;
+    color: #ff357a;
 }
 
 #fork {
@@ -928,7 +910,7 @@ span, input {
 }
 
 #myDropdown > #home:hover {
-    background-color: #678cfa;
+    background-color: #ff357a;
 }
 
 #myDropdown > #about:hover {
@@ -952,7 +934,7 @@ span, input {
 }
 
 #myDropdown > #secret:hover {
-    background-color: #678cfa;
+    background-color: #ff357a;
 }
 
 /* Links inside the dropdown */
