@@ -1,28 +1,8 @@
 ---
-title: code
+title: withfeathers
 ---
 
-<div class="container">
-
-
-<div class="code-main">
-    <a href="https://www.github.com/lbeckman314/withfeathers"><img class="center" src="/assets/images/withfeathers.png"></a>
-    <div class="border-code"></div>
-    <p class="center">
-    <a id="title" href="https://www.github.com/lbeckman314/withfeathers">withfeathers</a></p>
-    <p class = "code">Print a poem by Emily!</p>
-
-    <ul class="code">
-        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/withfeathers.zip"><img src="/assets/svg/file-zip.svg"> zip</a></li>
-        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/withfeathers.tar.gz"><img src="/assets/svg/file-zip.svg"> tar.gz</a></li>
-        <li class="code"><a href="https://github.com/lbeckman314/withfeathers/"><img src="/assets/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/withfeathers">cgit</a></li>
-        <li class="code"><a href="https://liambeckman.com/pkgs/withfeathers/sha256sums.txt"><img src="/assets/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/withfeathers/sha256sums.txt.asc">gpg</a></li>
-    </ul>
-
-  </div>
-
-
-</div>
+{% include code.html name='withfeathers' desc='Print a poem by Emily!'%}
 
 Output a randomly chosen poem by emily dickinson. Poems were retrieved from [Project Gutenberg](https://www.gutenberg.org/ebooks/12242). Optionally download and parse the poems straight from the source!
 
@@ -54,15 +34,7 @@ A really good **R implementation** (and inspiration for this program) is this on
 
 # Give it a Spin
 
-<pre id="info"></pre>
-<div id="terminal">
-    <textarea class="terminals"></textarea>
-</div>
-<script src="/assets/js/demo.js"></script>
-<script type="text/javascript">MYLIBRARY.init(["withfeathers --print"]);</script>
-
-<br />
-<hr />
+{% include demonic.html name='withfeathers' %}
 
 # Installation
 

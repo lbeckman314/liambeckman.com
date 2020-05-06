@@ -2,10 +2,6 @@
 title: code
 ---
 
-<div class="rainbow-box">
-    <p>All of my projects are <a href="https://opensource.org/osd-annotated">open-source</a> and <a href="https://www.gnu.org/philosophy/free-sw.en.html">free</a>. Source code can be found on <a href="https://gitlab.com/lbeckman314/">gitlab</a>, <a href="https://github.com/lbeckman314">github</a>, or <a href="https://git.liambeckman.com">cgit</a>. Contributions of any kind are always welcome!</p>
-</div>
-
 <div class="container">
     {% for code in site.code %}
     <div class="fixed pointer featured">
@@ -22,40 +18,22 @@ title: code
     {% endfor %}
 </div>
 
-# * Interactive Demos
+# Interactive Demos
 
-Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
+Feel free to try out some programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
-<div class="demo-examples-container">
-    <code class="demo-examples">devilish</code>
-    <code class="demo-examples">matriz multiply mBig1 mBig2</code>
-    <code class="demo-examples">palindrome</code>
-    <code class="demo-examples">prime 10101</code>
-    <code class="demo-examples">withfeathers --print</code>
-    <code class="demo-examples">wyeast</code>
-    <code class="demo-examples">zigzag-server</code>
+<div id="demonic-examples">
+    <code>palindrome</code>
+    <code>prime 10101</code>
+    <code>withfeathers --print</code>
+    <code>voy search --color --name portland</code>
 </div>
 
-<pre id="info"></pre>
-<div id="terminal">
-    <textarea class="terminals" tabindex="0" contentEditable="true"></textarea>
-</div>
-<script src="/assets/js/demo.js"></script>
-<script type="text/javascript">MYLIBRARY.init(["prime 10101"]);</script>
+{% include demonic.html command='prime 10101' %}
 
-<div id="button-container">
-    <span id="duplicate-terminal">+</span>
-    <div class="what-is-this">
-        <a href="/code/demo">About</a>
-        |
-        <a href="https://github.com/lbeckman314/demo">Source Code</a>
-        |
-        <a href="https://liambeckman.com/code/term">Demonic</a>
-    </div>
-</div>
-
-<br/>
+<br />
 <hr />
+<br />
 
 <h1 id="security">make checksums, not war</h1>
 

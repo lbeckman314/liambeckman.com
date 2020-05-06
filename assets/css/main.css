@@ -230,15 +230,12 @@ div.favorites:hover {
 
 /* Demonic terminal stuff */
 #terminal {
-  overflow: auto;
   width: 100%;
   height: 25em;
-  resize: both;
   background-color: white;
   color: black;
-  padding: 2%;
-  border: 1px dashed grey;
-  line-height: normal; }
+  line-height: normal;
+  border: 0.5px solid white; }
 
 #demonic-examples > code {
   background-color: #4635f7;
@@ -485,7 +482,8 @@ hr {
   border-bottom: 1px dashed grey;
   border-top: 0px;
   transition: 800ms;
-  padding: 2%; }
+  padding: 2%;
+  width: 100%; }
 
 #header {
   font-size: .8em;

@@ -1,10 +1,21 @@
 <pre id="info"></pre>
-<div id="terminal-container">
-    <pre id="terminal" tabindex="0" spellcheck="false" contenteditable="true"></pre>
-    <div class="what-is-this">
-        <a href="/code/demonic">About</a> |
-        <a href="https://github.com/lbeckman314/demonic">Source Code</a>
-    </div>
+<div id="terminal"></div>
+<div class="what-is-this">
+    <a href="/code/demonic">About</a> |
+    <a href="https://github.com/lbeckman314/demonic">Source Code</a>
 </div>
-<script type="text/javascript">lib.init("{{ include.command }}");</script>
-<script src="/assets/js/demo.bundle.js"></script>
+<script src="/assets/js/web.bundle.js"></script>
+<script>
+    const MAGENTA='\x1b[1;35m';
+    const BLUE='\x1b[1;34m';
+    const GREEN='\x1b[1;32m';
+    const CYAN='\x1b[1;36m';
+    const NC='\x1b[0m';
+    const userPrompt = `${CYAN}user${NC}${MAGENTA} @ ${NC}${CYAN}demonic${NC} ${GREEN}>${NC} `;
+    Web.init.set({
+        command: 'ls',
+        boot: true,
+        userPrompt: userPrompt,
+    });
+</script>
+

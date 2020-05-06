@@ -1,50 +1,26 @@
 ---
-title: code
+title: demonic
 ---
 
-<div class="container">
-
-    <div class="code-main">
-        <a href="https://www.github.com/lbeckman314/demonic"><img class="center" src="/assets/images/demonic.png"></a>
-        <div class="border-code"></div>
-        <p class="center">
-        <a id="title" href="https://www.github.com/lbeckman314/demonic">demonic</a></p>
-
-        <p class = "code">Like <a href="/code/demo">demo</a>, but more demonic!</p>
-
-        <ul class="code">
-            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/demonic.zip"><img src="/assets/svg/file-zip.svg"> zip</a></li>
-            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/demonic.tar.gz"><img src="/assets/svg/file-zip.svg"> tar.gz</a></li>
-            <li class="code"><a href="https://github.com/lbeckman314/demonic/"><img src="/assets/svg/code.svg"> github</a> / <a href="https://git.liambeckman.com/cgit/demonic">cgit</a></li>
-            <li class="code"><a href="https://liambeckman.com/pkgs/demonic/sha256sums.txt"><img src="/assets/svg/file-text.svg"> checksums</a> / <a href="https://liambeckman.com/pkgs/demonic/sha256sums.txt.asc">gpg</a></li>
-        </ul>
-
-    </div>
-
-</div>
-
-This is an [xterm.js](http://xtermjs.org/)-powered web app that runs a shell I wrote called [devilish](/code/devilish) in a sandboxed environment. It's purpose is to show off some of the features of devilish without requiring users to download, compile, and run it on their own machine. I originally wrote [demo](/code/demo) to do the same thing, but ran into difficulty with ASCII escape sequences and other terminal-specific features. [xterm.js](http://xtermjs.org/) takes care of that, and allows anyone to explore in a safe, non-persistent sandbox. Networking is explicitly disabled, but Bash, tmux, and vim (among others) are installed and ready to use.
+{% include code.html name='demonic' desc='A suite of programs designed to execute commands in a sandboxed environment.' %}
 
 # Give it a Spin!
 
-Try it out [here](https://liambeckman.com/code/term).
+Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
-<a href="https://liambeckman.com/code/term">
-    <img src="/assets/images/demonic-example-vi-tmux.png">
-</a>
+<div class="demonic-examples-container">
+    <code class="demonic-examples">palindrome</code>
+    <code class="demonic-examples">prime 10101</code>
+    <code class="demonic-examples">withfeathers --print</code>
+</div>
 
-
-<br />
-
----
-
-<br />
+{% include demonic.html name='prime 10101' %}
 
 # Installation
 
 <h2 class="code">0. Prerequisites</h2>
 
-[`python 3`](https://www.python.org/) :: for running the server.
+[`node.js`](https://nodejs.org/en/) :: for running the server.
 
 [`npm`](https://www.npmjs.com/) :: for installing the dependencies.
 
@@ -65,22 +41,22 @@ git clone https://github.com/lbeckman314/demonic
 # enter directory
 cd demonic
 
-# install node.js dependencies
-npm install xterm
+# install dependencies
+npm install
 
-# create virtual environment
-python3 -m venv virtual
+# copy example config
+cp config-example.js config.js
 
-# activate virtual environment
-source virtual/bin/activate
+# edit key, certificate, and passphrase information
+nano config.js
 
-# install python dependencies
-pip install terminado
+# run server (if no port number is provided, 12345 in this example, the server will default to port 8181)
+node server.js 12345
 
-# run server
-python app.py
+# edit server information
+nano demonic.js
 
-# then you can connect to the server from a client at HOST_ADDRESS:8282 (e.g. https://localhost:8282).
+# then you can connect to the server from a client (e.g. client-example.html)
 ```
 
 <br />
