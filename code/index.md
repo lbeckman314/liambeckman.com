@@ -26,7 +26,8 @@ Feel free to try out some programs in an interactive sandbox. Click on any of th
     <code>palindrome</code>
     <code>prime 10101</code>
     <code>withfeathers --print</code>
-    <code>voy search --color --name portland</code>
+    <code>pipes.sh</code>
+    <code>fortune | cowsay | lolcat</code>
 </div>
 
 {% include demonic.html command='prime 10101' %}
