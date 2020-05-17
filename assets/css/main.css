@@ -235,7 +235,7 @@ div.favorites:hover {
   background-color: white;
   color: black;
   line-height: normal;
-  border: 0.5px solid white; }
+  border: 1px solid grey; }
 
 #demonic-examples > code {
   background-color: #4635f7;
