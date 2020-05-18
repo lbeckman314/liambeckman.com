@@ -9,7 +9,7 @@ node {
     }
     stage('Build') {
         sh "$BUNDLE install"
-            sh "$BUNDLE exec $JEKYLL build --incremental"
+            sh "$BUNDLE exec $JEKYLL build"
     }
     stage('Deploy') {
         sh "rsync -crvz --delete _site/* $PUBLIC_WWW"
