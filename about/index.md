@@ -11,7 +11,7 @@ title: about
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue.
 
-Have a good book or movie recommendation or just want to chat? I'm available at <a href="mailto:liam@liambeckman.com">liam@liambeckman.com</a>
+Have a good book or movie recommendation or just want to chat? I'm available at <a href="mailto:liam@liambeckman.com">liam@liambeckman.com</a>.
 
 Are you looking for a plucky developer with a small propensity for segmentation faults? Here are some links of interest —
 
@@ -42,6 +42,22 @@ Are you looking for a plucky developer with a small propensity for segmentation 
         <p>LinkedIn</p>
     </div>
 </div>
+
+---
+
+## about my setup:
+
+![](/assets/images/home.png)
+
+- computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
+- os ⇢ [Void (linux)](https://voidlinux.org/)
+- terminal ⇢ [Alacritty](https://github.com/alacritty/alacritty)
+- shell ⇢ [Zsh](http://zsh.sourceforge.net/) + [tmux](https://github.com/tmux/tmux)
+- editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
+- window manager ⇢ [bspwm](https://github.com/baskerville/bspwm)
+- bar ⇢ [Polybar](https://polybar.github.io/)
+- wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)
+- browser ⇢ [Firefox](https://www.mozilla.org/)
 
 ---
 
