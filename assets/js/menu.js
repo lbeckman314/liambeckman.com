@@ -5,16 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let drop = document.getElementById('drop-button');
 
     drop.addEventListener('click', (e) => {
-        console.log("drop:", e.currentTarget);
         menu.style.display = menu.style.display == 'block' ? '' : 'block';
     });
 
     window.addEventListener('click', (e) => {
-        console.log("target:", e.target);
-        console.log("current:", e.currentTarget);
         if (!e.target.matches('#drop-button')) {
             menu.style.display = '';
-            console.log("menu:", menu.style.display);
         }
     });
 

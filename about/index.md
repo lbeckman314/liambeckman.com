@@ -45,22 +45,6 @@ Are you looking for a plucky developer with a small propensity for segmentation 
 
 ---
 
-## about my setup:
-
-![](/assets/images/home.png)
-
-- computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
-- os ⇢ [Void (linux)](https://voidlinux.org/)
-- terminal ⇢ [Alacritty](https://github.com/alacritty/alacritty)
-- shell ⇢ [Zsh](http://zsh.sourceforge.net/) + [tmux](https://github.com/tmux/tmux)
-- editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
-- window manager ⇢ [bspwm](https://github.com/baskerville/bspwm)
-- bar ⇢ [Polybar](https://polybar.github.io/)
-- wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)
-- browser ⇢ [Firefox](https://www.mozilla.org/)
-
----
-
 ## about the website:
 
 This website stores and presents various projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
@@ -101,4 +85,23 @@ bundle exec jekyll serve
 # Hosting is a whole 'nother beast, but services like github pages and gitlab pages make free hosting relatively easier.
 # self-hosting with apache and/or nginx is another cool possibility!
 ```
+
+---
+
+## my setup:
+
+![](/assets/images/home.png)
+
+- computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
+- os ⇢ [Void (linux)](https://voidlinux.org/)
+- terminal ⇢ [Alacritty](https://github.com/alacritty/alacritty)
+- shell ⇢ [Zsh](http://zsh.sourceforge.net/) + [tmux](https://github.com/tmux/tmux)
+- editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
+- window manager ⇢ [bspwm](https://github.com/baskerville/bspwm)
+- wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)
+- bar ⇢ [Polybar](https://polybar.github.io/)
+- dock ⇢ [Plank](https://launchpad.net/plank)
+- icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
+- browser ⇢ [Firefox](https://www.mozilla.org/)
+
 
