@@ -6,6 +6,7 @@
 </div>
 <script src="/assets/js/web.bundle.js"></script>
 <script>
+    const theme = localStorage.getItem('theme');
     const MAGENTA='\x1b[1;35m';
     const BLUE='\x1b[1;34m';
     const GREEN='\x1b[1;32m';
@@ -16,6 +17,7 @@
         command: 'ls',
         boot: true,
         userPrompt: userPrompt,
+        theme: theme,
     });
 </script>
 
