@@ -92,16 +92,16 @@ bundle exec jekyll serve
 
 ![](/assets/images/home.png)
 
-- computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
-- os ⇢ [Void (linux)](https://voidlinux.org/)
-- terminal ⇢ [Alacritty](https://github.com/alacritty/alacritty)
-- shell ⇢ [Zsh](http://zsh.sourceforge.net/) + [tmux](https://github.com/tmux/tmux)
-- editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
-- window manager ⇢ [bspwm](https://github.com/baskerville/bspwm)
-- wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)
-- bar ⇢ [Polybar](https://polybar.github.io/)
-- dock ⇢ [Plank](https://launchpad.net/plank)
-- icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
-- browser ⇢ [Firefox](https://www.mozilla.org/)
+※ computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
+※ os ⇢ [Void (linux)](https://voidlinux.org/)
+※ terminal ⇢ [Alacritty](https://github.com/alacritty/alacritty)
+※ shell ⇢ [Zsh](http://zsh.sourceforge.net/) + [tmux](https://github.com/tmux/tmux)
+※ editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
+※ window manager ⇢ [bspwm](https://github.com/baskerville/bspwm)
+※ wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)
+※ bar ⇢ [Polybar](https://polybar.github.io/)
+※ dock ⇢ [Plank](https://launchpad.net/plank)
+※ icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
+※ browser ⇢ [Firefox](https://www.mozilla.org/)
 
 
