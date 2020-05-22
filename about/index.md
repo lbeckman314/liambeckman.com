@@ -99,6 +99,7 @@ bundle exec jekyll serve
 - editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
 - window manager ⇢ [bspwm](https://github.com/baskerville/bspwm)
 - wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)
+- launcher ⇢ [Rofi](https://github.com/davatorium/rofi)
 - bar ⇢ [Polybar](https://polybar.github.io/)
 - dock ⇢ [Plank](https://launchpad.net/plank)
 - icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
