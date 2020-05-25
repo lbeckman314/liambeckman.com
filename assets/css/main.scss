@@ -86,8 +86,6 @@ div {
     .favorites:hover { background-color: $pop-5; }
 }
 
-.relative { position: relative; }
-
 // Demonic terminal
 div#demonic-examples {
     color: $light;
@@ -194,10 +192,15 @@ div#demonic-examples{
             padding-bottom: 1%;
             transition: $tran;
             padding: 0.5em;
+            color: currentColor;
         }
         h1 > a {
             text-decoration: none;
             transition: $tran;
+        }
+        .relative { 
+            position: relative;
+            display: inline;
         }
     }
     div:hover {

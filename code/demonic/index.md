@@ -18,7 +18,7 @@ Feel free to try out some of my programs in an interactive sandbox. Click on any
 
 # Installation
 
-<h2 class="code">0. Prerequisites</h2>
+<h2>0. Prerequisites</h2>
 
 [`node.js`](https://nodejs.org/en/) :: for running the server.
 
@@ -32,7 +32,7 @@ If you are running Windows, the above utilities will be packaged in any of the f
 
 The above utilities should be installed (or readily available) if you are running a Unix derivative (such as Linux, macOS, or any of the BSD's).
 
-<h2 class="code">1. Quickstart</h2>
+<h2>1. Quickstart</h2>
 
 ```shell
 # clone the git repo
@@ -63,7 +63,7 @@ nano demonic.js
 
 # Uninstallation
 
-<h2 class="code">0. Delete the directory/folder.</h2>
+<h2>0. Delete the directory/folder.</h2>
 
 ```shell
 # remove this directory

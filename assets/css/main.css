@@ -82,9 +82,6 @@ div .git:hover {
 div .favorites:hover {
   background-color: #4635f7; }
 
-.relative {
-  position: relative; }
-
 div#demonic-examples {
   color: snow;
   line-height: 1.7;
@@ -174,10 +171,14 @@ div#demonic-examples {
     margin-bottom: 1%;
     padding-bottom: 1%;
     transition: 800ms;
-    padding: 0.5em; }
+    padding: 0.5em;
+    color: currentColor; }
   .home div h1 > a {
     text-decoration: none;
     transition: 800ms; }
+  .home div .relative {
+    position: relative;
+    display: inline; }
 .home div:hover {
   transition: 800ms; }
   .home div:hover h1, .home div:hover a {

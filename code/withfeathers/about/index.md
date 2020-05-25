@@ -65,7 +65,7 @@ python withfeathers/main.py --print
 
 # Uninstallation
 
-<h2 class="code">0. Delete the directory.</h2>
+<h2>0. Delete the directory.</h2>
 
 ```shell
 rm -rfI withFeathers
