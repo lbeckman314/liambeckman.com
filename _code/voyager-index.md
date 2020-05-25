@@ -1,7 +1,7 @@
 ---
 name: voyager-index
 img: voyager-index.png
-type: [web, CLI]
+type: [web, cli]
 src: voyager-index.herokuapp.com/
 ---
 

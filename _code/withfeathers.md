@@ -1,7 +1,7 @@
 ---
 name: withfeathers
 img: withfeathers.png
-type: [web, CLI]
+type: [web, cli]
 src: withfeathers.liambeckman.com
 ---
 

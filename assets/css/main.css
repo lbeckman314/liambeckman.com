@@ -1,50 +1,3 @@
-/***************************************************/
-/* CSS I've cobbled together from the far corners of the world.
-Feel free to copy and paste, fork, clone, or anything you like. */
-/***************************************************/
-#hello:hover {
-  transition: 800ms;
-  text-shadow: none; }
-
-#hello {
-  text-shadow: 3px 3px 0px #4635f7, 6px 6px 0px #678cfa, 9px 9px 0px #49ccd4, 12px 12px 0px #ed68d9, 15px 15px 0px #db37c4;
-  transition: 800ms;
-  color: darkblue; }
-
-#stuck-up {
-  font-weight: 100;
-  font-family: times; }
-
-#wiki:hover {
-  text-decoration: unset;
-  transition: 800ms; }
-
-.featured > a {
-  display: block; }
-
-.featured {
-  text-align: center; }
-
-.featured > p {
-  padding-left: 1em;
-  padding-right: 1em; }
-
-.home > div {
-  border: solid 1px #aaa;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
-
-.cc-icon {
-  height: 2em;
-  vertical-align: middle;
-  pointer-events: none; }
-
-/***************************************************/
-/* BASIC STUFF
-/***************************************************/
 * {
   margin: 0;
   padding: 0;
@@ -71,108 +24,66 @@ body {
   font-weight: 500;
   position: relative; }
 
-/* paragraphs*/
 p {
   color: #333;
   padding-bottom: 1.5%;
   transition: 800ms; }
+  p .code {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1em; }
+  p .headers {
+    background-color: #D3D2E0;
+    border: 1px #aaa solid; }
 
-p.code {
-  text-align: center;
-  padding: 0.5em;
-  font-size: 1em; }
-
-p.headers {
-  background-color: #D3D2E0;
-  border: 1px #aaa solid; }
-
-#home p {
-  text-align: center; }
-
-/* anchors */
 a {
-  color: #ff357a;
+  color: #FF357A;
   text-decoration: none;
   font-weight: 600; }
+  a .about {
+    color: #DB37C4; }
+  a .notes {
+    color: #ED68D9; }
+  a .code {
+    color: #49CCD4; }
+  a .git {
+    color: #678CFA; }
+  a .favorites {
+    color: #4635f7; }
+  a .secret {
+    float: right;
+    padding-right: 3em; }
 
 a:hover {
   text-decoration: underline;
-  text-decoration-color: #ff357a; }
-
-a.about {
-  color: #DB37C4;
-  text-decoration: snow; }
-
-a.writings, a.notes {
-  color: #ED68D9;
-  text-decoration: none; }
-
-a.code {
-  color: #49CCD4;
-  text-decoration: none; }
-
-a.git, .git {
-  color: #678CFA;
-  text-decoration: none; }
-
-a.favorites {
-  color: #4635F7;
-  text-decoration: none; }
-
-#home a {
-  font-size: 1em;
-  transition: 800ms; }
-
-#home span {
-  transition: 800ms; }
+  text-decoration-color: #FF357A; }
 
 #header a, #footer a {
-  color: #FFFFFF; }
+  color: snow; }
 
-/*
-li.header::after {
-content: " )";
-color: grey;
-}
-
-li.header::before {
-content: "( ";
-color: grey;
-}
- */
-a.secret {
-  float: right;
-  padding-right: 3em; }
-
-#home:hover a {
-  text-decoration-color: snow;
-  transition: 800ms; }
-
-/* div */
-div.about {
+div .about {
   color: #DB37C4; }
-  div.about h1 {
-    color: currentColor; }
-
-div.writings, div.notes {
+div .notes {
   color: #ED68D9; }
-  div.writings h1, div.notes h1 {
-    color: currentColor; }
-
-div.code {
+div .code {
   color: #49CCD4; }
-  div.code h1 {
-    color: currentColor; }
-
-div.git {
+div .git {
   color: #678CFA; }
-  div.git h1 {
-    color: currentColor; }
+div .favorites {
+  color: #4635f7; }
+div .about:hover {
+  background-color: #DB37C4; }
+div .notes:hover {
+  background-color: #ED68D9; }
+div .code:hover {
+  background-color: #49CCD4; }
+div .git:hover {
+  background-color: #678CFA; }
+div .favorites:hover {
+  background-color: #4635f7; }
 
-div.favorites {
-  color: #4635F7; }
-  div.favorites h1 {
-    color: currentColor; }
+.relative {
+  position: relative; }
 
 div#demonic-examples {
   color: snow;
@@ -180,65 +91,16 @@ div#demonic-examples {
   padding-bottom: 1.5%;
   transition: 800ms; }
 
-.home > div {
-  transition: 800ms;
-  border: solid 1px currentColor;
-  position: relative; }
-
-.home > div > h1 {
-  border-bottom: 1px solid currentColor;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 1%;
-  padding-bottom: 1%;
-  transition: 800ms;
-  padding: 0.5em; }
-
-.home > div > a {
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%; }
-
-.home > div > h1 > a {
-  text-decoration: none;
-  transition: 800ms; }
-
-.home > div:hover {
-  transition: 800ms; }
-  .home > div:hover h1, .home > div:hover a {
-    color: snow;
-    transition: 800ms; }
-
-.relative {
-  position: relative; }
-
-div.about:hover {
-  background-color: #DB37C4; }
-
-div.writings:hover, div.notes:hover {
-  background-color: #ED68D9; }
-
-div.code:hover {
-  background-color: #49CCD4; }
-
-div.git:hover {
-  background-color: #678CFA; }
-
-div.favorites:hover {
-  background-color: #4635F7; }
-
-/* Demonic terminal stuff */
 #terminal {
   width: 100%;
   height: 25em;
-  background-color: white;
+  background-color: snow;
   color: black;
   line-height: normal;
   border: 1px solid grey; }
 
 #demonic-examples > code {
-  background-color: #4635f7;
+  background-color: #29208e;
   border-radius: 0;
   font-size: 1.3em;
   margin-right: 0.5em;
@@ -248,13 +110,13 @@ div.favorites:hover {
   display: inline-block; }
 
 #demonic-examples > code:hover {
-  background-color: #ff357a;
+  background-color: #FF357A;
   transition: 800ms; }
 
 .what-is-this {
   float: right;
   margin-top: 1.5em;
-  color: grey; }
+  color: #aaa; }
 
 #terminal-container {
   padding-bottom: 10%; }
@@ -272,82 +134,69 @@ div#demonic-examples {
   transition: 400ms;
   color: black; }
 
-/* home stuff */
-#home:hover p {
+#home:hover p, #home:hover span, #home:hover div {
   color: snow;
   transition: 800ms; }
-
-#home:hover span {
-  color: snow;
-  transition: 800ms; }
-
 #home:hover div {
-  border-bottom: 1px solid snow;
-  transition: 800ms; }
-
-#home:hover a {
-  color: snow;
-  transition: 800ms; }
-
-#home div {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 2%;
-  margin-top: 2%; }
+  border-bottom: 1px solid snow; }
 
 #home {
   width: 100%;
   cursor: pointer; }
+  #home p {
+    text-align: center; }
+  #home div {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%; }
+  #home span {
+    transition: 800ms; }
 
-div.about-border {
-  border-bottom: 1px solid #DB37C4;
+.home div {
+  border: solid 1px currentColor;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  position: relative;
+  text-align: center;
   transition: 800ms; }
-
-div.writings-border, div.notes-border {
-  border-bottom: 1px solid #ED68D9;
+  .home div a {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%; }
+  .home div h1 {
+    border-bottom: 1px solid currentColor;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    transition: 800ms;
+    padding: 0.5em; }
+  .home div h1 > a {
+    text-decoration: none;
+    transition: 800ms; }
+.home div:hover {
   transition: 800ms; }
+  .home div:hover h1, .home div:hover a {
+    color: snow;
+    transition: 800ms; }
 
-div.code-border {
-  border-bottom: 1px solid #49CCD4;
-  transition: 800ms; }
-
-div.git-border {
-  border-bottom: 1px solid #678CFA;
-  transition: 800ms; }
-
-div.favorites-border {
-  border-bottom: 1px solid #4635F7;
-  transition: 800ms; }
-
-#welcome {
-  transition: 800ms;
-  width: 80%;
-  margin: auto;
-  display: block;
-  padding: 3%;
-  border: 1px dashed #aaa;
-  cursor: pointer; }
-
-#welcome:hover {
-  background: #0054a5;
-  transition: 800ms; }
-
-/* headers */
 h1 {
   font-size: 3em;
   font-family: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif;
   text-align: center;
   color: #131516; }
-
-h1.home-page {
-  padding-top: 2%; }
-
-h1.favorites {
-  color: #4635f7;
-  text-decoration: underline dotted #4635f7; }
+  h1 .home-page {
+    padding-top: 2%; }
+  h1 .favorites {
+    color: #4635f7;
+    text-decoration: underline dotted #4635f7; }
 
 .special {
-  color: grey;
+  color: #aaa;
   text-decoration: underline dotted grey; }
 
 h2 {
@@ -361,7 +210,6 @@ h3 {
   padding-top: 1%;
   padding-bottom: 1%; }
 
-/* lists */
 ul {
   padding-left: 5%; }
 
@@ -377,14 +225,14 @@ nav ul, #footer ul, #header ul {
   padding-right: 10px;
   list-style: none;
   font-weight: bold;
-  color: grey; }
+  color: #aaa; }
 
 #header ul {
   padding-bottom: 10px; }
 
 nav ul li, #footer ul li, #header ul li {
   display: inline;
-  color: grey; }
+  color: #aaa; }
 
 ul.code, li.code {
   text-align: center;
@@ -409,14 +257,12 @@ li.quote {
 #header li {
   margin-right: 20px; }
 
-/* https://stackoverflow.com/questions/4980525/css-center-display-inline-block */
 .inline-block {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5%; }
 
-/* https://stackoverflow.com/questions/4980525/css-center-display-inline-block */
 .inline-block > ul {
   display: flex;
   flex-wrap: wrap;
@@ -470,15 +316,6 @@ object.showoff {
   visibility: hidden;
   transition: 800ms; }
 
-.rainbow-box {
-  padding: 1em;
-  border: 3px solid transparent;
-  border-image: linear-gradient(to bottom right, #DB37C4 0%, #DB37C4 25%, #49CCD4 50%, #678CFA 75%, #4635F7 100%);
-  border-image-slice: 1;
-  transition: 800ms;
-  margin-bottom: 5%;
-  text-align: center; }
-
 hr {
   border-bottom: 1px dashed grey;
   border-top: 0px;
@@ -506,15 +343,31 @@ hr {
   padding: 1em;
   padding-bottom: 0; }
 
-/* decorative splash of color at top of page */
-/* http://sass-lang.com/ */
 .popstripe {
   height: .25em;
   background-size: 100%;
-  background-image: linear-gradient(to right, #DB37C4 0%, #DB37C4 20%, #ED68D9 20%, #ED68D9 40%, #49CCD4 40%, #49CCD4 60%, #678CFA 60%, #678CFA 80%, #4635F7 80%, #4635F7 100%); }
+  background-image: linear-gradient(to right, #DB37C4 0%, #DB37C4 20%, #ED68D9 20%, #ED68D9 40%, #49CCD4 40%, #49CCD4 60%, #678CFA 60%, #678CFA 80%, #4635f7 80%, #4635f7 100%); }
 
 .heart {
   color: #FF357A; }
+
+#hello:hover {
+  transition: 800ms;
+  text-shadow: none; }
+
+#hello {
+  text-shadow: 3px 3px 0px #4635f7, 6px 6px 0px #678CFA, 9px 9px 0px #49CCD4, 12px 12px 0px #ED68D9, 15px 15px 0px #DB37C4;
+  transition: 800ms;
+  color: darkblue; }
+
+#stuck-up {
+  font-weight: 100;
+  font-family: times; }
+
+.cc-icon {
+  height: 2em;
+  vertical-align: middle;
+  pointer-events: none; }
 
 img {
   max-width: 100%;
@@ -536,7 +389,6 @@ img.emily {
 span.date:before {
   content: "|"; }
 
-/* boxed items like in code and writings */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -553,96 +405,24 @@ span.date:before {
 .flex-item {
   flex-grow: 1; }
 
-.pointer {
-  cursor: pointer; }
-
 .code-main {
-  border: solid 1px #d5d5d5;
+  border: solid 1px #aaa;
   width: 100%;
   margin: 0%; }
 
-button {
-  border: 1px solid gray;
-  transition: 800ms; }
-
-button:hover {
-  border: 1px solid #ff357a;
-  transition: 800ms; }
-
 .inline-content {
   text-align: center; }
-
-button#clear {
-  width: 3em;
-  height: 3em;
-  color: snow;
-  margin: -1%;
-  margin-left: -3em;
-  border: none;
-  font-size: 1.5em; }
-
-button#clear:hover {
-  border: none;
-  color: #678cfa; }
-
-.light {
-  background-color: whitesmoke;
-  border: 1px solid #ff357a;
-  color: whitesmoke; }
-
-.dark {
-  background-color: black;
-  border: 1px solid snow;
-  color: black; }
-
-.white {
-  color: snow; }
-
-.style {
-  display: inline;
-  margin-right: 1em;
-  margin-left: 1em;
-  float: right; }
-
-span, input {
-  color: snow; }
-
-#full-screen-menu {
-  display: inline; }
-
-/* Change color of dropdown links on hover */
-.config-content, .dropdown-content, .header:hover {
-  background-color: #131516; }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #131516;
-  border: 1px solid grey;
-  min-width: 40%;
-  z-index: 1; }
-
-.config-content {
-  display: none;
-  position: absolute;
-  background-color: #131516;
-  border: 1px solid grey;
-  z-index: 1;
-  max-width: 40%;
-  min-width: 40%;
-  left: 59%; }
 
 #menu {
   width: 100%; }
 
 #menu > li::after {
   content: " )";
-  color: grey; }
+  color: #aaa; }
 
 #menu > li::before {
   content: "( ";
-  color: grey; }
+  color: #aaa; }
 
 .zigzag-container {
   display: none; }
@@ -662,7 +442,7 @@ span, input {
   color: snow; }
 
 #header #theme:hover {
-  color: #ff357a; }
+  color: #FF357A; }
 
 #fork {
   margin-left: auto;
@@ -678,47 +458,22 @@ span, input {
   top: 5px;
   left: 5px; }
 
-#myDropdown > a {
+#myDropdown a {
   margin: 0;
   padding: 10%;
   transition: 1200ms; }
-
-#myDropdown > a:hover {
+#myDropdown a:hover {
   background-color: #4635f7;
   transition: 400ms;
   text-decoration: none; }
-
-#myDropdown > .inline {
+#myDropdown .inline {
   margin: 0;
   padding: 10%;
   transition: 1200ms; }
-
-#myDropdown > .inline:hover {
+#myDropdown .inline:hover {
   background-color: #4635f7;
   transition: 400ms; }
 
-#myDropdown > #home:hover {
-  background-color: #ff357a; }
-
-#myDropdown > #about:hover {
-  background-color: #DB37C4; }
-
-#myDropdown > #writings:hover {
-  background-color: #ED68D9; }
-
-#myDropdown > #code:hover {
-  background-color: #49CCD4; }
-
-#myDropdown > #vcs:hover {
-  background-color: #678CFA; }
-
-#myDropdown > #favorites:hover {
-  background-color: #4635F7; }
-
-#myDropdown > #secret:hover {
-  background-color: #ff357a; }
-
-/* Links inside the dropdown */
 .inline, .config-content span, .dropdown-content a {
   margin: 15%;
   margin-bottom: 5%;
@@ -730,7 +485,6 @@ span, input {
   margin-top: 15%;
   margin-bottom: 15%; }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
   display: block; }
 
@@ -762,33 +516,6 @@ input {
   display: block;
   text-align: center; }
 
-#theme {
-  cursor: pointer;
-  transition: 800ms;
-  margin-left: auto; }
-
-.popstripe-bw {
-  height: 0.25em;
-  background-size: 100%;
-  background-image: linear-gradient(to right, #191917 0%, #191917 20%, #6D7564 20%, #6D7564 40%, #363436 40%, #363436 60%, #7F7F7D 60%, #7F7F7D 80%, #363634 80%, #363634 100%); }
-
-/* borders */
-.border {
-  margin: 6%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 1px solid #aaa; }
-
-.border-home {
-  margin: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-bottom: 1px solid #db34ed; }
-  .border-home .border-code {
-    border-bottom: 1px solid #aaa; }
-
-/* arrow links for next and previous */
-/* http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html */
 .PageNavigation {
   display: block;
   width: auto;
@@ -798,7 +525,7 @@ input {
   display: block;
   width: 50%;
   margin: 1em 0;
-  color: grey;
+  color: #aaa;
   padding-left: 4%;
   padding-right: 4%;
   padding-top: 1%; }
@@ -813,7 +540,7 @@ input {
   padding-left: 4%; }
 
 .sub {
-  color: grey;
+  color: #aaa;
   line-height: 1.8; }
 
 div.sub {
@@ -838,7 +565,7 @@ div.sub {
   border-radius: 1em;
   width: 60%;
   background-color: #29208e;
-  border: 1px solid white; }
+  border: 1px solid snow; }
 
 .type-container {
   display: flex;
@@ -857,9 +584,6 @@ div.sub {
   width: 30%;
   margin: 2%; }
 
-.web {
-  border: 1px solid #DB37C4; }
-
 .featured {
   transition: 800ms;
   cursor: pointer;
@@ -869,61 +593,43 @@ div.sub {
   background-color: #ccccfc;
   transition: 800ms; }
 
-.CLI {
+.featured > a {
+  display: block; }
+
+.featured {
+  text-align: center; }
+
+.featured > p {
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.cli {
   border: 1px solid #678CFA; }
 
 .android {
   border: 1px solid #49CCD4; }
 
-/**
- * Code formatting
- */
+.web {
+  border: 1px solid #DB37C4; }
+
 pre {
   padding: 8px 12px;
-  overflow-x: auto;
-  white-space: pre-wrap; }
+  overflow-x: auto; }
 
 code {
   overflow-x: auto;
-  white-space: pre-wrap;
   border-radius: 15%;
-  /* top right bottom left */
   padding: 0.1em 0.4em 0.1em 0.4em;
   line-height: 1.5em;
-  /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
   box-decoration-break: clone;
   font-size: 0.9em; }
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  transition: 0.4s; }
-
-.active, .accordion:hover {
-  background-color: #ccc; }
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden; }
-
-/* slideshow */
 #align a {
   display: inline-block; }
 
 #align p {
   padding-left: 1.5em;
   color: #5e5e5e; }
-
-* {
-  box-sizing: border-box; }
 
 img.slide {
   width: 100%;
@@ -958,9 +664,8 @@ span.grey {
   width: 30%;
   height: 100%;
   padding: 16px;
-  color: white;
+  color: snow;
   font-weight: bold;
-  /*transition: 0.6s ease;*/
   border-radius: 0 3px 3px 0; }
 
 .next-slideshow {
@@ -974,32 +679,11 @@ span.grey {
   text-align: center;
   background: snow; }
 
-.numbertext {
-  color: #f2f2f2;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  display: none; }
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  /*transition: background-color 0.6s ease;*/ }
-
-.active, .dot:hover {
-  background-color: #717171; }
-
 .black-fade {
   position: relative;
   border: 1px dashed lightgrey;
   padding: 1em; }
 
-/* https://stackoverflow.com/questions/18322548/black-transparent-overlay-on-image-hover-with-only-css/18322705 */
 .black-fade:after {
   content: '\A';
   position: absolute;
@@ -1014,9 +698,9 @@ span.grey {
 
 @keyframes fade-black {
   from {
-    opacity: 1.0; }
+    opacity: 1; }
   to {
-    opacity: 0.0; } }
+    opacity: 0; } }
 @keyframes fadein {
   from {
     opacity: 0; }
@@ -1044,7 +728,6 @@ span.grey {
 div.highlight {
   margin: 5%; }
 
-/* https://stackoverflow.com/questions/8160514/is-there-css-for-typesetting-the-latex-logo-in-html */
 .tex sub, .latex sub, .latex sup {
   text-transform: uppercase; }
 
@@ -1061,9 +744,6 @@ div.highlight {
   vertical-align: 0.15em;
   margin-left: -0.36em;
   margin-right: -0.15em; }
-
-svg {
-  fill: black; }
 
 #mst3k {
   width: 100%;
@@ -1084,7 +764,6 @@ svg {
   border: 1px solid;
   z-index: 1;
   animation-name: fadein;
-  /*animation-duration: 500ms;*/
   transition: opacity 300ms; }
 
 .poem {
@@ -1104,9 +783,6 @@ svg {
 .right {
   position: absolute;
   right: 0; }
-
-#svg8 {
-  fill: white; }
 
 /***************************************************/
 /* SYNTAX HIGHLIGHTING
@@ -1418,7 +1094,7 @@ div.highlighter-rouge div.highlight {
     background-color: #678CFA; }
 
   #favorites > a:hover {
-    background-color: #4635F7; }
+    background-color: #4635f7; }
 
   #secret > a:hover {
     background-color: #ff357a; }

@@ -1,69 +1,6 @@
-/***************************************************/
-/* CSS I've cobbled together from the far corners of the world.
-Feel free to copy and paste, fork, clone, or anything you like. */
-/***************************************************/
+// Dark themes
 
-
-
-//***************************************************/
-//* SASS VARIABLES
-//***************************************************/
-
-$font-stack: Helvetica, Ariral, Sans-Serif;
-
-$pop-1: #DB37C4; // pink
-$pop-2: #ED68D9; // purple
-$pop-3: #49CCD4; // teal
-$pop-4: #678CFA; // light blue
-$pop-5: #4635F7; // blue
-
-$header-footer: #131516;
-
-$heart: #FF357A;
-
-$grey-light: #aaa;
-$grey: #99979c;
-$grey-dark: #131516;
-
-$white: #FFFFFF;
-
-$blue-light: #eef;
-
-// https://stackoverflow.com/questions/12144000/using-custom-fonts-using-css
-@font-face {
-    font-family: 'EB Garamond';
-    src: url('/assets/fonts/EBGaramond-0.016/ttf/EBGaramond12-Regular.ttf');
-}
-
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.7;
-$small-line-height: $base-line-height - 0.2;
-
-$spacing-unit:     30px;
-$tran:             800ms;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-/***************************************************/
-/* DARK THEMES
-/***************************************************/
+@import 'vars';
 
 body {
     background-color: #131516;
@@ -73,22 +10,21 @@ body {
     background-color: black;
 }
 
-
 p, h1, h2, h3, h4, h5, h6, .text, pre, dd, dt, li, ul, ol, label{
-    color: snow;
+    color: $light;
 }
 
 pre.src:before {
     background-color: black;
-    color: snow;
+    color: $light;
 }
 
 div.text {
-    background: #131516;;
+    background: #131516;
 }
 
 #align p {
-    color: snow;
+    color: $light;
 }
 
 .safety {
@@ -96,15 +32,15 @@ div.text {
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: $grey;
 }
 
 .code-title, .code-type {
-    color: snow;
+    color: $light;
 }
 
 .featured:hover {
-    background-color: #29208e;
+    background-color: $dark-blue;
 }
 
 #lightswitch {
@@ -113,94 +49,24 @@ div.text {
 
 #lightswitch:hover {
     border: none;
-    border: 1px solid #FF357A;
+    border: 1px solid $heart;
 }
 
 #darkswitch {
-    border: 1px solid #FF357A;
+    border: 1px solid $heart;
 }
 
 .dark {
     background-color: black;
 }
 
-#terminal {
-    background-color: black;
-    color: white;
-}
-
-
-table{
-    border-spacing: 0px;
-    width:50%;
-    padding-bottom: 2em;
-    padding-top: 1em;
-    margin: auto;
-}
-
-th, td {
-    color: #2a2730;
-    padding: 1em;
-    min-width:4em;
-    border: 1px dashed white;
-}
-
-td.footer {
-    color: #2a2730;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.1em;
-    padding: 0.2em;
-    background-color: white
-}
-
-tr:nth-of-type(even) {
-    background-color: #ddd;
-}
-
-tr:nth-of-type(odd) {
-    background-color: #b7d0fe99;
-}
-
-th {
-    background-color: white;
-}
-td.footer, th, textarea {
-    color: lightgrey;
-    background-color: black;
-}
-
-input, input.submit, input.search, input.buttonEdit, input.buttonDelete {
-    background-color: #151515;
-    border: 1px solid black;
-    color: grey;
-}
-
-tr:nth-of-type(even) {
-    background-color: #474747;
-}
-
-tr:nth-of-type(odd) {
-    background-color: #151515;
-    //background-color: lavender;
-}
-
-th, td {
-    color: lightgrey;
-    border: 1px dashed grey;
-}
-
 .config-content, .dropdown-content, .header:hover {
     background-color: black;
 }
 
-svg {
-    fill: snow;
-}
-
 #hello {
-    color: snow;
+    color: $light;
 }
 
-// import partials
 @import 'codedark';
+
