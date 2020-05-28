@@ -2,7 +2,7 @@
 name: mdbook-latex
 img: mdbook-latex.png
 type: cli
-src: github.com/lbeckman314/mdbook-latex
+src: liambeckman.com/code/mdbook-
 ---
 
 A documentation backend used to generate L<sup>a</sup>T<sub>e</sub>X and PDF documents.
