@@ -90,7 +90,7 @@ bundle exec jekyll serve
 
 ## my setup:
 
-![](/assets/images/home.png)
+![](/assets/images/home.jpg)
 
 - computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
 - os ⇢ [Void (linux)](https://voidlinux.org/)

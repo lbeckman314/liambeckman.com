@@ -1,112 +1,9 @@
-/***************************************************/
-/* CSS I've cobbled together from the far corners of the world.
-Feel free to copy and paste, fork, clone, or anything you like. */
-/***************************************************/
+// CSS I've cobbled together from the far corners of the world.
+// Feel free to copy and paste, fork, clone, or anything you like.
 
+@import 'vars';
 
-
-//***************************************************/
-//* SASS VARIABLES
-//***************************************************/
-
-$font-stack: DejaVu Sans, DejaVu Serif, Liberation Sans, Helvetica, Ariral, Sans-Serif;
-
-$pop-1: #DB37C4; // pink
-$pop-2: #ED68D9; // purple
-$pop-3: #49CCD4; // teal
-$pop-4: #678CFA; // light blue
-$pop-5: #4635F7; // blue
-
-$header-footer: #2A2730;
-
-$heart: #FF357A;
-
-$grey-light: #aaa;
-$grey-dark: #131516;
-
-$white: #FFFFFF;
-
-$blue-light: #eef;
-
-$base-font-size:   1em;
-$large-font-size:  3em;
-$base-font-weight: 500;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 2;
-$small-line-height: $base-line-height - 0.2;
-
-$spacing-unit:     30px;
-$tran:             800ms;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-#hello:hover {
-    transition: $tran;
-    text-shadow: none;
-}
-
-#hello {
-    text-shadow: 3px 3px 0px #4635f7, 6px 6px 0px #678cfa, 9px 9px 0px #49ccd4, 12px 12px 0px #ed68d9, 15px 15px 0px #db37c4;
-    transition: $tran;
-    color: darkblue;
-}
-
-#stuck-up {
-    font-weight: 100;
-    font-family: times;
-}
-
-#wiki:hover {
-    text-decoration: unset;
-    transition: $tran;
-}
-
-.featured > a {
-    display: block;
-}
-
-.featured {
-    text-align: center;
-}
-
-.featured > p {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.home > div {
-    border: solid 1px #aaa;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.cc-icon {
-    height: 2em;
-    vertical-align: middle;
-    pointer-events: none;
-}
-
-
-/***************************************************/
-/* BASIC STUFF
-/***************************************************/
-
+// Basic stuff
 * {
     margin: 0;
     padding: 0;
@@ -120,7 +17,7 @@ $on-laptop:        800px;
 
 body {
     word-wrap: break-word;
-    background-color: snow;
+    background-color: $light;
 }
 
 #content {
@@ -136,208 +33,78 @@ body {
     position: relative;
 }
 
-/* paragraphs*/
+// Paragraphs
 p {
     color: #333;
     padding-bottom: 1.5%;
     transition: $tran;
+    .code {
+        text-align: center;
+        padding: 0.5em;
+        font-size: $base-font-size;
+    }
+    .headers {
+        background-color: #D3D2E0;
+        border: 1px $grey solid;
+    }
 }
 
-p.code {
-    text-align: center;
-    padding: 0.5em;
-    font-size: $base-font-size;
-}
-
-
-p.headers {
-    background-color: #D3D2E0;
-    border: 1px $grey-light solid;
-}
-
-#home p {
-    text-align: center;
-}
-
-/* anchors */
-
+// Anchors
 a {
-    color: #ff357a;
+    color: $heart;
     text-decoration: none;
     font-weight: $base-font-weight + 100;
+    .about     { color: $pop-1; }
+    .notes     { color: $pop-2; }
+    .code      { color: $pop-3; }
+    .git       { color: $pop-4; }
+    .favorites { color: $pop-5; }
+    .secret {
+        float: right;
+        padding-right: 3em;
+    }
 }
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: #ff357a;
+    text-decoration-color: $heart;
 }
 
-a.about {
-    color: $pop-1;
-    text-decoration: snow;
+#header a, #footer a { color: $light; }
+
+// Div
+div {
+    .about     { color: $pop-1; }
+    .notes     { color: $pop-2; }
+    .code      { color: $pop-3; }
+    .git       { color: $pop-4; }
+    .favorites { color: $pop-5; }
+    .about:hover     { background-color: $pop-1; }
+    .notes:hover     { background-color: $pop-2; }
+    .code:hover      { background-color: $pop-3; }
+    .git:hover       { background-color: $pop-4; }
+    .favorites:hover { background-color: $pop-5; }
 }
 
-a.writings, a.notes {
-    color: $pop-2;
-    text-decoration: none;
-}
-
-
-a.code {
-    color: $pop-3;
-    text-decoration: none;
-}
-
-
-a.git, .git {
-    color: $pop-4;
-    text-decoration: none;
-}
-
-a.favorites {
-    color: $pop-5;
-    text-decoration: none;
-}
-
-
-#home a {
-    font-size: $base-font-size;
-    transition: $tran;
-}
-
-#home span {
-    transition: $tran;
-}
-
-#header a, #footer a {
-    color: $white;
-}
-
-/*
-li.header::after {
-content: " )";
-color: grey;
-}
-
-li.header::before {
-content: "( ";
-color: grey;
-}
- */
-
-a.secret {
-    float: right;
-    padding-right: 3em;
-}
-
-#home:hover a {
-    text-decoration-color: snow;
-    transition: $tran;
-}
-
-
-/* div */
-
-div.about {
-    color: $pop-1;
-    h1 { color: currentColor; }
-}
-div.writings, div.notes {
-    color: $pop-2;
-    h1 { color: currentColor; }
-}
-div.code {
-    color: $pop-3;
-    h1 { color: currentColor; }
-}
-div.git {
-    color: $pop-4;
-    h1 { color: currentColor; }
-}
-div.favorites {
-    color: $pop-5;
-    h1 { color: currentColor; }
-}
+// Demonic terminal
 div#demonic-examples {
-    color: snow;
+    color: $light;
     line-height: 1.7;
     padding-bottom: 1.5%;
     transition: 800ms;
 }
 
-.home > div {
-    transition: $tran;
-    border: solid 1px currentColor;
-    position: relative;
-}
-
-.home > div > h1 {
-    border-bottom: 1px solid currentColor;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 1%;
-    padding-bottom: 1%;
-    transition: $tran;
-    padding: 0.5em;
-}
-
-.home > div > a {
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-}
-
-.home > div > h1 > a {
-    text-decoration: none;
-    transition: $tran;
-}
-
-.home > div:hover {
-    transition: $tran;
-    h1, a { 
-        color: snow;
-        transition: $tran;
-    }
-}
-
-.relative {
-    position: relative;
-}
-
-div.about:hover {
-    background-color: $pop-1;
-}
-
-div.writings:hover, div.notes:hover {
-    background-color: $pop-2;
-}
-
-div.code:hover {
-    background-color: $pop-3;
-}
-
-div.git:hover {
-    background-color: $pop-4;
-}
-
-div.favorites:hover {
-    background-color: $pop-5;
-}
-
-/* Demonic terminal stuff */
-
 #terminal {
     width: 100%;
     height: 25em;
-    background-color: white;
+    background-color: $light;
     color: black;
     line-height: normal;
     border: 1px solid grey;
 }
 
 #demonic-examples > code {
-    background-color: #4635f7;
+    background-color: $dark-blue;
     border-radius: 0;
     font-size: $base-font-size + 0.3;
     margin-right: 0.5em;
@@ -348,22 +115,20 @@ div.favorites:hover {
 }
 
 #demonic-examples > code:hover {
-    background-color: #ff357a;
+    background-color: $heart;
     transition: 800ms;
 }
 
 .what-is-this {
     float: right;
     margin-top: 1.5em;
-    color: grey;
+    color: $grey;
 }
 
-#terminal-container {
-    padding-bottom: 10%;
-}
+#terminal-container { padding-bottom: 10%; }
 
 div#demonic-examples{
-    color: snow;
+    color: $light;
     line-height: 1.7;
     padding-bottom: 1.5%;
     transition: 800ms;
@@ -377,107 +142,91 @@ div#demonic-examples{
     color: black;
 }
 
-
-/* home stuff */
-
-#home:hover p {
-    color: snow;
-    transition: $tran;
-}
-
-#home:hover span {
-    color: snow;
-    transition: $tran;
-}
-
-#home:hover div {
-    border-bottom: 1px solid snow;
-    transition: $tran;
-}
-
-#home:hover a {
-    color: snow;
-    transition: $tran;
-}
-
-#home div {
-    width: 90%;
-    margin: auto;
-    margin-bottom: 2%;
-    margin-top: 2%;
+// Home page
+#home:hover {
+    p, span, div {
+        color: $light;
+        transition: $tran;
+    }
+    div {
+        border-bottom: 1px solid $light;
+    }
 }
 
 #home {
     width: 100%;
     cursor: pointer;
+    p { text-align: center; }
+    div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    span {
+        transition: $tran;
+    }
 }
 
-
-div.about-border {
-    border-bottom: 1px solid $pop-1;
-
-    transition: $tran;
+.home {
+    div {
+        border: solid 1px currentColor;
+        margin-bottom: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5em;
+        position: relative;
+        text-align: center;
+        transition: $tran;
+        a {
+            position: absolute;
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+        h1 {
+            border-bottom: 1px solid currentColor;
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-bottom: 1%;
+            padding-bottom: 1%;
+            transition: $tran;
+            padding: 0.5em;
+            color: currentColor;
+        }
+        h1 > a {
+            text-decoration: none;
+            transition: $tran;
+        }
+        .relative { 
+            position: relative;
+            display: inline;
+        }
+    }
+    div:hover {
+        transition: $tran;
+        h1, a {
+            color: $light;
+            transition: $tran;
+        }
+    }
 }
 
-div.writings-border, div.notes-border {
-    border-bottom: 1px solid $pop-2;
-    transition: $tran;
-}
-
-
-div.code-border {
-    border-bottom: 1px solid $pop-3;
-    transition: $tran;
-}
-
-
-div.git-border {
-    border-bottom: 1px solid $pop-4;
-    transition: $tran;
-}
-
-
-div.favorites-border {
-    border-bottom: 1px solid $pop-5;
-    transition: $tran;
-}
-
-#welcome {
-    transition: $tran;
-    width: 80%;
-    margin: auto;
-    display: block;
-    padding: 3%;
-    border: 1px dashed #aaa;
-    cursor: pointer;
-}
-
-#welcome:hover {
-    background: #0054a5;
-    transition: $tran;
-}
-
-
-/* headers */
-
+// Headers
 h1 {
     font-size: 3em;
     font-family: $font-stack;
     text-align: center;
     color: $grey-dark;
-}
-
-h1.home-page {
-    padding-top: 2%;
-}
-
-h1.favorites {
-    color: #4635f7;
-    text-decoration: underline dotted #4635f7;
+    .home-page { padding-top: 2%; }
+    .favorites {
+        color: $pop-5;
+        text-decoration: underline dotted $pop-5;
+    }
 }
 
 .special {
-    color: grey;
+    color: $grey;
     text-decoration: underline dotted grey;
 }
 
@@ -494,8 +243,7 @@ h3 {
     padding-bottom: 1%;
 }
 
-/* lists */
-
+// Lists
 ul {
     padding-left: 5%;
 }
@@ -513,16 +261,14 @@ nav ul, #footer ul, #header ul {
     padding-right: 10px;
     list-style: none;
     font-weight: bold;
-    color: grey;
+    color: $grey;
 }
 
-#header ul {
-    padding-bottom: 10px;
-}
+#header ul { padding-bottom: 10px; }
 
 nav ul li, #footer ul li, #header ul li {
     display: inline;
-    color: grey;
+    color: $grey;
 }
 
 ul.code, li.code {
@@ -540,9 +286,7 @@ ul.notes {
     font-size: 1.5em;
 }
 
-ul.notes li {
-    list-style: none;
-}
+ul.notes li { list-style: none; }
 
 li.quote {
     float:right;
@@ -554,7 +298,6 @@ li.quote {
     margin-right: 20px;
 }
 
-/* https://stackoverflow.com/questions/4980525/css-center-display-inline-block */
 .inline-block {
     display: flex;
     justify-content: center;
@@ -562,7 +305,6 @@ li.quote {
     padding: 5%;
 }
 
-/* https://stackoverflow.com/questions/4980525/css-center-display-inline-block */
 .inline-block > ul {
     display: flex;
     flex-wrap: wrap;
@@ -583,7 +325,7 @@ object.showoff {
 }
 
 .profiles div {
-    border: 1px solid #aaa;
+    border: 1px solid $grey;
     margin: 1em;
     width: 45%;
     text-align: center;
@@ -624,17 +366,6 @@ object.showoff {
     transition: $tran;
 }
 
-.rainbow-box {
-    padding: 1em;
-    border: 3px solid transparent;
-    border-image: linear-gradient(to bottom right, $pop-1 0%, $pop-1 25%, $pop-3 50%, $pop-4 75%, $pop-5 100%);
-    border-image-slice: 1;
-    transition: $tran;
-    margin-bottom: 5%;
-    text-align: center;
-}
-
-
 hr {
     border-bottom: 1px dashed grey;
     border-top: 0px;
@@ -654,30 +385,45 @@ hr {
 .site-footer {
     background-color: #000;
     height:5.1em;
-    color: snow;
+    color: $light;
     font-family: $font-stack;
 }
 
-.quote {
-    float: right;
-}
+.quote { float: right; }
 
 .site-footer div {
     padding: 1em;
     padding-bottom: 0;
 }
 
-/* decorative splash of color at top of page */
-/* http://sass-lang.com/ */
-.popstripe
-{
+.popstripe {
     height: .25em;
     background-size: 100%;
     background-image: linear-gradient(to right, $pop-1 0%, $pop-1 20%, $pop-2 20%, $pop-2 40%, $pop-3 40%, $pop-3 60%, $pop-4 60%, $pop-4 80%, $pop-5 80%, $pop-5 100%);
 }
 
-.heart {
-    color: $heart;
+.heart { color: $heart; }
+
+#hello:hover {
+    transition: $tran;
+    text-shadow: none;
+}
+
+#hello {
+    text-shadow: 3px 3px 0px $pop-5, 6px 6px 0px $pop-4, 9px 9px 0px $pop-3, 12px 12px 0px $pop-2, 15px 15px 0px $pop-1;
+    transition: $tran;
+    color: darkblue;
+}
+
+#stuck-up {
+    font-weight: 100;
+    font-family: times;
+}
+
+.cc-icon {
+    height: 2em;
+    vertical-align: middle;
+    pointer-events: none;
 }
 
 img {
@@ -691,7 +437,7 @@ img.center {
     width: 60%;
     padding: 2%;
     max-width: 400px;
-    border: 1px dashed #aaa;
+    border: 1px dashed $grey;
     border-radius: 50%;
     margin-top: 0.5em;
 }
@@ -704,144 +450,46 @@ span.date:before {
     content: "|";
 }
 
-/* boxed items like in code and writings */
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 3%;
 }
-.fixed{
+.fixed {
     width: 30%;
     word-wrap: break-word;
     margin: 1.5em;
-    border: solid 1px $grey-light;
+    border: solid 1px $grey;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .flex-item {
     flex-grow: 1;
 }
 
-.pointer {
-    cursor: pointer;
-}
-
 .code-main {
-    border: solid 1px #d5d5d5;
+    border: solid 1px $grey;
     width: 100%;
     margin: 0%;
 }
 
-button {
-    border: 1px solid gray;
-    transition: $tran;
-}
+.inline-content { text-align: center; }
 
-button:hover {
-    border: 1px solid #ff357a;
-    transition: $tran;
-}
-
-.inline-content {
-    text-align: center;
-}
-
-button#clear {
-    width: 3em;
-    height: 3em;
-    color: snow;
-    margin: -1%;
-    margin-left: -3em;
-    border: none;
-    font-size: 1.5em;
-}
-
-button#clear:hover {
-    border: none;
-    color: #678cfa;
-}
-
-.light {
-    background-color: whitesmoke;
-    border: 1px solid #ff357a;
-    color: whitesmoke;
-}
-
-.dark {
-    background-color: black;
-    border: 1px solid snow;
-    color: black;
-}
-
-.white {
-    color: snow;
-}
-
-.style {
-    display: inline;
-    margin-right: 1em;
-    margin-left: 1em;
-    float: right;
-}
-
-span, input {
-    color: snow;
-}
-
-#full-screen-menu {
-    display: inline;
-}
-
-/* Change color of dropdown links on hover */
-.config-content, .dropdown-content ,.header:hover {
-    background-color: #131516;
-}
-
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #131516;
-    border: 1px solid grey;
-    min-width: 40%;
-    z-index: 1;
-}
-
-.config-content {
-    display: none;
-    position: absolute;
-    background-color: #131516;
-    border: 1px solid grey;
-    z-index: 1;
-
-    max-width: 40%;
-    min-width: 40%;
-    left: 59%
-}
-
-#menu {
-    width: 100%;
-}
+#menu { width: 100%; }
 
 #menu > li::after {
     content: " )";
-    color: grey;
+    color: $grey;
 }
 #menu > li::before {
     content: "( ";
-    color: grey;
+    color: $grey;
 }
 
-.zigzag-container {
-    display: none;
-}
+.zigzag-container { display: none; }
 
-#secret {
-    float: right;
-}
+#secret { float: right; }
 
 #menu > #secret::after, #menu > #secret::before {
     content: none;
@@ -853,12 +501,10 @@ span, input {
     padding-right: 10px;
     font-size: 2.5em;
     vertical-align: middle;
-    color: snow;
+    color: $light;
 }
 
-#header #theme:hover {
-    color: #ff357a;
-}
+#header #theme:hover { color: $heart; }
 
 #fork {
     margin-left: auto;
@@ -877,66 +523,29 @@ span, input {
     left: 5px;
 }
 
-#header ul li{
-    //margin: 1em;
-    //margin-left: auto;
-    //width: 70%;
-    //border: 1px solid black;
-    //padding-bottom: 0;
+#myDropdown {
+    a {
+        margin: 0;
+        padding: 10%;
+        transition: $tran * 1.5;
+    }
+    a:hover {
+        background-color: $pop-5;
+        transition: $tran / 2;
+        text-decoration: none;
+    }
+    .inline {
+        margin: 0;
+        padding: 10%;
+        transition: $tran * 1.5;
+    }
+    .inline:hover {
+        background-color: $pop-5;
+        transition: $tran / 2;
+    }
 }
 
-#myDropdown > a {
-    margin: 0;
-    padding: 10%;
-    transition: $tran * 1.5;
-}
-
-#myDropdown > a:hover {
-    background-color: #4635f7;
-    transition: $tran / 2;
-    text-decoration: none;
-}
-
-#myDropdown > .inline {
-    margin: 0;
-    padding: 10%;
-    transition: $tran * 1.5;
-}
-
-#myDropdown > .inline:hover {
-    background-color: #4635f7;
-    transition: $tran / 2;
-}
-
-#myDropdown > #home:hover {
-    background-color: #ff357a;
-}
-
-#myDropdown > #about:hover {
-    background-color: $pop-1;
-}
-
-#myDropdown > #writings:hover {
-    background-color: $pop-2;
-}
-
-#myDropdown > #code:hover {
-    background-color: $pop-3;
-}
-
-#myDropdown > #vcs:hover {
-    background-color: $pop-4;
-}
-
-#myDropdown > #favorites:hover {
-    background-color: $pop-5;
-}
-
-#myDropdown > #secret:hover {
-    background-color: #ff357a;
-}
-
-/* Links inside the dropdown */
+// Links inside the dropdown.
 .inline, .config-content span, .dropdown-content a {
     margin: 15%;
     margin-bottom: 5%;
@@ -950,9 +559,7 @@ span, input {
     margin-bottom: 15%;
 }
 
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show { display:block; }
 
 .inline > a, .inline > span {
     display: inline;
@@ -961,18 +568,15 @@ span, input {
 }
 
 .default {
-    color: snow;
+    color: $light;
     padding: 1em;
 }
 
-svg {
-    fill: snow;
-}
+svg { fill: $light; }
 
 input {
     padding: 1em;
     max-width: 100%;
-
     .max {
         height: 3.5em;
         min-width: 70%;
@@ -989,41 +593,7 @@ input {
     text-align: center;
 }
 
-#theme {
-    cursor: pointer;
-    transition: $tran;
-    margin-left: auto;
-}
-
-.popstripe-bw {
-    height: 0.25em;
-    background-size: 100%;
-    background-image: linear-gradient(to right, #191917 0%, #191917 20%, #6D7564 20%, #6D7564 40%, #363436 40%, #363436 60%, #7F7F7D 60%, #7F7F7D 80%, #363634 80%, #363634 100%);
-}
-
-
-/* borders */
-.border {
-    margin: 6%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-bottom: 1px solid $grey-light;
-}
-
-.border-home {
-    margin: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-bottom: 1px solid #db34ed;
-
-    .border-code {
-        border-bottom: 1px solid $grey-light;
-    }
-}
-
-
-/* arrow links for next and previous */
-/* http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html */
+// Arrow links for next and previous posts.
 .PageNavigation {
     display: block;
     width: auto;
@@ -1034,7 +604,7 @@ input {
     display: block;
     width: 50%;
     margin: 1em 0;
-    color: grey;
+    color: $grey;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 1%;
@@ -1051,9 +621,8 @@ input {
     padding-left: 4%;
 }
 
-
 .sub {
-    color: grey;
+    color: $grey;
     line-height: $small-line-height;
 }
 
@@ -1061,8 +630,6 @@ div.sub {
     float: right;
     clear: right;
     margin: 0px;
-}
-span.sub {
 }
 
 .safety {
@@ -1075,7 +642,6 @@ span.sub {
 .code-title {
     font-size: $base-font-size;
     text-align: center;
-    //background-color: $pop-1;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -1084,7 +650,7 @@ span.sub {
     border-radius: 1em;
     width: 60%;
     background-color: #29208e;
-    border: 1px solid white;
+    border: 1px solid $light;
 }
 
 .type-container {
@@ -1106,10 +672,6 @@ span.sub {
     margin: 2%;
 }
 
-.web {
-    border: 1px solid $pop-1;
-}
-
 .featured {
     transition: $tran;
     cursor: pointer;
@@ -1121,80 +683,44 @@ span.sub {
     transition: $tran;
 }
 
-.CLI {
-    border: 1px solid $pop-4;
+.featured > a { display: block; }
+
+.featured { text-align: center; }
+
+.featured > p {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
-.android {
-    border: 1px solid $pop-3;
-}
+.cli     { border: 1px solid $pop-4; }
+.android { border: 1px solid $pop-3; }
+.web     { border: 1px solid $pop-1; }
 
-/**
- * Code formatting
- */
+// Code formatting
 pre {
-    //background-color: $blue-light;
-
     padding: 8px 12px;
     overflow-x: auto;
-    white-space: pre-wrap;
+    $light-space: pre-wrap;
 }
 
 code {
-    //background-color: $blue-light;
     overflow-x: auto;
-    white-space: pre-wrap;
-
-    //margin-left: -6px;
+    $light-space: pre-wrap;
     border-radius: 15%;
-
-    /* top right bottom left */
     padding: 0.1em 0.4em 0.1em 0.4em;
     line-height: 1.5em;
-
-    /* https://stackoverflow.com/questions/34659853/how-to-apply-padding-to-every-line-in-multi-line-text */
     box-decoration-break: clone;
     font-size: 0.9em;
 }
 
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-}
-
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-
-.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-}
-
-
-/* slideshow */
+// Slideshow
 #align a {
     display: inline-block;
 }
 
-
 #align p {
     padding-left: 1.5em;
     color: #5e5e5e;
-}
-
-
-* {
-    box-sizing: border-box;
 }
 
 img.slide {
@@ -1235,9 +761,8 @@ span.grey {
     width: 30%;
     height: 100%;
     padding: 16px;
-    color: white;
+    color: $light;
     font-weight: bold;
-    /*transition: 0.6s ease;*/
     border-radius: 0 3px 3px 0;
 }
 
@@ -1246,39 +771,12 @@ span.grey {
     border-radius: 3px 0 0 3px;
 }
 
-.prev-slideshow:hover, .next-slideshow:hover {
-    //background-color: rgba(0,0,0,0.8);
-}
-
 .text {
     padding-top: 0.5em;
     height: 2em;
     width: 100%;
     text-align: center;
-    background: snow;
-}
-
-.numbertext {
-    color: #f2f2f2;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-    display: none;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    /*transition: background-color 0.6s ease;*/
-}
-
-.active, .dot:hover {
-    background-color: #717171;
+    background: $light;
 }
 
 .black-fade {
@@ -1286,8 +784,6 @@ span.grey {
     border: 1px dashed lightgrey;
     padding: 1em;
 }
-
-/* https://stackoverflow.com/questions/18322548/black-transparent-overlay-on-image-hover-with-only-css/18322705 */
 
 .black-fade:after {
     content: '\A';
@@ -1303,12 +799,8 @@ span.grey {
 }
 
 @keyframes fade-black {
-    from {
-        opacity: 1.0;
-    }
-    to {
-        opacity: 0.0;
-    }
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
 
 @keyframes fadein {
@@ -1318,7 +810,7 @@ span.grey {
 
 #drop-button {
     font-size: 3em;
-    color: snow;
+    color: $light;
     cursor: pointer;
 }
 
@@ -1339,11 +831,8 @@ span.grey {
     cursor: pointer;
 }
 
-div.highlight {
-    margin: 5%;
-}
+div.highlight { margin: 5%; }
 
-/* https://stackoverflow.com/questions/8160514/is-there-css-for-typesetting-the-latex-logo-in-html */
 .tex sub, .latex sub, .latex sup {
     text-transform: uppercase;
 }
@@ -1365,13 +854,9 @@ div.highlight {
     margin-right: -0.15em;
 }
 
-svg {
-    fill: black;
-}
-
 #mst3k {
-  width:100%;
-  margin-bottom: -0.6em;
+    width:100%;
+    margin-bottom: -0.6em;
 }
 
 .circle {
@@ -1389,7 +874,6 @@ svg {
     border: 1px solid;
     z-index: 1;
     animation-name: fadein;
-    /*animation-duration: 500ms;*/
     transition: opacity 300ms;
 }
 
@@ -1401,9 +885,7 @@ svg {
     background-color: #282a36;
 }
 
-.fade-out {
-    opacity: 0;
-}
+.fade-out { opacity: 0; }
 
 .left {
     position: absolute;
@@ -1413,11 +895,6 @@ svg {
 .right {
     position: absolute;
     right: 0;
-}
-
-// Gitea SVG.
-#svg8 {
-    fill: white;
 }
 
 // import partials

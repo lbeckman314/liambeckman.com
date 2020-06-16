@@ -1,7 +1,7 @@
 ---
 name: demonic
 img: demonic.png
-type: [web, CLI]
+type: [web, cli]
 src: liambeckman.com/code/demonic
 ---
 

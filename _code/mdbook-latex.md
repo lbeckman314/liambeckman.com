@@ -1,7 +1,7 @@
 ---
 name: mdbook-latex
 img: mdbook-latex.png
-type: CLI
+type: cli
 src: github.com/lbeckman314/mdbook-latex
 ---
 

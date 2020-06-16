@@ -19,5 +19,17 @@
         userPrompt: userPrompt,
         theme: theme,
     });
+
+    const examples = document.getElementById('demonic-examples');
+    if (examples != null) {
+        examples.addEventListener('click', (event) => {
+            const example = event.target;
+            if (example == examples)
+                return;
+            const data = example.innerHTML;
+            console.log(data);
+            Demo.write(data);
+        });
+    }
 </script>
 
