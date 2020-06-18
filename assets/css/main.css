@@ -664,10 +664,9 @@ span.grey {
   top: 0;
   width: 20%;
   height: 100%;
-  padding: 16px;
   color: #aaa;
   font-weight: bold;
-  border-radius: 0 3px 3px 0;
+  padding: 2%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -680,8 +679,10 @@ span.grey {
 
 .next-slideshow {
   right: 0;
-  border-radius: 3px 0 0 3px;
   text-align: right; }
+
+.prev-slideshow {
+  left: 0; }
 
 .text {
   padding-top: 0.5em;
@@ -693,7 +694,8 @@ span.grey {
 .black-fade {
   position: relative;
   border: 1px dashed lightgrey;
-  padding: 1em; }
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 .black-fade:after {
   content: '\A';
