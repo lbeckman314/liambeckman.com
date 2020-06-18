@@ -662,16 +662,26 @@ span.grey {
   cursor: pointer;
   position: absolute;
   top: 0;
-  width: 30%;
+  width: 20%;
   height: 100%;
   padding: 16px;
-  color: snow;
+  color: #aaa;
   font-weight: bold;
-  border-radius: 0 3px 3px 0; }
+  border-radius: 0 3px 3px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 800ms;
+  z-index: 1; }
+
+.prev-slideshow:hover, .next-slideshow:hover {
+  color: #FF357A;
+  text-decoration: none; }
 
 .next-slideshow {
   right: 0;
-  border-radius: 3px 0 0 3px; }
+  border-radius: 3px 0 0 3px;
+  text-align: right; }
 
 .text {
   padding-top: 0.5em;

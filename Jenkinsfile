@@ -1,11 +1,12 @@
-BUNDLE = "/usr/local/bin/bundle"
-JEKYLL = "/usr/local/bin/jekyll"
-PUBLIC_WWW = "pi@liambeckman.com:/var/www/liambeckman.com/public_html"
-RSYNC = "/usr/local/bin/rsync"
+BUNDLE = '/usr/local/bin/bundle'
+JEKYLL = '/usr/local/bin/jekyll'
+PUBLIC_WWW = '/var/www/website'
+RSYNC = '/usr/local/bin/rsync'
+SRC = 'https://git.liambeckman.com/liam/website/'
 
 node {
     stage('Update') {
-        git url: 'https://git.liambeckman.com/liam/website/'
+        git url: "$SRC"
     }
     stage('Build') {
         sh "$BUNDLE install"

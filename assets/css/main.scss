@@ -758,17 +758,28 @@ span.grey {
     cursor: pointer;
     position: absolute;
     top: 0;
-    width: 30%;
+    width: 20%;
     height: 100%;
     padding: 16px;
-    color: $light;
+    color: $grey;
     font-weight: bold;
     border-radius: 0 3px 3px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: $tran;
+    z-index: 1;
+}
+
+.prev-slideshow:hover, .next-slideshow:hover {
+    color: $heart;
+    text-decoration: none;
 }
 
 .next-slideshow {
     right: 0;
     border-radius: 3px 0 0 3px;
+    text-align: right;
 }
 
 .text {
