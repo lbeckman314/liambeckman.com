@@ -12,7 +12,7 @@ permalink: /notes/
     </a>
     <br />
 </h2>
-<p style="font-size: 1em; color: #696969">
+<p class="sub">
 {{ note.date  | date: "%A, %B %d, %Y" }}
 
 <!-- 0 1 2 3 4 5 6 7 8 9 -->
@@ -37,6 +37,7 @@ permalink: /notes/
 {% endfor %}
 </span>
 </p>
+
 {{ note.content }}
 
 {% endfor %}
