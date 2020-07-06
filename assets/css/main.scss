@@ -845,7 +845,13 @@ span.grey {
     cursor: pointer;
 }
 
-div.highlight { margin: 5%; }
+div.highlight {
+    margin: 5%;
+}
+
+pre.highlight {
+    white-space: pre-wrap;
+}
 
 .tex sub, .latex sub, .latex sup {
     text-transform: uppercase;

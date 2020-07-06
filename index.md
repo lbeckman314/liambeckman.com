@@ -9,12 +9,6 @@ title: home
         <p>introductions</p>
     </div>
 
-    <div class="notes">
-        <a href="/notes"></a>
-        <h1>notes</h1>
-        <p>/dev/random</p>
-    </div>
-
     <div class="code">
         <a href="/code"></a>
         <h1>code</h1>

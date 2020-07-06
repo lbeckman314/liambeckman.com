@@ -741,6 +741,9 @@ span.grey {
 div.highlight {
   margin: 5%; }
 
+pre.highlight {
+  white-space: pre-wrap; }
+
 .tex sub, .latex sub, .latex sup {
   text-transform: uppercase; }
 
