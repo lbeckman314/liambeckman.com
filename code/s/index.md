@@ -12,10 +12,6 @@ title: code
 ## $ shell
 
 ```shell
-do magic thing now
-```
-
-```shell
 # recursively search for "date" in files, and output date combined with filename
 grep -r -T date * | awk -e '/date/{ print $3 "-" $1 }' | sort -r | sed 's/://'
 ```
