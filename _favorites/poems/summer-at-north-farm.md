@@ -26,4 +26,3 @@ to the melancholy fiddles.
 
 A red bird spreads its wings now
 and in the darker days to come.
-

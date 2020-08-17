@@ -25,4 +25,3 @@ How often I've gone straight up
 to one of them, saying: That’s me.
 Only, when I prised it open
 it was empty.
-

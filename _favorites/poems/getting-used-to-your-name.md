@@ -34,4 +34,3 @@ And when you nod, to show you’ve got it,
 Everything’s all right:
 The earth, almost round, may spin
 Like a top among stars.
-

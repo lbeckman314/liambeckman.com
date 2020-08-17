@@ -30,4 +30,3 @@ Ah Robin! sing loud on the far-distant lea,
 Thou friend in fair weather;
 But here is a song sung, that’s fuller of glee,
 By two warm hearts together.
-

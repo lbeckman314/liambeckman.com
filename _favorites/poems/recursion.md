@@ -19,4 +19,3 @@ of a native tongue, as if they could be roots,
 each, like the tomato with its faith curlicued
 in pale inward shoots, calling to itself,
 back to the source of fruit.
-

@@ -34,7 +34,7 @@ p {
     font-size: 1em; }
   p .headers {
     background-color: #D3D2E0;
-    border: 1px #aaa solid; }
+    border: 1px #AAA solid; }
 
 a {
   color: #FF357A;
@@ -94,10 +94,10 @@ div#demonic-examples {
   background-color: snow;
   color: black;
   line-height: normal;
-  border: 1px solid grey; }
+  border: 1px solid gray; }
 
 #demonic-examples > code {
-  background-color: #29208e;
+  background-color: #29208E;
   border-radius: 0;
   font-size: 1.3em;
   margin-right: 0.5em;
@@ -113,7 +113,7 @@ div#demonic-examples {
 .what-is-this {
   float: right;
   margin-top: 1.5em;
-  color: #aaa; }
+  color: #AAA; }
 
 #terminal-container {
   padding-bottom: 10%; }
@@ -150,6 +150,12 @@ div#demonic-examples {
   #home span {
     transition: 800ms; }
 
+.home div a, .black-fade .slide-src {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%; }
+
 .home div {
   border: solid 1px currentColor;
   margin-bottom: 1.5em;
@@ -159,11 +165,6 @@ div#demonic-examples {
   position: relative;
   text-align: center;
   transition: 800ms; }
-  .home div a {
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%; }
   .home div h1 {
     border-bottom: 1px solid currentColor;
     margin-left: 3%;
@@ -197,8 +198,8 @@ h1 {
     text-decoration: underline dotted #4635f7; }
 
 .special {
-  color: #aaa;
-  text-decoration: underline dotted grey; }
+  color: #AAA;
+  text-decoration: underline dotted gray; }
 
 h2 {
   font-size: 2.3em;
@@ -226,14 +227,14 @@ nav ul, #footer ul, #header ul {
   padding-right: 10px;
   list-style: none;
   font-weight: bold;
-  color: #aaa; }
+  color: #AAA; }
 
 #header ul {
   padding-bottom: 10px; }
 
 nav ul li, #footer ul li, #header ul li {
   display: inline;
-  color: #aaa; }
+  color: #AAA; }
 
 ul.code, li.code {
   text-align: center;
@@ -281,7 +282,7 @@ object.showoff {
   align-items: center; }
 
 .profiles div {
-  border: 1px solid #aaa;
+  border: 1px solid #AAA;
   margin: 1em;
   width: 45%;
   text-align: center;
@@ -318,7 +319,7 @@ object.showoff {
   transition: 800ms; }
 
 hr {
-  border-bottom: 1px dashed grey;
+  border-bottom: 1px dashed gray;
   border-top: 0px;
   transition: 800ms;
   padding: 2%;
@@ -380,7 +381,7 @@ img.center {
   width: 60%;
   padding: 2%;
   max-width: 400px;
-  border: 1px dashed #aaa;
+  border: 1px dashed #AAA;
   border-radius: 50%;
   margin-top: 0.5em; }
 
@@ -399,7 +400,7 @@ span.date:before {
   width: 30%;
   word-wrap: break-word;
   margin: 1.5em;
-  border: solid 1px #aaa;
+  border: solid 1px #AAA;
   margin-left: auto;
   margin-right: auto; }
 
@@ -407,7 +408,7 @@ span.date:before {
   flex-grow: 1; }
 
 .code-main {
-  border: solid 1px #aaa;
+  border: solid 1px #AAA;
   width: 100%;
   margin: 0%; }
 
@@ -419,11 +420,11 @@ span.date:before {
 
 #menu > li::after {
   content: " )";
-  color: #aaa; }
+  color: #AAA; }
 
 #menu > li::before {
   content: "( ";
-  color: #aaa; }
+  color: #AAA; }
 
 .zigzag-container {
   display: none; }
@@ -440,7 +441,8 @@ span.date:before {
   padding-right: 10px;
   font-size: 2.5em;
   vertical-align: middle;
-  color: snow; }
+  color: snow;
+  cursor: pointer; }
 
 #header #theme:hover {
   color: #FF357A; }
@@ -526,7 +528,7 @@ input {
   display: block;
   width: 50%;
   margin: 1em 0;
-  color: #aaa;
+  color: #AAA;
   padding-left: 4%;
   padding-right: 4%;
   padding-top: 1%; }
@@ -541,7 +543,7 @@ input {
   padding-left: 4%; }
 
 .sub {
-  color: #aaa;
+  color: #AAA;
   line-height: 1.8; }
 
 div.sub {
@@ -550,9 +552,9 @@ div.sub {
   margin: 0px; }
 
 .safety {
-  background-color: lavender;
+  background-color: #F1F1FC;
   padding: 2em;
-  border: 1px dashed grey;
+  border: 1px solid gray;
   margin: 5%; }
 
 .code-title {
@@ -638,7 +640,9 @@ img.slide {
   margin-right: auto;
   display: block;
   height: 36em;
-  object-fit: contain; }
+  object-fit: contain;
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 div.buttons {
   text-align: center;
@@ -646,7 +650,7 @@ div.buttons {
   margin-right: auto;
   padding-top: 0.5em; }
 
-span.grey {
+span.gray {
   color: #5e5e5e; }
 
 .slideshow-container {
@@ -656,7 +660,7 @@ span.grey {
 
 .mySlides {
   display: none;
-  background: black; }
+  background: snow; }
 
 .prev-slideshow, .next-slideshow {
   cursor: pointer;
@@ -664,7 +668,7 @@ span.grey {
   top: 0;
   width: 20%;
   height: 100%;
-  color: #aaa;
+  color: #AAA;
   font-weight: bold;
   padding: 2%;
   display: flex;
@@ -693,9 +697,9 @@ span.grey {
 
 .black-fade {
   position: relative;
-  border: 1px dashed lightgrey;
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  border: 1px solid gray; }
+  .black-fade .slide-src {
+    z-index: 1; }
 
 .black-fade:after {
   content: '\A';
@@ -704,7 +708,7 @@ span.grey {
   height: 100%;
   top: 0;
   left: 0;
-  background: black;
+  background: snow;
   opacity: 0;
   animation-name: fade-black;
   animation-duration: 1.5s; }
@@ -767,7 +771,7 @@ pre.highlight {
 
 .circle {
   padding: 1em;
-  background-color: #282a36;
+  background-color: snow;
   border-radius: 50%;
   position: fixed;
   right: 5%;
@@ -786,8 +790,11 @@ pre.highlight {
   margin-left: 4%;
   margin-right: 4%;
   margin-bottom: 8%;
-  border: 1px dashed gray;
-  background-color: #282a36; }
+  border: 1px solid gray;
+  background-color: #F1F1FC; }
+  .poem p {
+    padding: 0;
+    margin-bottom: -1em; }
 
 .fade-out {
   opacity: 0; }
@@ -829,7 +836,7 @@ pre.highlight {
   background: #fff; }
 
 div.highlighter-rouge div.highlight {
-  border: 1px dashed blue; }
+  border: 1px solid gray; }
 
 .highlighter-rouge .highlight {
   background-color: #f1f1fc; }

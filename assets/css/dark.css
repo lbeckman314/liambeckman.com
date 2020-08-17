@@ -21,13 +21,13 @@ div.text {
   background-color: #282a36; }
 
 .active, .dot:hover {
-  background-color: #aaa; }
+  background-color: #AAA; }
 
 .code-title, .code-type {
   color: snow; }
 
 .featured:hover {
-  background-color: #29208e; }
+  background-color: #29208E; }
 
 #lightswitch {
   border: none; }
@@ -47,6 +47,18 @@ div.text {
 
 #hello {
   color: snow; }
+
+.poem {
+  background-color: #282A36; }
+
+.black-fade:after {
+  background: black; }
+
+.mySlides {
+  background: black; }
+
+.circle {
+  background-color: #131516; }
 
 /***************************************************/
 /* SYNTAX HIGHLIGHTING
@@ -88,9 +100,6 @@ div.text {
  * @author Chris Bracco <chris@cbracco.me>
  * @author Zeno Rocha <hi@zenorocha.com>
  */
-div.highlighter-rouge div.highlight {
-  border: 1px dashed grey; }
-
 .highlighter-rouge .highlight {
   background: #282a36;
   color: #f8f8f2; }

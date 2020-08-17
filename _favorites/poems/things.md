@@ -27,4 +27,3 @@ we gave the country a heart,
 the storm an eye,
 the cave a mouth
 so we could pass into safety.
-

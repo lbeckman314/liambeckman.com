@@ -45,4 +45,3 @@ looked line by line. What did I find?
     You and you,
     you and you,
     you and you.
-

@@ -10,6 +10,7 @@ permalink: /favorites/
     {% if favorite.img %}
     <div class="mySlides fade">
         <div class="black-fade">
+            <a class="slide-src" href="{{ favorite.src }}"></a>
             <img class="slide" src="/assets/favorites/{{favorite.img}}"/>
             <a class="prev-slideshow" onclick="changeSlides(-1)">〈</a>
             <a class="next-slideshow" onclick="changeSlides(1)">〉</a>

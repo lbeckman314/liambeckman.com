@@ -62,4 +62,3 @@ Or tea with mint?
 With sage, he says,
 Sweet scent, bitter tongue.
 She makes it, he drinks.
-
