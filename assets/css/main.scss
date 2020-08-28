@@ -833,9 +833,9 @@ span.gray {
 
 .copySymbol {
     position: absolute;
-    right: 5px;
+    right: 10px;
     transition: $tran;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .copySymbol:hover {
@@ -854,7 +854,7 @@ span.gray {
     padding: 1em;
     position: absolute;
     font-style: italic;
-    right: -20px;
+    right: -15px;
     transition: $tran;
 }
 
@@ -890,7 +890,6 @@ pre.highlight {
 
 #mst3k {
     width:100%;
-    margin-bottom: -0.6em;
 }
 
 .circle {

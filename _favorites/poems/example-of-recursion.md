@@ -1,7 +1,7 @@
 ---
 title: Example of Recursion
 author: wharfinger
-src: https://stackoverflow.com/questions/126756/examples-of-recursive-functions/126785##126785
+src: https://everything2.com/index.pl?node_id=477013
 ---
 
 A CS professor once explained recursion as follows:

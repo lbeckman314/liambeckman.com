@@ -38,9 +38,7 @@ Feel free to try out some programs in an interactive sandbox. Click on any of th
 
 <h1 id="security">make checksums, not war</h1>
 
-adapted from the "Verifying file integrity and its digital signature" section of <a href="https://www.voidlinux.org/download/#verifying-file-integrity-and-its-digital-signature">the Void Linux download page.</a>
-
-My GPG Keys:
+[My GPG Keys](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x144F39B7AC1CC079):
 
 signer = `liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>`
 
