@@ -42,11 +42,11 @@ adapted from the "Verifying file integrity and its digital signature" section of
 
 My GPG Keys:
 
-signer=`liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>`
+signer = `liam beckman ("I only want to live in peace, plant potatoes, and dream!" -Tove Jansson) <lbeckman314@gmail.com>`
 
-key id=`AC1CC079`
+key id = `AC1CC079`
 
-key fingerprint=`2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079`
+key fingerprint = `2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079`
 
 
 ```shell

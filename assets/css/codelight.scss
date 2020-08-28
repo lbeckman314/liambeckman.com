@@ -2,34 +2,6 @@
 /* SYNTAX HIGHLIGHTING
 /***************************************************/
 
-
-/**
- * Syntax highlighting styles
- */
-.highlight {
-
-    font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    font-size-adjust: none;
-    font-stretch: normal;
-    -x-system-font: none;
-    font-feature-settings: normal;
-    font-language-override: normal;
-    font-kerning: auto;
-    font-synthesis: weight style;
-    font-variant-alternates: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variant-position: normal;
-
-background: #fff; }
-
 div.highlighter-rouge div.highlight {
     border: 1px solid gray;
 }

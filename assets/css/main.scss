@@ -351,20 +351,6 @@ object.showoff {
     margin-bottom: -1em;
 }
 
-.copyMessage {
-    color: #fff;
-    background-color: #333;
-    font-size: 0.8em;
-    text-align: center;
-    border-radius: 6px;
-    margin-top: -50%;
-    transform: translateY(-30%);
-    margin-right: -50%;
-    padding: 10%;
-    margin-bottom: -10%;
-    transition: $tran;
-}
-
 .hide {
     visibility: hidden;
     transition: $tran;
@@ -711,11 +697,14 @@ pre {
 code {
     overflow-x: auto;
     $light-space: pre-wrap;
-    border-radius: 15%;
     padding: 0.1em 0.4em 0.1em 0.4em;
     line-height: 1.5em;
     box-decoration-break: clone;
-    font-size: 0.9em;
+}
+
+p > code {
+    background: #f1f1fc;
+    outline: 1px solid gray;
 }
 
 // Slideshow
@@ -839,24 +828,39 @@ span.gray {
 }
 
 .copyContainer {
-    float: right;
-    margin-left: -4%;
-    padding-left: 4%;
+    width: 5em;
 }
 
 .copySymbol {
-    float: right;
-    margin-right: 20%;
+    position: absolute;
+    right: 5px;
     transition: $tran;
+    font-size: 1.2em;
 }
 
 .copySymbol:hover {
     transition: $tran;
     cursor: pointer;
+    color: $heart;
+}
+
+.copyMsg {
+    color: #fff;
+    background-color: #333;
+    font-size: 0.8em;
+    text-align: center;
+    border-radius: 6px;
+    transform: translateY(-90%);
+    padding: 1em;
+    position: absolute;
+    font-style: italic;
+    right: -20px;
+    transition: $tran;
 }
 
 div.highlight {
     margin: 5%;
+    position: relative;
 }
 
 pre.highlight {

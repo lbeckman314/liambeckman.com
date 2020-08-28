@@ -301,19 +301,6 @@ object.showoff {
   margin-bottom: auto;
   margin-bottom: -1em; }
 
-.copyMessage {
-  color: #fff;
-  background-color: #333;
-  font-size: 0.8em;
-  text-align: center;
-  border-radius: 6px;
-  margin-top: -50%;
-  transform: translateY(-30%);
-  margin-right: -50%;
-  padding: 10%;
-  margin-bottom: -10%;
-  transition: 800ms; }
-
 .hide {
   visibility: hidden;
   transition: 800ms; }
@@ -621,11 +608,13 @@ pre {
 
 code {
   overflow-x: auto;
-  border-radius: 15%;
   padding: 0.1em 0.4em 0.1em 0.4em;
   line-height: 1.5em;
-  box-decoration-break: clone;
-  font-size: 0.9em; }
+  box-decoration-break: clone; }
+
+p > code {
+  background: #f1f1fc;
+  outline: 1px solid gray; }
 
 #align a {
   display: inline-block; }
@@ -729,21 +718,35 @@ span.gray {
   cursor: pointer; }
 
 .copyContainer {
-  float: right;
-  margin-left: -4%;
-  padding-left: 4%; }
+  width: 5em; }
 
 .copySymbol {
-  float: right;
-  margin-right: 20%;
-  transition: 800ms; }
+  position: absolute;
+  right: 5px;
+  transition: 800ms;
+  font-size: 1.2em; }
 
 .copySymbol:hover {
   transition: 800ms;
-  cursor: pointer; }
+  cursor: pointer;
+  color: #FF357A; }
+
+.copyMsg {
+  color: #fff;
+  background-color: #333;
+  font-size: 0.8em;
+  text-align: center;
+  border-radius: 6px;
+  transform: translateY(-90%);
+  padding: 1em;
+  position: absolute;
+  font-style: italic;
+  right: -20px;
+  transition: 800ms; }
 
 div.highlight {
-  margin: 5%; }
+  margin: 5%;
+  position: relative; }
 
 pre.highlight {
   white-space: pre-wrap; }
@@ -810,31 +813,6 @@ pre.highlight {
 /***************************************************/
 /* SYNTAX HIGHLIGHTING
 /***************************************************/
-/**
- * Syntax highlighting styles
- */
-.highlight {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  font-size-adjust: none;
-  font-stretch: normal;
-  -x-system-font: none;
-  font-feature-settings: normal;
-  font-language-override: normal;
-  font-kerning: auto;
-  font-synthesis: weight style;
-  font-variant-alternates: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
-  font-variant-position: normal;
-  background: #fff; }
-
 div.highlighter-rouge div.highlight {
   border: 1px solid gray; }
 
