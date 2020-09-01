@@ -96,7 +96,7 @@ bundle exec jekyll serve
 - browser ⇢ [Firefox](https://www.mozilla.org/)
 - computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
 - editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
-- icons ⇢ [Oranchelo](https://github.com/OrancheloTeam/oranchelo-icon-theme)
+- icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
 - launcher ⇢ [Rofi](https://github.com/davatorium/rofi)
 - os ⇢ [Void (linux)](https://voidlinux.org/)
 - plank ⇢ [Plank](https://launchpad.net/plank)
