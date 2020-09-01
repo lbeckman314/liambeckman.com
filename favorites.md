@@ -17,7 +17,7 @@ permalink: /favorites/
         </div>
         <div class="text"><a href="{{ favorite.src }}">{{ favorite.title }}</a></div>
         {% if favorite.author %}
-        <div class="text">© {{ favorite.author }}</div>
+        <div class="text"><em>{{ favorite.author }}</em></div>
         {% else %}
         <div class="text"></div>
         {% endif %}
