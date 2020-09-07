@@ -49,3 +49,5 @@ defaults:
       # https://jekyllrb.com/docs/collections/
       layout: default
 
+
+theme: jekyll-theme-cayman
