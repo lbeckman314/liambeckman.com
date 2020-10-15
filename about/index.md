@@ -22,7 +22,7 @@ Are you looking for a plucky developer with a small propensity for segmentation 
         <p> Resume (PDF)</p>
     </div>
     <div class="featured">
-        <a href="https://git.liambeckman.com/liam/resume/src/branch/master/resume-liam-beckman.tex"></a>
+        <a href="https://git.liambeckman.com/liam/resume/src/branch/master/src/resume-liam-beckman.tex"></a>
         <object class="showoff" type="image/svg+xml" data="/assets/svg/tex.svg"></object>
         <p>Resume (LaTeX)</p>
     </div>
@@ -90,7 +90,7 @@ bundle exec jekyll serve
 
 ## my setup:
 
-![](/assets/images/home.jpg)
+![Screenshot of desktop.](/assets/images/home.jpg)
 
 - bar ⇢ [Polybar](https://polybar.github.io/)
 - browser ⇢ [Firefox](https://www.mozilla.org/)
@@ -99,7 +99,7 @@ bundle exec jekyll serve
 - icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
 - launcher ⇢ [Rofi](https://github.com/davatorium/rofi)
 - os ⇢ [Void (linux)](https://voidlinux.org/)
-- plank ⇢ [Plank](https://launchpad.net/plank)
+- dock ⇢ [Plank](https://launchpad.net/plank)
 - shell ⇢ [Zsh](http://zsh.sourceforge.net/) + [tmux](https://github.com/tmux/tmux)
 - terminal ⇢ [Alacritty](https://github.com/alacritty/alacritty)
 - wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)
