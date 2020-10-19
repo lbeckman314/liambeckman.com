@@ -2,7 +2,7 @@
 title: about
 ---
 
-<h1><span id="hello">Hello, I'm liam</span>
+<h1><span id="hello">Hello, I'm liam.</span>
     <object id="smile" type="image/svg+xml" data="/assets/svg/icon-smile.svg"></object>
 </h1>
 
@@ -51,7 +51,7 @@ This website stores and presents various projects. It originally got up and runn
 
 The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
 
-### Installation
+### installation
 
 The [website's source code](https://github.com/lbeckman314/website) is yours. Feel free to copy and paste, fork, clone, or anything you like! To spin up your own site, follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below) —
 
@@ -95,11 +95,11 @@ bundle exec jekyll serve
 - bar ⇢ [Polybar](https://polybar.github.io/)
 - browser ⇢ [Firefox](https://www.mozilla.org/)
 - computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
+- dock ⇢ [Plank](https://launchpad.net/plank)
 - editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
 - icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
 - launcher ⇢ [Rofi](https://github.com/davatorium/rofi)
 - os ⇢ [Void (linux)](https://voidlinux.org/)
-- dock ⇢ [Plank](https://launchpad.net/plank)
 - shell ⇢ [Zsh](http://zsh.sourceforge.net/) + [tmux](https://github.com/tmux/tmux)
 - terminal ⇢ [Alacritty](https://github.com/alacritty/alacritty)
 - wallpaper ⇢ [Firewatch theme](https://github.com/adi1090x/dynamic-wallpaper)

@@ -400,9 +400,9 @@ hr {
 }
 
 #hello {
-    text-shadow: 3px 3px 0px $pop-5, 6px 6px 0px $pop-4, 9px 9px 0px $pop-3, 12px 12px 0px $pop-2, 15px 15px 0px $pop-1;
-    transition: $tran;
-    color: darkblue;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #020202, 1px 1px 0 #000, 3px 3px 0px #4635f7, 6px 6px 0px #678CFA, 9px 9px 0px #49CCD4, 12px 12px 0px #ED68D9, 15px 15px 0px #DB37C4;
+    transition: 800ms;
+    color: white;
 }
 
 #stuck-up {
