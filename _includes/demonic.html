@@ -1,10 +1,4 @@
-<div id="demonic-examples">
-    <code>palindrome</code>
-    <code>prime 10101</code>
-    <code>withfeathers --print</code>
-    <code>pipes.sh</code>
-    <code>fortune | cowsay | lolcat</code>
-</div>
+<pre id="info"></pre>
 <div id="terminal"></div>
 <div class="what-is-this">
     <a href="/code/demonic">About</a> |
@@ -12,33 +6,29 @@
 </div>
 <script src="/assets/js/demo-web.bundle.js"></script>
 <script>
-    function demonic() {
-        const theme = localStorage.getItem('theme');
-        const MAGENTA='\x1b[1;35m';
-        const BLUE='\x1b[1;34m';
-        const GREEN='\x1b[1;32m';
-        const CYAN='\x1b[1;36m';
-        const NC='\x1b[0m';
-        const userPrompt = `${CYAN}user${NC}${MAGENTA} @ ${NC}${CYAN}demonic${NC} ${GREEN}>${NC} `;
-        Demo.init.set({
-            command: 'ls',
-            boot: true,
-            userPrompt: userPrompt,
-            theme: theme,
-        });
+    const theme = localStorage.getItem('theme');
+    const MAGENTA='\x1b[1;35m';
+    const BLUE='\x1b[1;34m';
+    const GREEN='\x1b[1;32m';
+    const CYAN='\x1b[1;36m';
+    const NC='\x1b[0m';
+    const userPrompt = `${CYAN}user${NC}${MAGENTA} @ ${NC}${CYAN}demonic${NC} ${GREEN}>${NC} `;
+    Demo.init.set({
+        command: 'ls',
+        boot: true,
+        userPrompt: userPrompt,
+        theme: theme,
+    });
 
-        const examples = document.getElementById('demonic-examples');
-        if (examples == null) return;
-
+    const examples = document.getElementById('demonic-examples');
+    if (examples != null) {
         examples.addEventListener('click', (event) => {
             const example = event.target;
-            if (example == examples) return;
+            if (example == examples)
+                return;
             const data = example.innerHTML;
             console.log(data);
             Demo.write(data);
         });
     }
-
-    demonic();
 </script>
-
