@@ -2,16 +2,22 @@
 title: about
 ---
 
-<h1><span id="hello">Hello, I'm liam.</span>
+<div class="center">
+    <span id="hello" class="big">Hello, I'm liam.</span>
     <object id="smile" type="image/svg+xml" data="/assets/svg/icon-smile.svg"></object>
-</h1>
+</div>
 
-<h2 id="stuck-up">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</h2>
+<div id="stuck-up">A STUCK-UP, HALF-WITTED, SCRUFFY-LOOKING NERF HERDER.</div>
 
 ## about me:
 I'm a sleepy human with a dark history of secrets and intrigue.
 
-Have a good book or movie recommendation or just want to chat? I'm available at <a href="mailto:liam@liambeckman.com">liam@liambeckman.com</a>.
+Have a good book or movie recommendation or just want to chat? I'm available at:
+
+| e-mail | <a href="mailto:liam@liambeckman.com">liam@liambeckman.com</a> |
+| irc | [lbeckman314@irc.freenode.net](https://freenode.net/) |
+| matrix | [@lbeckman314:matrix.org](https://matrix.org/) |
+
 
 Are you looking for a plucky developer with a small propensity for segmentation faults? Here are some links of interest —
 

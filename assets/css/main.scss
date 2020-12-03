@@ -1,3 +1,6 @@
+---
+---
+
 // CSS I've cobbled together from the far corners of the world.
 // Feel free to copy and paste, fork, clone, or anything you like.
 
@@ -72,6 +75,22 @@ a:hover {
 
 #header a, #footer a { color: $light; }
 
+// Table
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid grey;
+    padding: 0.5em;
+}
+
 // Div
 div {
     .about     { color: $pop-1; }
@@ -84,6 +103,14 @@ div {
     .code:hover      { background-color: $pop-3; }
     .git:hover       { background-color: $pop-4; }
     .favorites:hover { background-color: $pop-5; }
+
+    .xyz {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        p {
+            display: inline-block;
+        }
+    }
 }
 
 // Demonic terminal
@@ -132,14 +159,6 @@ div#demonic-examples{
     line-height: 1.7;
     padding-bottom: 1.5%;
     transition: 800ms;
-}
-
-#info {
-    float: left;
-    font-size: $base-font-size;
-    padding: 0.3em;
-    transition: 400ms;
-    color: black;
 }
 
 // Home page
@@ -197,6 +216,7 @@ div#demonic-examples{
             transition: $tran;
             padding: 0.5em;
             color: currentColor;
+            text-decoration: none;
         }
         h1 > a {
             text-decoration: none;
@@ -216,17 +236,18 @@ div#demonic-examples{
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline wavy $pop-3;
+    color: $pop-5;
+}
+
 // Headers
-h1 {
+h1, .big {
     font-size: 3em;
     font-family: $font-stack;
     text-align: center;
-    color: $dark;
+    font-weight: bold;
     .home-page { padding-top: 2%; }
-    .favorites {
-        color: $pop-5;
-        text-decoration: underline dotted $pop-5;
-    }
 }
 
 .special {
@@ -236,7 +257,6 @@ h1 {
 
 h2 {
     font-size: $large-font-size - 0.7;
-    color: $dark;
     padding-top: 3%;
     padding-bottom: 1%;
 }
@@ -396,18 +416,29 @@ hr {
 
 #hello:hover {
     transition: $tran;
-    text-shadow: none;
+    text-shadow: -1px -1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000;
 }
 
 #hello {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #020202, 1px 1px 0 #000, 3px 3px 0px #4635f7, 6px 6px 0px #678CFA, 9px 9px 0px #49CCD4, 12px 12px 0px #ED68D9, 15px 15px 0px #DB37C4;
+    text-shadow: -1px -1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000,
+                 3px 3px 0px #4635f7,
+                 6px 6px 0px #678CFA,
+                 9px 9px 0px #49CCD4,
+                 12px 12px 0px #ED68D9,
+                 15px 15px 0px #DB37C4;
     transition: 800ms;
     color: white;
 }
 
 #stuck-up {
-    font-weight: 100;
     font-family: times;
+    font-size: 2.3em;
 }
 
 .cc-icon {
@@ -493,9 +524,13 @@ span.date:before {
     vertical-align: middle;
     color: $light;
     cursor: pointer;
+    transition: $tran;
 }
 
-#header #theme:hover { color: $heart; }
+#header #theme:hover { 
+    color: $heart;
+    transition: $tran;
+}
 
 #fork {
     margin-left: auto;
@@ -578,8 +613,6 @@ input {
 .center, #linker {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
     display: block;
     text-align: center;
 }
@@ -700,6 +733,7 @@ code {
     padding: 0.1em 0.4em 0.1em 0.4em;
     line-height: 1.5em;
     box-decoration-break: clone;
+    font-weight: bold;
 }
 
 p > code {
@@ -778,6 +812,23 @@ span.gray {
 
 .prev-slideshow {
     left: 0;
+}
+
+#img-src {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 2%;
+    font-size: larger;
+    z-index: 1; 
+    color: lightgray;
+    transition: $tran
+}
+
+#img-src:hover {
+    color: $heart;
+    transition: $tran;
+    text-decoration: none;
 }
 
 .text {

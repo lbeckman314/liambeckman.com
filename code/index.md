@@ -22,14 +22,6 @@ title: code
 
 Feel free to try out some programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
-<div id="demonic-examples">
-    <code>palindrome</code>
-    <code>prime 10101</code>
-    <code>withfeathers --print</code>
-    <code>pipes.sh</code>
-    <code>fortune | cowsay | lolcat</code>
-</div>
-
 {% include demonic.html command='prime 10101' %}
 
 <br />

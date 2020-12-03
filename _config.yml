@@ -48,3 +48,5 @@ defaults:
       # https://jekyllrb.com/docs/collections/
       layout: default
 
+sass:
+    sass_dir: _sass

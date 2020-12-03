@@ -1,3 +1,6 @@
+---
+---
+
 // Dark themes
 
 @import 'vars';
@@ -10,7 +13,7 @@ body {
     background-color: black;
 }
 
-p, h1, h2, h3, h4, h5, h6, .text, pre, dd, dt, li, ul, ol, label{
+p, .text, pre, dd, dt, li, ul, ol, label, td, div {
     color: $light;
 }
 
@@ -78,6 +81,11 @@ div.text {
 
 .circle {
     background-color: $dark;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline wavy $pop-5;
+    color: $pop-3;
 }
 
 @import 'codedark';
