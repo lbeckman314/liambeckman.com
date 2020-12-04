@@ -22,14 +22,6 @@ title: code
 
 Feel free to try out some programs in an interactive sandbox. Click on any of the examples below to give them a spin.
 
-<div id="demonic-examples">
-    <code>palindrome</code>
-    <code>prime 10101</code>
-    <code>withfeathers --print</code>
-    <code>pipes.sh</code>
-    <code>fortune | cowsay | lolcat</code>
-</div>
-
 {% include demonic.html command='prime 10101' %}
 
 <br />
@@ -49,13 +41,13 @@ key fingerprint = `2C81 8D24 2991 72E8 57D1  B235 144F 39B7 AC1C C079`
 
 ```shell
 #-------------------------------#
-# RECIEVE GPG KEYS
+# RECEIVE GPG KEYS
 #-------------------------------#
 
 gpg --keyserver pgp.mit.edu --recv-keys AC1CC079
 
 #-------------------------------#
-# RECIEVE SHA256SUMS
+# RECEIVE SHA256SUMS
 #-------------------------------#
 
 wget http://www.liambeckman.com/pkgs/EXAMPLE/sha256sums.txt{,.asc}
@@ -83,6 +75,5 @@ sha256sum -c sha256sums.txt 2>/dev/null | grep EXAMPLE.tar.gz
 # OPTIONALLY REMOVE PUBLIC KEY
 #-------------------------------#
 
-# to remove my public key from your public key ring, simply
 gpg --delete-key AC1CC079
 ```
