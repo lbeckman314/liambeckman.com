@@ -24,9 +24,7 @@ Feel free to try out some programs in an interactive sandbox. Click on any of th
 
 {% include demonic.html command='prime 10101' %}
 
-<br />
 <hr />
-<br />
 
 <h1 id="security">make checksums, not war</h1>
 

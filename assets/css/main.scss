@@ -92,7 +92,7 @@ td {
 }
 
 // Div
-div {
+div.home {
     .about     { color: $pop-1; }
     .notes     { color: $pop-2; }
     .code      { color: $pop-3; }
@@ -103,14 +103,6 @@ div {
     .code:hover      { background-color: $pop-3; }
     .git:hover       { background-color: $pop-4; }
     .favorites:hover { background-color: $pop-5; }
-
-    .xyz {
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        p {
-            display: inline-block;
-        }
-    }
 }
 
 // Demonic terminal
@@ -123,11 +115,22 @@ div#demonic-examples {
 
 #terminal {
     width: 100%;
-    height: 25em;
     background-color: $light;
     color: black;
     line-height: normal;
     border: 1px solid gray;
+}
+
+#demonic-web-container {
+    height: 25em;
+}
+
+.demonic-docs-container > #terminal {
+    height: 10em;
+}
+
+.terminal.xterm {
+    padding: 1em;
 }
 
 #demonic-examples > code {
@@ -147,9 +150,13 @@ div#demonic-examples {
 }
 
 .what-is-this {
-    float: right;
+    text-align: right;
     margin-top: 1.5em;
     color: $gray;
+}
+
+#demonic {
+    margin: 5% 0 5% 0; 
 }
 
 #terminal-container { padding-bottom: 10%; }
@@ -159,6 +166,31 @@ div#demonic-examples{
     line-height: 1.7;
     padding-bottom: 1.5%;
     transition: 800ms;
+}
+
+.demonic-docs-container  {
+    position: relative;
+    margin: 5% 0 5% 0; 
+
+    .buttons {
+        position: absolute;
+        z-index: 100;
+        right: 0;
+    }
+
+    button {
+        color: white;
+        border: none;
+        cursor: pointer;
+        height: 2em;
+        width: 2em;
+        font-size: larger;
+    }
+
+    button:hover {
+        color: #FF357A;
+    }
+
 }
 
 // Home page
@@ -526,7 +558,7 @@ span.date:before {
     transition: $tran;
 }
 
-#header #theme:hover { 
+#header #theme:hover {
     color: $heart;
     transition: $tran;
 }
@@ -819,7 +851,7 @@ span.gray {
     right: 0;
     padding-right: 2%;
     font-size: larger;
-    z-index: 1; 
+    z-index: 1;
     color: lightgray;
     transition: $tran
 }
@@ -897,14 +929,13 @@ span.gray {
 .copyMsg {
     color: #fff;
     background-color: #333;
-    font-size: 0.8em;
-    text-align: center;
     border-radius: 6px;
-    transform: translateY(-90%);
     padding: 1em;
+    font-size: 0.8em;
     position: absolute;
-    font-style: italic;
-    right: -15px;
+    right: -5px;
+    top: -50px;
+    margin: 0;
     transition: $tran;
 }
 
@@ -983,6 +1014,10 @@ pre.highlight {
 .right {
     position: absolute;
     right: 0;
+}
+
+.demonic-docs-container > .CodeMirror {
+    height: auto;
 }
 
 // import partials

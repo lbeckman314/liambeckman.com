@@ -1,29 +1,30 @@
 // https://stackoverflow.com/questions/22581345/click-button-copy-to-clipboard-using-jquery
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementsByTagName('div');
+
+    // Create copy button for all div's with the 'highlight' class.
     Array.from(container).forEach((element) => {
-        if (element.className == 'highlight')
-            createCopyBtn(element);
+        //if (element.className == 'highlight')
+            //createCopyBtn(element);
     });
 });
 
 function createCopyBtn(element) {
-    let copyContainer = document.createElement('div');
-    copyContainer.className = 'copyContainer';
+    let buttonContainer = document.createElement('div');
+    buttonContainer.className = 'copyContainer';
 
     let copySymbol = document.createElement('span');
     copySymbol.className = 'copySymbol';
     copySymbol.innerHTML = '⧉';
     copySymbol.title = 'Copy to clipboard';
-    copyContainer.appendChild(copySymbol);
+    buttonContainer.appendChild(copySymbol);
 
     let copyMessage = document.createElement('p');
     copyMessage.className = 'copyMsg hide';
     copyMessage.innerHTML = 'Copied!';
-    copyContainer.appendChild(copyMessage);
+    buttonContainer.appendChild(copyMessage);
 
-    // Insert <li> before the first child of <ul>
-    element.insertBefore(copyContainer, element.childNodes[0]);
+    element.insertBefore(buttonContainer, element.childNodes[0]);
 
     const copyMsg = copySymbol.parentElement.children[1];
 

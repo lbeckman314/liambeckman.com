@@ -2,19 +2,50 @@
 title: demonic
 ---
 
+<script src="/assets/js/demo-docs.bundle.js"></script>
+<script>
+    Docs.init.set({
+        run: 'false',
+    });
+</script>
+
 {% include code.html name='demonic' desc='A suite of programs designed to execute commands in a sandboxed environment.' %}
 
 # Give it a Spin!
 
-Feel free to try out some of my programs in an interactive sandbox. Click on any of the examples below to give them a spin.
+Demonic runs commands in a remote sandbox allowing users to quickly try out a given program or script. Click on any of the example programs below to give them a spin.
 
-<div class="demonic-examples-container">
-    <code class="demonic-examples">palindrome</code>
-    <code class="demonic-examples">prime 10101</code>
-    <code class="demonic-examples">withfeathers --print</code>
-</div>
+{% include demonic.html command='prime 10101' %}
 
-{% include demonic.html name='prime 10101' %}
+Run any of the code samples below by clicking on the ▶ button:
+
+## Python
+
+{: .run}
+```python
+def greet():
+    name = input('Enter your name: ')
+    print('Hello', name)
+
+if __name__ == '__main__':
+    greet()
+```
+
+## C
+
+{: .run}
+```c
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+    fprintf(stderr, "%s", "Enter your name: ");
+    char name[100];
+    scanf("%s", name);
+
+    fprintf(stderr, "Hello %s!\n", name);
+    return 0;
+}
+```
 
 # Installation
 
