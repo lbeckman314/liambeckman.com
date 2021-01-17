@@ -4,27 +4,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Create copy button for all div's with the 'highlight' class.
     Array.from(container).forEach((element) => {
-        //if (element.className == 'highlight')
-            //createCopyBtn(element);
+        if (element.className == 'highlight')
+            createCopyBtn(element);
     });
 });
 
 function createCopyBtn(element) {
-    let buttonContainer = document.createElement('div');
-    buttonContainer.className = 'copyContainer';
+    let btnContainer = document.createElement('div');
+    btnContainer.className = 'copyContainer';
 
     let copySymbol = document.createElement('span');
     copySymbol.className = 'copySymbol';
     copySymbol.innerHTML = '⧉';
     copySymbol.title = 'Copy to clipboard';
-    buttonContainer.appendChild(copySymbol);
+    btnContainer.appendChild(copySymbol);
 
     let copyMessage = document.createElement('p');
     copyMessage.className = 'copyMsg hide';
     copyMessage.innerHTML = 'Copied!';
-    buttonContainer.appendChild(copyMessage);
+    btnContainer.appendChild(copyMessage);
 
-    element.insertBefore(buttonContainer, element.childNodes[0]);
+    element.insertBefore(btnContainer, element.childNodes[0]);
 
     const copyMsg = copySymbol.parentElement.children[1];
 

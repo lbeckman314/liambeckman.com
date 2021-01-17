@@ -105,94 +105,6 @@ div.home {
     .favorites:hover { background-color: $pop-5; }
 }
 
-// Demonic terminal
-div#demonic-examples {
-    color: $light;
-    line-height: 1.7;
-    padding-bottom: 1.5%;
-    transition: 800ms;
-}
-
-#terminal {
-    width: 100%;
-    background-color: $light;
-    color: black;
-    line-height: normal;
-    border: 1px solid gray;
-}
-
-#demonic-web-container {
-    height: 25em;
-}
-
-.demonic-docs-container > #terminal {
-    height: 10em;
-}
-
-.terminal.xterm {
-    padding: 1em;
-}
-
-#demonic-examples > code {
-    background-color: $dark-blue;
-    border-radius: 0;
-    font-size: $base-font-size + 0.3;
-    margin-right: 0.5em;
-    margin-top: 0.5em;
-    cursor: pointer;
-    transition: 800ms;
-    display: inline-block;
-}
-
-#demonic-examples > code:hover {
-    background-color: $heart;
-    transition: 800ms;
-}
-
-.what-is-this {
-    text-align: right;
-    margin-top: 1.5em;
-    color: $gray;
-}
-
-#demonic {
-    margin: 5% 0 5% 0; 
-}
-
-#terminal-container { padding-bottom: 10%; }
-
-div#demonic-examples{
-    color: $light;
-    line-height: 1.7;
-    padding-bottom: 1.5%;
-    transition: 800ms;
-}
-
-.demonic-docs-container  {
-    position: relative;
-    margin: 5% 0 5% 0; 
-
-    .buttons {
-        position: absolute;
-        z-index: 100;
-        right: 0;
-    }
-
-    button {
-        color: white;
-        border: none;
-        cursor: pointer;
-        height: 2em;
-        width: 2em;
-        font-size: larger;
-    }
-
-    button:hover {
-        color: #FF357A;
-    }
-
-}
-
 // Home page
 #home:hover {
     p, span, div {
@@ -445,7 +357,7 @@ hr {
 
 .heart { color: $heart; }
 
-#hello:hover {
+.rainbow:hover {
     transition: $tran;
     text-shadow: -1px -1px 0 #000,
                  1px -1px 0 #000,
@@ -453,7 +365,7 @@ hr {
                  1px 1px 0 #000;
 }
 
-#hello {
+.rainbow {
     text-shadow: -1px -1px 0 #000,
                  1px -1px 0 #000,
                  -1px 1px 0 #000,
@@ -745,6 +657,14 @@ div.sub {
 .featured > p {
     padding-left: 1em;
     padding-right: 1em;
+}
+
+.favorite-list > p {
+    display: inline;
+}
+
+.favorite-list {
+    padding: 0 1em 1em 0;
 }
 
 .cli     { border: 1px solid $pop-4; }

@@ -3,7 +3,7 @@ title: about
 ---
 
 <div class="center">
-    <span id="hello" class="big">Hello, I'm liam.</span>
+    <span id="hello" class="big rainbow">Hello, I'm liam.</span>
     <object id="smile" type="image/svg+xml" data="/assets/svg/icon-smile.svg"></object>
 </div>
 

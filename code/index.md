@@ -5,7 +5,7 @@ title: code
 <div class="container">
     {% for code in site.code %}
     <div class="fixed pointer featured">
-        <a class="code-src" href="https://{{code.src}}"></a>
+        <a class="code-src" href="{{code.src}}"></a>
         <img class="center" src="/assets/images/{{code.img}}">
         <p class="code-title">{{code.name}}</p>
             <div class="type-container">

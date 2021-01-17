@@ -44,7 +44,7 @@ permalink: /favorites/
             <p>※ <a href="{{ favorite.src }}">{{ favorite.title }}</a> by {{ favorite.author }}</p>
             <pre class="poem">{{ favorite.content }}</pre>
         {% else %}
-            <div class="xyz"><span>※ <a href="{{ favorite.src }}">{{ favorite.title }}</a> ⇢ </span>{{ favorite.content }}</div>
+            <div class="favorite-list"><span>※ <a href="{{ favorite.src }}">{{ favorite.title }}</a> ⇢ </span>{{ favorite.content }}</div>
         {% endif %}
     {% endfor %}
 </div>

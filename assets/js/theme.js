@@ -17,15 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function setDark() {
         localStorage.setItem('theme', 'dark');
         document.getElementById('dark').href = '/assets/css/dark.css';
-        if (typeof Demo != 'undefined')
-            Demo.setDark();
     }
 
     function setLight() {
         localStorage.setItem('theme', 'light');
         document.getElementById('dark').href = '';
-        if (typeof Demo != 'undefined')
-            Demo.setLight();
     }
 });
 

@@ -2,7 +2,7 @@
 name: convida
 img: convida.png
 type: web
-src: convida.liambeckman.com
+src: https://convida.liambeckman.com
 ---
 
 Conway's Game of Life implemented in Rust and compiled to WebAssembly.

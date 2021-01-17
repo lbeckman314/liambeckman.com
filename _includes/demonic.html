@@ -7,40 +7,19 @@
         <code>fortune | cowsay | lolcat</code>
     </div>
 
-    <pre id="info"></pre>
-    <div id="demonic-web-container"></div>
+    <div class="demonic-web"></div>
     <div class="what-is-this">
         <a href="/code/demonic">About</a> |
         <a href="https://github.com/lbeckman314/demonic">Source Code</a>
     </div>
 </div>
 
-<script src="/assets/js/demo-web.bundle.js"></script>
+<script src="/assets/js/demonic-web.bundle.js"></script>
 <script>
     const theme = localStorage.getItem('theme');
-    const MAGENTA='\x1b[1;35m';
-    const BLUE='\x1b[1;34m';
-    const GREEN='\x1b[1;32m';
-    const CYAN='\x1b[1;36m';
-    const NC='\x1b[0m';
-    const userPrompt = `${CYAN}user${NC}${MAGENTA} @ ${NC}${CYAN}demonic${NC} ${GREEN}>${NC} `;
-
-    Demo.bootup({
-            command: 'ls',
-            boot: true,
-            userPrompt: userPrompt,
-            theme: theme,
-        });
-
-    const examples = document.getElementById('demonic-examples');
-    if (examples != null) {
-            examples.addEventListener('click', (event) => {
-                    const example = event.target;
-                    if (example == examples)
-                        return;
-                    const data = example.innerHTML;
-                    console.log(data);
-                    Demo.write(data);
-                });
-        }
+    DemonicWeb.run({
+        data: 'cmatrix | lolcat',
+        theme: theme,
+        url: 'ws://localhost:8181',
+    });
 </script>

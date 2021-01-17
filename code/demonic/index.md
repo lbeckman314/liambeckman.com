@@ -2,10 +2,11 @@
 title: demonic
 ---
 
-<script src="/assets/js/demo-docs.bundle.js"></script>
+<script src="/assets/js/demonic-docs.bundle.js"></script>
 <script>
-    Docs.init.set({
-        run: 'false',
+    DemonicDocs.run({
+        mode: 'jekyll',
+        run: false,
     });
 </script>
 
