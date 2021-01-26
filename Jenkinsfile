@@ -1,8 +1,8 @@
 BUNDLE = '/usr/local/bin/bundle'
 JEKYLL = '/usr/local/bin/jekyll'
-PUBLIC_WWW = '/var/www/website'
+DEPLOY = '/var/www/website'
 RSYNC = '/usr/local/bin/rsync'
-SRC = 'https://git.liambeckman.com/liam/website/'
+SRC = 'https://git.liambeckman.com/liam/website'
 
 node {
     stage('Update') {
@@ -13,7 +13,7 @@ node {
         sh "$BUNDLE exec $JEKYLL build"
     }
     stage('Deploy') {
-        sh "rsync -crvz --delete _site/* $PUBLIC_WWW"
+        sh "rsync -crvz --delete _site/* $DEPLOY"
     }
 }
 
