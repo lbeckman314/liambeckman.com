@@ -34,7 +34,7 @@ A really good **R implementation** (and inspiration for this program) is this on
 
 # Give it a Spin
 
-{% include demonic.html name='withfeathers' %}
+{% include demonic.html data='withfeathers --print' %}
 
 # Installation
 

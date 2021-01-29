@@ -19,7 +19,11 @@
 <script>
     const theme = localStorage.getItem('theme');
     DemonicWeb.run({
+    {% if include.data %}
+        data: '{{ include.data  }}',
+    {% else %}
         data: 'cmatrix | lolcat',
+    {% endif %}
         theme: theme,
         url: 'wss://liambeckman.com:8181',
     });
