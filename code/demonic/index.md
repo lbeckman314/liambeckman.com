@@ -20,6 +20,8 @@ Demonic runs commands in a remote sandbox allowing users to quickly try out a gi
 
 Run any of the code samples below by clicking on the ▶ button:
 
+For more languages see the [demonic-docs](docs) page.
+
 ## Python
 
 {: .run}
