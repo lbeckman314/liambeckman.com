@@ -55,7 +55,7 @@ Are you looking for a plucky developer with a small propensity for segmentation 
 
 This website stores and presents various projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
 
-The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
+The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and HTTPS-ified by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
 
 ### installation
 
