@@ -297,7 +297,6 @@ object.showoff {
     width: 45%;
     text-align: center;
     list-style-type: none;
-    position: relative;
 }
 
 .profiles a, .code-src {
@@ -642,7 +641,6 @@ div.sub {
 .featured {
     transition: $tran;
     cursor: pointer;
-    position: relative;
 }
 
 .featured:hover {

@@ -22,31 +22,30 @@ Have a good book or movie recommendation or just want to chat? I'm available at:
 Are you looking for a plucky developer with a small propensity for segmentation faults? Here are some links of interest —
 
 <div class="inline-block profiles">
-    <div class="featured">
-        <a href="https://liambeckman.com/pkgs/resume/resume-liam-beckman.pdf"></a>
-        <object class="showoff" type="image/svg+xml" data="/assets/svg/pdf.svg"></object>
-        <p> Resume (PDF)</p>
-    </div>
-    <div class="featured">
-        <a href="https://git.liambeckman.com/liam/resume/src/branch/master/src/resume-liam-beckman.tex"></a>
-        <object class="showoff" type="image/svg+xml" data="/assets/svg/tex.svg"></object>
-        <p>Resume (LaTeX)</p>
-    </div>
-    <div class="featured">
-        <a href="https://github.com/lbeckman314/"></a>
-        <object class="showoff" type="image/svg+xml" data="/assets/svg/github.svg"></object>
-        <p>Github</p>
-    </div>
-    <div class="featured">
-        <a href="https://git.liambeckman.com/liam"></a>
-        <object class="showoff" type="image/svg+xml" data="/assets/svg/gitea.svg"></object>
-        <p>Gitea</p>
-    </div>
-    <div class="featured">
-        <a href="https://www.linkedin.com/in/liam-beckman-ab3183a6/"></a>
-        <object class="showoff" type="image/svg+xml" data="/assets/svg/linkedin.svg"></object>
-        <p>LinkedIn</p>
-    </div>
+    {% include block.html
+    url='https://liambeckman.com/pkgs/resume/resume-liam-beckman.pdf' 
+    img='/assets/svg/pdf.svg'
+    txt='Resume (PDF)' %}
+
+    {% include block.html
+    url='https://git.liambeckman.com/liam/resume/src/branch/master/src/resume-liam-beckman.tex'
+    img='/assets/svg/tex.svg'
+    txt='Resume (LaTeX)' %}
+
+    {% include block.html
+    url='https://github.com/lbeckman314/'
+    img='/assets/svg/github.svg'
+    txt='Github' %}
+
+    {% include block.html
+    url='https://git.liambeckman.com/liam'
+    img='/assets/svg/gitea.svg'
+    txt='Gitea' %}
+
+    {% include block.html
+    url='https://www.linkedin.com/in/liam-beckman-ab3183a6/'
+    img='/assets/svg/linkedin.svg'
+    txt='LinkedIn' %}
 </div>
 
 ---
@@ -55,7 +54,7 @@ Are you looking for a plucky developer with a small propensity for segmentation 
 
 This website stores and presents various projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
 
-The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and encrypted by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
+The site is built by [Jekyll](https://jekyllrb.com/), hosted on a personal server (Debian Testing on a ThinkPad X230), and encrypted by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
 
 ### installation
 
@@ -100,7 +99,7 @@ bundle exec jekyll serve
 
 - bar ⇢ [Polybar](https://polybar.github.io/)
 - browser ⇢ [Firefox](https://www.mozilla.org/)
-- computer ⇢ [Thinkpad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
+- computer ⇢ [ThinkPad X220](https://en.wikipedia.org/wiki/ThinkPad_X_series)
 - dock ⇢ [Plank](https://launchpad.net/plank)
 - editor ⇢ [Vim](https://www.vim.org/) + [Emacs](https://www.gnu.org/software/emacs/)
 - icons ⇢ [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
