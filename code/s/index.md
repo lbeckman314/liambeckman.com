@@ -2,6 +2,8 @@
 title: code
 ---
 
+# Services
+
 <div class="inline-block profiles">
     {% include block.html
     url='https://git.liambeckman.com'
@@ -19,13 +21,28 @@ title: code
     txt='Nextcloud' %}
 
     {% include block.html
-    url='https://liambeckman.com/tv'
+    url='https://tv.liambeckman.com'
     img='/assets/svg/peertube.svg'
     txt='Peertube' %}
+
+    {% include block.html
+    url='https://dns.liambeckman.com'
+    img='/assets/svg/pihole.svg'
+    txt='Pi-hole' %}
 
     {% include block.html
     url='https://liambeckman.com/pkgs'
     img='/assets/svg/pkgs.svg'
     txt='Pkgs' %}
+
+    {% include block.html
+    url='https://p2p.liambeckman.com'
+    img='/assets/svg/transmission.svg'
+    txt='Transmission' %}
+
+    {% include block.html
+    url='https://liambeckman.com/notes/wireguard'
+    img='/assets/svg/wireguard.svg'
+    txt='Wireguard' %}
 </div>
 
