@@ -1,3 +1,5 @@
+[![Jenkins Badge](https://liambeckman.com/jenkins/job/git.liambeckman.com/job/website/job/master/badge/icon?)][jenkins]
+
 # About
 
 A small Jekyll site for showing off personal projects!
