@@ -9,7 +9,7 @@ REPO = 'website'
 node {
     stage('Update') {
         git url: "$SRC/$REPO"
-        sh "git push --set-upstream git@github.com:$USER/$REPO.git"
+        sh "git push git@github.com:$USER/$REPO.git"
     }
     stage('Build') {
         sh "$BUNDLE install"
