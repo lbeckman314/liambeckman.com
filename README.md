@@ -1,8 +1,6 @@
 # About
 
-I built this website as a way to store and present various works and projects. The site itself owes it's beginnings to Jonathan McGlone's wonderfully helpful [guide](jmcglone.com/guides/github-pages/).
-
-This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Raspberry Pi ([Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on RPi3 Model B).
+A small Jekyll site for showing off personal projects!
 
 # Building
 
@@ -15,7 +13,7 @@ This website is built with [Jekyll](https://jekyllrb.com/) and hosted on my Rasp
 
 ## Instructions
 
-Source code can be found [here](https://github.com/lbeckman314/lbeckman314.github.io). To spin up your own site, follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
+Source code can be found [here](https://github.com/lbeckman314/website). To spin up your own site, follow [the jekyll quick-start quide](https://jekyllrb.com/docs/quickstart/) (adapted below):
 
 ```shell
 # install ruby
@@ -51,8 +49,11 @@ bundle exec jekyll serve
 
 The website is updated every time a push is made to the `master` branch. Build commands are defined in the [Jenkinsfile](./Jenkinsfile), and build results can be viewed at either of the following URL's.
 
-- [Jenkins (standard)](https://liambeckman.com/jenkins/job/website/)
-- [Jenkins (Blue Ocean)](https://liambeckman.com/jenkins/blue/organizations/jenkins/website/activity)
+- [Jenkins (standard)][jenkins]
+- [Jenkins (Blue Ocean)][blue]
 
-[![Screenshot of website in Jenkins](./build.png)](https://liambeckman.com/jenkins/blue/organizations/jenkins/website/)
+[![Jenkins screenshot](./build.png)][blue]
+
+[jenkins]: https://liambeckman.com/jenkins/job/git.liambeckman.com/job/website/job/master/
+[blue]: https://liambeckman.com/jenkins/blue/organizations/jenkins/git.liambeckman.com%2Fwebsite
 
