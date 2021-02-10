@@ -8,15 +8,15 @@ REPO = 'website'
 
 node {
     stage('Update') {
-        git url: '$SRC/$REPO'
-        sh 'git push --set-upstream git@github.com:$USER/$REPO'
+        git url: "$SRC/$REPO"
+        sh "git push --set-upstream git@github.com:$USER/$REPO"
     }
     stage('Build') {
-        sh '$BUNDLE install'
-        sh '$BUNDLE exec $JEKYLL build'
+        sh "$BUNDLE install"
+        sh "$BUNDLE exec $JEKYLL build"
     }
     stage('Deploy') {
-        sh 'rsync -crvz --delete _site/* $DEPLOY'
+        sh "rsync -crvz --delete _site/* $DEPLOY"
     }
 }
 
