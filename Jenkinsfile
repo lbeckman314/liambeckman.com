@@ -2,11 +2,13 @@ BUNDLE = '/usr/local/bin/bundle'
 JEKYLL = '/usr/local/bin/jekyll'
 DEPLOY = '/var/www/website'
 RSYNC = '/usr/local/bin/rsync'
-SRC = 'https://git.liambeckman.com/liam/website'
+SRC = 'https://git.liambeckman.com/liam'
+USER = 'lbeckman314'
+REPO = 'website'
 
 node {
     stage('Update') {
-        git url: "$SRC"
+        git url: "$SRC/$REPO"
     }
     stage('Build') {
         sh "$BUNDLE install"
