@@ -1,4 +1,4 @@
-[![Jenkins Badge](https://liambeckman.com/jenkins/job/git.liambeckman.com/job/website/job/master/badge/icon?)][jenkins]
+[![Jenkins Badge][badge]][jenkins]
 
 # About
 
@@ -58,4 +58,5 @@ The website is updated every time a push is made to the `master` branch. Build c
 
 [jenkins]: https://liambeckman.com/jenkins/job/git.liambeckman.com/job/website/job/master/
 [blue]: https://liambeckman.com/jenkins/blue/organizations/jenkins/git.liambeckman.com%2Fwebsite
+[badge]: https://liambeckman.com/jenkins/job/git.liambeckman.com/job/website/job/master/badge/icon?
 
