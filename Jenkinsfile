@@ -8,7 +8,7 @@ REPO = 'website'
 
 node {
     stage('Update') {
-        sh "echo git push git@github.com:$USER/$REPO.git"
+        sh "echo 'git push git@github.com:$USER/$REPO.git'"
         sh "git push git@github.com:$USER/$REPO.git"
     }
     stage('Build') {
