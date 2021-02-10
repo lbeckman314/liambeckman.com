@@ -8,7 +8,6 @@ REPO = 'website'
 
 node {
     stage('Update') {
-        git url: "https://git.liambeckman.com/liam/website.git"
         sh "git push --set-upstream git@github.com:$USER/$REPO.git"
     }
     stage('Build') {
