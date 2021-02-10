@@ -2,13 +2,13 @@ BUNDLE = '/usr/local/bin/bundle'
 JEKYLL = '/usr/local/bin/jekyll'
 DEPLOY = '/var/www/website'
 RSYNC = '/usr/local/bin/rsync'
-SRC = 'https://git.liambeckman.com/liam'
+SRC = 'https://git.liambeckman.com/liam/website'
 USER = 'lbeckman314'
 REPO = 'website'
 
 node {
     stage('Update') {
-        git url: "$SRC/$REPO"
+        git url: "$SRC"
         sh "git push --set-upstream git@github.com:$USER/$REPO.git"
     }
     stage('Build') {
