@@ -9,6 +9,8 @@ REPO = 'website'
 node {
     stage('Update') {
         git url: "$SRC/$REPO"
+        sh "whoami"
+        sh "cat ~/.ssh/id_rsa.pub"
         sh "git push --set-upstream git@github.com:$USER/$REPO"
     }
     stage('Build') {
