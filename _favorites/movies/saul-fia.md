@@ -1,7 +1,7 @@
 ---
 title: Son of Saul (Saul fia)
 src: https://en.wikipedia.org/wiki/Son_of_Saul
-img: Saul-fia.jpg
+img: saul-fia.jpg
 author: dir. László Nemes
 ---
 
