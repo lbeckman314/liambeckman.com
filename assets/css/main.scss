@@ -39,7 +39,6 @@ body {
 // Paragraphs
 p {
     color: #333;
-    padding-bottom: 1.5%;
     transition: $tran;
     .code {
         text-align: center;
@@ -182,6 +181,15 @@ div.home {
 
 h1, h2, h3, h4, h5, h6 {
     text-decoration: underline wavy $pop-3;
+    padding: 1em 0 0.5em 0;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+.plain {
+    text-decoration: none;
 }
 
 // Headers
@@ -200,8 +208,6 @@ h1, .big {
 
 h2 {
     font-size: $large-font-size - 0.7;
-    padding-top: 3%;
-    padding-bottom: 1%;
 }
 
 h3 {
@@ -590,6 +596,7 @@ input {
 .sub {
     color: $gray;
     line-height: $small-line-height;
+    padding: 0.5em;
 }
 
 div.sub {
@@ -937,6 +944,32 @@ pre.highlight {
 
 .demonic-docs-container > .CodeMirror {
     height: auto;
+}
+
+.notes {
+    border-bottom: 1px dashed gray;
+    margin: 1em;
+    position: relative;
+
+    a.abs {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+.bot {
+    padding-bottom: 2em;
+}
+
+.notes-title {
+    padding: 0;
+    text-decoration: none;
+}
+
+.notes-info {
+    color: gray;
+    font-style: oblique;
 }
 
 // import partials

@@ -42,8 +42,13 @@ collections:
 
 # https://stackoverflow.com/a/23555679/7656815
 defaults:
-  -
-    scope:
+  - scope:
+      path: ""      # empty string for all files
+      type: notes
+    values:
+      # https://jekyllrb.com/docs/collections/
+      layout: notes
+  - scope:
       path: ""      # empty string for all files
     values:
       # https://jekyllrb.com/docs/collections/

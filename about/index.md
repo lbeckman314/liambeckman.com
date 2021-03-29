@@ -23,7 +23,7 @@ Are you looking for a plucky developer with a small propensity for segmentation 
 
 <div class="inline-block profiles">
     {% include block.html
-    url='https://liambeckman.com/pkgs/resume/resume-liam-beckman.pdf' 
+    url='https://liambeckman.com/pkgs/resume/resume-liam-beckman.pdf'
     img='/assets/svg/pdf.svg'
     txt='Resume (PDF)' %}
 
@@ -54,7 +54,7 @@ Are you looking for a plucky developer with a small propensity for segmentation 
 
 This website stores and presents various projects. It originally got up and running thanks to Jonathan McGlone's wonderfully helpful [guide](http://jmcglone.com/guides/github-pages/).
 
-The site is built by [Jekyll](https://jekyllrb.com/), hosted on my Raspberry Pi (Raspbian on RPi3 Model B), and HTTPS-ified by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
+The site is built by [Jekyll](https://jekyllrb.com/), hosted on a personal server (Debian Testing on a ThinkPad X230), and encrypted by [Let's Encrypt](https://letsencrypt.org/)/[Certbot](https://certbot.eff.org/).
 
 ### installation
 
