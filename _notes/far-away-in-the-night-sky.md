@@ -1,13 +1,13 @@
 ---
 title: far away in the night sky
 date: 2017-08-30
-excerpt: Far away in the night sky / past the moon and past our sun...
+excerpt: Far away in the night sky / past our moon and past our sun...
 tags: poem
 ---
 
 ```
 Far away in the night sky
-past the moon and past our sun
+past our moon and past our sun
 out among the oldest & coldest corners of the Universe
 exists a lone, small star.
 And around that star
