@@ -21,6 +21,11 @@ title: code
     txt='Nextcloud' %}
 
     {% include block.html
+    url='https://bin.liambeckman.com'
+    img='/assets/svg/paste.svg'
+    txt='Pastebin' %}
+
+    {% include block.html
     url='https://tv.liambeckman.com'
     img='/assets/svg/peertube.svg'
     txt='Peertube' %}
